@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle Earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="1" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="1" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -83,21 +83,21 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="8e06-cb8f-41c0-09a4" name="Hero" hidden="false">
+    <categoryEntry id="8e06-cb8f-41c0-09a4" name="Hero" book="Middle-earth Strategy Battle Game Rules Manual" page="64" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="e059-5f8f-1ab2-017e" name="Independent Hero" hidden="false">
+    <categoryEntry id="e059-5f8f-1ab2-017e" name="Independent Hero" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="c892-016b-5298-f37d" name="Siege engine" hidden="false">
+    <categoryEntry id="c892-016b-5298-f37d" name="Siege engine" book="Middle-earth Strategy Battle Game Rules Manual" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -113,7 +113,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="80c5-b61b-d209-b3a1" name="Warband" hidden="false">
+    <forceEntry id="80c5-b61b-d209-b3a1" name="Warband" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -175,7 +175,7 @@
 -1 Courage to all enemies within 18&quot;/46cm.
 [Not cumulative with other similar penalties (&apos;Doom, Doom!&apos;, &apos;Harbinger of Evil&apos;, etc.).]</description>
     </rule>
-    <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -183,7 +183,7 @@
       <description>
 Re-roll failed Wound rolls.</description>
     </rule>
-    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -192,7 +192,7 @@ Re-roll failed Wound rolls.</description>
 A sucessful Strike from this weapon causes (1/2)D6 Wounds against models of that race.
 [Round up.]</description>
     </rule>
-    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -211,7 +211,7 @@ Effects on Duels:
 	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]
 	[The bearer can pass the Banner to an ally in base cantact who is neither in a Duel nor a Hero (unless otherwise stated).]</description>
     </rule>
-    <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -221,7 +221,7 @@ Automatically pass Courage tests while Target Hero is alive and on the board.
 [Each contingent can have up to one Target Hero.]
 [In each contigent, all models with this rule must have the same Target Hero.]</description>
     </rule>
-    <rule id="0844-3834-04ba-d6b2" name="Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
+    <rule id="0844-3834-04ba-d6b2" name="Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -230,7 +230,7 @@ Automatically pass Courage tests while Target Hero is alive and on the board.
 Can Shoot in the Shoot Phase.
 [Must have used no more than half of their Movement in the Move Phase.]</description>
     </rule>
-    <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -239,7 +239,7 @@ Can Shoot in the Shoot Phase.
 Does not suffer the usual Fight penalty when using a Two-Handed Weapon.
 Can use their full Movement when carrying Heavy Objects.</description>
     </rule>
-    <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -248,7 +248,7 @@ Can use their full Movement when carrying Heavy Objects.</description>
 +1 to all Jump, Leap and Climb test. 
 No penalties for Duels in the dark.</description>
     </rule>
-    <rule id="95db-f21e-3f94-0389" name="Cross Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
+    <rule id="95db-f21e-3f94-0389" name="Cross Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -257,7 +257,7 @@ No penalties for Duels in the dark.</description>
 Can Shoot in the Shoot Phase.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4176-6e26-b2c2-4d55" name="Elven Blade" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
+    <rule id="4176-6e26-b2c2-4d55" name="Elven Blade" book="Middle-earth Strategy Battle Game Rules Manual" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -269,7 +269,7 @@ Increases likelihood of winning drawn Duels:
 	1-4 to win for an Evil Model.
 	[If both sides have Elven Blades, no change.]</description>
     </rule>
-    <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
+    <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -279,7 +279,7 @@ A model cannot Target the wearer if further than 6&quot;/14cm away from the wear
 [Targeting includes Charging, Shooting and Magical Powers.]
 [Does not apply if the wearer is Mounted.]</description>
     </rule>
-    <rule id="2507-c351-8e85-f546" name="Engineer Captain" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="2507-c351-8e85-f546" name="Engineer Captain" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -289,7 +289,7 @@ Replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls 
 Has the same equipment as the crew, as well as a Single-Handed Weapon.
 [Maximum of one per Siege Engine.]</description>
     </rule>
-    <rule id="e226-c764-7852-6cac" name="Expert Rider" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="e226-c764-7852-6cac" name="Expert Rider" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -300,7 +300,7 @@ Can pick up Light Objects without Dis-Mounting.
 While Mounted, +1 to Defence from Shields even if carrying a Bow.
 [If the model Dis-Mounts, bonus does not apply.]</description>
     </rule>
-    <rule id="1796-7001-bd0a-699b" name="Expert Shot" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="1796-7001-bd0a-699b" name="Expert Shot" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -309,7 +309,7 @@ While Mounted, +1 to Defence from Shields even if carrying a Bow.
 Has two Shots in the Shoot Phase.
 [Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
-    <rule id="0faa-65e7-6948-24ec" name="Fearless" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="0faa-65e7-6948-24ec" name="Fearless" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -326,7 +326,7 @@ Can not &apos;Shield&apos;.</description>
       <description>
 Re-roll Wound rolls of 1 against Siege Targets.</description>
     </rule>
-    <rule id="401d-ce6a-48ff-ac6c" name="Fly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="401d-ce6a-48ff-ac6c" name="Fly" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -344,7 +344,7 @@ Can not end its movement within control zones, woods, or upon any terrain that i
 -1 Courage to all enemies within 12&quot;/28cm.
 [Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Doom, Doom!&apos;, etc.).]</description>
     </rule>
-    <rule id="514f-ef5e-91a6-fb55" name="Lance" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
+    <rule id="514f-ef5e-91a6-fb55" name="Lance" book="Middle-earth Strategy Battle Game Rules Manual" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -355,7 +355,7 @@ If the model Charges, +1 to Wound roll against any type of model.
 [Does not apply in difficult terrain.]
 [Discarded if the model Dismounts or their steed is Slain.]</description>
     </rule>
-    <rule id="e428-dd18-64fa-a9a7" name="Mountain Dweller" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="e428-dd18-64fa-a9a7" name="Mountain Dweller" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -375,7 +375,7 @@ Follows rules for &apos;Spears&apos;, with additions:
 	Can Support an ally by being in base contact with a supporting Pike- or Spear-armed model, such that the two models Support one ally.
 	[Require two hands to use, so cannot be used with a Shield or Bow.]</description>
     </rule>
-    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows/Darts" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows/Darts" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -383,7 +383,7 @@ Follows rules for &apos;Spears&apos;, with additions:
       <description>
 Re-roll Wound rolls of 1.</description>
     </rule>
-    <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -391,7 +391,7 @@ Re-roll Wound rolls of 1.</description>
       <description>
 If Targeted by a Magical Power, having run out of Will, may still take a Resist test with a single die.</description>
     </rule>
-    <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -401,7 +401,7 @@ Model takes a Strength 9 hit.
 If not Slain, model takes a Strength 5 hit in each End Phase until extinguished.
 To extinguish, model must lie down and crawl 1&quot;/2cm.</description>
     </rule>
-    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -412,24 +412,26 @@ If not Slain, hit models must immediately pass a Courage test, or be removed fro
 [This shot will neither knock models Prone nor inflict more than one Wound per hit.]
 [Doe not apply to Siege Targets.]</description>
     </rule>
-    <rule id="b934-e865-e199-a7ae" name="Shields, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
+    <rule id="b934-e865-e199-a7ae" name="Cumbersome, Shielding" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Shield:
-	+1 Defence, unless armed with a &apos;Bow&apos;, &apos;Two-Handed Weapon&apos;, &apos;Spear&apos;, or &apos;Pike&apos;.
+Cumbersome:
+	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Two-Handed Weapon&apos;, &apos;Spear&apos;, or &apos;Pike&apos;.
 	[The model can only use an &apos;Elven Blade&apos; one-handed.]
+
 Shielding:
 	Double the number of dice rolled in the Duel.
 	[Prone models can use Shielding.]
 	[Cannot Strike if the Duel is won.]
 	[Must be declared before any roll.]
 	[None or all allied models in a Duel must be Shielding.]
-	[Shielding models cannot be supported by Spears or Pikes.]</description>
+	[Shielding models cannot be supported by Spears or Pikes.]
+	[Cavalry models cannot use Shielding.]</description>
     </rule>
-    <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -438,7 +440,7 @@ Shielding:
 If an Engine crewed by Siege Veterans hits a Siege target, roll two dice to Wound, applying the higher.
 [All crew must be Seige Veterans.]</description>
     </rule>
-    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
+    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -466,7 +468,7 @@ If not in base contact with another enemy, wielder contributes an Attack to the 
 [Heros can use Might as usual.]
 [Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
     </rule>
-    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey" page="69" hidden="false">
+    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -475,7 +477,7 @@ If not in base contact with another enemy, wielder contributes an Attack to the 
 Wielder can use &apos;Stun&apos;.
 Wielder can expend 1 Will each turn without depleting Will.</description>
     </rule>
-    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -483,7 +485,7 @@ Wielder can expend 1 Will each turn without depleting Will.</description>
       <description>
 Range of 60&quot;/140cm.</description>
     </rule>
-    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -491,7 +493,7 @@ Range of 60&quot;/140cm.</description>
       <description>
 Roll 2D6; the higher is the number of shots fired.</description>
     </rule>
-    <rule id="98e5-0c6c-dc8a-255d" name="Sworn Protector" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="98e5-0c6c-dc8a-255d" name="Sworn Protector" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -500,7 +502,7 @@ Roll 2D6; the higher is the number of shots fired.</description>
 Automatically pass Courage tests while target Hero is within 12&quot;/28cm.
 [Target Hero to be chosen before the start of the game, unless specified in the model&apos;s profile.]</description>
     </rule>
-    <rule id="5951-b53f-b4d2-2a35" name="Terror" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="5951-b53f-b4d2-2a35" name="Terror" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -511,7 +513,7 @@ Enemies must pass a Courage test to Charge this model.
 	If failed, can not Charge this or any other enemy this turn.
 [May only apply to specific types of enemy, as specified in the model&apos;s profile.]</description>
     </rule>
-    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -521,7 +523,7 @@ Can Shoot in the Shoot phase.
 Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -536,7 +538,7 @@ Can be used prior to completeing a Charge.
 [If the enemy is not Slain, model moves into base contact as usual.]
 [If the enemy is Slain, model can continue their Movement.]</description>
     </rule>
-    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
+    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -546,7 +548,7 @@ Some Evil Siege Engines can have Mordor Trolls attached to the crew for the purp
 
 Siege Engines that have a Troll crew member may fire twice each turn provided that the Troll is in base contact with the Siege Engine, has not moved in the preceding Move phase and is not engaged in combat. The Troll does not count towards the mnimum number of crew required to operate the maching, so you must have at least two other crew present. Troll crew carry a hand weapon (not that they really need one to fight effectively). Only a single Mordor Troll can be attached to Siege Engine.</description>
     </rule>
-    <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="The Hobbit: An Unexpected Journey" page="67" hidden="false">
+    <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -556,7 +558,7 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
 -1 to Duel rolls, to minimum of 1.
 [Cannot use a shield with this weapon.]</description>
     </rule>
-    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -564,7 +566,7 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
       <description>
 +1 Courage to allies.</description>
     </rule>
-    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1322,51 +1324,51 @@ Fight is 3/3+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot;/14cm automatically pass Courage tests."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;/28cm."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot; automatically pass Courage tests."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;."/>
       </characteristics>
     </profile>
-    <profile id="daba-0bf1-9b09-1042" name="Aura of Dismay" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="daba-0bf1-9b09-1042" name="Aura of Dismay" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot;/14cm cause Terror."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;/28cm."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot; cause Terror."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;."/>
       </characteristics>
     </profile>
-    <profile id="57e6-ead8-bf89-fae0" name="Black Dart" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="57e6-ead8-bf89-fae0" name="Black Dart" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target takes a Strength 9 hit. [The attacker chooses whether a mount or rider is struck.] [Can Target a model in combat.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Successful Strike causes (1/2)D6 Wounds."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target takes a Strength 9 hit. [The attacker chooses whether a mount or rider is struck.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Successful Strike causes D3 Wounds."/>
       </characteristics>
     </profile>
-    <profile id="9a6d-1caf-4086-7fed" name="Chill Soul" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="9a6d-1caf-4086-7fed" name="Chill Soul" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target suffers one Wound. [The attacker chooses whether a mount or rider is Wounded.] [Can Target a model in combat.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Ali models within 5&quot; of target take a Strength 5 hit."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target suffers one Wound. [The attacker chooses whether a mount or rider is Wounded.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased by 6&quot;."/>
       </characteristics>
     </profile>
-    <profile id="8426-539b-db72-64a0" name="Command/Compel" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="8426-539b-db72-64a0" name="Command/Compel" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1374,21 +1376,21 @@ Fight is 3/3+</description>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster can move Target up to half its maximum Movement and it is then &apos;lmmobilised&apos;. [Can take it into difficult terrain and/or Charge an enemy (no Courage test required).] [Can drop an item and/or put on the One Ring.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target&apos;s Fight and Attack reduced to 1."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target&apos;s Fight and Attack halved [Round up.] and may not Strike."/>
       </characteristics>
     </profile>
-    <profile id="30b7-e3eb-d568-de5a" name="Curse" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="30b7-e3eb-d568-de5a" name="Curse" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant ."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Fate."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Fate.  [The attacker chooses whether a mount or rider is loses Fate.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="- ALL Fate"/>
       </characteristics>
     </profile>
-    <profile id="22d5-e222-fa43-e053" name="Drain Courage" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="22d5-e222-fa43-e053" name="Drain Courage" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1396,109 +1398,109 @@ Fight is 3/3+</description>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Courage. Last for rest of the battle. [Minimum of 1.] [Can be used multiple times on the same model.] [Cumulative with other effects.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-(1/2)D6 Courage."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-D3 Courage."/>
       </characteristics>
     </profile>
-    <profile id="a860-6e7b-f3da-47da" name="Fortify Spirit" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="a860-6e7b-f3da-47da" name="Fortify Spirit" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target rolls +2D6 dice for Resist rolls. [Targets the caster or a model in base contact with them.] [Extra dice do not require Will.] [Extra dice can be used instead of/in addition to Target&apos;s Will points.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target rolls 2 extra dice for Resist rolls. [Extra dice do not require Will.] [Extra dice can be used instead of/in addition to Target&apos;s Will points.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+1 to highest Resist roll."/>
       </characteristics>
     </profile>
-    <profile id="2b9f-9d60-2bce-8c5d" name="Fury" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="2b9f-9d60-2bce-8c5d" name="Fury" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Allies of the same race within 6&quot;/14cm automatically pass Courage tests. They are also granted an (extra) 6+ Fate roll. [Must be used immediately a Wound is caused.] [Can be taken before other Fate rolls are made.] [Can be altered by Might.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fate roll is lessened to 5+."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Models of the specified race within 6&quot; automatically pass Courage tests. They are also granted an (extra) 6+ Fate roll. [Must be used immediately a Wound is caused.] [Can be taken before other Fate rolls are made.] [Can be altered by Might.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Additionally, roll D6 when target wounded, on a 6 ignore the wound. [Roll can be taken before Fate is used.] [Might can be used on the roll.]"/>
       </characteristics>
     </profile>
-    <profile id="0e29-3e49-d7d8-9560" name="Immobilise/Transfix" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="0e29-3e49-d7d8-9560" name="Immobilise/Transfix" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot Move (except Back Away), Shoot or Strike. Halve Fight and Attack. [Round up.] [Cannot Jump, Leap, Climb or Lie Down.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fight Attack are reduced to 1."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot Move (except Back Away), Shoot, Cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities or Strike."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Halve Fight and Attack. [Round up.]"/>
       </characteristics>
     </profile>
-    <profile id="1de3-52e2-16f0-f54d" name="Nature&apos;s Wrath" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="1de3-52e2-16f0-f54d" name="Nature&apos;s Wrath" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot;/14cm of the caster are knocked Prone. [Cavalry models suffer a &apos;Rises from the Dust&apos; result (both rider and mount are knocked Prone).]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot; of the caster are knocked Prone. [Cavalry models suffer a &apos;Knocked Flying&apos; result (both rider and mount are knocked Prone).]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemies also suffer a Strength 2 hit."/>
       </characteristics>
     </profile>
-    <profile id="d093-adcd-5032-6dc1" name="Panic Steed" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="d093-adcd-5032-6dc1" name="Panic Steed" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Mount is removed (even Monstrous mounts). The rider is Thrown."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Effects alll models within 3&quot;/8cm of the Target."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Mount is removed. The rider is Thrown. [Roll on Thrown Rider table.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Targets all enemy models within 3&quot; of the Target."/>
       </characteristics>
     </profile>
-    <profile id="8ae4-8b3f-6268-956b" name="Paralyse" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="8ae4-8b3f-6268-956b" name="Paralyse" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target knocked Prone and may do nothing until it recovers. Target makes no Duel rolls, so loses Duels automatically unless joined by an Ally.  Recovery:           At the end of the Fight phase, player rolls 1D6 for each of their Paralysed models.           Model stands up on a 6+.           For each ally in base contact during the Fight phase, and does nothing else, contributes +1D6 to this roll.           [Might points can be used to modify this roll.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target knocked Prone and may do nothing until it recovers. Target makes no Duel rolls, so loses Duels automatically unless joined by an Ally. Recovery: During End phase, player rolls 1D6 for each of their Paralysed models. Model stands up on a 6+. For each ally in base contact during the Fight phase, that did nothing else, contributes an extra dice to this roll. [Might points can be used to modify this roll.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 5 hit each time they fail to recover."/>
       </characteristics>
     </profile>
-    <profile id="1fd9-7821-ca59-15be" name="Renew" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="1fd9-7821-ca59-15be" name="Renew" book="Middle-earth Strategy Battle Game Rules Manual" page="100" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Regains one Wound. [Maximum of starting value.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Regains (1/2)D6 Wounds."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Regains one Wound. [Maximum of starting value.]  [The caster chooses whether a mount or rider regains Wound.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Regains D3 Wounds."/>
       </characteristics>
     </profile>
-    <profile id="34da-dce7-eeab-1efc" name="Sap Will" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="34da-dce7-eeab-1efc" name="Sap Will" book="Middle-earth Strategy Battle Game Rules Manual" page="100" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="- ((1/2)D6+1) Will. [Minimum of 0.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="- ALL Will."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-D3 Will. [Minimum of 0.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-D6 Will."/>
       </characteristics>
     </profile>
-    <profile id="47b2-79ba-c8e0-0861" name="Sorcerous Blast" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="47b2-79ba-c8e0-0861" name="Sorcerous Blast" book="Middle-earth Strategy Battle Game Rules Manual" page="100" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown 1D6&quot;/2D6cm away from the caster. The Target is knocked Prone and suffers a Strength 5 hit.  Models in the path of the Target (Proxies) are moved aside and knocked Prone. Models in a Duel with the Target or Proxies (Deullers) are also knocked Prone. Proxies and Duellers suffer a Strength 3 hit.  The Target stops if it hits an Obstacle, or a model that has a Strength &gt; 6 (Large). The Obstacle or Large suffers a Strength 3 hit.  Move any models underneath the Target&apos;s final position such that they can be placed Prone. [Immobilised/Transfixed models can be Targetted by Sorcerous Blast.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown D6&quot; away from the caster. The Target is knocked Prone. If the path takes the target through a model that is Strength &lt;=5 (proxies) it will stop movement and the proxies are also knocked Prone. Models in a Duel with the Target or proxies are also knocked Prone (proxies). Target suffers a Strength 5 hit; Proxies suffer a Strength 3 hit. The Target stops if it hits an Obstacle, or a model that has a Strength &gt;6 (Large). Both Target and Obstacle or Large suffer a Strength 3 hit. [Immobilised/Transfixed models can be Targetted by Sorcerous Blast.] [Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 6 hit, and other models effected suffer Strength 4 hits."/>
       </characteristics>
     </profile>
-    <profile id="e28f-a134-2570-a2ed" name="Terrifying Aura" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="e28f-a134-2570-a2ed" name="Terrifying Aura" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1506,233 +1508,233 @@ Fight is 3/3+</description>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster causes Terror."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemies take the Courage test on 3D6, discaring the highest."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="When attempting to Charge Caster, Enemies take the Courage test on 3D6, discaring the highest."/>
       </characteristics>
     </profile>
-    <profile id="b4e5-0279-dcb1-6ed4" name="Your Staff is Broken!" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="b4e5-0279-dcb1-6ed4" name="Your Staff is Broken" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target&apos;s Staff is Destroyed. All assiciated advantages associated are immediately lost (including the Two-Tanded weapon bonus and penalty)."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target&apos;s Staff is Destroyed. All assiciated advantages associated are immediately lost (including the Hand-and-a-Half weapon bonus)."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target also suffers a Strength 7 hit."/>
       </characteristics>
     </profile>
-    <profile id="5134-d1bd-1c25-a3cf" name="Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="5134-d1bd-1c25-a3cf" name="Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="be92-17a4-1406-3d23" name="Banishment" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="be92-17a4-1406-3d23" name="Banishment" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target Spirit or Undead model suffers a Wound."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target model suffers (1/2)D6 Wounds. [Round up.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target Spirit model suffers a Wound. [The attacker chooses whether a mount or rider is struck.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target model suffers D3 Wounds"/>
       </characteristics>
     </profile>
-    <profile id="e0f1-9d42-617f-9c8d" name="Strengthen Will" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="e0f1-9d42-617f-9c8d" name="Strengthen Will" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will. [Can only Target Heroes.] [Can be increased past its starting amount.] [Can be used on Heros that start with 0 Will.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+(1/2)D6 Will."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will. [Can only Target Heroes.] [Can be increased past its starting amount.] [Can be used on Heros that start with 0 Will.]  [The caster chooses whether a mount or rider recovers Will.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+D3 Will."/>
       </characteristics>
     </profile>
-    <profile id="070b-2e1d-113d-b9e0" name="Cross Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="070b-2e1d-113d-b9e0" name="Cross Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
-    <profile id="ed27-ea5d-7941-a0c3" name="Dwarf Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="ed27-ea5d-7941-a0c3" name="Dwarf Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="2130-9089-8afe-22a4" name="Elf Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="2130-9089-8afe-22a4" name="Elf Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="9699-2da7-a962-fb65" name="Great Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="9699-2da7-a962-fb65" name="Great Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
-    <profile id="3fb9-e5b2-8065-104c" name="Long Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="3fb9-e5b2-8065-104c" name="Longbow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="2c9f-4686-0c96-3d17" name="Orc Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="2c9f-4686-0c96-3d17" name="Orc Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="46b7-d148-5299-5e1a" name="Short Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="46b7-d148-5299-5e1a" name="Short Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="b1dc-2538-054d-ea88" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="b1dc-2538-054d-ea88" name="Slingshot" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
       </characteristics>
     </profile>
-    <profile id="51fb-64c4-c26f-144a" name="Throwing Spear" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="51fb-64c4-c26f-144a" name="Throwing Spear" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;/20cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="8f3d-592c-7215-9adf" name="Throwing Weapons" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="8f3d-592c-7215-9adf" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="9d3e-edce-5c71-931b" name="Armoured Horse" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="9d3e-edce-5c71-931b" name="Armoured Horse" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="5096-defb-9f42-7e85" name="Fell Warg" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="5096-defb-9f42-7e85" name="Fell Warg" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/-"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="6ce1-5ee7-4e92-16a0" name="Horse" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="6ce1-5ee7-4e92-16a0" name="Horse" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="ae78-94b5-cb0a-147b" name="Pony" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="ae78-94b5-cb0a-147b" name="Pony" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/20cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/6+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="182c-e771-b776-c020" name="Warg" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="182c-e771-b776-c020" name="Warg" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/-"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="b55b-5615-4438-2b70" name="Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1741,7 +1743,7 @@ Fight is 3/3+</description>
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+1 to Defence."/>
       </characteristics>
     </profile>
-    <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1750,7 +1752,7 @@ Fight is 3/3+</description>
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+2 to Defence."/>
       </characteristics>
     </profile>
-    <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1759,7 +1761,7 @@ Fight is 3/3+</description>
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+2 to Defence."/>
       </characteristics>
     </profile>
-    <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1768,210 +1770,119 @@ Fight is 3/3+</description>
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+3 to Defence."/>
       </characteristics>
     </profile>
-    <profile id="21b8-8e9e-6161-0812" name="Blinding Light" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="21b8-8e9e-6161-0812" name="Blinding Light" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Shots at the caster, or a model within 6&quot;/14cm, only hit on rolls of 6. Illuminates 12&quot;/28cm around the caster. [Duels in this area are not in the dark.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Shots at the caster, or a model within 6&quot;, only hit on rolls of 6. Illuminates 12&quot; around the caster. [Duels in this area are not in the dark.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Duration changes to Exhaustion."/>
       </characteristics>
     </profile>
-    <profile id="e186-4e86-e821-5c37" name="The Mithril Crown" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+    <profile id="08d1-6197-f53b-de60" name="Enrage Beast" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="While Grôblog is alive, Goblins&apos; &apos;Fury&apos; Fate roll is lessened to 5+."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary - Fight phase of target."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+2 Fight, Strength, Attack and Courage. The Target suffers a Strength 10 hit at the end of the Fight phase. [Can only be used on (unridden) Wargs, Spiders and Bats.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+3 Fight, Strength, Attack and Courage instead."/>
       </characteristics>
     </profile>
-    <profile id="d00c-cc54-b171-2453" name="Bestial Fury" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="b655-5535-8940-120c" name="Shatter" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Roll of 3+ to use. Follows rules for &apos;Fury&apos;. Only applies to (unridden) Wargs, Spiders and Bat Swarms."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fate roll is lessened to 5+."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target has one item of its wargear Destroyed and is unable to use it for the rest of the battle. All assiciated advantages associated are immediately lost.  [Target without any weapons is Unarmed.] [Wargear must be inanimate and detached from Target.] [Staffs of Power, The One Ring cannot be Shattered.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Additionally takes a Strength 6 hit."/>
       </characteristics>
     </profile>
-    <profile id="4735-0b9f-a055-6a17" name="Breathe Fire" book="Moria &amp; Angmar" page="21" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="5fe1-9731-4a4c-2fb6" name="Tremor" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Costs one Will point. If the Shot hits, it affects the Target and all other models within 2&quot;/4cm. Any models Wounded by Dragon breath are automatically Slain. [Fate rolls may be taken as usual.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Draw a straight line that extends D6&quot; from Target away from Caster. ALL models touched are knocked Prone and suffer a Strength 6 hit. One model affected can attempt to Resist. [Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Line extends 2D6&quot; instead."/>
       </characteristics>
     </profile>
-    <profile id="08d1-6197-f53b-de60" name="Enrage Beast" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="2d35-e002-508d-3d6e" name="Troll Chain" book="Armies of The Lord of the Rings" page="131" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Fight Phase of Target"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+3 Fight, Strength, Attack and Courage. The Target suffers a Strength 10 hit at the end of the Fight phase. [Can only be used on (unridden) Wargs, Spiders and Bat Swarms.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="3&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="5"/>
       </characteristics>
     </profile>
-    <profile id="b655-5535-8940-120c" name="Shatter" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="3684-0687-03d8-0b2f" name="Throw Stones (Troll)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target any enemy within sight of the caster. Target has all of its weapons Destroyed and is unarmed for the rest of the battle."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-    <profile id="5fe1-9731-4a4c-2fb6" name="Tremor" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Draw a straight line that extends 2D6&quot;/4D6cm from the caster. All models touched are knocked Prone and suffer a Strength 6 hit. One model affected can attempt to Resist."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-    <profile id="b1ed-7a4e-bf31-b006" name="Lash" book="Moria &amp; Angmar" page="20" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="7"/>
-      </characteristics>
-    </profile>
-    <profile id="2d35-e002-508d-3d6e" name="Troll Chain" book="Moria &amp; Angmar" page="29" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="3&quot;/8cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
-      </characteristics>
-    </profile>
-    <profile id="3684-0687-03d8-0b2f" name="Throw Stones (Troll)" book="Moria &amp; Angmar" page="29" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="8"/>
       </characteristics>
     </profile>
-    <profile id="d45c-9dc8-d633-a8ce" name="Call Winds" book="The Free Peoples" page="20" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="d45c-9dc8-d633-a8ce" name="Call Winds" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown 2D6&quot;/4D6cm away from the caster. The Target is knocked Prone. [Blown to no closer than 1&quot;/2cm of impassable terrain.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown D6&quot; away from the caster. The Target is knocked Prone. [Blown to no closer than 1&quot; of impassable terrain.] [Other models in combat also knocked prone.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target is blown 2D6&quot; away."/>
       </characteristics>
     </profile>
-    <profile id="4a05-16ee-5626-1f90" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="Resistant to Magic."/>
-      </characteristics>
-    </profile>
-    <profile id="52f1-9e96-62a5-1e54" name="Wrath of Bruinen" book="The Free Peoples" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="52f1-9e96-62a5-1e54" name="Wrath of Bruinen" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot;/14cm are knocked to the ground and suffer a Strength 2 hit (or a Strength 8 hit if wholly within watery terrain.) [Only one affected foe can attempt to Resist.] [If resisted, all are un-affected.] [If not resisted, all are affected.] [Cavalry are Thrown and both the mount and rider are knocked Prone.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot; are knocked to Prone and suffer a Strength 2 hit (or a Strength 8 hit if in a stream or river.) [Cavalry models suffer a &apos;Knocked Flying&apos; result (both rider and mount are knocked Prone).]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="All Enemy models instead suffer a Strength 3 hit after being knocked Prone or a Strength 9 hit if they are in a stream or river."/>
       </characteristics>
     </profile>
-    <profile id="4ad1-1c4b-21b4-415e" name="Felaróf" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="aa17-e430-5d9c-d874" name="Blowpipe" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
-        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
-        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
-      </characteristics>
-    </profile>
-    <profile id="a30f-d0cc-5462-a7bd" name="Pureblood Steed" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
-        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
-        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
-      </characteristics>
-    </profile>
-    <profile id="cc89-bb7f-190f-15d9" name="Armour of the Sundered Land" book="The Fallen Realms" page="28" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="Wearer only loses a point of Will if they lose a Duel."/>
-      </characteristics>
-    </profile>
-    <profile id="aa17-e430-5d9c-d874" name="Blowpipe" book="The Fallen Realms" page="29" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="edb0-9f9c-8edf-c89a" name="War Camel" book="The Fallen Realms" page="29" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="edb0-9f9c-8edf-c89a" name="War Camel" book="Armies of The Lord of the Rings" page="203" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="87db-c1d3-0385-fbd7" name="Armoured Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="87db-c1d3-0385-fbd7" name="Armoured Fell Beast" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1984,62 +1895,36 @@ Fight is 3/3+</description>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster, Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="967f-6c4e-4933-1c98" name="Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="967f-6c4e-4933-1c98" name="Fell Beast" book="Armies of The Lord of the Rings" page="149" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="3&quot;"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/5+"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster, Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="52e6-bb3e-7c9c-e4a6" name="Horned Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="5aa8-89ad-ab90-b92e" name="Whip" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
-        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/5+"/>
-        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="7"/>
-        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
-        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
-        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
-      </characteristics>
-    </profile>
-    <profile id="1233-09dc-041b-ead7" name="Smoke Bombs" book="The Fallen Realms" page="30" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="2&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
       </characteristics>
     </profile>
-    <profile id="5aa8-89ad-ab90-b92e" name="Whip" book="The Fallen Realms" page="31" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="2&quot;/4cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
-      </characteristics>
-    </profile>
-    <profile id="17ad-3890-1e80-f546" name="Gnarled Hide" book="The Fallen Realms" page="34" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="f869-6c62-d88d-b64c" name="Shield" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2048,14 +1933,160 @@ Fight is 3/3+</description>
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+1 to Defence."/>
       </characteristics>
     </profile>
-    <profile id="14b4-5fbd-58ad-d261" name="Rocks" book="The Fallen Realms" page="34" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="160c-7a1b-2a92-05e4" name="Bladewrath" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;/20cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="6"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary - Fight phase of target."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target friendly model. All Strikes are resolved as Strength 6."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="All Strikes are resolved as Strength 10."/>
+      </characteristics>
+    </profile>
+    <profile id="e419-d254-f1b6-30f5" name="Blessing of the Valar" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Targeted friendly model recovers a spent Fate point. [The caster chooses whether a mount or rider recovers Fate.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target recovers D3 Fate."/>
+      </characteristics>
+    </profile>
+    <profile id="a84e-a30e-e1e1-3e54" name="Enchanted Blades" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary - Fight phase of target."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target friendly model. May re-roll failed To-Wound rolls."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+1 to all To-Wound rolls. [Cumulative with other effects.]"/>
+      </characteristics>
+    </profile>
+    <profile id="1a7e-e80c-72a1-8dfe" name="Flameburst" book="Middle-earth Strategy Battle Game Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target takes a Strength 6 hit."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers Set Ablaze instead."/>
+      </characteristics>
+    </profile>
+    <profile id="ea0c-a986-3988-f5e9" name="Instill Fear" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within range take a Courage test. Failed models move maximum move distance away from Caster. [Stop before base contact with impassable terrain.] [Cannot move off board edge.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Courage tests are taken on 3D6, discarding highest."/>
+      </characteristics>
+    </profile>
+    <profile id="73bf-0375-5baf-edb4" name="Collapse Rocks" book="Middle-earth Strategy Battle Game Rules Manual" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target enemy in range within ruin, stone or brick building, cave, rock pile, or similar. Target takes a Strength 5 hit."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="ALL models within 2&quot; of target suffer a Strength 5 hit."/>
+      </characteristics>
+    </profile>
+    <profile id="899e-2ec4-88d4-b3d1" name="Protection of the Valar" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target caster or single friendly model within 3&quot;. Target cannot be targeted by enemy Magical Powers of special rules."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="ALL friendly models within 3&quot;."/>
+      </characteristics>
+    </profile>
+    <profile id="0895-0328-41f2-3556" name="Refreshing Song" book="Middle-earth Strategy Battle Game Rules Manual" page="99" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target recovers 1 Wound, Will, Might and Fate point. Immediately recovers from any Magical Power."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Recover ALL Wounds, in addition to other effects."/>
+      </characteristics>
+    </profile>
+    <profile id="39c2-be11-8287-552c" name="Shroud of Shadows" book="Middle-earth Strategy Battle Game Rules Manual" page="100" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is invisible. [Target cannot be Targeted by enemy&apos;s Magical Powers or Shots.] [Target has no control zone.] [Enemy must pass Courage test modified -1 per full &quot; away to charge]."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemy model Engaged with Target halves Fight value."/>
+      </characteristics>
+    </profile>
+    <profile id="2c70-1834-fd7f-79d6" name="Wither" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Strength. [Minimum 1.] [The caster chooses whether a mount or rider loses Strength.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Targets Strength reduced by D3"/>
+      </characteristics>
+    </profile>
+    <profile id="c99a-b1f8-b415-73b0" name="Dwarf Longbow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="62be-0770-94b9-4a30" name="Esgaroth Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="f445-6e33-8080-83b6" name="Urak-hai bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="08da-106c-867f-19d4" name="Felaróf" book="Armies of The Lord of the Rings" page="203" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
   </sharedProfiles>
