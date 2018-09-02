@@ -1,4 +1,4 @@
-Hobbit SBG
+Middle Earth Strategy Battle Game
 ================
 
 #### Contents ####
@@ -10,6 +10,8 @@ Hobbit SBG
 [Overview]: #overview
 
 __What's this?__
+
+Based on the original work from [The Hobbit SBG][] this repo covers the 2018 re-release as Middle-earth Strategy Battle Game.
 
 BSData organisation created this project. It's GitHub repository of datafiles.
 Maintained by community, in no way endorsed by BattleScribe. If you want
@@ -27,7 +29,7 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
+[The Hobbit SBG]: http://battlescribedata.appspot.com/#/repo/hobbit
+[BattleScribe homepage]: https://www.battlescribe.net/
+[BattleScribe Data on Appspot]: https://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
