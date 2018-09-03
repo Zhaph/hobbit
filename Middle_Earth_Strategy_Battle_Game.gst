@@ -166,46 +166,43 @@
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="2c05-83bf-3fc2-7429" name="Ancient Evil" book="Moria &amp; Angmar" page="20" hidden="false">
+    <rule id="2c05-83bf-3fc2-7429" name="Ancient Evil (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
--1 Courage to all enemies within 18&quot;/46cm.
-[Not cumulative with other similar penalties (&apos;Doom, Doom!&apos;, &apos;Harbinger of Evil&apos;, etc.).]</description>
+-1 Courage to all enemies within 18&quot;.
+[Not cumulative with other similar penalties (&apos;Goblin Drums&apos;, &apos;Harbinger of Evil&apos;, etc.).]</description>
     </rule>
-    <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings/Venom (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Re-roll failed Wound rolls.</description>
+Re-roll failed Wound rolls when making Strikes.</description>
     </rule>
-    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapons (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-A sucessful Strike from this weapon causes (1/2)D6 Wounds against models of that race.
-[Round up.]</description>
+A sucessful Strike from this weapon causes D3 Wounds against models of the specified race.</description>
     </rule>
-    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
+    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Effects on bearer:
-	Counts as a Two-Handed Weapon, with the Duel roll penalty but without the Wound roll bonus.
-	[Can be used in Duels while mounted.]
-	[All other equipment is discarded, other than armour.]
+	Counts as Cumbersome, -1 to Duel rolls.
 
 Effects on Duels:
 	Re-roll a single die when determining the outcome of Duels.
-	[The Duel must involve an allied model within 3&quot;/8cm of the bearer.]
+	[The Duel must involve an allied model within 3&quot; of the bearer.]
 	[The bearer must be Standing.]
 	[The re-roll can be taken after the opponent&apos;s roll, but must be taken before either player uses Might.]
 	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]
@@ -221,7 +218,7 @@ Automatically pass Courage tests while Target Hero is alive and on the board.
 [Each contingent can have up to one Target Hero.]
 [In each contigent, all models with this rule must have the same Target Hero.]</description>
     </rule>
-    <rule id="0844-3834-04ba-d6b2" name="Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="101" hidden="false">
+    <rule id="0844-3834-04ba-d6b2" name="Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -248,7 +245,7 @@ Can use their full Movement when carrying Heavy Objects.</description>
 +1 to all Jump, Leap and Climb test. 
 No penalties for Duels in the dark.</description>
     </rule>
-    <rule id="95db-f21e-3f94-0389" name="Cross Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
+    <rule id="95db-f21e-3f94-0389" name="Cross Bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -257,26 +254,25 @@ No penalties for Duels in the dark.</description>
 Can Shoot in the Shoot Phase.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4176-6e26-b2c2-4d55" name="Elven Blade" book="Middle-earth Strategy Battle Game Rules Manual" page="68" hidden="false">
+    <rule id="4176-6e26-b2c2-4d55" name="Elven-made Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Can be used as a One-Handed or Two-Handed Weapon.
 Increases likelihood of winning drawn Duels:
 	3-6 to win for a Good model.
 	1-4 to win for an Evil Model.
 	[If both sides have Elven Blades, no change.]</description>
     </rule>
-    <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
+    <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-A model cannot Target the wearer if further than 6&quot;/14cm away from the wearer.
-[Targeting includes Charging, Shooting and Magical Powers.]
+A model wearing an Elven cloak has the Stalk Unseen rule
+[Enemies cannot Charge, Shoot or target with Magical Powers at range greater than 6&quot; unless completely clear view.]
 [Does not apply if the wearer is Mounted.]</description>
     </rule>
     <rule id="2507-c351-8e85-f546" name="Engineer Captain" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
@@ -326,12 +322,13 @@ Can not &apos;Shield&apos;.</description>
       <description>
 Re-roll Wound rolls of 1 against Siege Targets.</description>
     </rule>
-    <rule id="401d-ce6a-48ff-ac6c" name="Fly" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="401d-ce6a-48ff-ac6c" name="Fly (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
+Model may move up to 12&quot;.
 Ignore all models, control zones, and terrain during Movement.
 Can not end its movement within control zones, woods, or upon any terrain that its base will not securely balance upon.</description>
     </rule>
@@ -365,7 +362,7 @@ Not slowed by rocky terrain.
 Re-roll Jump, Leap and Climb test.
 </description>
     </rule>
-    <rule id="c9f2-20e8-9d4e-27a6" name="Pike" book="Mordor" page="69" hidden="false">
+    <rule id="c9f2-20e8-9d4e-27a6" name="Pike" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -440,7 +437,7 @@ Shielding:
 If an Engine crewed by Siege Veterans hits a Siege target, roll two dice to Wound, applying the higher.
 [All crew must be Seige Veterans.]</description>
     </rule>
-    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false">
+    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -523,7 +520,7 @@ Can Shoot in the Shoot phase.
 Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
+    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -534,7 +531,7 @@ Can Shoot in the Shoot phase.
 [Cannot be used to Fight in the Fight Phase.]
 
 Can be used prior to completeing a Charge.
-[Model moves within 1&quot;/2cm of the enemy then Shoots immediately, with a -1 Hit penalty for moving.]
+[Model moves within 1&quot; of the enemy then Shoots immediately, without the -1 Hit penalty for moving.]
 [If the enemy is not Slain, model moves into base contact as usual.]
 [If the enemy is Slain, model can continue their Movement.]</description>
     </rule>
@@ -558,7 +555,7 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
 -1 to Duel rolls, to minimum of 1.
 [Cannot use a shield with this weapon.]</description>
     </rule>
-    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="71" hidden="false">
+    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -576,13 +573,13 @@ Not slowed by wooded terrain.
 [Must still rolle to climb.]
 [Still obstructed by trees and other obstacles.]</description>
     </rule>
-    <rule id="041a-f7bf-59e0-f84a" name="Ancient Enemies" book="Moria &amp; Angmar" page="18" hidden="false">
+    <rule id="041a-f7bf-59e0-f84a" name=" Ancient Enemies (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Re-roll Wound rolls of 1 against Elves or Dwarves.</description>
+Re-roll Wound rolls of 1 against models with the same Keyword.</description>
     </rule>
     <rule id="8e73-42c7-3a3d-54d0" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
@@ -617,14 +614,6 @@ Enemies Charged by a Dragon are &apos;Knocked Prone&apos;.</description>
 Deploy like any other model, with the Drummers in base contact with it.
 To use the Drum, a Drummer must start the turn in base contact and must not move or be in a Duel.
 It may not be Moved and Played in the same turn.</description>
-    </rule>
-    <rule id="3819-dbd6-23bd-83fd" name="Fly (Dragon)" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can &apos;Fly&apos; 12“/28cm.</description>
     </rule>
     <rule id="0bd2-250c-1532-0d67" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -843,7 +832,7 @@ If a Drummer is Slain, another Gundabad Blackshield warrior can take their place
 [Models in combat cannot replace the slain Drummer.]
 [If no replacement is available, drum is destroyed.]</description>
     </rule>
-    <rule id="154c-d883-0f01-abd6" name="Blinding Swarm" book="Moria &amp; Angmar" page="26" hidden="false">
+    <rule id="154c-d883-0f01-abd6" name="Blinding Swarm (Passive)" book="Armies of The Lord of the Rings" page="163" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -861,14 +850,14 @@ Halve the Fight value on all enemies in base contact.
 Can Shoot twice.
 [Even if it has used all of its Movement or is in a Duel.]</description>
     </rule>
-    <rule id="9bd5-f1d3-cdad-0598" name="Back-Stabber" book="Moria &amp; Angmar" page="27" hidden="false">
+    <rule id="9bd5-f1d3-cdad-0598" name="Backstabbers (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 +1 to Wound rolls on Trapped models.
-[Cumulative with the Two-Handed Weapon bonus.]</description>
+[Cumulative with other bonuses such as the Two-Handed Weapon bonus.]</description>
     </rule>
     <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
       <profiles/>
@@ -972,15 +961,6 @@ Fight is 6/3+.</description>
       <modifiers/>
       <description>
 Move is 8&quot;/20cm.</description>
-    </rule>
-    <rule id="14a9-44e8-2ed6-71dc" name="Aeglos" book="The Free Peoples" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+1 to rolls to Wound.
-[Does not follow the normal rules for Spears.]</description>
     </rule>
     <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
       <profiles/>
@@ -1105,14 +1085,6 @@ Once its Will is depleted to 0, model is removed as a casualty.</description>
       <description>
 Can use the Fight, Strength, and/or Attack values of their opponent in a Duel.</description>
     </rule>
-    <rule id="9787-cb27-1f45-8c11" name="Ascendant" book="The Fallen Realms" page="29" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
- &apos;Stand Fast!&apos; range is 12“/28cm.</description>
-    </rule>
     <rule id="82c4-f3f6-df01-88dd" name="Stalk Unseen" book="The Fallen Realms" page="29" hidden="false">
       <profiles/>
       <rules/>
@@ -1129,7 +1101,7 @@ Follows the rules for &apos;Elven Cloak&apos;.</description>
       <description>
 Can not be Trapped whilst standing.</description>
     </rule>
-    <rule id="1962-4348-5130-757a" name="Blowpipe" book="The Fallen Realms" page="29" hidden="false">
+    <rule id="1962-4348-5130-757a" name="Blowpipe" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1146,7 +1118,7 @@ Can Shoot in the Shoot Phase.
       <description>
 War Camel inflicts a Strength 4 hit on one model it has Charged.</description>
     </rule>
-    <rule id="4c59-dd5c-0c3b-10e1" name="War Spear" book="The Fallen Realms" page="29" hidden="false">
+    <rule id="4c59-dd5c-0c3b-10e1" name="War Spear" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1156,7 +1128,7 @@ Follows rules for &apos;Lance&apos; when wielder is mounted.
 Follows rules for &apos;Spear&apos; when wielder is on foot.
 </description>
     </rule>
-    <rule id="a399-991f-f515-9edb" name="Feral" book="The Fallen Realms" page="27" hidden="false">
+    <rule id="a399-991f-f515-9edb" name="Feral (Passive)" book="Armies of The Lord of the Rings" page="149" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1228,7 +1200,7 @@ Each point reduces the roll by 1.
       <description>
 Is treated in all respects as a single model (Targetting, Charging, Slaying).</description>
     </rule>
-    <rule id="d030-bcb5-f444-9ca3" name="Whip" book="The Fallen Realms" page="31" hidden="false">
+    <rule id="d030-bcb5-f444-9ca3" name="Whip" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1252,15 +1224,6 @@ Action has no cost on 4+.</description>
       <modifiers/>
       <description>
 Acts as a &apos;Banner&apos; to Corsairs and Coursair Captain.</description>
-    </rule>
-    <rule id="6f6a-8eab-5b09-5950" name="Awesome Presence" book="The Fallen Realms" page="32" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Causes &apos;Terror&apos;.
-Counts as a &apos;Banner&apos; to allies.</description>
     </rule>
     <rule id="f7e9-fe9a-96cf-69fa" name="Rappelling Lines" book="The Fallen Realms" page="34" hidden="false">
       <profiles/>
@@ -1321,6 +1284,14 @@ If they are Wounded, roll 1D6:
       <modifiers/>
       <description>
 Fight is 3/3+</description>
+    </rule>
+    <rule id="083a-9229-5e17-050b" name="Master-forged Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Does not suffer -1 penalty to Duel roll when using two-handed weapon</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
