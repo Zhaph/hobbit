@@ -191,7 +191,7 @@ Re-roll failed Wound rolls when making Strikes.</description>
       <description>
 A sucessful Strike from this weapon causes D3 Wounds against models of the specified race.</description>
     </rule>
-    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="89" hidden="false">
+    <rule id="5ae7-455d-aa7e-032a" name="Banner" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -520,7 +520,7 @@ Can Shoot in the Shoot phase.
 Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="88" hidden="false">
+    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -555,7 +555,7 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
 -1 to Duel rolls, to minimum of 1.
 [Cannot use a shield with this weapon.]</description>
     </rule>
-    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual Rulebook" page="89" hidden="false">
+    <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1292,6 +1292,14 @@ Fight is 3/3+</description>
       <modifiers/>
       <description>
 Does not suffer -1 penalty to Duel roll when using two-handed weapon</description>
+    </rule>
+    <rule id="80f4-1d12-5664-99b6" name="Bow Limit" book="Middle-earth Strategy Battle Game Rules Manual" page="131" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Your army can have one third [Rounded Up.] of it&apos;s Warrior models equipped with any type of Bow or Crossbow.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
