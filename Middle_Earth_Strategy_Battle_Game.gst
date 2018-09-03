@@ -183,7 +183,7 @@
       <description>
 Re-roll failed Wound rolls when making Strikes.</description>
     </rule>
-    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapons (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
+    <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -573,7 +573,7 @@ Not slowed by wooded terrain.
 [Must still rolle to climb.]
 [Still obstructed by trees and other obstacles.]</description>
     </rule>
-    <rule id="041a-f7bf-59e0-f84a" name=" Ancient Enemies (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
+    <rule id="041a-f7bf-59e0-f84a" name="Ancient Enemies (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -850,7 +850,7 @@ Halve the Fight value on all enemies in base contact.
 Can Shoot twice.
 [Even if it has used all of its Movement or is in a Duel.]</description>
     </rule>
-    <rule id="9bd5-f1d3-cdad-0598" name="Backstabbers (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
+    <rule id="9bd5-f1d3-cdad-0598" name="Backstabber (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
