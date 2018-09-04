@@ -208,7 +208,7 @@ Effects on Duels:
 	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]
 	[The bearer can pass the Banner to an ally in base cantact who is neither in a Duel nor a Hero (unless otherwise stated).]</description>
     </rule>
-    <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -227,7 +227,7 @@ Automatically pass Courage tests while Target Hero is alive and on the board.
 Can Shoot in the Shoot Phase.
 [Must have used no more than half of their Movement in the Move Phase.]</description>
     </rule>
-    <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="be60-39e9-b5bc-4bf7" name="Burly (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -236,7 +236,7 @@ Can Shoot in the Shoot Phase.
 Does not suffer the usual Fight penalty when using a Two-Handed Weapon.
 Can use their full Movement when carrying Heavy Objects.</description>
     </rule>
-    <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -275,17 +275,19 @@ A model wearing an Elven cloak has the Stalk Unseen rule
 [Enemies cannot Charge, Shoot or target with Magical Powers at range greater than 6&quot; unless completely clear view.]
 [Does not apply if the wearer is Mounted.]</description>
     </rule>
-    <rule id="2507-c351-8e85-f546" name="Engineer Captain" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="2507-c351-8e85-f546" name="Engineer Captain" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
-Has the same equipment as the crew, as well as a Single-Handed Weapon.
+Replaces a Siege Veteran with a Captain from Army List and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
+
+[Gains Hero keyword.]
+[Counts as Hero of Fortitude.]
 [Maximum of one per Siege Engine.]</description>
     </rule>
-    <rule id="e226-c764-7852-6cac" name="Expert Rider" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="e226-c764-7852-6cac" name="Expert Rider (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -296,7 +298,7 @@ Can pick up Light Objects without Dis-Mounting.
 While Mounted, +1 to Defence from Shields even if carrying a Bow.
 [If the model Dis-Mounts, bonus does not apply.]</description>
     </rule>
-    <rule id="1796-7001-bd0a-699b" name="Expert Shot" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="1796-7001-bd0a-699b" name="Expert Shot (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -305,7 +307,7 @@ While Mounted, +1 to Defence from Shields even if carrying a Bow.
 Has two Shots in the Shoot Phase.
 [Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
-    <rule id="0faa-65e7-6948-24ec" name="Fearless" book="Middle-earth Strategy Battle Game Rules Manual" page="82" hidden="false">
+    <rule id="0faa-65e7-6948-24ec" name="Fearless (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -314,7 +316,7 @@ Has two Shots in the Shoot Phase.
 Pass Courage tests automatically.
 Can not &apos;Shield&apos;.</description>
     </rule>
-    <rule id="85a3-5fcb-6505-b79c" name="Flaming Ammunition" book="Mordor" page="92" hidden="false">
+    <rule id="85a3-5fcb-6505-b79c" name="Flaming Ammunition" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -332,16 +334,16 @@ Model may move up to 12&quot;.
 Ignore all models, control zones, and terrain during Movement.
 Can not end its movement within control zones, woods, or upon any terrain that its base will not securely balance upon.</description>
     </rule>
-    <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="Moria &amp; Angmar" page="21" hidden="false">
+    <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
--1 Courage to all enemies within 12&quot;/28cm.
-[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Doom, Doom!&apos;, etc.).]</description>
+-1 Courage to all enemies within 12&quot;.
+[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, Goblin Drums, etc.).]</description>
     </rule>
-    <rule id="514f-ef5e-91a6-fb55" name="Lance" book="Middle-earth Strategy Battle Game Rules Manual" page="68" hidden="false">
+    <rule id="514f-ef5e-91a6-fb55" name="Lance" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -349,10 +351,11 @@ Can not end its movement within control zones, woods, or upon any terrain that i
       <description>
 Can only be used while Mounted.
 If the model Charges, +1 to Wound roll against any type of model.
+[If wound roll requires 2 rolls (e.g. 6/4+) bonus is applied to both rolls.]
 [Does not apply in difficult terrain.]
 [Discarded if the model Dismounts or their steed is Slain.]</description>
     </rule>
-    <rule id="e428-dd18-64fa-a9a7" name="Mountain Dweller" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="e428-dd18-64fa-a9a7" name="Mountain Dweller (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -372,7 +375,7 @@ Follows rules for &apos;Spears&apos;, with additions:
 	Can Support an ally by being in base contact with a supporting Pike- or Spear-armed model, such that the two models Support one ally.
 	[Require two hands to use, so cannot be used with a Shield or Bow.]</description>
     </rule>
-    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows/Darts" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Weapon (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -380,15 +383,15 @@ Follows rules for &apos;Spears&apos;, with additions:
       <description>
 Re-roll Wound rolls of 1.</description>
     </rule>
-    <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-If Targeted by a Magical Power, having run out of Will, may still take a Resist test with a single die.</description>
+If Targeted by a Magical Power, model may use an additional &apos;free&apos; dice when Resisting, even if it has no Will remaining or decides not to use any Will points.</description>
     </rule>
-    <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -396,15 +399,15 @@ If Targeted by a Magical Power, having run out of Will, may still take a Resist 
       <description>
 Model takes a Strength 9 hit.
 If not Slain, model takes a Strength 5 hit in each End Phase until extinguished.
-To extinguish, model must lie down and crawl 1&quot;/2cm.</description>
+To extinguish, model must lie down and crawl 1&quot;.</description>
     </rule>
-    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Both the Battlefield Target and all models within 2&quot;/5cm take a Strength 3 hit.
+Both the Battlefield Target and all models within 2&quot; take a Strength 3 hit.
 If not Slain, hit models must immediately pass a Courage test, or be removed from play.
 [This shot will neither knock models Prone nor inflict more than one Wound per hit.]
 [Doe not apply to Siege Targets.]</description>
@@ -428,14 +431,16 @@ Shielding:
 	[Shielding models cannot be supported by Spears or Pikes.]
 	[Cavalry models cannot use Shielding.]</description>
     </rule>
-    <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="026d-9114-92bf-15fd" name="Siege Veteran" book="Middle-earth Strategy Battle Game Rules Manual" page="113" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-If an Engine crewed by Siege Veterans hits a Siege target, roll two dice to Wound, applying the higher.
-[All crew must be Seige Veterans.]</description>
+Replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
+[Gains Hero keyword.]
+[Warband can only contain Siege Engine and crew.]
+[Maximum of one per Siege Engine.]</description>
     </rule>
     <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
@@ -448,7 +453,7 @@ Can shoot in the Shoot phase.
 If they remain stationary, they can Shoot twice.
 [Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
-    <rule id="644a-02f5-9e09-a4a9" name="Spear" book="Mordor" page="69" hidden="false">
+    <rule id="644a-02f5-9e09-a4a9" name="Spear" book="Middle-earth Strategy Battle Game Rules Manual" page="84" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -465,24 +470,25 @@ If not in base contact with another enemy, wielder contributes an Attack to the 
 [Heros can use Might as usual.]
 [Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
     </rule>
-    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false">
+    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Wielder can use &apos;Stun&apos;.
-Wielder can expend 1 Will each turn without depleting Will.</description>
+Wielder can expend 1 Will each turn without depleting Will.
+[Treat as hand-and-a-half staff.]</description>
     </rule>
-    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Range of 60&quot;/140cm.</description>
+Range increased by 12&quot;.</description>
     </rule>
-    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -535,15 +541,14 @@ Can be used prior to completeing a Charge.
 [If the enemy is not Slain, model moves into base contact as usual.]
 [If the enemy is Slain, model can continue their Movement.]</description>
     </rule>
-    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="Middle-earth Strategy Battle Game Rules Manual" page="92" hidden="false">
+    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Some Evil Siege Engines can have Mordor Trolls attached to the crew for the purposes of loading and, in extreme cases, defending the construction.
-
-Siege Engines that have a Troll crew member may fire twice each turn provided that the Troll is in base contact with the Siege Engine, has not moved in the preceding Move phase and is not engaged in combat. The Troll does not count towards the mnimum number of crew required to operate the maching, so you must have at least two other crew present. Troll crew carry a hand weapon (not that they really need one to fight effectively). Only a single Mordor Troll can be attached to Siege Engine.</description>
+Siege Engines that have a Troll crew member may re-roll the To Hit roll and the roll on the Scatter chart if the Troll is in base contact and not engaged in combat.The Troll does not count towards the mnimum number of crew required, so you must have at least two other crew members. Troll follows profile from Army List without any upgrades.
+[Maximum of one per Siege Engine.]</description>
     </rule>
     <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="67" hidden="false">
       <profiles/>
@@ -581,134 +586,21 @@ Not slowed by wooded terrain.
       <description>
 Re-roll Wound rolls of 1 against models with the same Keyword.</description>
     </rule>
-    <rule id="8e73-42c7-3a3d-54d0" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
+    <rule id="db00-aee5-4e28-c33d" name="Monstrous Charge (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-If the Cave Drake loses a Duel and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
-    </rule>
-    <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-If Ashrâk Wounds or is Wounded, the opposing model must roll 1D6; &apos;Paralyse&apos; on 4+.</description>
-    </rule>
-    <rule id="db00-aee5-4e28-c33d" name="Draconic Charge" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Enemies Charged by a Dragon are &apos;Knocked Prone&apos;.</description>
-    </rule>
-    <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Deploy like any other model, with the Drummers in base contact with it.
-To use the Drum, a Drummer must start the turn in base contact and must not move or be in a Duel.
-It may not be Moved and Played in the same turn.</description>
-    </rule>
-    <rule id="0bd2-250c-1532-0d67" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-How to use the Watcher:
-	Do not place at the start of the game.
-	Each turn, before rolling for Priority, choose if you want to place the Watcher.
-	If so, roll 1D6; success on 3+.
-	[If unsuccesssful, re-roll at the start of every turn.]
-	If successful, place the Watcher anywhere on the board; displacing any other models.
-	Move diplaced models by the shortest path to be 1&quot;/2cm from the Watcher, space allowing.
-	Players take turns to move their own models, starting with the Watcher&apos;s player.
-	The Watcher cannot charge on the same turn.</description>
-    </rule>
-    <rule id="9169-f5d5-858d-55d0" name="Gaping Maw" book="Moria &amp; Angmar" page="22" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-If the Cave Drake wins a Duel, it can attempt to swallow a single man-sized (or smaller) model involved in the Duel.
-If the Cave Drake chooses to do so, roll to Wound.
-If successful, the model is Slain.
-[Fate rolls can be made as normal; if effective, the model survives and is unharmed.]</description>
-    </rule>
-    <rule id="301d-93ae-3910-4299" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-&apos;Stand Fast!&apos; range is 12“/28cm.</description>
-    </rule>
-    <rule id="b04c-7238-5496-ec70" name="Many Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Each time the Watcher loses a Wound it loses an Attack.</description>
-    </rule>
-    <rule id="0b2a-8060-e0b8-7fe4" name="Master of the Dark Wild" book="Moria &amp; Angmar" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-All Bats, Wargs and Spiders within 12&quot;/28cm of Drûzhag use his Courage instead of their own.</description>
-    </rule>
-    <rule id="3d4f-0a96-d3ad-5584" name="Movement" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Not slowed by difficult terrain.
-Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</description>
-    </rule>
-    <rule id="0b9f-e5ec-dcf9-abc8" name="Packlord" book="Moria &amp; Angmar" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Other Wild Wargs may use this model&apos;s &apos;Stand Fast!&apos; rule and benefit from its heroic actions.</description>
-    </rule>
-    <rule id="602b-4f8a-d6d4-cc33" name="Poison Blood" book="Moria &amp; Angmar" page="19" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Re-roll failed Wound rolls.</description>
-    </rule>
-    <rule id="123e-b9f2-30f9-81c8" name="Pounce" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Follows the rules for &apos;Monstrous Mount&apos;.</description>
-    </rule>
-    <rule id="cad3-1947-7257-66a9" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can deploy Broodlings within 3&quot;/8cm.
-Broodlings may move and charge on that turn.
-[Each costs a point of Will.]
-[Broodlings are not counted when working out if a force is Broken.]</description>
+When Charging gains a variant of &apos;Knock to the Ground&apos; rule:
+	Will Knock to the Ground any model it Charges including Cavalry or Monster, with a lower Strength, even if charged model has Strength &gt;=6.
+	 [Cavalry riders suffer a &apos;Knocked Flying&apos; result.]
+
+When Charging gains an Extra Attack bonus:
+	[Extra attack even if Charges or is charged by Cavalry.]
+
+If model is Cavalary, mount counts as In the Way of rider.
+	[Rider only hit on 5-6.]</description>
     </rule>
     <rule id="c076-88a5-8890-8a2d" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
@@ -726,20 +618,6 @@ If failed, the model is removed and counts as a casualty.</description>
       <modifiers/>
       <description>
 Not slowed by difficult terrain.</description>
-    </rule>
-    <rule id="01d2-fd20-aa09-67d5" name="Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can make 1D6 Attacks in the Shoot phase.
-Range 6&quot;/14cm, Strength 3.
-Nothing counts as &apos;In the Way&apos;.
-Any model Struck in this way, but not Slain, is moved into base contact with the Watcher by the shortest route.
-[This does not count as Charging the Watcher.]
-[If there is no space around the Watcher&apos;s base, the model is not moved.]
-[These Attacks can be made even if the Watcher is in base contact with an enemy.]</description>
     </rule>
     <rule id="90f6-c430-31d1-4607" name="Tough Hide" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
@@ -777,51 +655,6 @@ Double movement while wholly within watery terrain.</description>
 Can cast a spell using one dice, without costing a point of Will.
 [Or as usual, with two and costing a point of Will.]</description>
     </rule>
-    <rule id="6f2a-bf02-67bb-7219" name="Moving the Drum" book="Moria &amp; Angmar" page="25" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Follows rules for a &apos;Heavy Object&apos;.</description>
-    </rule>
-    <rule id="0017-a9f7-68cf-eb11" name="Destroying the Drum" book="Moria &amp; Angmar" page="25" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-10 Defence, 3 Wounds, no control zone.
-Can be Shot.
-If reduced to 0 Wounds, it is Destroyed.
-A model that spends a full turn in base contact Destroys it automatically.
-[The model must not perform any actions during that turn.]</description>
-    </rule>
-    <rule id="c796-7ab7-3028-2097" name="Run and Drum" book="Moria &amp; Angmar" page="26" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-The drum is playing if the Drummer and Bearer are in base contact.</description>
-    </rule>
-    <rule id="3daa-10cd-ac5c-a388" name="Doom, Doom!" book="Moria &amp; Angmar" page="26" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Effects on models:
-	+1 Courage for all Goblins on the battlefield. 
-	-1 Courage for all enemy models.
-	[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Harbinger of Evil&apos;, etc.).]
-
-Effects on Duels:
-	Re-roll a single die when determining the outcome of Duels.
-	[The Duel must involve a Goblin within 18&quot;/42cm of the Drum.]
-	[The re-roll can be taken after the opponent&apos;s roll, but must be taken before either player uses Might.]
-	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]</description>
-    </rule>
     <rule id="9e4d-f078-43d6-ed2f" name="Take up the Drum" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
       <rules/>
@@ -841,15 +674,6 @@ If a Drummer is Slain, another Gundabad Blackshield warrior can take their place
 Halve the Fight value on all enemies in base contact.
 [Round down.]</description>
     </rule>
-    <rule id="3192-ea96-8b47-40ab" name="On the Hunt" book="Moria &amp; Angmar" page="27" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can Shoot twice.
-[Even if it has used all of its Movement or is in a Duel.]</description>
-    </rule>
     <rule id="9bd5-f1d3-cdad-0598" name="Backstabber (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
       <profiles/>
       <rules/>
@@ -858,15 +682,6 @@ Can Shoot twice.
       <description>
 +1 to Wound rolls on Trapped models.
 [Cumulative with other bonuses such as the Two-Handed Weapon bonus.]</description>
-    </rule>
-    <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Recovers a Wound for each enemy Slain.
-[Maximum of starting value.]</description>
     </rule>
     <rule id="4138-947b-1097-b7eb" name="Warg Marauder" book="Moria &amp; Angmar" page="27" hidden="false">
       <profiles/>
@@ -893,35 +708,6 @@ If a direct 6 is rolled when casting a spell, Will point is recovered.</descript
       <description>
 Re-roll Fate rolls.</description>
     </rule>
-    <rule id="5359-55bd-737e-c3bc" name="Foresight of the Eldar" book="The Free Peoples" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-How to use Foresight:
-	Before the game, roll 1D6.
-	This is Elrond&apos;s number of Foresight points.
-	Elrond can spend these after both players have rolled for Priority.
-	Each point alters Priority roll by +1 or -1.
-	[To a minimum:maximum of 1:6.]</description>
-    </rule>
-    <rule id="ad8a-0314-7a1b-1d00" name="High King of the Elves" book="The Free Peoples" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
- &apos;Stand Fast!&apos; range is 12“/28cm.</description>
-    </rule>
-    <rule id="1db3-146f-2d81-183c" name="Noldorin Throwing Dagger" book="The Free Peoples" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Re-roll failed Wound rolls when Throwing or Dueling with these Daggers.</description>
-    </rule>
     <rule id="7881-22d9-70b6-ec05" name="Twin Elven Blade" book="The Free Peoples" page="19" hidden="false">
       <profiles/>
       <rules/>
@@ -946,22 +732,6 @@ If one of the twins is Slain, surviving twin:
 	[Not necessarily the shortest distance if other models are in the way.]
 	Once that enemy is killed, must Charge the closest enemy as quickly as possible, for the rest of the game.</description>
     </rule>
-    <rule id="db9c-932f-7efe-400f" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description> 
-Fight is 6/3+.</description>
-    </rule>
-    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exile" book="The Free Peoples" page="20" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Move is 8&quot;/20cm.</description>
-    </rule>
     <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
       <profiles/>
       <rules/>
@@ -971,42 +741,6 @@ Move is 8&quot;/20cm.</description>
 -1 to Duel rolls, to minimum of 1.
 [Separate dice rolls will be required in multiple combats for unarmed models.]</description>
     </rule>
-    <rule id="f954-24d3-39d2-d5b3" name="King&apos;s Man" book="Kingdoms of Men" page="31" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Automatically passes all Courage tests if the force includes Théoden.
-[If Théoden is Slain or Moves off the board, the bonus is cancelled.]</description>
-    </rule>
-    <rule id="7e1d-15e4-0127-1035" name="Devastating Charge" book="Kingdoms of Men" page="32" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Having Charged, 5 Strength until the end of the turn.</description>
-    </rule>
-    <rule id="4e5f-c9b1-ae7b-b2a2" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+1 Courage to Hobbits.
-[If bearer is Slain or Moved off the board, the bonus is cancelled.]</description>
-    </rule>
-    <rule id="8412-03bf-9794-b0e9" name="Royal Standard of Rohan" book="Kingdoms of Men" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Follows the rules for &apos;Banners&apos;, with additional effects:
-	Heros of Rohan within 3&quot;/8cm recovers 1 Might, if they start that turn with with 0 Might.
-	[Excluding this model.]</description>
-    </rule>
     <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshield" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
       <rules/>
@@ -1014,14 +748,6 @@ Follows the rules for &apos;Banners&apos;, with additional effects:
       <modifiers/>
       <description>
 +1 Fight.</description>
-    </rule>
-    <rule id="b616-abe9-cd64-671b" name="Horn of the Hammerhand" book="Kingdoms of Men" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+2 Courage to allies.</description>
     </rule>
     <rule id="4437-51cb-cddc-19e8" name="Master Archer" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
@@ -1033,16 +759,6 @@ Follows the rules for &apos;Banners&apos;, with additional effects:
 Each Hero or Monster slain by this model restores a point of this model&apos;s Might.
 [Maximum of starting value.]</description>
     </rule>
-    <rule id="3861-08a3-a589-bbff" name="Legendary Hero" book="Kingdoms of Men" page="34" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-After the model&apos;s first use of Might of each turn, roll a dice. If:
-	1-3: no effect.
-	4-6: does not deplete Might.</description>
-    </rule>
     <rule id="f506-9f8a-dcc4-a80d" name="Vanguard" book="Kingdoms of Men" page="35" hidden="false">
       <profiles/>
       <rules/>
@@ -1050,14 +766,6 @@ After the model&apos;s first use of Might of each turn, roll a dice. If:
       <modifiers/>
       <description>
 Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</description>
-    </rule>
-    <rule id="9380-d95c-7cd3-646d" name="Helmingas" book="Kingdoms of Men" page="32" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+1 to Strength.</description>
     </rule>
     <rule id="92bf-db39-01fc-92b7" name="Master of Poison" book="The Fallen Realms" page="27" hidden="false">
       <profiles/>
@@ -1074,16 +782,8 @@ All allied models within 6&quot;/14cm with &apos;Poisoned Arrows, Darts, Blades&
       <modifiers/>
       <description>
 Heros wearing the Ring are not invisible to this model.
-Expends 1 Will for ever Duel it Fights, except if its opponent is wearing the Ring.
+Expends 1 Will for every Duel it Fights, except if its opponent is wearing the Ring.
 Once its Will is depleted to 0, model is removed as a casualty.</description>
-    </rule>
-    <rule id="8cf1-909f-3644-3865" name="Combat Mimicry" book="The Fallen Realms" page="28" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can use the Fight, Strength, and/or Attack values of their opponent in a Duel.</description>
     </rule>
     <rule id="82c4-f3f6-df01-88dd" name="Stalk Unseen" book="The Fallen Realms" page="29" hidden="false">
       <profiles/>
@@ -1093,14 +793,6 @@ Can use the Fight, Strength, and/or Attack values of their opponent in a Duel.</
       <description>
 Follows the rules for &apos;Elven Cloak&apos;.</description>
     </rule>
-    <rule id="5fea-b79f-692e-ee0a" name="Preternatural Agility" book="The Fallen Realms" page="29" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can not be Trapped whilst standing.</description>
-    </rule>
     <rule id="1962-4348-5130-757a" name="Blowpipe" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
       <rules/>
@@ -1109,14 +801,6 @@ Can not be Trapped whilst standing.</description>
       <description>
 Can Shoot in the Shoot Phase.
 [Must have used no more than half of their Movement in the Move Phase.]</description>
-    </rule>
-    <rule id="688f-e906-c6c0-ff75" name="Impaler" book="The Fallen Realms" page="29" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-War Camel inflicts a Strength 4 hit on one model it has Charged.</description>
     </rule>
     <rule id="4c59-dd5c-0c3b-10e1" name="War Spear" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
@@ -1136,69 +820,16 @@ Follows rules for &apos;Spear&apos; when wielder is on foot.
       <description>
 If Rider is Slain, model flees automatically.</description>
     </rule>
-    <rule id="4a4b-ca79-6713-7d26" name="Mahûd Beastmaster Chieftain" book="The Fallen Realms" page="34" hidden="false">
+    <rule id="4a4b-ca79-6713-7d26" name="Mahûd Beastmaster Chieftain" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Replaces the Mûmak&apos;s Commander in all respects other than:
+Replaces the Mûmak&apos;s Commander in all respects including Heroic Actions other than:
 	They stand on the front platform on the Mûmak, not in the Howdah.
 	[The vacant position in the Howdah can be filled by a Haradrim.] 
-	[The Howdah no longer acts as cover, only as an obstacle.]</description>
-    </rule>
-    <rule id="1df4-b156-b5c4-c0d3" name="Tusk Weapons" book="The Fallen Realms" page="34" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Mûmak inflicts four Strength 9 hits when Trampling.</description>
-    </rule>
-    <rule id="1789-d376-8de9-2da0" name="Smoke Bombs" book="The Fallen Realms" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Follows rules for &apos;Throwing Weapon&apos;.
-If Target is hit but not killed, they are &apos;Transfixed&apos; for the rest of the turn.
-If roll to hit is 1, they have run out.</description>
-    </rule>
-    <rule id="e0f2-dcbd-f2d7-583b" name="Golden King&apos;s Throne" book="The Fallen Realms" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Follows rules for &apos;Banner&apos;, without the Duel roll penalty.</description>
-    </rule>
-    <rule id="f525-a935-e19f-bec6" name="Chop" book="The Fallen Realms" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Doesn&apos;t suffer the &apos;Two-Handed Weapon&apos; Duel roll penalty.</description>
-    </rule>
-    <rule id="16b2-0efd-8267-b017" name="Riches Beyond Renown" book="The Fallen Realms" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can use Will to reduce the Courage roll of enemies within 12&quot;/28cm.
-Each point reduces the roll by 1.
-[To minimum of 1.]
-[Can use after Courage roll.]</description>
-    </rule>
-    <rule id="6c82-a3d1-50c9-949c" name="The Golden King of Abrakhân" book="The Fallen Realms" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Is treated in all respects as a single model (Targetting, Charging, Slaying).</description>
+	[The model counts as being in the Howdah for In The Way rolls and other effects of being in the Howdah.]</description>
     </rule>
     <rule id="d030-bcb5-f444-9ca3" name="Whip" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false">
       <profiles/>
@@ -1217,15 +848,7 @@ Follows rules for &apos;Throwing Weapon&apos;.</description>
 Roll 1D6 if an allied hero within 6&quot;/14cm attempts a heroic action.
 Action has no cost on 4+.</description>
     </rule>
-    <rule id="abf2-c658-383b-2896" name="Commanding Bellow" book="The Fallen Realms" page="31" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Acts as a &apos;Banner&apos; to Corsairs and Coursair Captain.</description>
-    </rule>
-    <rule id="f7e9-fe9a-96cf-69fa" name="Rappelling Lines" book="The Fallen Realms" page="34" hidden="false">
+    <rule id="f7e9-fe9a-96cf-69fa" name="Rappelling Lines" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1235,12 +858,12 @@ Models in the Howdah can attempt to Dis-Mount in the Move Phase by rolling 1D6:
 	2-6: Success.
 	1: Falling damage.
 [Before of after the Mamuk has Moved.]
-[Place them in base contact with Mumak, adjacent to their position in the Howdah.]
+[Place them in base contact with Mûmak, adjacent to their position in the Howdah.]
 [If they cannot be placed in base contact, they may not Dis-Mount.]
 [May use Dis-Mount to charge, taking &apos;Terror&apos; tests prior to the action.]
 [May not Shoot.]</description>
     </rule>
-    <rule id="5daa-8436-dfd3-aaec" name="Rocks" book="The Fallen Realms" page="34" hidden="false">
+    <rule id="5daa-8436-dfd3-aaec" name="Rocks" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1249,7 +872,7 @@ Models in the Howdah can attempt to Dis-Mount in the Move Phase by rolling 1D6:
 Models in the Howdah can Shoot in the Shoot Phase.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="f87c-c840-b821-055a" name="Sigils of Defiance" book="The Fallen Realms" page="34" hidden="false">
+    <rule id="f87c-c840-b821-055a" name="Sigils of Defiance" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1266,24 +889,8 @@ If they are Wounded, roll 1D6:
       <infoLinks/>
       <modifiers/>
       <description>
-+1 Attacks.
+Attacks increased to 4.
 -1 to Stampede courage tests.</description>
-    </rule>
-    <rule id="c816-6130-a2fe-3bf0" name="Chosen of Abrakhân" book="The Fallen Realms" page="37" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+1 Courage.</description>
-    </rule>
-    <rule id="536b-0fca-d272-1108" name="Chosen of Kârna" book="The Fallen Realms" page="36" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Fight is 3/3+</description>
     </rule>
     <rule id="083a-9229-5e17-050b" name="Master-forged Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
@@ -1300,6 +907,120 @@ Does not suffer -1 penalty to Duel roll when using two-handed weapon</descriptio
       <modifiers/>
       <description>
 Your army can have one third [Rounded Up.] of it&apos;s Warrior models equipped with any type of Bow or Crossbow.</description>
+    </rule>
+    <rule id="d43f-fbb8-6cc1-b54a" name="Blades of the Dead (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Use Target&apos;s Courage instead of Defense on the Wound Chart when determining To Wound.
+[Cannot use Special Strikes.]</description>
+    </rule>
+    <rule id="9fda-73c8-5115-f6e0" name="Blood and Glory (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Regain a point of Might if this model kills an enemy Hero in a Fight.</description>
+    </rule>
+    <rule id="ac3b-75b0-2e1f-371c" name="Fell Sight (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Does not need Line of Sight to be able to Charge
+Can target models with Stalk Unseen</description>
+    </rule>
+    <rule id="fcc2-7da0-c8e0-249b" name="Fleetfoot (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+When model has this rule and Woodland Creature special rule, the effects of Woodland Creature apply to mount as well.</description>
+    </rule>
+    <rule id="941e-348f-26c0-f0a7" name="Hatred (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 to To Wound roll against models with the same Keyword.</description>
+    </rule>
+    <rule id="5b5a-4d01-3766-8bf2" name="Horse Lord (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+May expend Fate points to prevent wounds to their mount.
+[No effect if not mounted.]</description>
+    </rule>
+    <rule id="a5f5-fc97-443a-2772" name="Master of Battle (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Can call the same Heroic Action as Enemy Hero within 6&quot; without spending Might.
+[Does not need to have access to Heroic Action.]
+
+If ability is numbered, roll D6, if roll is &lt;= number then model can use Heroic Action.</description>
+    </rule>
+    <rule id="0583-e3c4-79c5-3827" name="Mighty Blow (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Inflicts 2 Wounds for each successful Strike that Wounds in Fight.</description>
+    </rule>
+    <rule id="96bf-4eca-dc99-ffd7" name="Mighty Hero (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+May expend 1 point of Might per turn without reducing store.</description>
+    </rule>
+    <rule id="e7d3-18a6-524e-7a2c" name="War Drum" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+At the start of Move phase declare &quot;sounding the advance&quot;. All models with the same Keyword within 12&quot;:
+	Infantry: Add 3&quot; to movement
+	Cavalry or Fly: Add 5&quot; to movement
+	[Affected models cannot Charge]</description>
+    </rule>
+    <rule id="d290-0389-e79a-b002" name="Tusk Weapons" book="Armies of The Lord of the Rings" page="195" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Inflicts 4 Strength 9 hits when it Tramples.</description>
+    </rule>
+    <rule id="0f1b-4f41-ba88-79ba" name="Gnarled Hide" book="Armies of The Lord of the Rings" page="195" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Defence increased to 8.</description>
+    </rule>
+    <rule id="2b26-86d3-8410-f7f3" name="Trample" book="Armies of The Lord of the Rings" page="195" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+
+Inflicts 3 Strength 9 hits when it Tramples.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
