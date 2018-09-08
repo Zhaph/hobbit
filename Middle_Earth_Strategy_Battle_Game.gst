@@ -314,7 +314,7 @@ Has two Shots in the Shoot Phase.
       <modifiers/>
       <description>
 Pass Courage tests automatically.
-Can not &apos;Shield&apos;.</description>
+Cannot &apos;Shield&apos;.</description>
     </rule>
     <rule id="85a3-5fcb-6505-b79c" name="Flaming Ammunition" book="Middle-earth Strategy Battle Game Rules Manual" page="119" hidden="false">
       <profiles/>
@@ -496,16 +496,16 @@ Range increased by 12&quot;.</description>
       <description>
 Roll 2D6; the higher is the number of shots fired.</description>
     </rule>
-    <rule id="98e5-0c6c-dc8a-255d" name="Sworn Protector" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="98e5-0c6c-dc8a-255d" name="Sworn Protector (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Automatically pass Courage tests while target Hero is within 12&quot;/28cm.
-[Target Hero to be chosen before the start of the game, unless specified in the model&apos;s profile.]</description>
+Whilst named model is alive on the battlefield, this model passes all Courage tests.
+[Target Hero is specified in the model&apos;s profile.]</description>
     </rule>
-    <rule id="5951-b53f-b4d2-2a35" name="Terror" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="5951-b53f-b4d2-2a35" name="Terror (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -516,14 +516,13 @@ Enemies must pass a Courage test to Charge this model.
 	If failed, can not Charge this or any other enemy this turn.
 [May only apply to specific types of enemy, as specified in the model&apos;s profile.]</description>
     </rule>
-    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Can Shoot in the Shoot phase.
-Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
+Can Shoot in the Shoot phase using Strength and range stated in the model&apos;s profile.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
     <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
@@ -550,15 +549,16 @@ Can be used prior to completeing a Charge.
 Siege Engines that have a Troll crew member may re-roll the To Hit roll and the roll on the Scatter chart if the Troll is in base contact and not engaged in combat.The Troll does not count towards the mnimum number of crew required, so you must have at least two other crew members. Troll follows profile from Army List without any upgrades.
 [Maximum of one per Siege Engine.]</description>
     </rule>
-    <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="67" hidden="false">
+    <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-+1 to rolls to Wound.
--1 to Duel rolls, to minimum of 1.
-[Cannot use a shield with this weapon.]</description>
+-1 to Duel rolls.
++1 to To Wound rolls.
+[Cannot use a shield with this weapon.]
+[Modifer to To Wound affects all rolls.]</description>
     </rule>
     <rule id="2763-dbf3-7fde-9758" name="War Horn" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
       <profiles/>
@@ -568,14 +568,15 @@ Siege Engines that have a Troll crew member may re-roll the To Hit roll and the 
       <description>
 +1 Courage to allies.</description>
     </rule>
-    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Not slowed by wooded terrain.
-[Must still rolle to climb.]
+[Only applies to Infantry.]
+[Must still roll to climb.]
 [Still obstructed by trees and other obstacles.]</description>
     </rule>
     <rule id="041a-f7bf-59e0-f84a" name="Ancient Enemies (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="103" hidden="false">
@@ -602,22 +603,26 @@ When Charging gains an Extra Attack bonus:
 If model is Cavalary, mount counts as In the Way of rider.
 	[Rider only hit on 5-6.]</description>
     </rule>
-    <rule id="c076-88a5-8890-8a2d" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
+    <rule id="c076-88a5-8890-8a2d" name="Survival Instinct (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Take a Courage test every time a Wound is suffered.
-If failed, the model is removed and counts as a casualty.</description>
+	If failed, the model is removed and counts as a casualty.
+[These Courage tests can be taken multiple times in a turn.]</description>
     </rule>
-    <rule id="3c62-f754-9fde-75f5" name="Swift and Lithe" book="Moria &amp; Angmar" page="22" hidden="false">
+    <rule id="3c62-f754-9fde-75f5" name="Swift Movement (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Not slowed by difficult terrain.</description>
+Can Climb at any angle.
+[Model can move full speed over Difficult Terrain.]
+[Model ignores Obstacles except water features and gaps (swim or jump as normal.]
+[Model must be stable after move.]</description>
     </rule>
     <rule id="90f6-c430-31d1-4607" name="Tough Hide" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
@@ -626,44 +631,6 @@ Not slowed by difficult terrain.</description>
       <modifiers/>
       <description>
 9 Wounds and 9 Defense.</description>
-    </rule>
-    <rule id="e47d-dba7-1fae-0b75" name="Venom" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Re-roll any failed Wound rolls.
-[If you are playing a series, place models slain by Venom to one side. If their side wins the encounter, roll for each model - 6+ saves the model.]</description>
-    </rule>
-    <rule id="43dc-acb8-57a9-28ba" name="Water Dweller" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Not slowed by watery terrain.
-Automatically scores a 6 on Swimming chart.
-Double movement while wholly within watery terrain.</description>
-    </rule>
-    <rule id="694f-9262-a3fc-2ce6" name="Wyrmtongue" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Can cast a spell using one dice, without costing a point of Will.
-[Or as usual, with two and costing a point of Will.]</description>
-    </rule>
-    <rule id="9e4d-f078-43d6-ed2f" name="Take up the Drum" book="Moria &amp; Angmar" page="26" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-If a Drummer is Slain, another Gundabad Blackshield warrior can take their place if within 1&quot;/2cm of the other drummer.
-[Models in combat cannot replace the slain Drummer.]
-[If no replacement is available, drum is destroyed.]</description>
     </rule>
     <rule id="154c-d883-0f01-abd6" name="Blinding Swarm (Passive)" book="Armies of The Lord of the Rings" page="163" hidden="false">
       <profiles/>
@@ -683,31 +650,6 @@ Halve the Fight value on all enemies in base contact.
 +1 to Wound rolls on Trapped models.
 [Cumulative with other bonuses such as the Two-Handed Weapon bonus.]</description>
     </rule>
-    <rule id="4138-947b-1097-b7eb" name="Warg Marauder" book="Moria &amp; Angmar" page="27" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-&apos;Cavalry&apos;.
-[Is treated in all respects as a single model (Targetting, Charging, Slaying).]</description>
-    </rule>
-    <rule id="04ed-49e2-8d33-333d" name="Wild Channelling" book="The Free Peoples" page="20" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-If a direct 6 is rolled when casting a spell, Will point is recovered.</description>
-    </rule>
-    <rule id="5805-7c45-f71b-ad22" name="Vilya" book="The Free Peoples" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Re-roll Fate rolls.</description>
-    </rule>
     <rule id="7881-22d9-70b6-ec05" name="Twin Elven Blade" book="The Free Peoples" page="19" hidden="false">
       <profiles/>
       <rules/>
@@ -719,35 +661,13 @@ When on foot, can Fight in three ways:
 	Dual Weapons (+1 Attack)
 	Parry (&apos;Shielding&apos;)</description>
     </rule>
-    <rule id="aa3a-c705-84e6-f4a0" name="Unbreakable Bond" book="The Free Peoples" page="19" hidden="false">
+    <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="Middle-earth Strategy Battle Game Rules Manual" page="84" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-If one of the twins is Slain, surviving twin:
-	Strength becomes 5 and Defence 4.
-	Passes all Courage tests.
-	Must Charge the enemy that killed the other twin as quickly as possible.
-	[Not necessarily the shortest distance if other models are in the way.]
-	Once that enemy is killed, must Charge the closest enemy as quickly as possible, for the rest of the game.</description>
-    </rule>
-    <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
--1 to Duel rolls, to minimum of 1.
-[Separate dice rolls will be required in multiple combats for unarmed models.]</description>
-    </rule>
-    <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshield" book="Kingdoms of Men" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-+1 Fight.</description>
+-1 to Duel rolls, -1 to To Wound rolls.</description>
     </rule>
     <rule id="4437-51cb-cddc-19e8" name="Master Archer" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
@@ -758,14 +678,6 @@ If one of the twins is Slain, surviving twin:
 &apos;In the Way&apos; rolls only fail on rolls of 1.
 Each Hero or Monster slain by this model restores a point of this model&apos;s Might.
 [Maximum of starting value.]</description>
-    </rule>
-    <rule id="f506-9f8a-dcc4-a80d" name="Vanguard" book="Kingdoms of Men" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</description>
     </rule>
     <rule id="92bf-db39-01fc-92b7" name="Master of Poison" book="The Fallen Realms" page="27" hidden="false">
       <profiles/>
@@ -785,13 +697,15 @@ Heros wearing the Ring are not invisible to this model.
 Expends 1 Will for every Duel it Fights, except if its opponent is wearing the Ring.
 Once its Will is depleted to 0, model is removed as a casualty.</description>
     </rule>
-    <rule id="82c4-f3f6-df01-88dd" name="Stalk Unseen" book="The Fallen Realms" page="29" hidden="false">
+    <rule id="82c4-f3f6-df01-88dd" name="Stalk Unseen (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Follows the rules for &apos;Elven Cloak&apos;.</description>
+Cannot be seen when obscured beyond 6&quot;.
+[Enemies cannot Charge, Shoot or target with Magical Powers at range greater than 6&quot; unless completely clear view.]
+[Does not apply if the wearer is Mounted.]</description>
     </rule>
     <rule id="1962-4348-5130-757a" name="Blowpipe" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false">
       <profiles/>
@@ -838,15 +752,6 @@ Replaces the Mûmak&apos;s Commander in all respects including Heroic Actions ot
       <modifiers/>
       <description>
 Follows rules for &apos;Throwing Weapon&apos;.</description>
-    </rule>
-    <rule id="66f5-9cd5-e877-a9b4" name="Whips of the Masters" book="The Fallen Realms" page="31" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Roll 1D6 if an allied hero within 6&quot;/14cm attempts a heroic action.
-Action has no cost on 4+.</description>
     </rule>
     <rule id="f7e9-fe9a-96cf-69fa" name="Rappelling Lines" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
@@ -986,17 +891,6 @@ Inflicts 2 Wounds for each successful Strike that Wounds in Fight.</description>
       <description>
 May expend 1 point of Might per turn without reducing store.</description>
     </rule>
-    <rule id="e7d3-18a6-524e-7a2c" name="War Drum" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-At the start of Move phase declare &quot;sounding the advance&quot;. All models with the same Keyword within 12&quot;:
-	Infantry: Add 3&quot; to movement
-	Cavalry or Fly: Add 5&quot; to movement
-	[Affected models cannot Charge]</description>
-    </rule>
     <rule id="d290-0389-e79a-b002" name="Tusk Weapons" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
@@ -1013,7 +907,7 @@ Inflicts 4 Strength 9 hits when it Tramples.</description>
       <description>
 Defence increased to 8.</description>
     </rule>
-    <rule id="2b26-86d3-8410-f7f3" name="Trample" book="Armies of The Lord of the Rings" page="195" hidden="false">
+    <rule id="2b26-86d3-8410-f7f3" name="Trample (Mûmak)" book="Armies of The Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1021,6 +915,183 @@ Defence increased to 8.</description>
       <description>
 
 Inflicts 3 Strength 9 hits when it Tramples.</description>
+    </rule>
+    <rule id="41b0-6939-75e8-1c72" name="Extra Attack" book="Middle-earth Strategy Battle Game Rules Manual" page="62" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 Attack when making Duel rolls and Strikes in the Fight directly after a Charge.
+[Rider gets additional attack even when using Mount&apos;s Attack value.]</description>
+    </rule>
+    <rule id="aa2a-5cbb-cf72-4b32" name="Knock to the Ground" book="Middle-earth Strategy Battle Game Rules Manual" page="62" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If this model wins the Fight after a Charge, all opponents are Knocked to the Ground except Monsters and oppenents with Strength &gt;= 6.
+[Oppenents are knocked Prone after Backing Away.]
+[Oppenents are Trapped.]</description>
+    </rule>
+    <rule id="bf77-0802-6353-64a8" name="Shieldwall (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="106" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 Defence if in base contact with at least two non-Prone models with Shieldwall
+[Bonus only when Infantry]</description>
+    </rule>
+    <rule id="5207-657c-f272-9e01" name="Trample" book="Middle-earth Strategy Battle Game Rules Manual" page="80" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Pivot War Beast to face desired direction, moving models out of the way.
+[War Beast ignores control zones when moving.]
+[Any models the War Beast comes into contact with suffer hits stated on profile.]
+[Cavalry suffer hits to both Mount and Rider.]
+[Movement stops if contacted model is not slain.]
+[Does not count as Charging.]
+[Can still Trample when making a Heroic March.]
+[Can chose to Trample Friendly models or stop.]
+[Inflicts and takes 3 Strength 9 hits on fortifications with Defence &gt;=9.]
+[Pinned if Charged before it moves.]</description>
+    </rule>
+    <rule id="972e-8e72-4275-721a" name="Irresistable Force" book="Middle-earth Strategy Battle Game Rules Manual" page="81" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If this model wins the Fight after a Trample, all opponents are knocked Prone.
+[Affects monster models with Strength &lt;= War Beast.]
+[Oppenents are knocked Prone after Backing Away.]
+[Oppenents are Trapped.]</description>
+    </rule>
+    <rule id="c73c-49f7-d652-6731" name="Immovable Object" book="Middle-earth Strategy Battle Game Rules Manual" page="81" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+A War Beast cannot be knocked Prone, Hurled or become Trapped. Opponents must Back Away even when they win the Fight.
+[Smaller of two fighting War Beasts will Back Away. If equally sized roll D6: 1-3 Evil player Backs Away; 4-6 Good player Backs Away.]</description>
+    </rule>
+    <rule id="c8ed-9de3-eb85-8178" name="Stampede!" book="Middle-earth Strategy Battle Game Rules Manual" page="81" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Take a Courage test every time a Wound is suffered or at the start of the turn when it has no crew remaining.
+	If failed, the opposing player moves War Beast in the next move phase.
+	[Models in the Howdah cannot make shooting attacks.]
+[Courage test uses Controlling model&apos;s Courage value if there is a controller.]
+[These Courage tests can be taken multiple times in a turn.]
+</description>
+    </rule>
+    <rule id="e3d1-9912-b7dd-9309" name="Rend" book="Middle-earth Strategy Battle Game Rules Manual" page="77" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Nominate one enemy model in a Fight - all of the Monster&apos;s attacks must be made against that model. Compare Monster model&apos;s Strength with Strength of nominated model when resolving Rend instead of Defence.</description>
+    </rule>
+    <rule id="37f8-35c9-f71c-35c6" name="Hurl" book="Middle-earth Strategy Battle Game Rules Manual" page="78" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Nominate one enemy model with a lower Strength in a Fight, before they Back Away:
+	Roll D3 and add difference in Strength (Hurl Distance)
+	Move nominated model directly away from Monster the full Hurl Distance in inches.
+[Hurled model moves in a straight line.]
+[Hurled model knocks prone any models it passes through.]
+[Any model passed through by Hurled model suffer a Strength 3 hit - both Rider and Mount if Cavalry.]
+[Hurled model suffers a strength 3 hit for each model it passes through.]
+[Hurled model suffers a strength 6 hit when its movement ends.] 
+[Hurled model stops if it contacts a tree, wall or similar, or a model with Strength &gt;=6. Both suffer a Strength 6 hit in addition to any other hits.]
+[Hurled model is Prone at end of move.]
+</description>
+    </rule>
+    <rule id="b9fe-8c8a-7d45-8854" name="Barge" book="Middle-earth Strategy Battle Game Rules Manual" page="79" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+All enemies must back away 3&quot; in order and direction chosen by the Monster&apos;s controlling player.
+[If a model makes way, it must move 3&quot;.]
+[Models unable to move the full 3&quot; are placed Prone.]
+[Monster moves D6&quot; in any direction (can Charge into a new Fight).]
+[Cannot be used with Heroic Combat.]</description>
+    </rule>
+    <rule id="2c55-d872-575e-161c" name="Unyielding Combat Stance (Active)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Roll D6 when model is knocked Prone. 4+ model is not knocked Prone.
+[Cavalary will become separated from Mount.]
+[May make roll even when automatically suffering Knocked Flying result.]</description>
+    </rule>
+    <rule id="c8cc-87db-867b-4b1c" name="Hand-and-a-Half Weapon" book="Middle-earth Strategy Battle Game Rules Manual" page="83" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Controlling player decides at start of Fight if weapon is used single-handed or two-handed.
+If two handed:
+	-1 to Duel rolls.
+	+1 to To Wound rolls.
+	[Cannot use a Shield.]</description>
+    </rule>
+    <rule id="d7eb-5ffd-c376-33d5" name="Will of Evil (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="107" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Model must give up one point of Will at the end of the Fight phase if it was involved in a Fight.
+[Banished as a Casualty when 0 Will points remain.]
+[Instant spells cast with final Will point resolve before model is Banished.]
+[Can see Hero wearing the One Ring.]
+[Does not give up Will when Fighting a model wearing the One Ring.]</description>
+    </rule>
+    <rule id="12cf-c6a5-f7fd-ffe8" name="Invisible (The One Ring)" book="Middle-earth Strategy Battle Game Rules Manual" page="90" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Cannot be seen.
+[Enemies cannot Shoot or target with Magical Powers.]
+[Model must move out of the way of models that end on top of it.]
+[Does not apply if the wearer is Mounted.]
+[Enemies must pass Courage test to Charge with -1/inch modifier.]
+[Courage test is required even for models that automatically pass their Courage test.]
+[Does not affect Sauron or Ringwraiths.]</description>
+    </rule>
+    <rule id="e1ca-22c5-aa91-f628" name="Sauron&apos;s Will" book="Middle-earth Strategy Battle Game Rules Manual" page="90" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Before moving the Ringbearer in the Move phase:
+	1-2: Opposing player moves the Ringbearer.
+	3+: Controlling player moves the Ringbearer.
+[Model&apos;s Might points may be used to affect the roll.]
+[Move cannot cause harm to model.]
+[Model cannot be moved off the table.]</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1787,6 +1858,20 @@ Inflicts 3 Strength 9 hits when it Tramples.</description>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
+      </characteristics>
+    </profile>
+    <profile id="70dd-ae39-8a1d-4757" name="The One Ring" book="Middle-earth Strategy Battle Game Rules Manual" page="90" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Can be put on during Movement phase - causing wearer to become Invisible.
+Must pass Courage test to remove the Ring during the Movement phase.
+[Cannot put on and remove the Ring in the same Turn.]
+[Suffers Sauron&apos;s Will while wearing the Ring.]
+[If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
       </characteristics>
     </profile>
   </sharedProfiles>
