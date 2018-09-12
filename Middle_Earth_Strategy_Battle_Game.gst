@@ -1958,5 +1958,29 @@ Before moving the Ringbearer in the Move phase:
       <modifiers/>
       <characteristics/>
     </profile>
+    <profile id="a18b-0849-64c9-23a9" name="Heavy Dwarf Armour" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="20f1-1625-da6a-0152" name="Axe" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="622c-a767-c1c9-d003" name="Throwing Axes" book="Middle-earth Strategy Battle Game Rules Manual" page="88 (Throwing Weapons)" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
