@@ -74,6 +74,11 @@
         <characteristicType id="6820-108c-64e0-a817" name="Description"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="62f4-755b-f936-8dd6" name="Heroic Action">
+      <characteristicTypes>
+        <characteristicType id="8820-1aa6-c333-15e4" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="e07a-883e-1b26-d891" name="Warrior" hidden="false">
