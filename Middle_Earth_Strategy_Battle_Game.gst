@@ -1049,7 +1049,7 @@ Roll D6 when model is knocked Prone. 4+ model is not knocked Prone.
       <modifiers/>
       <description>
 Controlling player decides at start of Fight if weapon is used single-handed or two-handed.
-If two handed:
+If used two-handed:
 	-1 to Duel rolls.
 	+1 to To Wound rolls.
 	[Cannot use a Shield.]</description>
@@ -1092,6 +1092,27 @@ Before moving the Ringbearer in the Move phase:
 [Model&apos;s Might points may be used to affect the roll.]
 [Move cannot cause harm to model.]
 [Model cannot be moved off the table.]</description>
+    </rule>
+    <rule id="905a-5387-ffb9-a71c" name="Glamdring (Active)" book="Armies of The Lord of the Rings" page="11" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
+    </rule>
+    <rule id="5d35-45bd-6414-7351" name="Narya (Passive)" book="Armies of The Lord of the Rings" page="11" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Gandalf can re-roll his dice when using Fate points</description>
+    </rule>
+    <rule id="0d45-0527-2f0a-99e5" name="Horn of Gondor (Active)" book="Armies of The Lord of the Rings" page="11" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1866,13 +1887,76 @@ Before moving the Ringbearer in the Move phase:
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Can be put on during Movement phase - causing wearer to become Invisible.
-Must pass Courage test to remove the Ring during the Movement phase.
-[Cannot put on and remove the Ring in the same Turn.]
-[Suffers Sauron&apos;s Will while wearing the Ring.]
-[If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Can be put on during Movement phase - causing wearer to become Invisible. Must pass Courage test to remove the Ring during the Movement phase. [Cannot put on and remove the Ring in the same Turn.] [Suffers Sauron&apos;s Will while wearing the Ring.] [If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
       </characteristics>
+    </profile>
+    <profile id="bd94-68e6-83fe-67bf" name="Iron-shod Hooves" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+      </characteristics>
+    </profile>
+    <profile id="233f-8b24-df80-0147" name="Dagger" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="e53d-636e-67e5-2b88" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="74ae-121c-0bd8-5794" name="Glamdring" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="b524-44ae-21e4-e237" name="Narya" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="5313-28b7-46b7-316e" name="Staff of Power" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="86a4-eac9-c4d7-a714" name="Sword" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="2f19-6598-d0e2-409c" name="Horn of Gondor" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="c7f5-6d10-a0ea-80e2" name="Armour" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
     </profile>
   </sharedProfiles>
 </gameSystem>
