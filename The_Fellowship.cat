@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -196,6 +196,13 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="8db6-5d2f-df6b-954e-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d665-7645-ef9f-6580" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -468,7 +475,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c63-a485-f133-5b28" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="daab-bb28-4311-fe81-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="959e-c09f-3cce-5d9c" name="New CategoryLink" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="50f0-6923-dc44-024b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -730,6 +744,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f139-3d11-8eee-1161" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="536a-23e1-fe24-1bb2" name="Armour" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
@@ -982,6 +1003,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2d01-3554-da24-031c" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9a3b-41fb-fad3-c19f" name="Elf Bow" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
@@ -1111,7 +1139,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1193,6 +1223,13 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="5043-888d-7cb9-f8e4-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc64-855b-2194-2e03" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1456,6 +1493,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c912-3013-c786-3ed7" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="53b7-123a-2556-47b3" name="Heavy Dwarf armour" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
@@ -1690,6 +1734,13 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5312-b792-a07e-14ac" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2b68-663a-6c0b-705f" name="Elven cloak" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
@@ -1834,6 +1885,13 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ac70-b00f-9a18-620b" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="540c-0b53-437d-5ba2" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
@@ -1972,6 +2030,13 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       </constraints>
       <categoryLinks>
         <categoryLink id="fba6-0196-30de-6672-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6229-c615-b384-fa49" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

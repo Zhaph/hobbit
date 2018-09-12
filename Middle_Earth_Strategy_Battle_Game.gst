@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="1" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="2" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -111,6 +111,34 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="c071-e634-3220-08c1" name="Hero of Valour" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1061-1aac-497f-b099" name="Minor Hero" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5eb3-b9e6-c93e-565c" name="Hero of Legend" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1f78-9582-22d3-2a4c" name="Hero of Fortitude" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="80c5-b61b-d209-b3a1" name="Warband" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false">
@@ -126,7 +154,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="80c5-b61b-d209-b3a1-8e06-cb8f-41c0-09a4" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
