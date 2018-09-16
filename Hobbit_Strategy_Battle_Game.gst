@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="14" battleScribeVersion="2.01" authorName="Christian Sørup Jensen, Matthew Hastings" authorContact="christiansorup@me.com, M-J-Hastings@users.noreply.github.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="15" battleScribeVersion="2.01" authorName="Christian Sørup Jensen, Matthew Hastings" authorContact="christiansorup@me.com, M-J-Hastings@users.noreply.github.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -466,13 +466,15 @@ If not in base contact with another enemy, wielder contributes an Attack to the 
 [Heros can use Might as usual.]
 [Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
     </rule>
-    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey" page="69" hidden="false">
+    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="Rules Manual" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
+      <description>Hand and a half Staff
+
 Wielder can use &apos;Stun&apos;.
+
 Wielder can expend 1 Will each turn without depleting Will.</description>
     </rule>
     <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
@@ -2114,6 +2116,17 @@ If they win the Fight they can make a single Strike against every enemy model en
       <characteristics>
         <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="8cba-6772-d325-8cf7" name="New Profile" book="Rules Manual" page="98" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Targets one enemy model within range. The target immediately suffers a Strength 6 hit."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The target instead suffers the effects of the Set Ablaze special rule."/>
       </characteristics>
     </profile>
   </sharedProfiles>
