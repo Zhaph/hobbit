@@ -2106,7 +2106,7 @@ If they win the Fight they can make a single Strike against every enemy model en
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="6"/>
       </characteristics>
     </profile>
-    <profile id="26e5-0226-f23c-ed5e" name="Uruk-Hai Bow" book="Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="729d-ec76-94ea-0536" name="Uruk-Hai Bow" book="Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -2914,7 +2914,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3fb2-7e00-922e-d5fc" name="Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2965,7 +2967,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="49bb-ab2e-8455-df74" name="Two-handed Axe" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2981,6 +2985,36 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a5-db7e-bf1c-873e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d554-ed71-3472-cea1" name="Uruk-Hai Bow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="89ff-3533-c2e0-fad1" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="698b-c506-858d-74d4" name="Orc Bow" hidden="false" targetId="2c9f-4686-0c96-3d17" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="cb17-d220-ae02-7598" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca1-0fa0-2e3c-36f8" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
