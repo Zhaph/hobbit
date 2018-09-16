@@ -2475,7 +2475,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="14a8-0d31-bdac-eef9" name="Orc Bow" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="14a8-0d31-bdac-eef9" name="Orc Bow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2505,7 +2505,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1840-8e69-a979-b24d" name="Shield" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1840-8e69-a979-b24d" name="Shield" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2528,7 +2528,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a845-c33c-a3e4-a687" name="Horse" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a845-c33c-a3e4-a687" name="Horse" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2551,11 +2551,11 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db74-7405-8f9b-a078" name="Shield (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="db74-7405-8f9b-a078" name="Shield (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="4510-1d35-677f-f6f4" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+        <infoLink id="4510-1d35-677f-f6f4" name="Shields, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2574,7 +2574,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2597,7 +2597,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53cc-99a1-f6d0-0a6b" name="Crossbow (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="53cc-99a1-f6d0-0a6b" name="Crossbow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2620,7 +2620,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b15-0e1c-a651-9bfb" name="Heavy Armour" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2b15-0e1c-a651-9bfb" name="Heavy Armour" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2651,7 +2651,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9aa-3a82-ef59-8710" name="Orc Bow (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f9aa-3a82-ef59-8710" name="Orc Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2680,7 +2680,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9295-5fd4-b935-599d" name="Two-handed weapon (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9295-5fd4-b935-599d" name="Two-handed weapon (Hero)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2703,7 +2703,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c720-f789-b6ed-42dc" name="Banner" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c720-f789-b6ed-42dc" name="Banner" book="Rules Manual" page="89" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2726,7 +2726,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="753b-d26d-4097-dd7b" name="Crossbow" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="753b-d26d-4097-dd7b" name="Crossbow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2750,7 +2750,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2779,7 +2779,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a09-6316-781c-379d" name="Warg (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0a09-6316-781c-379d" name="Warg (Hero)" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2802,7 +2802,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f63-394b-dfff-5c53" name="Armour" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f63-394b-dfff-5c53" name="Armour" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2833,7 +2833,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4701-5e25-c80b-c38c" name="Heavy Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4701-5e25-c80b-c38c" name="Heavy Armour (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2864,7 +2864,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f107-114d-724c-1c72" name="Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f107-114d-724c-1c72" name="Armour (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2893,6 +2893,101 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95cf-f63a-7ae0-e297" name="Shield (Lurtz)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="df56-be64-2e09-7636" name="Shields, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531e-dae8-5bb4-0b08" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3fb2-7e00-922e-d5fc" name="Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0d8a-7732-f74e-0473" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="33d4-0d72-cc85-f2d5" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="52cc-ab55-fcf7-c2e1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eba-c1fa-74cf-c4e0" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d32-8903-856f-7da8" name="Two-handed Axe (Hero)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6053-9184-ae42-51e0" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec5-dbe2-8d0d-5b7b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="49bb-ab2e-8455-df74" name="Two-handed Axe" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3585-18c3-5526-0e5e" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a5-db7e-bf1c-873e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
