@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="2" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -222,7 +222,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5421-111d-caed-c52b" name="Lurtz" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
@@ -469,7 +469,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -647,7 +647,8 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Dagger] Whenever a Hero in base to base contact resolves a Strike against Sharku and fails to Wound, immediately resolve one Strength 4 Strike against that model."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Dagger]
+Whenever a Hero in base to base contact resolves a Strike against Sharku and fails to Wound, immediately resolve one Strength 4 Strike against that model."/>
           </characteristics>
         </profile>
       </profiles>
@@ -691,24 +692,17 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0dd0-aaca-3040-c698" name="Warg" hidden="false" collective="false" type="upgrade">
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="14e1-390e-2d7d-fe3b" name="Warg" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed9-dfb9-5b71-9221" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67d-ba3c-ef73-e825" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
+        </entryLink>
         <entryLink id="e546-ca88-8386-7d7f" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -773,40 +767,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9b74-04c1-f522-9dcb" name="Crossbow" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd3-8b9c-faa8-f03e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1443-5f4f-ffa9-1a63" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-        <selectionEntry id="1b9d-d1a1-b011-8344" name="Armor" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e6e-f864-2cc5-5d33" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34c-148e-a4f4-fc86" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
+        <entryLink id="f4eb-e833-234f-2061" name="Armour (Hero)" hidden="false" targetId="f107-114d-724c-1c72" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b19-80bd-c7f3-e065" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab4-3bbc-59de-9196" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
         <entryLink id="a489-1d31-3a71-79d2" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -815,6 +789,17 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c8-3c2b-70d5-429c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc77-caad-06e7-fd62" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c9a-21dc-cae2-373f" name="Crossbow (Hero)" hidden="false" targetId="53cc-99a1-f6d0-0a6b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4821-3dd9-f63c-bb6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef13-8805-6eb7-fb38" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1160,7 +1145,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="efcd-026f-0d39-bcff">
+        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1188,9 +1173,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="3847-f457-1a81-2bc2" name="Pick" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1224,9 +1207,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1318,7 +1299,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="86bc-7fae-4140-fd36" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="ee7a-f94e-2e06-bb93" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1328,7 +1309,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="f5a2-99f6-e78c-7514">
+        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1890,7 +1871,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c242-c2d6-0afb-d1e0" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="a526-d7fc-3ab1-603a">
+        <selectionEntryGroup id="c242-c2d6-0afb-d1e0" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1932,15 +1913,13 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ffd8-bdeb-f88f-a80c" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="6d70-fe8a-0a29-97cd">
+        <selectionEntryGroup id="ffd8-bdeb-f88f-a80c" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1968,9 +1947,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="6d70-fe8a-0a29-97cd" name="Sword" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1989,9 +1966,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2063,7 +2038,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="7c15-978f-6414-88ae">
+        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2345,9 +2320,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="50f0-9816-f2f6-98c4" name="Throwing Spears" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2502,7 +2475,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7ed9-b1f3-9674-d16e" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="2994-029e-61fb-1f32">
+        <selectionEntryGroup id="7ed9-b1f3-9674-d16e" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2530,9 +2503,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="24f9-d27e-05af-d227" name="Pick" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2566,9 +2537,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3813,7 +3782,9 @@ If killed brand is extinguished</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Hand and a Half] [Sword] If the Berserker wins a fight with this weapon while using it with two hands it may choose to either strike as normal or do one Strength 4 hit at +1 to wound on every model Engaged in the fight or supporting the Berserker and in base contact (friend or foe) "/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Hand and a Half] [Sword]
+If the Berserker wins a fight with this weapon while using it with two hands it may choose to either strike as normal or do one Strength 4 hit at +1 to wound on every model Engaged in the fight or supporting the Berserker and in base contact (friend or foe)
+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3825,9 +3796,7 @@ If killed brand is extinguished</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
