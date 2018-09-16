@@ -1149,6 +1149,54 @@ Before moving the Ringbearer in the Move phase:
       <modifiers/>
       <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
     </rule>
+    <rule id="ff15-bfa5-0fbe-8d69" name="Bash" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
+Models roll a further d6 + Strength. Basher adds 1 if weapon is two-handed.
+If Basher&apos;s total is equal or greater the opponent is immediately knocked Prone.</description>
+    </rule>
+    <rule id="0323-43c0-7d90-9afa" name="Piercing Strike" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to use piercing strike before the duel roll.
+If they win add 1 to the strength when they Strike.
+If they lose reduce their Defense by D3 when Strikes are made against them.</description>
+    </rule>
+    <rule id="fea0-062b-ad68-36d1" name="Feint and Stab" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Feint [Fight is equal or higher to opponent&amp;apos;s]
+Reduce fight by D3.
+If Feinting model wins the Duel roll they reroll any 1&apos;s to wound.
+
+ Stab [Fight less than opponent&amp;apos;s]
+May reroll 1&apos;s to wound if they win the duel roll.
+If they lose the duel roll they immediately suffer a Strength 2 hit after the fight is resolved.</description>
+    </rule>
+    <rule id="8364-37bf-b721-69df" name="Stun" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
+Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+ and 1 attack until the end of the following turn.</description>
+    </rule>
+    <rule id="70e8-37f0-5865-4c09" name="Whirl" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to Whirl.
+Reduce Fight to 1, after modifiers, for the duration of the duel.
+If they win the Fight they can make a single Strike against every enemy model engaged in the Fight.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1890,7 +1938,7 @@ Before moving the Ringbearer in the Move phase:
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="f445-6e33-8080-83b6" name="Urak-hai bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="f445-6e33-8080-83b6" name="Uruk-hai bow" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
