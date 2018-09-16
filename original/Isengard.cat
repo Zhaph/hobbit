@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -11,7 +11,14 @@
 Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Hai Scouts gain the Woodland Creature special rule.</description>
     </rule>
   </rules>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="7da4-c47a-27ea-02c5" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -163,6 +170,13 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="636f-febd-3a78-4982" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="09f0-db0a-d229-ccff" name="Staff of Power" hidden="false" collective="false" type="upgrade">
@@ -247,6 +261,13 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ae1e-0019-1c59-3675" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b4da-5db6-fbc5-3164" name="Armour" book="The Fallen Realms" page="17" hidden="false" collective="false" type="upgrade">
@@ -308,7 +329,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
     </selectionEntry>
     <selectionEntry id="a4ad-e00c-f84a-1109" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0f90-5716-a045-308d" name="Ugluk" book="The Fallen Realms" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0f90-5716-a045-308d" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -329,12 +350,12 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
         </profile>
       </profiles>
       <rules>
-        <rule id="83fe-b049-e290-7d5c" name="Head Taker" book="The Fallen Realms" page="17" hidden="false">
+        <rule id="83fe-b049-e290-7d5c" name="Head Taker" book="Armies of The Lord of the Rings" page="169" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Instead of rolling the dice to make a Courage test when the Evil force is Broken, Ugluk can remove any Evil model in base contact from play. If he does this, Ugluk is considered to have passed his Courage test and his Stand Fast! has a range of 12&quot;/28cm.</description>
+          <description>Should Ugluk&apos;s force be broken, Ugluk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Ugluk and remove it as a casualty. Furthermore, in a turn that Ugluk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -350,48 +371,42 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8491-23b6-8532-aa2e" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="fe95-c018-5eb2-9ff1" name="Wargear" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c898-2a4a-e97c-09a4" name="Armour" hidden="false" targetId="8f63-394b-dfff-5c53" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4e4-849e-a5ec-4f4e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d74-2a09-5e87-47dc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="053c-622c-0d5c-fa60" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5387-eec0-f0cb-0272" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="b94e-7834-386f-188e" name="Armour" book="The Fallen Realms" page="17" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab30-fe22-7cd9-b679" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa55-a6a9-9d90-4214" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+        <entryLink id="e144-d217-235a-1607" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-6624-b06b-5cc5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac3-c0cc-d156-6d54" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24ea-6830-d187-3d84" name="Grima Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="false" collective="false" type="model">
@@ -454,6 +469,13 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -491,7 +513,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
@@ -505,22 +527,22 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </profile>
       </profiles>
       <rules>
-        <rule id="a4e4-9c22-2a07-40e1" name="Mighty Blow" book="The Fallen Realms" page="18" hidden="false">
+        <rule id="c2ee-c1f2-0efe-ae63" name="Lord of Dunland" book="The Armies of the Lord of the Rings" page="171" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>For each successful roll To Wound in close combat, he inflicts 2 Wounds rather than 1. Fate rolls can be made against both of these Wounds as normal.</description>
-        </rule>
-        <rule id="c2ee-c1f2-0efe-ae63" name="Lord off Dunland" book="The Fallen Realms" page="18" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The range of Thrydan&apos;s Stand Fast! is 12&apos;/28cm.</description>
+          <description>The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6fcd-93d2-076e-a0a5" name="Mighty Blow (Active)" hidden="false" targetId="0583-e3c4-79c5-3827" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16fe-d58f-d0f9-f1bd" type="max"/>
@@ -533,79 +555,66 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a5e4-edf6-32fc-3251" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3e98-f39c-d7f0-7268" name="Wargear" book="The Fallen Realms" page="18" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b8b4-1987-9fd1-05a9" name="Armour" hidden="false" targetId="8f63-394b-dfff-5c53" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf1-d96f-816a-461d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f18-5d71-a21a-197f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e8a-d89e-e464-f6c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc4-15b2-d570-be9f" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="4b99-9691-fa48-e2c9" name="Armour" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="207f-7eaa-7fc7-3e75" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f3-7ed3-6865-4d43" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b919-ce1b-6cf3-987b" name="Two-handed weapon" book="The Fallen Realms" page="18" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a71-7e4c-9de0-2f86" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1908-7723-c3db-b035" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="1357-54fc-45a0-e08d" name="New EntryLink" hidden="false" targetId="a845-c33c-a3e4-a687" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+        <entryLink id="936f-59b3-dcf0-4072" name="Two-handed Axe (Hero)" hidden="false" targetId="9d32-8903-856f-7da8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd40-2b2c-2b24-2d0c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1689-efe2-f149-633c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d32b-f0de-280f-b8d9" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6573-a352-ec54-e817" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f8-558c-8713-f66b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4d23-f765-ed1a-c1de" name="Horse" hidden="false" targetId="a845-c33c-a3e4-a687" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5656-a274-79cd-0f03" name="Sharku" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5c6a-5c7b-63d2-f194" name="Sharku" book="The Fallen Realms" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="5c6a-5c7b-63d2-f194" name="Sharku" book="Armies of the Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -619,7 +628,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -630,6 +639,16 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+          </characteristics>
+        </profile>
+        <profile id="abb6-5bac-5bb2-3bde" name="Riding Dagger" book="Armies of the Lord of the Rings" page="170" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Dagger]
+Whenever a Hero in base to base contact resolves a Strike against Sharku and fails to Wound, immediately resolve one Strength 4 Strike against that model."/>
           </characteristics>
         </profile>
       </profiles>
@@ -647,37 +666,26 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1211-9466-dd5c-f9d3" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4057-152d-4e67-a155" name="Wargear" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="efd5-55ac-570f-86c5" name="Armour" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d08-b762-843c-71c0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f0-34c7-5f85-0d2c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d6a-edcb-fa3d-d8ac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ea-6707-6073-c957" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="3209-1377-e792-8fbb" name="Armour" book="The Fallen Realms" page="18" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6417-eb00-3399-7a4e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="423e-bf39-a40a-6f85" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
@@ -687,7 +695,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="14e1-390e-2d7d-fe3b" name="New EntryLink" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
+        <entryLink id="14e1-390e-2d7d-fe3b" name="Warg" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -695,7 +703,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e546-ca88-8386-7d7f" name="New EntryLink" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="e546-ca88-8386-7d7f" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -705,12 +713,12 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19d7-76d9-79a9-5902" name="Vrasku" book="Armies of The Lord of the Rings" page="65" hidden="false" collective="false" type="model">
+    <selectionEntry id="19d7-76d9-79a9-5902" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1fa3-df5a-6661-a2cf" name="Vrasku" book="The Fallen Realms" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1fa3-df5a-6661-a2cf" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -730,16 +738,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="a549-cdab-6c13-0d1b" name="Expert Shot" book="The Fallen Realms" page="19" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="d478-d9cf-74f2-1440" name="Expert Shot (Active)" hidden="false" targetId="1796-7001-bd0a-699b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Vrasku can shoot his specially modified crossbow twice in the Shooting phase instead of just once.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e8-6332-eaf0-0489" type="max"/>
@@ -752,65 +759,53 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="278b-c881-2d3f-c914" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b743-f52c-e3c6-6c78" name="Wargear" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f4eb-e833-234f-2061" name="Armour (Hero)" hidden="false" targetId="f107-114d-724c-1c72" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b4c-3c90-1f9f-8c58" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f87b-9bd5-be20-0f1a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b19-80bd-c7f3-e065" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab4-3bbc-59de-9196" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="6316-aa2d-8c3f-6cec" name="Crossbow" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b11b-156c-16c5-6646" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ff4-e89e-f7bb-3797" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bc08-0ecd-960a-3401" name="Armour" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8a-06f3-0d51-5e99" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d00-11c7-f3b6-fbca" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+        <entryLink id="a489-1d31-3a71-79d2" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c8-3c2b-70d5-429c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc77-caad-06e7-fd62" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c9a-21dc-cae2-373f" name="Crossbow (Hero)" hidden="false" targetId="53cc-99a1-f6d0-0a6b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4821-3dd9-f63c-bb6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef13-8805-6eb7-fb38" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="503e-5a17-2d47-3837" name="Uruk-hai Captain" book="Armies of The Lord of the Rings" page="172" hidden="false" collective="false" type="model">
@@ -862,6 +857,13 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <constraints/>
       <categoryLinks>
         <categoryLink id="503e-5a17-2d47-3837-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="db1f-0452-b114-b293" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -945,7 +947,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="3ddb-e29e-74c9-4338" name="Uruk-hai Shaman" book="Armies of The Lord of the Rings" page="173" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="60d6-a959-535f-dc3c" name="Uruk-hai Shaman" book="The Fallen Realms" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="60d6-a959-535f-dc3c" name="Uruk-hai Shaman" book="Armies of the Lord of the Rings" page="173" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -953,7 +955,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="3ddb-e29e-74c9-4338" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd04-27b3-e007-2862" type="equalTo"/>
+                <condition field="selections" scope="3ddb-e29e-74c9-4338" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3445-5e06-e440-e8fc" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -972,29 +974,42 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
-        <profile id="18cf-5823-3aec-4034" name="Transfix" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="18cf-5823-3aec-4034" name="Transfix" book="Armies of the Lord of the Rings" page="173" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bef5-5402-ace8-437f" name="Fury" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bef5-5402-ace8-437f" name="Fury (Isengard Uruk-hai)" book="Armies of the Lord of the Rings" page="173" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;/14cm"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="a703-50b8-06e0-3b62" name="Fury" hidden="false" targetId="2b9f-9d60-2bce-8c5d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a251-69f2-e231-4bc6" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1005,69 +1020,51 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="402d-9949-954d-8eab" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="01c0-fb6e-0083-8036" name="Wargear" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4b6a-e600-4572-4eb6" name="Spear" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71c4-a933-850e-fe2b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a755-2ac9-0829-41fe" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="faa3-9ed4-1496-3400" name="Spear" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e345-16f7-a000-c3c6" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4844-5b66-e889-924b" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fd04-27b3-e007-2862" name="Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a63-a5b1-3de2-9c7e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa9b-091b-5fc5-0554" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6386-e681-7d7f-4fe2" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3445-5e06-e440-e8fc" name="Armour (Hero)" hidden="false" targetId="f107-114d-724c-1c72" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1981-9102-6a36-509a" name="Orc Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="42e8-8a1f-2234-f978" name="Orc Captain" book="The Fallen Realms" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="42e8-8a1f-2234-f978" name="Orc Captain" book="The Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1078,6 +1075,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b4f-8fa3-fbf1-53dc" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7728-4efe-f9e1-42ce" type="equalTo"/>
+                    <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b4f-8fa3-fbf1-53dc" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1107,37 +1117,26 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0b30-361e-308c-4e0f" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c065-d2d2-ae6f-48a7" name="Wargear" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f3d2-6c76-28ff-6eea" name="Armour" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a4-e202-7028-85e7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a4-a7c7-fdfb-aff2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a772-f9f0-aff2-5d65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd98-89a9-2513-237e" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="8145-3c03-e26a-65e5" name="Armour" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f88f-4d07-1786-9301" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b50-b441-1181-7a94" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
@@ -1145,9 +1144,78 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a437-fe76-8cfd-dd0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3816-9c5f-fe7f-33bd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="efcd-026f-0d39-bcff" name="Sword" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b682-076a-44bd-ed87" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="3847-f457-1a81-2bc2" name="Pick" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="60c9-f1a5-13ac-6140" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="18aa-757f-f1ac-4e1d" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="45e2-6bce-da0d-3dfb" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1581-b609-96cd-e362" name="New EntryLink" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
+        <entryLink id="1581-b609-96cd-e362" name="Warg" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1155,7 +1223,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7728-4efe-f9e1-42ce" name="New EntryLink" hidden="false" targetId="f9aa-3a82-ef59-8710" type="selectionEntry">
+        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow (Hero)" hidden="false" targetId="f9aa-3a82-ef59-8710" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1163,7 +1231,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5b4f-8fa3-fbf1-53dc" name="New EntryLink" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1211,7 +1279,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e99e-4ba0-3a65-6daa-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="8c68-dc7d-c7ec-d7c8" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86bc-7fae-4140-fd36" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1335,6 +1410,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a255-be88-f619-6113" type="equalTo"/>
+                    <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="13a0-7d25-64b4-8402" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
@@ -1382,7 +1470,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="13a0-7d25-64b4-8402" name="New EntryLink" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
+        <entryLink id="13a0-7d25-64b4-8402" name="Orc Bow" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1396,6 +1484,25 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a0aa-a8d2-dc1e-ea63" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="deb5-003e-ffb5-1dad" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b672-a813-65d6-b715" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a91-6cac-ed53-6f8c" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1540,16 +1647,16 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="d541-2516-f9e2-446c" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5254-5d30-3787-c6b3" name="Uruk-hai Berserker" book="The Fallen Realms" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="5254-5d30-3787-c6b3" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
@@ -1557,8 +1664,23 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="08a4-268c-fdb4-eae2" name="Impervious to Bow-fire" book="Armies of The Lord of the Rings" page="176" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model is Defence 6 when an enemy model makes a shooting attack against them.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1829-53b0-dee0-2038" name="Oblivious to Pain" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1570,27 +1692,21 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7dfb-700e-b842-1f09" name="Two-handed weapon" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="694f-3f14-54ce-730f" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d9-e1f3-34f3-58f5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9506-51a1-5c5a-7583" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a7-eb8e-e297-53d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e82f-640c-d5a6-12bf" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -1615,7 +1731,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="3b01-090d-ed6d-b7d0" name="Oblivious to Pain" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1658,7 +1781,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3753-75e8-490c-86db" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a526-d7fc-3ab1-603a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="6/5+"/>
@@ -1670,18 +1801,26 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules>
-        <rule id="f050-618c-759a-2242" name="Throw Stones" book="The Fallen Realms" page="22" hidden="false">
+        <profile id="3a8d-24d0-200b-ea70" name="Throw Stones" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If the Troll does not move at all, he can throw a stone in the subsequent Shoot phase. This works exactly like a crossbow with a range of 12&quot;/28cm and a Strength of 8.</description>
-        </rule>
-      </rules>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
       <infoLinks>
         <infoLink id="9fdd-4f65-67bc-903b" name="Terror" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f356-c480-6903-bfb0" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1718,10 +1857,112 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c242-c2d6-0afb-d1e0" name="Choose One" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54bb-b788-8c8c-25ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0f-fb6e-d227-d3af" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="85fa-f19a-7b82-b9a2" name="War Drum" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a526-d7fc-3ab1-603a" name="Shield" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="8547-b9f4-c804-f864" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ffd8-bdeb-f88f-a80c" name="Choose One" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f35-1823-50f0-84c8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7827-fb6c-c5b2-f41a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="6a16-1b2c-639d-f9e8" name="Spear" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="83d5-92b2-ee52-26da" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="6d70-fe8a-0a29-97cd" name="Sword" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="562d-8a6e-2ddf-596d" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="105.0"/>
+        <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b6c9-0a89-43e2-93c3" name="Dunlending Warrior" book="Armies of The Lord of the Rings" page="177" hidden="false" collective="false" type="model">
@@ -1891,7 +2132,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="7b79-e9ea-e829-82be" name="Wild Man of Dunland" book="Armies of The Lord of the Rings" page="177" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6faf-8793-1897-dfff" name="Wild Man of Dunland" book="The Fallen Realms" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="6faf-8793-1897-dfff" name="Wild Man of Dunland" book="Armies of The Lord of the Rings" page="177" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1909,7 +2150,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d868-b8ff-3a89-14ee" name="Hatred (Active)" hidden="false" targetId="941e-348f-26c0-f0a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="Rohan">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1921,26 +2175,50 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b1d2-70b3-7116-036c" name="Two-handed weapon" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0410-7bce-2af0-5e4c" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="ae77-f0cf-148f-6bd0">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="300a-9131-fa72-779d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a4-d810-18ea-1d1e" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6574-75d4-e3a4-18f9" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+          <entryLinks>
+            <entryLink id="5fbf-104c-7bfc-115a" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ae77-f0cf-148f-6bd0" name="Axe" hidden="false" targetId="6496-3398-5abf-5e52" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="86f5-8c33-087a-a64f" name="Two-handed Axe" hidden="false" targetId="49bb-ab2e-8455-df74" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -1958,6 +2236,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b7c-1c3e-6666-6583" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b7c-1c3e-6666-6583" type="equalTo"/>
+                    <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3efc-dabb-dc4b-79f9" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -2016,30 +2307,35 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
-        <selectionEntry id="3410-22a3-86cd-2ff6" name="Throwing spears" book="The Fallen Realms" page="23" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="50f0-9816-f2f6-98c4" name="Throwing Spears" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7ffb-2999-5c65-42ee" name="Throwing Spear" hidden="false" targetId="51fb-64c4-c26f-144a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d633-d793-ddf3-8c81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5136-caf6-89f9-1d58" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
+            <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3efc-dabb-dc4b-79f9" name="New EntryLink" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
+        <entryLink id="3efc-dabb-dc4b-79f9" name="Orc Bow" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2047,7 +2343,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3b7c-1c3e-6666-6583" name="New EntryLink" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="3b7c-1c3e-6666-6583" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2055,12 +2351,23 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="057b-c823-f4f9-80a0" name="New EntryLink" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="057b-c823-f4f9-80a0" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fdfd-e5a3-c727-be4c" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a7e-2b37-64dd-250f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1db-9797-06f2-2693" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2081,6 +2388,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 <condition field="selections" scope="6813-a07c-7148-8203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fc7-ccb5-f74c-66a9" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="6813-a07c-7148-8203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fc7-ccb5-f74c-66a9" type="equalTo"/>
+                    <condition field="selections" scope="6813-a07c-7148-8203" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c633-8069-1eda-cce1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -2107,6 +2427,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="850e-a2ee-3eeb-1215" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3173-ef8f-7774-0855" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7901-3041-0f79-a40b" name="Armour" hidden="false" collective="false" type="upgrade">
@@ -2126,42 +2460,79 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6cf7-6b34-ae33-e7f3" name="Spear" book="The Fallen Realms" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="454c-bec5-0039-af3d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9d0f-c165-5e0a-afd4" name="Two-handed weapon" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da93-4485-66e3-9ce8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ed9-b1f3-9674-d16e" name="Choose One" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95cd-ee43-d30e-04f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a7-5cc5-0076-0e6b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="2994-029e-61fb-1f32" name="Sword" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cc05-e72b-e330-4f1f" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="24f9-d27e-05af-d227" name="Pick" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1e8c-b7e4-0e79-577c" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="6a8c-d98c-5cca-3f3c" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="bdc7-e874-3f5e-cfbd" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c633-8069-1eda-cce1" name="New EntryLink" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
+        <entryLink id="c633-8069-1eda-cce1" name="Orc Bow" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2169,7 +2540,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4fc7-ccb5-f74c-66a9" name="New EntryLink" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="4fc7-ccb5-f74c-66a9" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2177,7 +2548,23 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b9e5-b003-cc56-e094" name="New EntryLink" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="b9e5-b003-cc56-e094" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="82a9-09f3-ed17-c34e" name="Two-handed weapon (Hero)" hidden="false" targetId="9295-5fd4-b935-599d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ab4-032f-5608-4529" name="Spear" hidden="false" targetId="9876-d639-a1ae-fea7" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2187,7 +2574,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="8.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e965-5c8e-fcac-349f" name="Isengard Assault Ballista" book="Armies of The Lord of the Rings" page="179" hidden="false" collective="false" type="model">
@@ -2246,7 +2633,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="85.0"/>
+            <cost name="pts" costTypeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a56-60e5-4877-8f38" name="Superior construction" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
@@ -2263,20 +2650,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ea8e-9549-2668-a57c" name="Flaming ammunition" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="5a95-7088-d0ea-cae4" name="Additional Warrior Crew" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -2288,7 +2661,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2300,7 +2673,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="893f-e179-37e8-f697" name="Uruk-hai Demolition Team" book="Armies of The Lord of the Rings" page="80" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5fca-ee7b-7b56-c28f" name="Uruk-hai Demolition Team" book="The Fallen Realms" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="5fca-ee7b-7b56-c28f" name="Demolition Charge" book="Armies of The Lord of the Rings" page="178" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2319,14 +2692,88 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules>
-        <rule id="38aa-036f-35e7-adb0" name="Uruk-hai Demolition Team" hidden="false">
+        <profile id="5230-6f55-e364-e89a" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>See The Fallen Realms book p24 for the full rules.</description>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+          </characteristics>
+        </profile>
+        <profile id="6d22-59d5-1898-94a7" name="Uruk-hai Demolition Team" book="Armies of The Lord of the Rings" page="175" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&apos;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0555-aa27-8810-10bc" name="Attacking the Charge" book="Armies of the Lord of the Rings" page="178" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If the charge is wounded roll a d6 per wound, a 6 it detonates.
+A demolition charge wounded by another charge will detonate on a 4+ per wound suffered.
+If reduced to 0 wounds without detonating the charge is removed from play.
+An enemy model that spends a turn in base to base and unengaged may disable the charge, remove it from play.</description>
+        </rule>
+        <rule id="1e83-d14e-04e3-2326" name="Desperate Detonations" book="Armies of the Lord of the Rings" page="178" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An unengaged model in base to base and without a Brand may try to detonate the charge at the beginning of the Fight phase.
+Pass a courage test, roll a D6 for each model trying to detonate the charge. On a 6 the charge detonates, roll on the table.</description>
+        </rule>
+        <rule id="6e33-9967-d1ff-2534" name="Detonating the Charge" book="Armies of the Lord of the Rings" page="178" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Must be dropped.
+Un-engaged model with Flaming Brand in base contact with the charge can detonate at start of Fight phase.
+Pass courage test and roll on Detonation Table.
+Strikes everything within 2&quot;.
+Each target struck takes d6 wounds regardless of defence.
+Cavalry takes d6 on mount and rider.
+
+</description>
+        </rule>
+        <rule id="78d6-478f-6bdd-428d" name="Moving the Charge" book="Armies of the Lord of the Rings" page="178" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>[Heavy Object]
+[Can&apos;t be carried by Mounted Models]</description>
+        </rule>
+        <rule id="3189-9862-a682-6564" name="Detonation Table" book="Armies of the Lord of the Rings" page="178" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>1: Dud, no detonation, remove from play.
+2-5: Instant Reaction, detonates normally.
+6: Titanic Explosion, deals 2d6 wounds instead of d6</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2341,26 +2788,36 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a2a9-132a-8720-3bff" name="One or Both Uruk-ha can have a flaming brand, providing that they do not have shields" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="213e-2e5d-8d04-4a0e" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a33c-216b-69d6-52dc" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d8be-7e4b-6857-a547" name="Flaming Brand" hidden="false" targetId="482e-fbe4-dd3e-f2f9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d4-dbce-4fa1-b7db" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d96-7a05-167e-3692" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
@@ -2414,6 +2871,13 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <constraints/>
       <categoryLinks>
         <categoryLink id="cb67-0760-4801-41f6" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5166-5325-f284-dda0" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2497,35 +2961,27 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="be2d-fda7-f080-8a69" name="Mauhur" book="Armies of Lord of the Rings" page="171" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="a72a-07d5-45ed-d56a" name="Vrasku" book="The Fallen Realms" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="a72a-07d5-45ed-d56a" name="Mauhur" book="The Armies of the Lord of the rings" page="171" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="8&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="23b1-9675-fd73-ace7" name="Expert Shot" book="The Fallen Realms" page="19" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Vrasku can shoot his specially modified crossbow twice in the Shooting phase instead of just once.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -2539,54 +2995,50 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c86d-0312-6446-082c" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="73a4-f527-b7ac-6227" name="Wargear" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d964-2e0c-11c9-bc47" name="Armour" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e8f-8298-0eaf-e2a3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f1-cb2c-4552-cc37" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb1-c9f1-8414-314b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1b-a8b6-6dd8-41d2" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="7418-36a7-9781-eaf5" name="Crossbow" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="765b-e016-77b3-ca9a" name="Two Swords" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bb3a-03d1-a4ac-2326" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab5-146e-31bd-2782" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a21-6782-b905-97dd" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ff1a-7da9-e76a-7bea" name="Armour" book="The Fallen Realms" page="19" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2321-5ad3-7f11-bd73" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6736-c8ed-cc35-6da4" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50c6-8823-a381-e761" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b577-3b62-aa78-8f98" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
@@ -3263,6 +3715,76 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9876-d639-a1ae-fea7" name="Spear" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e55c-8239-b9d1-7359" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cf-7c29-39e3-7a28" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="482e-fbe4-dd3e-f2f9" name="Flaming Brand" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="c613-bb71-0bd9-3de1" name="Flaming Brand" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Cannot use a two-handed weapon
+If killed brand is extinguished</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7814-0f35-8dab-07ea" name="Berserker Blade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ad69-2753-29ef-d6cb" name="Berserker Blade" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Hand and a Half] [Sword]
+If the Berserker wins a fight with this weapon while using it with two hands it may choose to either strike as normal or do one Strength 4 hit at +1 to wound on every model Engaged in the fight or supporting the Berserker and in base contact (friend or foe)
+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -3272,6 +3794,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <infoLinks/>
       <modifiers/>
       <description>See main rules manual for details</description>
+    </rule>
+    <rule id="d6f5-b677-b27e-5cc9" name="Oblivious to Pain" book="Armies of The Lord of the Rings" page="176" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model suffers a wound roll a D6.
+On a 6 the wound is ignored exactly as if a point of Fate had been spent.
+Not cumulative with other special rules that give the same effect.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
