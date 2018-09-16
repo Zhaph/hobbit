@@ -1320,6 +1320,54 @@ If they are Wounded, roll 1D6:
       <description>
 Fight is 3/3+</description>
     </rule>
+    <rule id="53f2-56da-9d87-6686" name="Bash" book="Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
+Models roll a further d6 + Strength. Basher adds 1 if weapon is two-handed.
+If Basher&apos;s total is equal or greater the opponent is immediately knocked Prone. </description>
+    </rule>
+    <rule id="5c28-177a-5ca7-343a" name="Feint or Stab" book="Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Feint [Fight is equal or higher to opponent&apos;s]
+Reduce fight by D3
+If Feinting model wins the Duel roll they reroll any 1&apos;s to wound
+
+Stab [Fight less than opponent&apos;s]
+May reroll 1&apos;s to wound if they win the duel roll
+If they lose the duel roll they immediately suffer a Strength 2 hit after the fight is resolved</description>
+    </rule>
+    <rule id="c3ad-70de-2d5a-6c21" name="Piercing Strike" book="Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to use piercing strike before the duel roll
+If they win add 1 to the strength when they Strike
+If they lose reduce their Defense by D3 when Strikes are made against them</description>
+    </rule>
+    <rule id="cf14-9b2e-d3ad-66a8" name="Stun" book="Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
+Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+ and 1 attack until the end of the following turn.</description>
+    </rule>
+    <rule id="f91b-c722-b03d-4ebf" name="Whirl" book="Rules Manual" page="87" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model may choose to Whirl
+Reduce Fight to 1, after modifiers, for the duration of the duel
+If they win the Fight they can make a single Strike against every enemy model engaged in the Fight</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -2056,6 +2104,16 @@ Fight is 3/3+</description>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;/20cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="6"/>
+      </characteristics>
+    </profile>
+    <profile id="26e5-0226-f23c-ed5e" name="Uruk-Hai Bow" book="Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
   </sharedProfiles>
