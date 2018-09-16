@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="13" battleScribeVersion="2.01" authorName="Christian Sørup Jensen, Matthew Hastings" authorContact="christiansorup@me.com, M-J-Hastings@users.noreply.github.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="14" battleScribeVersion="2.01" authorName="Christian Sørup Jensen, Matthew Hastings" authorContact="christiansorup@me.com, M-J-Hastings@users.noreply.github.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
