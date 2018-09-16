@@ -513,15 +513,12 @@ Enemies must pass a Courage test to Charge this model.
 	If failed, can not Charge this or any other enemy this turn.
 [May only apply to specific types of enemy, as specified in the model&apos;s profile.]</description>
     </rule>
-    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-Can Shoot in the Shoot phase.
-Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
-[Must have not Moved in the Move Phase.]</description>
+      <description>If model doesn&apos;t move at all during the move phase, then in the Shoot phase it may make a shooting attack with the Strength and ranged specified on the model&apos;s profile.</description>
     </rule>
     <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
@@ -566,15 +563,12 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
       <description>
 +1 Courage to allies.</description>
     </rule>
-    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="Rules Manual" page="107" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>
-Not slowed by wooded terrain.
-[Must still rolle to climb.]
-[Still obstructed by trees and other obstacles.]</description>
+      <description>An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn&apos;t mean they can automcatically climb terrain in those areas, nor move through tree trunks or jump fallen obstacles.</description>
     </rule>
     <rule id="041a-f7bf-59e0-f84a" name="Ancient Enemies" book="Moria &amp; Angmar" page="18" hidden="false">
       <profiles/>

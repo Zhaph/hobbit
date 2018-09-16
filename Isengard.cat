@@ -1677,11 +1677,11 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If the Troll does not move at all, he can throw a stone in the subsequent Shoot phase. This works exactly like a crossbow with a range of 12&quot;/28cm and a Strenght of 8.</description>
+          <description>If the Troll does not move at all, he can throw a stone in the subsequent Shoot phase. This works exactly like a crossbow with a range of 12&quot;/28cm and a Strength of 8.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="9fdd-4f65-67bc-903b" name="New InfoLink" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
+        <infoLink id="9fdd-4f65-67bc-903b" name="Terror" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1708,23 +1708,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="758b-745f-9008-b30e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78bf-c752-9326-bd1a" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f4ff-8276-2874-dd63" name="Shield" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7689-6a18-79f9-17d6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b548-0411-36bb-53b1" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
