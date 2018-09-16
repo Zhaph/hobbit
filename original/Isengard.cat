@@ -143,7 +143,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2465-659d-128c-bd3e" name="Flameburst" hidden="false" targetId="8cba-6772-d325-8cf7" type="profile">
+        <infoLink id="2465-659d-128c-bd3e" name="Flameburst" hidden="false" targetId="1a7e-e80c-72a1-8dfe" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -175,7 +175,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="4067-795a-6bf4-5b94" name="Stun" hidden="false" targetId="cf14-9b2e-d3ad-66a8" type="rule">
+            <infoLink id="4067-795a-6bf4-5b94" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -270,7 +270,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="7185-d495-e7b8-1bf5" name="Uruk-Hai Bow" hidden="false" targetId="729d-ec76-94ea-0536" type="profile">
+            <infoLink id="7185-d495-e7b8-1bf5" name="Uruk-hai bow" hidden="false" targetId="f445-6e33-8080-83b6" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -891,7 +891,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="103e-7eae-d45d-8f57" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+            <infoLink id="103e-7eae-d45d-8f57" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1236,13 +1236,13 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="9942-014c-5fc7-a814" name="Shields, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+                <infoLink id="9942-014c-5fc7-a814" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="1473-953e-470c-e024" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+                <infoLink id="1473-953e-470c-e024" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1263,7 +1263,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="ccac-9276-df5f-362a" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+                <infoLink id="ccac-9276-df5f-362a" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1478,7 +1478,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="b4e1-8f84-635c-6ea2" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+            <infoLink id="b4e1-8f84-635c-6ea2" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1810,7 +1810,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               </profiles>
               <rules/>
               <infoLinks>
-                <infoLink id="62d5-3004-0e16-4199" name="Feint or Stab" hidden="false" targetId="5c28-177a-5ca7-343a" type="rule">
+                <infoLink id="62d5-3004-0e16-4199" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1837,7 +1837,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="53ee-8201-3d80-467e" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+                <infoLink id="53ee-8201-3d80-467e" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2426,7 +2426,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="c4c7-bd21-900a-a158" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+            <infoLink id="c4c7-bd21-900a-a158" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3086,7 +3086,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3f77-9ab6-7fe6-2c5b" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+        <infoLink id="3f77-9ab6-7fe6-2c5b" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3115,7 +3115,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4c09-4c9d-eab1-c44d" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+        <infoLink id="4c09-4c9d-eab1-c44d" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3144,7 +3144,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="698b-c506-858d-74d4" name="Uruk-Hai Bow" hidden="false" targetId="729d-ec76-94ea-0536" type="profile">
+        <infoLink id="698b-c506-858d-74d4" name="Uruk-hai bow" hidden="false" targetId="f445-6e33-8080-83b6" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3174,7 +3174,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fa13-69db-b200-6d44" name="Uruk-Hai Bow" hidden="false" targetId="729d-ec76-94ea-0536" type="profile">
+        <infoLink id="fa13-69db-b200-6d44" name="Uruk-hai bow" hidden="false" targetId="f445-6e33-8080-83b6" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3198,7 +3198,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a87d-b0ab-0355-7c95" name="Feint or Stab" hidden="false" targetId="5c28-177a-5ca7-343a" type="rule">
+        <infoLink id="a87d-b0ab-0355-7c95" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3221,7 +3221,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="887b-f3b3-1db0-773e" name="Piercing Strike" hidden="false" targetId="c3ad-70de-2d5a-6c21" type="rule">
+        <infoLink id="887b-f3b3-1db0-773e" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3244,7 +3244,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="4b48-c408-9be5-1fe0" name="Feint or Stab" hidden="false" targetId="5c28-177a-5ca7-343a" type="rule">
+        <infoLink id="4b48-c408-9be5-1fe0" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
