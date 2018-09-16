@@ -143,6 +143,12 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="2465-659d-128c-bd3e" name="Flameburst" hidden="false" targetId="8cba-6772-d325-8cf7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -164,6 +170,12 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <rules/>
           <infoLinks>
             <infoLink id="00b7-5082-fd64-a601" name="Staff of Power" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4067-795a-6bf4-5b94" name="Stun" hidden="false" targetId="cf14-9b2e-d3ad-66a8" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -871,7 +883,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f96f-7e8f-e152-53b2" name="Sword" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -893,7 +907,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1239,7 +1255,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f5a2-99f6-e78c-7514" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1258,7 +1276,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1474,7 +1494,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1619,7 +1641,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1822,7 +1846,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7c15-978f-6414-88ae" name="Axe" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1841,7 +1867,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2431,7 +2459,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ceda-ead5-9fd4-1019" name="Armor" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2446,7 +2476,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2942,7 +2974,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4701-5e25-c80b-c38c" name="Heavy Armour (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3196,7 +3230,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6496-3398-5abf-5e52" name="Axe" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3217,7 +3253,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3482-dd91-9d15-1f47" name="Dagger" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3238,7 +3276,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
