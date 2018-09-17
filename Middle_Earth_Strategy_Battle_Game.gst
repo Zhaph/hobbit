@@ -1197,6 +1197,17 @@ Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+
 Reduce Fight to 1, after modifiers, for the duration of the duel.
 If they win the Fight they can make a single Strike against every enemy model engaged in the Fight.</description>
     </rule>
+    <rule id="29ed-f7ec-64b6-b231" name="War Drum" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Start of the Move Phase a model with a war drum may sound an Advance.
+All models with the matching keywords within 12&quot; of the drummer are affected until the end of the turn.
+Infantry +3&quot; to their movement value.
+Cavalry or models with Fly +5&quot; to their movement value.
+Affected models may not charge.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="Middle-earth Strategy Battle Game Rules Manual" page="96" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
