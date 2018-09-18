@@ -437,7 +437,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="1f86-b5a4-d8e7-7b98" name="Sword (Included)" hidden="false" targetId="c73b-a354-c1ef-22f5" type="selectionEntry">
+            <entryLink id="1f86-b5a4-d8e7-7b98" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -582,12 +582,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6099-baad-4140-7705" name="Sword (Included)" hidden="false" targetId="c73b-a354-c1ef-22f5" type="selectionEntry">
+        <entryLink id="6099-baad-4140-7705" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f49-c7ef-ec2e-c93c" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -922,7 +924,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="818d-701a-9dca-5549" name="Dagger (Included)" hidden="false" targetId="770e-2957-c8a5-ec34" type="selectionEntry">
+            <entryLink id="818d-701a-9dca-5549" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1172,12 +1174,14 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9992-444d-2237-55a1" name="Dagger (Included)" hidden="false" targetId="770e-2957-c8a5-ec34" type="selectionEntry">
+        <entryLink id="9992-444d-2237-55a1" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd4-f1fd-1f8a-6e27" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1262,12 +1266,14 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="24da-7853-1048-9d6d" name="Dagger (Included)" hidden="false" targetId="770e-2957-c8a5-ec34" type="selectionEntry">
+        <entryLink id="24da-7853-1048-9d6d" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba2-eeac-2a47-1f41" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1352,12 +1358,14 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2111-8202-8aa8-fa3e" name="Dagger (Included)" hidden="false" targetId="770e-2957-c8a5-ec34" type="selectionEntry">
+        <entryLink id="2111-8202-8aa8-fa3e" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-6ae0-d3d2-bdb1" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>

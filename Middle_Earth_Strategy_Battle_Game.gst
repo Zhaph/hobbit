@@ -416,60 +416,6 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c73b-a354-c1ef-22f5" name="Sword (Included)" book="" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7bdf-c632-39da-9eeb" name="Sword" hidden="false" targetId="86a4-eac9-c4d7-a714" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ec3d-f31c-0132-bec5" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="770e-2957-c8a5-ec34" name="Dagger (Included)" book="" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a605-48fb-b76a-6514" name="Dagger" hidden="false" targetId="233f-8b24-df80-0147" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1130-632c-1af5-7b79" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="d9d8-e687-82ce-12f5" name="Horn of Gondor" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -768,7 +714,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="40c7-a106-90b1-788d" name="Dagger (Included)" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -780,7 +728,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4c59-09ae-d019-149d" name="Sword" hidden="false" targetId="86a4-eac9-c4d7-a714" type="profile">
+        <infoLink id="4c59-09ae-d019-149d" name="Dagger" hidden="false" targetId="233f-8b24-df80-0147" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -795,7 +743,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2733,14 +2683,7 @@ Affected models may not charge.</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model moves before other models.
-[Cancelled if Charged.]
-
-With Me!
-Any friendly models within 6&quot; of the Hero&apos;s starting point may also move or forego their movement this phase.
-[Hero must complete their move first.]
-[Must finish within 6&quot; of Hero model.]
-[Cancelled if Hero flees the board.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model moves before other models. [Cancelled if Charged.]  With Me! Any friendly models within 6&quot; of the Hero&apos;s starting point may also move or forego their movement this phase. [Hero must complete their move first.] [Must finish within 6&quot; of Hero model.] [Cancelled if Hero flees the board.]"/>
       </characteristics>
     </profile>
     <profile id="0d80-0935-26df-8aea" name="Heroic Shoot" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2750,14 +2693,7 @@ Any friendly models within 6&quot; of the Hero&apos;s starting point may also mo
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Shoot"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model Shoots before other models.
-[Cannot perform when in Engaged in combat.]
-[Hero does not need to have a missile weapon.]
-
-Loose!
-Any friendly models within 6&quot; of the Hero may also shoot or forego their shots this phase.
-[Hero does not need to shoot first.]
-[Models do not have to target the same enemy.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model Shoots before other models. [Cannot perform when in Engaged in combat.] [Hero does not need to have a missile weapon.]  Loose! Any friendly models within 6&quot; of the Hero may also shoot or forego their shots this phase. [Hero does not need to shoot first.] [Models do not have to target the same enemy.]"/>
       </characteristics>
     </profile>
     <profile id="de01-9be6-dd86-07fb" name="Heroic Combat" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2767,10 +2703,7 @@ Any friendly models within 6&quot; of the Hero may also shoot or forego their sh
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model&apos;s Fight is resolved first.
-[If all enemies are slain, Hero and friendly models may move again.]
-[Additional movement may be a Charge - second fight is resolved in normal sequence.]
-[Can only benifit from Heroic Combat once per turn.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model&apos;s Fight is resolved first. [If all enemies are slain, Hero and friendly models may move again.] [Additional movement may be a Charge - second fight is resolved in normal sequence.] [Can only benifit from Heroic Combat once per turn.]"/>
       </characteristics>
     </profile>
     <profile id="08f6-6809-04d1-c1b1" name="Heroic Resolve" book="Middle-earth Strategy Battle Game Rules Manual" page="70" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2780,9 +2713,7 @@ Any friendly models within 6&quot; of the Hero may also shoot or forego their sh
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero and Friendly models within 6&quot; roll 1 extra (free) dice in resist tests.
-[Hero cannot move.]
-[Stacks with Resistant to Magic.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero and Friendly models within 6&quot; roll 1 extra (free) dice in resist tests. [Hero cannot move.] [Stacks with Resistant to Magic.]"/>
       </characteristics>
     </profile>
     <profile id="be29-1b36-f1d9-8173" name="Heroic March" book="Middle-earth Strategy Battle Game Rules Manual" page="70" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2792,16 +2723,7 @@ Any friendly models within 6&quot; of the Hero may also shoot or forego their sh
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero adds 3&quot; to Move distance.
-[+5&quot; if Cavalry or if Hero can Fly.]
-[Cannot be used to Charge.]
-[Cancelled if Charged.]
-
-At The Double!
-Any friendly models within 6&quot; of the Hero&apos;s starting point may also move 3&quot; or forego their movement this phase.
-[+5&quot; if Cavalry or if model can Fly.]
-[Hero must complete their move first.]
-[Must finish within 6&quot; of Hero model.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero adds 3&quot; to Move distance. [+5&quot; if Cavalry or if Hero can Fly.] [Cannot be used to Charge.] [Cancelled if Charged.]  At The Double! Any friendly models within 6&quot; of the Hero&apos;s starting point may also move 3&quot; or forego their movement this phase. [+5&quot; if Cavalry or if model can Fly.] [Hero must complete their move first.] [Must finish within 6&quot; of Hero model.]"/>
       </characteristics>
     </profile>
     <profile id="d100-6fbb-746d-2901" name="Heroic Channelling" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2811,8 +2733,7 @@ Any friendly models within 6&quot; of the Hero&apos;s starting point may also mo
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero uses the &quot;Channelled&quot; version of any Magical Powers.
-[Hero cannot move.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero uses the &quot;Channelled&quot; version of any Magical Powers. [Hero cannot move.]"/>
       </characteristics>
     </profile>
     <profile id="7597-d6d9-0053-2e3c" name="Heroic Accuracy" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2822,13 +2743,7 @@ Any friendly models within 6&quot; of the Hero&apos;s starting point may also mo
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Shoot"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero can re-roll failed In The Way rolls.
-[Cannot perform when in Engaged in combat.]
-[Hero does not need to have a missile weapon.]
-
-Take Aim!
-All Friendly models within 6&quot; may re-roll failed In The Way tests
-[Models do not have to target the same enemy.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero can re-roll failed In The Way rolls. [Cannot perform when in Engaged in combat.] [Hero does not need to have a missile weapon.]  Take Aim! All Friendly models within 6&quot; may re-roll failed In The Way tests [Models do not have to target the same enemy.]"/>
       </characteristics>
     </profile>
     <profile id="a76a-e803-05fc-5384" name="Heroic Strike" book="Middle-earth Strategy Battle Game Rules Manual" page="72" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2838,9 +2753,7 @@ All Friendly models within 6&quot; may re-roll failed In The Way tests
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D6 to Hero&apos;s Fight value for the duration of the Fight phase.
-[Cannot increase Fight above 10.]
-[Applied before other modifiers.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D6 to Hero&apos;s Fight value for the duration of the Fight phase. [Cannot increase Fight above 10.] [Applied before other modifiers.]"/>
       </characteristics>
     </profile>
     <profile id="d188-7068-b01b-fe35" name="Heroic Defence" book="Middle-earth Strategy Battle Game Rules Manual" page="72" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2850,9 +2763,7 @@ All Friendly models within 6&quot; may re-roll failed In The Way tests
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero is only Wounded on natural 6.
-[If wound roll requires 2 rolls (e.g. 6/4+) both rolls must be natural.]
-[Does not affect mounts.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero is only Wounded on natural 6. [If wound roll requires 2 rolls (e.g. 6/4+) both rolls must be natural.] [Does not affect mounts.]"/>
       </characteristics>
     </profile>
     <profile id="3459-e5f0-2438-920a" name="Heroic Strength" book="Middle-earth Strategy Battle Game Rules Manual" page="73" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2862,9 +2773,7 @@ All Friendly models within 6&quot; may re-roll failed In The Way tests
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D3 to Hero&apos;s Strength value for the duration of the Fight phase.
-[Cannot increase Strength above 10.]
-[Applied before other modifiers.]"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D3 to Hero&apos;s Strength value for the duration of the Fight phase. [Cannot increase Strength above 10.] [Applied before other modifiers.]"/>
       </characteristics>
     </profile>
     <profile id="ac54-80b4-1add-9cd2" name="Heroic Challenge" book="Middle-earth Strategy Battle Game Rules Manual" page="73" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
@@ -2874,15 +2783,7 @@ All Friendly models within 6&quot; may re-roll failed In The Way tests
       <modifiers/>
       <characteristics>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
-        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="[Hero must be in base contact with an Enemy Hero.]
-[Enemy Hero must be of the same Heroif Tier or Higher.]
-
-If accepted:
-	No other models can assist or join the fight.
-	Heroes must Charge each other if able until one is slain.
-	Hero that wins gains D3 Might points (regardless of starting level).
-If declined:
-	Heroic actions called by declining Hero do not affect other Friendly models until Challenger is slain."/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="[Hero must be in base contact with an Enemy Hero.] [Enemy Hero must be of the same Heroif Tier or Higher.]  If accepted:  No other models can assist or join the fight.  Heroes must Charge each other if able until one is slain.  Hero that wins gains D3 Might points (regardless of starting level). If declined:  Heroic actions called by declining Hero do not affect other Friendly models until Challenger is slain."/>
       </characteristics>
     </profile>
   </sharedProfiles>
