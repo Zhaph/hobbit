@@ -670,7 +670,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="92ef-149c-d049-a587" name="Bow Limit" hidden="false" targetId="80f4-1d12-5664-99b6" type="rule">
+        <infoLink id="4b94-3f37-a2bc-c420" name="Bow Limit" hidden="false" targetId="80f4-1d12-5664-99b6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -679,7 +679,9 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec7-6de9-fbd9-68e9" type="max"/>
+        <constraint field="selections" scope="force" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="ac55-9481-9ac6-2829" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e122-4b06-1049-de2a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a280-f145-1543-c642" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>

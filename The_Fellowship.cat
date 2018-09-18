@@ -689,7 +689,16 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="efab-43b1-1e54-2deb" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
