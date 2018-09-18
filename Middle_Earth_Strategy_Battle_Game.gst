@@ -1861,8 +1861,8 @@ If not in base contact with another enemy, wielder contributes an Attack to the 
 [Wielder only contributes a single Attack, regardless of the number on the wielder&apos;s profile.]
 [Wielder may not be Struck or &apos;Knocked to the Ground&apos; if the Duel is lost.]
 [Wielder can be the model to &apos;Make Way&apos; if their side lose the Fight.]
-[Heros can use Might as usual.]
-[Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
+[Heroes can use Might as usual.]
+[Heroes can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
     </rule>
     <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="Middle-earth Strategy Battle Game Rules Manual" page="86" hidden="false">
       <profiles/>
@@ -2087,7 +2087,7 @@ All allied models within 6&quot;/14cm with &apos;Poisoned Arrows, Darts, Blades&
       <infoLinks/>
       <modifiers/>
       <description>
-Heros wearing the Ring are not invisible to this model.
+Heroes wearing the Ring are not invisible to this model.
 Expends 1 Will for every Duel it Fights, except if its opponent is wearing the Ring.
 Once its Will is depleted to 0, model is removed as a casualty.</description>
     </rule>
@@ -2741,7 +2741,9 @@ Affected models may not charge.</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown D6&quot; away from the caster. The Target is knocked Prone. If the path takes the target through a model that is Strength &lt;=5 (proxies) it will stop movement and the proxies are also knocked Prone. Models in a Duel with the Target or proxies are also knocked Prone (proxies). Target suffers a Strength 5 hit; Proxies suffer a Strength 3 hit. The Target stops if it hits an Obstacle, or a model that has a Strength &gt;6 (Large). Both Target and Obstacle or Large suffer a Strength 3 hit. [Immobilised/Transfixed models can be Targetted by Sorcerous Blast.] [Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown D6&quot; away from the caster. The Target is knocked Prone. If the path takes the target through a model that is Strength &lt;=5 (proxies) it will stop movement and the proxies are also knocked Prone. Models in a Duel with the Target or proxies are also knocked Prone (proxies). Target suffers a Strength 5 hit; Proxies suffer a Strength 3 hit. The Target stops if it hits an Obstacle, or a model that has a Strength &gt;6 (Large). Both Target and Obstacle or Large suffer a Strength 3 hit.
+[Immobilised/Transfixed models can be Targetted by Sorcerous Blast.]
+[Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 6 hit, and other models effected suffer Strength 4 hits."/>
       </characteristics>
     </profile>
@@ -2795,7 +2797,11 @@ Affected models may not charge.</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will. [Can only Target Heroes.] [Can be increased past its starting amount.] [Can be used on Heros that start with 0 Will.]  [The caster chooses whether a mount or rider recovers Will.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will.
+[Can only Target Heroes.]
+[Can be increased past its starting amount.]
+[Can be used on Heroes that start with 0 Will.]
+[The caster chooses whether a mount or rider recovers Will.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+D3 Will."/>
       </characteristics>
     </profile>
