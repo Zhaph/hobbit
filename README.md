@@ -1,6 +1,8 @@
 Middle Earth Strategy Battle Game
 ================
 
+[![Join the chat at https://gitter.im/middleearth-sbg/Lobby](https://badges.gitter.im/middleearth-sbg/Lobby.svg)](https://gitter.im/middleearth-sbg/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #### Contents ####
 
 * [Overview][]
