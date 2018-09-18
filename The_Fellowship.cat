@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="3" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
-  <infoLinks/>
+  <rules>
+    <rule id="09a5-8cc6-f2fe-194b" name="You have my Sword" book="Armies of The Lord of the Rings" page="8" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <description>
+While Frodo lives, all other models from The Fellowship army list gain Fearless. Additionally, a force that consists solely of The Fellowship will never be considered Broken if Frodo is alive.</description>
+    </rule>
+  </rules>
+  <infoLinks>
+    <infoLink id="fa10-843b-f839-520e" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -156,12 +188,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2f5c-eaba-70c5-e764" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="7f93-c57b-709b-86ff" name="Protection of the Valar" hidden="false" targetId="899e-2ec4-88d4-b3d1" type="profile">
           <profiles/>
           <rules/>
@@ -173,20 +199,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="bf02-2a3c-8451-bda1" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -414,7 +426,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="daab-bb28-4311-fe81" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="329d-2dc6-da48-e1cf" type="equalTo"/>
+                <condition field="selections" scope="daab-bb28-4311-fe81" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dccb-1e85-9257-082a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -436,12 +448,6 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="9a8b-da8c-a676-4945" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="7dff-3dc7-805f-e7de" name="Mighty Hero (Passive)" hidden="false" targetId="96bf-4eca-dc99-ffd7" type="rule">
           <profiles/>
           <rules/>
@@ -453,20 +459,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="2a89-9bbf-bd44-feed" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -491,81 +483,6 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bd39-0670-bfee-a54d" name="Elven Cloak" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="eed9-c652-fc30-d60d" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="701c-e0d7-7762-51c1" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6166-420a-ce9a-ead1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b210-8f7d-499c-964d" name="Horse" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="473f-e308-b390-eba3" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ca-7e35-2e54-4e76" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="329d-2dc6-da48-e1cf" name="Armour" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ea83-ef38-ff3b-4f0a" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ad-6610-e06b-595b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="7e62-8e42-91a8-5f67" name="Bow" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -673,7 +590,32 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e888-4fff-b29a-b047" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9a76-74d4-1e0b-c3b1" name="Horse" hidden="false" targetId="0f27-67a8-1d8e-600f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dccb-1e85-9257-082a" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
@@ -688,7 +630,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="2556-969c-6131-7684" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5125-87a3-977f-43d2" type="equalTo"/>
+                <condition field="selections" scope="2556-969c-6131-7684" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4abf-e125-6052-6497" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -709,28 +651,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="9e56-527c-172c-a3be" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3241-9dd4-8174-01f5" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86c-76d5-757a-63c5" type="max"/>
@@ -753,59 +674,6 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="536a-23e1-fe24-1bb2" name="Armour" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="3fd4-a134-72f2-ecac" name="Armour" book="Armies of The Lord of the Rings" page="12" hidden="false" targetId="c7f5-6d10-a0ea-80e2" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0240-3ae5-2574-8603" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf6-44a8-88b3-3cb6" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5125-87a3-977f-43d2" name="Shield" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="c06d-69e8-8a33-5796" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="6c2f-486f-e241-ffaa" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-8e8f-417a-b8b5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="822f-373c-d31f-4cd5" name="Horn of Gondor" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -836,58 +704,6 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f02d-0876-79b0-b2ac" name="Elven Cloak" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a12c-4834-04f5-ffcc" name="Elven Cloak" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="3337-f2c2-e18e-b9b2" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="366a-790b-a895-481f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fb98-18f0-b8db-0bd9" name="Horse" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="8953-f7d0-57f3-d89b" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e2-29cc-da8d-7b82" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4352-16e0-cec6-d9ad" name="Sword" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -914,7 +730,40 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="dc65-7a56-5b2d-9d37" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="65b2-ca71-b95f-bdf8" name="Horse" hidden="false" targetId="0f27-67a8-1d8e-600f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1de-fd0b-447f-2bc7" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4abf-e125-6052-6497" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="95.0"/>
       </costs>
@@ -929,7 +778,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="c257-d30c-ffdf-559a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00b3-a4b0-84f0-4949" type="equalTo"/>
+                <condition field="selections" scope="c257-d30c-ffdf-559a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e18d-a4c6-df22-ad5f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -957,13 +806,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="82ea-e58e-28c0-c0e5" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="becb-9df7-6358-9331" name="Deadly Shot" hidden="false" targetId="2794-60c7-9cac-2c16" type="rule">
+        <infoLink id="becb-9df7-6358-9331" name="Deadly Shot (Active)" hidden="false" targetId="2794-60c7-9cac-2c16" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -974,20 +817,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="787a-d6fc-4f05-9b39" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1036,81 +865,6 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd51-8fb8-273a-4a15" name="Elven Cloak" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0dd9-d6d3-1cd1-e54a" name="Elven Cloak" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="77d2-0aee-da70-759b" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f7-119e-6f75-0993" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2763-d20d-324f-4bf4" name="Horse" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="8d26-7156-10bd-6def" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369f-0d19-be3d-478a" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="00b3-a4b0-84f0-4949" name="Armour" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="9200-56b0-af41-ccdf" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e88a-fe0d-1b4f-9857" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="61be-1c46-ef2e-04f5" name="Elven-made Daggers" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b69a-65cb-7b8a-7b35" name="Elven-made Daggers" book="Armies of The Lord of the Rings" page="13" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
@@ -1145,7 +899,32 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="29b6-ef0f-dbc4-86d8" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e92b-2710-44c0-2b85" name="Horse" hidden="false" targetId="0f27-67a8-1d8e-600f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e18d-a4c6-df22-ad5f" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
@@ -1194,26 +973,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="8b05-b5c7-3e16-b8d7" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="aa8f-5ab9-3473-a237" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1283,65 +1042,6 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8c77-70e8-f9f2-e94d" name="Elven Cloak" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="dd10-5225-4982-4a1a" name="Elven Cloak" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7b0f-d837-16b9-4a0a" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f824-a4cb-5c2a-d704" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5e05-ad66-70cb-9838" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0909-00cf-21ec-0c13" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="4ffc-0ae6-3977-1489" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a38-ba5e-c7bb-47a8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8f-dd3a-53c7-65e8" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1418,7 +1118,24 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="70a4-6cee-2b3e-434f" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f5da-4978-114a-faa8" name="Throw Stones (range 8&quot;, Strength 1)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
@@ -1447,13 +1164,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a973-7782-8747-24cf" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3c93-e54d-9f04-1038" name="Axes of the Dwarves!" hidden="false" targetId="0e35-e744-e8bc-9912" type="rule">
+        <infoLink id="3c93-e54d-9f04-1038" name="Axes of the Dwarves! (Active)" hidden="false" targetId="0e35-e744-e8bc-9912" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1464,20 +1175,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="5365-a0ee-16fe-c7b4" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1594,35 +1291,6 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a87e-5a15-312c-d2a1" name="Elven Cloak" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="c607-2bc3-e9ae-f362" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="dfd6-c215-d8bf-dcce" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdac-5a64-e635-6e39" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b8b8-2030-57df-7573" name="Two axes" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="f4a0-6b04-0137-aae6" name="Two axes" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
@@ -1650,7 +1318,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="bddc-a053-0edb-f312" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
@@ -1688,13 +1365,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="90b6-5dae-b0fd-447a" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5aef-5009-be0a-6f4e" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="90b6-5dae-b0fd-447a" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1705,20 +1376,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="1c26-8da2-c1bd-9411" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1742,69 +1399,26 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2b68-663a-6c0b-705f" name="Elven cloak" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b4e0-11ff-b65a-73d4" name="Elven Cloak" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e6ca-a43f-3f32-39b6" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2366-d358-5dd4-d907" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0e39-656a-0214-29ed" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0735-56e0-4a17-8fa2" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="06a0-33de-e31a-0832" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="177f-f2f0-f044-f466" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc3-e398-df71-03c3" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="aa3a-d713-3f4e-dda0" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c40-7dd3-2ecb-ad85" name="Throw Stones (range 8&quot;, Strength 1)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
@@ -1839,12 +1453,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a3c5-fcd7-6e01-fffc" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="30ca-b9bf-faa9-00ce" name="For the Shire! (Active)" book="Armies of The Lord of the Rings" page="10" hidden="false" targetId="5690-73cd-ff5b-2af8" type="rule">
           <profiles/>
           <rules/>
@@ -1856,20 +1464,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="0531-d518-a425-2771" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1893,69 +1487,26 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="540c-0b53-437d-5ba2" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="1ffc-6bc0-06b8-9991" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="fed5-a4e1-553d-47a3" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c494-2b54-03f4-0dde" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8a77-fdf7-3cfb-401d" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="5374-8d00-c504-6223" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7b54-0fa3-8c90-6ce4" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5e-bea6-625d-9388" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e115-2c7d-d940-f528" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5b57-3a54-415e-fb2b" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c257-535d-fde9-a2d0" name="Throw Stones (range 8&quot;, Strength 1)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -1984,13 +1535,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="61de-f58e-21a3-9ef4" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2dec-d138-74af-07fd" name="You have my Sword" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="61de-f58e-21a3-9ef4" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2007,20 +1552,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="1fe5-3995-ccc9-70eb" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -2044,69 +1575,26 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="4651-ded6-5a48-48f9" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="7463-1686-9b65-0e95" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7a76-aaea-5982-5d8a" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7233-d588-ea4a-4fd4" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="96cd-6cb1-6204-a7fe" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="da3a-6324-db8d-6246" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="ab5c-486f-f033-81ae" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7e-b60e-09a9-f341" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f28-46c3-b5d0-53a9" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a7e8-0134-993a-bb63" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a1a9-4995-7431-25bd" name="Throw Stones (range 8&quot;, Strength 1)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -2135,12 +1623,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="cfb4-c3b4-c7f4-0ce7" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="81fe-d366-dcb1-9838" name="Official Meals (Passive)" hidden="false" targetId="6f5f-6d0f-0ca4-283a" type="rule">
           <profiles/>
           <rules/>
@@ -2164,20 +1646,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="54c5-44bf-0be3-4dee" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers>
@@ -2264,13 +1732,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fd47-1d77-0c11-0581" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9227-8a50-ee38-6836" name="Serve the master of the precious" hidden="false" targetId="cad2-f226-1b73-998e" type="rule">
+        <infoLink id="9227-8a50-ee38-6836" name="Serve the Master of the Precious (Passive)" hidden="false" targetId="cad2-f226-1b73-998e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2281,20 +1743,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="6bd7-b5f3-d902-d232" name="Fearless (Passive)" book="" page="" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers>
@@ -2342,25 +1790,92 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="dd5d-f6bf-44e3-5c9b" name="You have my Sword" book="Armies of The Lord of the Rings" page="8" hidden="false">
+  <sharedSelectionEntries>
+    <selectionEntry id="d9fd-f905-b315-3c9d" name="Elven Cloak" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5043-888d-7cb9-f8e4" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <description>
-While Frodo lives, all other models from The Fellowship army list gain Fearless. Additionally, a force that consists solely of The Fellowship will never be considered Broken if Frodo is alive.</description>
-    </rule>
+      <infoLinks>
+        <infoLink id="47d5-a03d-a9a3-1c9e" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a716-05d5-ed2a-ba1c" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4d-0475-c082-f81d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f27-67a8-1d8e-600f" name="Horse" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ca84-8677-aaa3-37fe" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b3e-01b3-86ab-ff98" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcbe-c38e-2102-e806" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a3da-5ad5-c31a-da1f" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f7f-35b9-6b64-b28c" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc5-ea81-fef1-d468" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe70-2e3a-d8e7-5505" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
     <rule id="9b30-e310-cf80-6c89" name="Andrúil, the Flame of the West" book="Armies of The Lord of the Rings" page="12" hidden="false">
       <profiles/>
       <rules/>
