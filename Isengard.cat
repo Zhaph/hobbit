@@ -138,7 +138,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fea4-51a9-a1cd-0b44" name="Terror" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
+        <infoLink id="fea4-51a9-a1cd-0b44" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -387,20 +387,27 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="c898-2a4a-e97c-09a4" name="Armour" hidden="false" targetId="8f63-394b-dfff-5c53" type="selectionEntry">
+      <selectionEntries>
+        <selectionEntry id="f4c2-f4ff-b133-b841" name="Armour" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="053c-622c-0d5c-fa60" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5387-eec0-f0cb-0272" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffa4-90ca-04eb-6bc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="007b-b4cb-1389-6894" type="max"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="e144-d217-235a-1607" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -571,20 +578,25 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="b8b4-1987-9fd1-05a9" name="Armour" hidden="false" targetId="8f63-394b-dfff-5c53" type="selectionEntry">
+      <selectionEntries>
+        <selectionEntry id="3e98-bc5e-0485-efd5" name="Armor" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e8a-d89e-e464-f6c9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc4-15b2-d570-be9f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-a961-4ff8-4d9e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac4-11eb-b990-ba7b" type="min"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
         <entryLink id="936f-59b3-dcf0-4072" name="Two-handed Axe (Hero)" hidden="false" targetId="9d32-8903-856f-7da8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -1340,7 +1352,23 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="2cd4-deb2-fac9-6cf8" name="Armor" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ad-c2c6-f146-cdf8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f73e-184f-79c4-9ed7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="f5a2-99f6-e78c-7514">
           <profiles/>
@@ -1415,17 +1443,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea55-6957-be80-dec5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f18-3747-5f91-80cf" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="95ab-d5b0-ab5a-f73c" name="Armour" hidden="false" targetId="8f63-394b-dfff-5c53" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5848-b95a-0e19-cad1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706c-b5a6-70ef-18e5" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -3214,7 +3231,9 @@ Cavalry takes d6 on mount and rider.
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
