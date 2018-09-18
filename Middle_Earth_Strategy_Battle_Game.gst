@@ -317,7 +317,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8934-27a2-17ca-cd26" name="Heavy Dwarf Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -362,7 +364,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="180c-3e0a-035e-f870" name="Heavy Armour" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -401,6 +405,334 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f36-9373-c475-c822" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eab4-4849-d8a8-7fb4" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c73b-a354-c1ef-22f5" name="Sword (Included)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7bdf-c632-39da-9eeb" name="Sword" hidden="false" targetId="86a4-eac9-c4d7-a714" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec3d-f31c-0132-bec5" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="770e-2957-c8a5-ec34" name="Dagger (Included)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a605-48fb-b76a-6514" name="Dagger" hidden="false" targetId="233f-8b24-df80-0147" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1130-632c-1af5-7b79" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9d8-e687-82ce-12f5" name="Horn of Gondor" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4b68-b3db-ceea-5f06" name="Horn of Gondor (Active)" hidden="false" targetId="0d45-0527-2f0a-99e5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d655-68b5-ce12-d49c" name="Horn of Gondor" hidden="false" targetId="2f19-6598-d0e2-409c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6dd-778d-b8be-c43d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25d4-006b-99a3-bed0" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c88f-7fa4-f84d-3d62" name="Bow" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7493-4261-21dd-bf75" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="69c0-d826-3d55-27c5" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5985-4c04-dd6e-953b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1146-ffb2-2deb-806c" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23da-96b5-6950-4b9a" name="Throwing axes (Included)" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="268d-acf3-2f6a-1a94" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d6f7-3442-34de-1b44" name="Throwing Axe" hidden="false" targetId="622c-a767-c1c9-d003" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e725-4d9c-c446-d69d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d8-2358-705c-16ef" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0caa-e2e4-2dca-d47d" name="Two axes (Included)" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b8c2-7d95-e441-b7b9" name="Two axes" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c034-6a71-cb23-110c" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f8-3da7-fb83-2380" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c6-8943-510e-bb88" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4886-f5fc-466a-0c98" name="Narya" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3095-da7e-62ee-3d72" name="Narya" hidden="false" targetId="5d35-45bd-6414-7351" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7a7-dd4e-3569-fe21" name="Narya" hidden="false" targetId="b524-44ae-21e4-e237" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0695-dc45-3e8d-307b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a410-1e20-e5be-a73c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="942f-4c2e-1a38-a6db" name="Glamdring" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="86fc-2b96-82c5-c070" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a80a-fcd3-bd04-8e00" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ea9f-5545-048e-36cb" name="Glamdring" hidden="false" targetId="905a-5387-ffb9-a71c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a9e6-c9fa-4fc8-57c3" name="Glamdring" hidden="false" targetId="74ae-121c-0bd8-5794" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7de4-acc6-58d0-33f8" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc29-a96a-68ce-a75b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a73-ad1e-ac44-cf91" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7cab-312e-12a6-dcab" name="Staff of Power* (Included)" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3c05-67be-aad3-ce10" name="Staff of Power" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c6f-c6d5-2ac5-4fee" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d7ee-c92b-2d38-1b55" name="Staff of Power" hidden="false" targetId="5313-28b7-46b7-316e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ddfd-1d97-1f30-a1d2" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb4-0b32-d57c-9684" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a82-ee99-2562-eb23" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="611a-4d46-e165-1186" name="Bow Limit" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="92ef-149c-d049-a587" name="Bow Limit" hidden="false" targetId="80f4-1d12-5664-99b6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec7-6de9-fbd9-68e9" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1374,28 +1706,32 @@ Before moving the Ringbearer in the Move phase:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
+      <description>
+When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
     </rule>
     <rule id="5d35-45bd-6414-7351" name="Narya (Passive)" book="Armies of The Lord of the Rings" page="11" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Gandalf can re-roll his dice when using Fate points</description>
+      <description>
+Gandalf can re-roll his dice when using Fate points</description>
     </rule>
     <rule id="0d45-0527-2f0a-99e5" name="Horn of Gondor (Active)" book="Armies of The Lord of the Rings" page="11" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
+      <description>
+Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
     </rule>
     <rule id="ff15-bfa5-0fbe-8d69" name="Bash" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
+      <description>
+Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
 Models roll a further d6 + Strength. Basher adds 1 if weapon is two-handed.
 If Basher&apos;s total is equal or greater the opponent is immediately knocked Prone.</description>
     </rule>
@@ -1404,7 +1740,8 @@ If Basher&apos;s total is equal or greater the opponent is immediately knocked P
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to use piercing strike before the duel roll.
+      <description>
+Model may choose to use piercing strike before the duel roll.
 If they win add 1 to the strength when they Strike.
 If they lose reduce their Defense by D3 when Strikes are made against them.</description>
     </rule>
@@ -1413,11 +1750,12 @@ If they lose reduce their Defense by D3 when Strikes are made against them.</des
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Feint [Fight is equal or higher to opponent&amp;apos;s]
+      <description>
+Feint [Fight is equal or higher to opponent&apos;s]
 Reduce fight by D3.
 If Feinting model wins the Duel roll they reroll any 1&apos;s to wound.
 
- Stab [Fight less than opponent&amp;apos;s]
+Stab [Fight less than opponent&apos;s]
 May reroll 1&apos;s to wound if they win the duel roll.
 If they lose the duel roll they immediately suffer a Strength 2 hit after the fight is resolved.</description>
     </rule>
@@ -1426,7 +1764,8 @@ If they lose the duel roll they immediately suffer a Strength 2 hit after the fi
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
+      <description>
+Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
 Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+ and 1 attack until the end of the following turn.</description>
     </rule>
     <rule id="70e8-37f0-5865-4c09" name="Whirl" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
@@ -1443,7 +1782,8 @@ If they win the Fight they can make a single Strike against every enemy model en
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Start of the Move Phase a model with a war drum may sound an Advance.
+      <description>
+Start of the Move Phase a model with a war drum may sound an Advance.
 All models with the matching keywords within 12&quot; of the drummer are affected until the end of the turn.
 Infantry +3&quot; to their movement value.
 Cavalry or models with Fly +5&quot; to their movement value.
