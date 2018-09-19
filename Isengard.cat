@@ -449,14 +449,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a0-dbb9-7eb7-dc29" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="de31-53bc-43de-8071" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="false">
+        <categoryLink id="de31-53bc-43de-8071" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1227,7 +1227,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="ab80-c574-6552-d2e8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1255,7 +1255,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="233c-b671-75c5-db6f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c00-37c0-5fe9-3675" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -1265,7 +1264,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <infoLinks/>
                   <modifiers/>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8c3-3010-822c-8772" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28d-926f-7984-289c" type="min"/>
                   </constraints>
                   <categoryLinks/>
@@ -1284,7 +1282,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d65-2ac2-fd54-65ff" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ae-ea53-90b5-8da8" type="max"/>
               </constraints>
               <categoryLinks/>
@@ -1899,7 +1896,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="ca9d-9eae-4dff-7f3c">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1927,7 +1924,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5840-c37b-cab2-8a17" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b24-3f18-47f1-89ea" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -1938,7 +1934,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e6-28b5-398a-548f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a1-c786-7338-deae" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -1956,8 +1951,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253e-b037-c286-5b7a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a2-19fb-761e-1aaf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77f-1d14-5560-869a" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -3217,14 +3211,14 @@ Cavalry takes d6 on mount and rider.
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="113c-f129-6e74-ba33" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="113c-f129-6e74-ba33" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="d45c-1433-ff41-8caf" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="false">
+        <categoryLink id="d45c-1433-ff41-8caf" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
