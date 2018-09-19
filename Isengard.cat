@@ -2410,7 +2410,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="e965-5c8e-fcac-349f" name="Isengard Assault Ballista" book="Armies of The Lord of the Rings" page="179" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="9d6b-a0fb-b7c8-3888" name="Isengard Assault Ballista" book="The Fallen Realms" page="24" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
+        <profile id="9d6b-a0fb-b7c8-3888" name="Isengard Assault Ballista" book="The Armies of the Lord of the Rings" page="179" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2422,7 +2422,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f"/>
           </characteristics>
         </profile>
-        <profile id="9e31-a5b0-cf96-1571" name="Crew" book="The Fallen Realms" page="24" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="9e31-a5b0-cf96-1571" name="Crew" book="The Armies of the Lord of the Rings" page="179" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2438,35 +2438,38 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
-        <profile id="e3b0-cb77-66f4-2ac7" name="Uruk-Hai Engineer Captain" hidden="true" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+      </profiles>
+      <rules>
+        <rule id="254c-be9e-09e9-ac57" name="Accurate" book="The Armies of the Lord of the Rings" page="179" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ece7-831b-aa14-3400" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
+          <modifiers/>
+          <description>Will only scatter 3&quot; instead of 6&quot;</description>
+        </rule>
+        <rule id="1f2b-8df7-ff07-5482" name="Raise the Ladders!" book="The Armies of the Lord of the Rings" page="179" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Choose a point on the battlements in range and in line of sight of the machine and at least one crew.
+Roll to hit. If the shot misses nothing happens
+If the shot hits one siege ladder within 6&quot; of the wall base below the target point is raised immediately.
+Ladder carries can drop the ladder immediately or ride it to the top and be placed as if they had climbed to the top that turn. 
+Carriers that ride the ladder count as charging if there is a defender at the top of the tower, and the defender receives no benefit from defending an obstacle that turn.</description>
+        </rule>
+        <rule id="63e1-9162-2aa4-434e" name="Piercing Shot" book="The Armies of the Lord of the Rings" page="179" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Targets hit take a S9 hit.
+If the target is S5 or less they are knocked Prone and moved back d6&quot; directly away from the ballista.
+Any model they pass over will also be knocked Prone and take a S6 hit.\
+If the target hits impassable terrain or a model S6 or higher then it is immediately stopped and knocked Prone.
+Then both the target and the Obstacle or model (if it has a defence value) will suffer a S6 hit.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -2480,8 +2483,36 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ece7-831b-aa14-3400" name="Uruk-hai Engineer Captain" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
-          <profiles/>
+        <selectionEntry id="ece7-831b-aa14-3400" name="Uruk-hai Engineer Captain" book="The Armies of the Lord of the Rings" page="179" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9e8d-3aab-d965-0555" name="Uruk-Hai Engineer Captain" hidden="true" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ece7-831b-aa14-3400" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
           <infoLinks/>
           <modifiers/>
@@ -2491,7 +2522,30 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="c040-c8f8-2c59-5131" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="348d-fcef-dbfc-9a28" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e83d-046c-8fac-8862" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ad40-9a76-333e-220a" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e97f-119d-91fe-b1ce" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c1-99cf-fc9e-7152" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="50.0"/>
           </costs>
@@ -2512,18 +2566,144 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5a95-7088-d0ea-cae4" name="Additional Warrior Crew" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e5c6-35e3-c904-e7b7" name="Uruk-Hai Crew (Pike)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-f949-ff6d-11d5" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="819e-d605-4e38-edef" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22e-56c1-b929-c562" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4739-f2e0-97a8-ee5b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5a55-d1fd-1c27-1a60" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a91e-e45e-33e9-1ce7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af66-d1a4-023f-f9e6" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9b11-0c41-50c1-a746" name="Uruk-Hai Crew (Sword)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a816-0b0d-1de8-2abe" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66df-ad50-f404-fb2f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff95-1867-d998-e18d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="228e-28f1-eceb-9423" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869d-586f-7e5a-6569" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d4-bbe2-5ad1-3850" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="0722-4447-0148-7d10" name="Uruk-Hai Crew (Dagger)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="87d4-771b-761a-e50f" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7067-77ad-0530-4934" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b96-0246-731b-9596" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fe55-3be4-3cf2-7ea7" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac4-4d42-aa39-00bb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b474-422a-a251-c961" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1987-b68e-ab9b-64f0" name="Uruk-Hai Crew Extra" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="91da-5e89-e45b-7fab" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a7-54bb-8830-7bdd" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ee-804e-079a-b2eb" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c042-011d-64d3-b92f" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d5-d984-71a5-19d3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2af-7a64-5fd9-0a87" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
