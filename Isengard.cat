@@ -1688,10 +1688,10 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="3753-75e8-490c-86db" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffa3-5939-9649-55cd" type="equalTo"/>
+                <condition field="selections" scope="3753-75e8-490c-86db" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b9cf-9502-02c3-277e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1747,7 +1747,10 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f7-8c7d-7f2c-4bf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53fb-1c92-e589-372c" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="b9cf-9502-02c3-277e" name="War Drum (Isengard)" book="Armies of The Lord of the Rings" page="173" hidden="false" collective="false" type="upgrade">
@@ -1770,10 +1773,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdea-ed3b-8af8-e5bf" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c0-6589-232b-f743" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1790,10 +1790,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="786a-f2e0-b52f-fc2a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d876-86fb-3570-6135" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -1947,7 +1944,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2059,7 +2056,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a4-d810-18ea-1d1e" type="min"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6574-75d4-e3a4-18f9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6574-75d4-e3a4-18f9" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -2175,6 +2172,28 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="2902-1b56-22f0-de56" name="Warg" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0ac2-cfed-abf7-e212" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9bb-cfa4-a742-5f64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c00-14d6-7708-83c1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2224,20 +2243,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="304d-2cd7-a86d-10b7" name="Warg" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701d-26b0-6084-5851" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde2-0f86-2924-dfd0" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="12.0"/>
+        <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6813-a07c-7148-8203" name="Orc Warrior" book="Armies of The Lord of the Rings" page="119" hidden="false" collective="false" type="model">
