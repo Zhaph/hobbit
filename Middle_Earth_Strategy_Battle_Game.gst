@@ -159,7 +159,29 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="bc53-ae31-0120-1faa" value="15">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c071-e634-3220-08c1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="bc53-ae31-0120-1faa" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="bc53-ae31-0120-1faa" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e059-5f8f-1ab2-017e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
           </constraints>
@@ -1915,6 +1937,37 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="69fa-2dd6-76e4-1748" name="The Leader" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a098-a5a5-3437-32c2" name="Last Stand" hidden="false" targetId="c3c1-1def-33f9-da9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc66-8b34-343e-7b1b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="036a-4393-cd1c-51da" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c6-f8a0-21c8-4a68" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">
@@ -2955,6 +3008,14 @@ All models with the matching keywords within 12&quot; of the drummer are affecte
 Infantry +3&quot; to their movement value.
 Cavalry or models with Fly +5&quot; to their movement value.
 Affected models may not charge.</description>
+    </rule>
+    <rule id="c3c1-1def-33f9-da9b" name="Last Stand" book="Middle-earth Strategy Battle Game Rules Manual" page="132" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+The first time this model takes a courage test as a result of your force being Broken they pass the test automatically.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
