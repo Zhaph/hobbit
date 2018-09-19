@@ -1858,6 +1858,64 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="690d-986d-e5a2-0264" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c20b-6c03-1f10-abb0" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="29f3-8393-1564-a6a0" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb32-17e1-8759-3b31" name="Two-Handed Axe" hidden="false" targetId="23f4-d82a-0485-7feb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa6d-a66d-5d68-9494" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8649-9967-6db6-6693" name="Two-Handed Weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="12d3-874b-9f50-28e9" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87de-149f-5f1e-327c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">
