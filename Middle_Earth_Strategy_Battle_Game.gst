@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="3" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="4" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -76,7 +76,8 @@
     </profileType>
     <profileType id="62f4-755b-f936-8dd6" name="Heroic Action">
       <characteristicTypes>
-        <characteristicType id="8820-1aa6-c333-15e4" name="Description"/>
+        <characteristicType id="8820-1aa6-c333-15e4" name="Phase"/>
+        <characteristicType id="6abc-a795-2395-2cf8" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -395,7 +396,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a9e2-9e28-bcf7-5fa8" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+        <infoLink id="a9e2-9e28-bcf7-5fa8" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1517,6 +1518,279 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfb-31d8-0dcc-16a5" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed61-beee-9040-b81f" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4886-f5fc-466a-0c98" name="Narya" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3095-da7e-62ee-3d72" name="Narya" hidden="false" targetId="5d35-45bd-6414-7351" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7a7-dd4e-3569-fe21" name="Narya" hidden="false" targetId="b524-44ae-21e4-e237" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0695-dc45-3e8d-307b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a410-1e20-e5be-a73c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="942f-4c2e-1a38-a6db" name="Glamdring" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="86fc-2b96-82c5-c070" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a80a-fcd3-bd04-8e00" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ea9f-5545-048e-36cb" name="Glamdring (Active)" hidden="false" targetId="905a-5387-ffb9-a71c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a9e6-c9fa-4fc8-57c3" name="Glamdring" hidden="false" targetId="74ae-121c-0bd8-5794" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7de4-acc6-58d0-33f8" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc29-a96a-68ce-a75b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a73-ad1e-ac44-cf91" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7cab-312e-12a6-dcab" name="Staff of Power* (Included)" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3c05-67be-aad3-ce10" name="Staff of Power" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c6f-c6d5-2ac5-4fee" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d7ee-c92b-2d38-1b55" name="Staff of Power" hidden="false" targetId="5313-28b7-46b7-316e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ddfd-1d97-1f30-a1d2" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb4-0b32-d57c-9684" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a82-ee99-2562-eb23" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="611a-4d46-e165-1186" name="Bow Limit" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="92ef-149c-d049-a587" name="Bow Limit" hidden="false" targetId="80f4-1d12-5664-99b6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec7-6de9-fbd9-68e9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9d8-e687-82ce-12f5" name="Horn of Gondor" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4b68-b3db-ceea-5f06" name="Horn of Gondor (Active)" hidden="false" targetId="0d45-0527-2f0a-99e5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d655-68b5-ce12-d49c" name="Horn of Gondor" hidden="false" targetId="2f19-6598-d0e2-409c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6dd-778d-b8be-c43d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25d4-006b-99a3-bed0" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c88f-7fa4-f84d-3d62" name="Bow" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7493-4261-21dd-bf75" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="69c0-d826-3d55-27c5" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5985-4c04-dd6e-953b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1146-ffb2-2deb-806c" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23da-96b5-6950-4b9a" name="Throwing Axes (Included)" book="" page="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="268d-acf3-2f6a-1a94" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d6f7-3442-34de-1b44" name="Throwing Axes" hidden="false" targetId="622c-a767-c1c9-d003" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e725-4d9c-c446-d69d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d8-2358-705c-16ef" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0caa-e2e4-2dca-d47d" name="Two axes (Included)" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b8c2-7d95-e441-b7b9" name="Two axes" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c034-6a71-cb23-110c" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f8-3da7-fb83-2380" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c6-8943-510e-bb88" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -2741,9 +3015,7 @@ Affected models may not charge.</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown D6&quot; away from the caster. The Target is knocked Prone. If the path takes the target through a model that is Strength &lt;=5 (proxies) it will stop movement and the proxies are also knocked Prone. Models in a Duel with the Target or proxies are also knocked Prone (proxies). Target suffers a Strength 5 hit; Proxies suffer a Strength 3 hit. The Target stops if it hits an Obstacle, or a model that has a Strength &gt;6 (Large). Both Target and Obstacle or Large suffer a Strength 3 hit.
-[Immobilised/Transfixed models can be Targetted by Sorcerous Blast.]
-[Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown D6&quot; away from the caster. The Target is knocked Prone. If the path takes the target through a model that is Strength &lt;=5 (proxies) it will stop movement and the proxies are also knocked Prone. Models in a Duel with the Target or proxies are also knocked Prone (proxies). Target suffers a Strength 5 hit; Proxies suffer a Strength 3 hit. The Target stops if it hits an Obstacle, or a model that has a Strength &gt;6 (Large). Both Target and Obstacle or Large suffer a Strength 3 hit. [Immobilised/Transfixed models can be Targetted by Sorcerous Blast.] [Cavalry models suffer a &apos;Knocked Flying&apos; result.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 6 hit, and other models effected suffer Strength 4 hits."/>
       </characteristics>
     </profile>
@@ -2797,11 +3069,7 @@ Affected models may not charge.</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will.
-[Can only Target Heroes.]
-[Can be increased past its starting amount.]
-[Can be used on Heroes that start with 0 Will.]
-[The caster chooses whether a mount or rider recovers Will.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will. [Can only Target Heroes.] [Can be increased past its starting amount.] [Can be used on Heroes that start with 0 Will.] [The caster chooses whether a mount or rider recovers Will.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+D3 Will."/>
       </characteristics>
     </profile>
@@ -3592,6 +3860,116 @@ Affected models may not charge.</description>
       <infoLinks/>
       <modifiers/>
       <characteristics/>
+    </profile>
+    <profile id="02d8-024a-e48e-fbd7" name="Heroic Move" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model moves before other models. [Cancelled if Charged.]  With Me! Any friendly models within 6&quot; of the Hero&apos;s starting point may also move or forego their movement this phase. [Hero must complete their move first.] [Must finish within 6&quot; of Hero model.] [Cancelled if Hero flees the board.]"/>
+      </characteristics>
+    </profile>
+    <profile id="0d80-0935-26df-8aea" name="Heroic Shoot" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Shoot"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model Shoots before other models. [Cannot perform when in Engaged in combat.] [Hero does not need to have a missile weapon.]  Loose! Any friendly models within 6&quot; of the Hero may also shoot or forego their shots this phase. [Hero does not need to shoot first.] [Models do not have to target the same enemy.]"/>
+      </characteristics>
+    </profile>
+    <profile id="de01-9be6-dd86-07fb" name="Heroic Combat" book="Middle-earth Strategy Battle Game Rules Manual" page="69" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero model&apos;s Fight is resolved first. [If all enemies are slain, Hero and friendly models may move again.] [Additional movement may be a Charge - second fight is resolved in normal sequence.] [Can only benifit from Heroic Combat once per turn.]"/>
+      </characteristics>
+    </profile>
+    <profile id="08f6-6809-04d1-c1b1" name="Heroic Resolve" book="Middle-earth Strategy Battle Game Rules Manual" page="70" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero and Friendly models within 6&quot; roll 1 extra (free) dice in resist tests. [Hero cannot move.] [Stacks with Resistant to Magic.]"/>
+      </characteristics>
+    </profile>
+    <profile id="be29-1b36-f1d9-8173" name="Heroic March" book="Middle-earth Strategy Battle Game Rules Manual" page="70" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero adds 3&quot; to Move distance. [+5&quot; if Cavalry or if Hero can Fly.] [Cannot be used to Charge.] [Cancelled if Charged.]  At The Double! Any friendly models within 6&quot; of the Hero&apos;s starting point may also move 3&quot; or forego their movement this phase. [+5&quot; if Cavalry or if model can Fly.] [Hero must complete their move first.] [Must finish within 6&quot; of Hero model.]"/>
+      </characteristics>
+    </profile>
+    <profile id="d100-6fbb-746d-2901" name="Heroic Channelling" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Move"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero uses the &quot;Channelled&quot; version of any Magical Powers. [Hero cannot move.]"/>
+      </characteristics>
+    </profile>
+    <profile id="7597-d6d9-0053-2e3c" name="Heroic Accuracy" book="Middle-earth Strategy Battle Game Rules Manual" page="71" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Shoot"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero can re-roll failed In The Way rolls. [Cannot perform when in Engaged in combat.] [Hero does not need to have a missile weapon.]  Take Aim! All Friendly models within 6&quot; may re-roll failed In The Way tests [Models do not have to target the same enemy.]"/>
+      </characteristics>
+    </profile>
+    <profile id="a76a-e803-05fc-5384" name="Heroic Strike" book="Middle-earth Strategy Battle Game Rules Manual" page="72" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D6 to Hero&apos;s Fight value for the duration of the Fight phase. [Cannot increase Fight above 10.] [Applied before other modifiers.]"/>
+      </characteristics>
+    </profile>
+    <profile id="d188-7068-b01b-fe35" name="Heroic Defence" book="Middle-earth Strategy Battle Game Rules Manual" page="72" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="Hero is only Wounded on natural 6. [If wound roll requires 2 rolls (e.g. 6/4+) both rolls must be natural.] [Does not affect mounts.]"/>
+      </characteristics>
+    </profile>
+    <profile id="3459-e5f0-2438-920a" name="Heroic Strength" book="Middle-earth Strategy Battle Game Rules Manual" page="73" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="+D3 to Hero&apos;s Strength value for the duration of the Fight phase. [Cannot increase Strength above 10.] [Applied before other modifiers.]"/>
+      </characteristics>
+    </profile>
+    <profile id="ac54-80b4-1add-9cd2" name="Heroic Challenge" book="Middle-earth Strategy Battle Game Rules Manual" page="73" hidden="false" profileTypeId="62f4-755b-f936-8dd6" profileTypeName="Heroic Action">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
+        <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="[Hero must be in base contact with an Enemy Hero.] [Enemy Hero must be of the same Heroif Tier or Higher.]  If accepted:  No other models can assist or join the fight.  Heroes must Charge each other if able until one is slain.  Hero that wins gains D3 Might points (regardless of starting level). If declined:  Heroic actions called by declining Hero do not affect other Friendly models until Challenger is slain."/>
+      </characteristics>
     </profile>
   </sharedProfiles>
 </gameSystem>
