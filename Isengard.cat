@@ -1751,7 +1751,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="b9cf-9502-02c3-277e" name="War Drum (Isengard)" book="Armies of The Lord of the Rings" page="173" hidden="false" collective="false" type="upgrade">
-              <profiles/>
+              <profiles>
+                <profile id="006a-b45b-63ab-6f10" name="War Drum (Isengard)" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics/>
+                </profile>
+              </profiles>
               <rules/>
               <infoLinks>
                 <infoLink id="addc-7256-57f9-23d1" name="War Drum" hidden="false" targetId="29ed-f7ec-64b6-b231" type="rule">
@@ -2923,7 +2931,15 @@ Cavalry takes d6 on mount and rider.
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="76bb-6fd6-571b-562e" name="War Drum (Isengard Uruk-hai)" book="Armies of The Lord of the Rings" page="173" hidden="false" collective="false" type="upgrade">
-          <profiles/>
+          <profiles>
+            <profile id="2153-514c-99fe-2e27" name="War Drum (Isengard Uruk-hai)" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
           <rules/>
           <infoLinks>
             <infoLink id="d3cd-8d25-e5a6-6ceb" name="War Drum" hidden="false" targetId="29ed-f7ec-64b6-b231" type="rule">
