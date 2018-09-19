@@ -11,7 +11,7 @@ Hobbit SBG
 ## Overview ##
 [Overview]: #overview
 
-### Middle Earth Strategy Battle Game? ###
+### Is this for Middle Earth Strategy Battle Game? ###
 
 Development for Middle Earth SBG is currently happening in the `MiddleEarth`
 branch - please ensure that you switch to that before you start as we're making
