@@ -11,6 +11,12 @@ Hobbit SBG
 ## Overview ##
 [Overview]: #overview
 
+### Middle Earth Strategy Battle Game? ###
+
+Development for Middle Earth SBG is currently happening in the `MiddleEarth`
+branch - please ensure that you switch to that before you start as we're making
+good progress.
+
 __What's this?__
 
 BSData organisation created this project. It's GitHub repository of datafiles.
