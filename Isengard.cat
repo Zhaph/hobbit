@@ -424,7 +424,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24ea-6830-d187-3d84" name="Grima Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="false" collective="false" type="model">
+    <selectionEntry id="24ea-6830-d187-3d84" name="Grima Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="true" collective="false" type="model">
       <profiles>
         <profile id="e262-61c1-1031-d253" name="Grima Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -472,7 +472,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c312-7898-3f69-3939" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a0-dbb9-7eb7-dc29" type="max"/>
       </constraints>
@@ -1356,7 +1364,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="f5a2-99f6-e78c-7514">
+        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1377,7 +1385,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="0493-4ee7-f9e8-77b9" name="Axe" hidden="false" targetId="6496-3398-5abf-5e52" type="selectionEntry">
+                <entryLink id="0493-4ee7-f9e8-77b9" name="Axe (Included)" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1404,23 +1412,21 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f5a2-99f6-e78c-7514" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a68b-1b7a-640a-b3c8" name="Two-Handed Axe (Included)" hidden="false" targetId="4b1d-3b13-d14e-6f8c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d65-2ac2-fd54-65ff" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ae-ea53-90b5-8da8" type="max"/>
+              </constraints>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2042,6 +2048,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b6c9-0a89-43e2-93c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5f0-86ce-887c-bd63" type="equalTo"/>
+                    <condition field="selections" scope="b6c9-0a89-43e2-93c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b3a-9f7a-0791-818d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
@@ -2070,7 +2089,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="7c15-978f-6414-88ae">
+        <selectionEntryGroup id="0541-adfe-4ce2-f562" name="Choose One" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2082,67 +2101,57 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="f5f0-86ce-887c-bd63" name="Dagger and Bow" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="d4e7-9bec-589c-8b07" name="Dagger and Bow" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
-                    <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="62d5-3004-0e16-4199" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="8d31-a36c-27a3-d65c" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7c15-978f-6414-88ae" name="Axe" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="53ee-8201-3d80-467e" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="2a85-a0bb-1bc2-e558" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5840-c37b-cab2-8a17" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b24-3f18-47f1-89ea" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fe80-ff13-4b62-6c70" name="Bow (Included)" hidden="false" targetId="1999-b3ed-de33-17b2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e6-28b5-398a-548f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a1-c786-7338-deae" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="ca9d-9eae-4dff-7f3c" name="Axe (Included)" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253e-b037-c286-5b7a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a2-19fb-761e-1aaf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
