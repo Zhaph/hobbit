@@ -435,7 +435,6 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcbf-c25e-8cab-3245" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6efe-42b2-0676-4472" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
