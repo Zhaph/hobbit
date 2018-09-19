@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="4" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="5" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -160,24 +160,31 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="bc53-ae31-0120-1faa" value="15">
+            <modifier type="decrement" field="bc53-ae31-0120-1faa" value="3">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c071-e634-3220-08c1" type="instanceOf"/>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c071-e634-3220-08c1" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="bc53-ae31-0120-1faa" value="12">
+            <modifier type="decrement" field="bc53-ae31-0120-1faa" value="6">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="instanceOf"/>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="bc53-ae31-0120-1faa" value="1">
+              <repeats>
+                <repeat field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e059-5f8f-1ab2-017e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="bc53-ae31-0120-1faa" value="12">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e059-5f8f-1ab2-017e" type="instanceOf"/>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1061-1aac-497f-b099" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1966,7 +1973,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
