@@ -1981,7 +1981,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ae09-e32c-3a00-4f8b" name="Two-handed Axe" hidden="false" targetId="49bb-ab2e-8455-df74" type="selectionEntry">
+        <entryLink id="ae09-e32c-3a00-4f8b" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2192,7 +2192,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2374,7 +2376,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="82a9-09f3-ed17-c34e" name="Two-handed weapon (Hero)" hidden="false" targetId="9295-5fd4-b935-599d" type="selectionEntry">
+        <entryLink id="82a9-09f3-ed17-c34e" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2534,59 +2536,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </costs>
     </selectionEntry>
     <selectionEntry id="893f-e179-37e8-f697" name="Uruk-hai Demolition Team" book="Armies of The Lord of the Rings" page="80" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5fca-ee7b-7b56-c28f" name="Demolition Charge" book="Armies of The Lord of the Rings" page="178" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="0"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="-"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="-"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="-"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="-"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
-          </characteristics>
-        </profile>
-        <profile id="5230-6f55-e364-e89a" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
-          </characteristics>
-        </profile>
-        <profile id="6d22-59d5-1898-94a7" name="Uruk-hai Demolition Team" book="Armies of The Lord of the Rings" page="175" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&apos;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value=""/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules>
         <rule id="0555-aa27-8810-10bc" name="Attacking the Charge" book="Armies of the Lord of the Rings" page="178" hidden="false">
           <profiles/>
@@ -2650,25 +2600,127 @@ Cavalry takes d6 on mount and rider.
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="3db9-fd09-728a-30d7" name="Uruk-Hai Demolition Team" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9dcf-34cf-06ea-8902" name="Uruk-hai Demolition Team" book="Armies of The Lord of the Rings" page="175" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&apos;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fcb-9ef8-b909-7734" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dee-5c3f-6a7f-945b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2153-a1e1-4e1e-48c5" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="20fb-ba9c-ef68-ef87" name="Demolition Charge" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="74d9-4d60-0a81-f114" name="Demolition Charge" book="Armies of The Lord of the Rings" page="178" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="0"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="-"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="-"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="-"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="-"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b3-a744-d664-a4f4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0160-6c48-9769-5bd1" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="48de-5c44-8aec-4b79" name="Uruk-hai Berserker" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6359-928b-8929-130d" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d453-0e59-85be-9fe6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08c-5b5b-7482-a8bf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="72ce-c3e4-fd58-15f4" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="213e-2e5d-8d04-4a0e" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a33c-216b-69d6-52dc" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d8be-7e4b-6857-a547" name="Flaming Brand" hidden="false" targetId="482e-fbe4-dd3e-f2f9" type="selectionEntry">
           <profiles/>
           <rules/>
