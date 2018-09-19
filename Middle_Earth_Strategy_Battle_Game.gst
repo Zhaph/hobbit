@@ -1800,6 +1800,64 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9552-39df-00a5-c1ac" name="Spear (Included)" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e25d-2a8a-6ba0-f2c4" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6350-24dc-6392-184a" name="Spear" hidden="false" targetId="8bf1-de73-029d-15e0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c9-2e9a-0537-696d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2af8-ceb0-4dae-8db4" name="Spear" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9c58-e321-b791-a0d8" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9121-1f36-44dd-b774" name="Spear" hidden="false" targetId="8bf1-de73-029d-15e0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af31-194e-19ea-12fc" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">
@@ -3970,6 +4028,13 @@ Affected models may not charge.</description>
         <characteristic name="Phase" characteristicTypeId="8820-1aa6-c333-15e4" value="Fight"/>
         <characteristic name="Description" characteristicTypeId="6abc-a795-2395-2cf8" value="[Hero must be in base contact with an Enemy Hero.] [Enemy Hero must be of the same Heroif Tier or Higher.]  If accepted:  No other models can assist or join the fight.  Heroes must Charge each other if able until one is slain.  Hero that wins gains D3 Might points (regardless of starting level). If declined:  Heroic actions called by declining Hero do not affect other Friendly models until Challenger is slain."/>
       </characteristics>
+    </profile>
+    <profile id="8bf1-de73-029d-15e0" name="Spear" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
     </profile>
   </sharedProfiles>
 </gameSystem>
