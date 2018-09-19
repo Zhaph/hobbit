@@ -323,6 +323,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ee8f-01a6-cb21-b901" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
@@ -549,6 +557,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d201-20ce-1a95-af2b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
@@ -683,6 +699,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f49-c7ef-ec2e-c93c" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e333-c1d4-be34-ed2c" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -860,6 +884,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <categoryLinks/>
         </entryLink>
         <entryLink id="e18d-a4c6-df22-ad5f" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e22-0b4f-9034-53d4" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1072,6 +1104,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="895a-e8fc-f9c4-582f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
@@ -1214,6 +1254,14 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <categoryLinks/>
         </entryLink>
         <entryLink id="ac34-be02-4c11-d64d" name="Two axes (Included)" hidden="false" targetId="0caa-e2e4-2dca-d47d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="349c-896e-f19a-4497" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
