@@ -2619,7 +2619,7 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a816-0b0d-1de8-2abe" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+            <entryLink id="a816-0b0d-1de8-2abe" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2659,7 +2659,7 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="87d4-771b-761a-e50f" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+            <entryLink id="87d4-771b-761a-e50f" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
