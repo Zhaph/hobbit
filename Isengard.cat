@@ -42,7 +42,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Wizard"/>
           </characteristics>
         </profile>
         <profile id="3487-8376-c532-2c96" name="Immobilise" book="The Armies of the Lord of the Rings" page="167" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -102,21 +102,24 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per game, the controlling player can use the ability of the Palantir to automatically win a Priority roll - the use of this special ability must be declared before any dice are rolled for Priority.</description>
+          <description>
+Once per game, the controlling player can use the ability of the Palantir to automatically win a Priority roll - the use of this special ability must be declared before any dice are rolled for Priority.</description>
         </rule>
         <rule id="763e-c832-b5f2-d314" name="Voice of Curunir" book="The Armies of the Lord of the Rings" page="167" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Saruman&apos;s Stand Fast! rule is 12&quot; and can affect other Hero models.</description>
+          <description>
+The range of Saruman&apos;s Stand Fast! rule is 12&quot; and can affect other Hero models.</description>
         </rule>
         <rule id="56c9-2a96-2a92-6b3b" name="Lord of the Istari" book="The Armies of the Lord of the Rings" page="167" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Saruman the White can choose to re-roll one dice when making Casting or Resist tests.</description>
+          <description>
+Saruman the White can choose to re-roll one dice when making Casting or Resist tests.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -151,6 +154,12 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <modifiers/>
         </infoLink>
         <infoLink id="2465-659d-128c-bd3e" name="Flameburst" hidden="false" targetId="1a7e-e80c-72a1-8dfe" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f4b8-b5dd-c451-e556" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -301,14 +310,28 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d42f-9fa2-42bf-e6d6" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4ad-e00c-f84a-1109" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
+    <selectionEntry id="a4ad-e00c-f84a-1109" name="Uglúk" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0f90-5716-a045-308d" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0f90-5716-a045-308d" name="Uglúk" book="Armies of The Lord of the Rings" page="169" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -388,9 +411,9 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24ea-6830-d187-3d84" name="Grima Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="true" collective="false" type="model">
+    <selectionEntry id="24ea-6830-d187-3d84" name="Gríma Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e262-61c1-1031-d253" name="Grima Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="e262-61c1-1031-d253" name="Gríma Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -437,7 +460,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </rules>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="72a0-dbb9-7eb7-dc29" value="1">
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c312-7898-3f69-3939" type="equalTo"/>
@@ -446,10 +469,11 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a0-dbb9-7eb7-dc29" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a0-dbb9-7eb7-dc29" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="de31-53bc-43de-8071" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+<<<<<<< HEAD
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -457,6 +481,8 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
         <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+=======
+>>>>>>> me/isengard-review
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -705,9 +731,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19d7-76d9-79a9-5902" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
+    <selectionEntry id="19d7-76d9-79a9-5902" name="Vraskû" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1fa3-df5a-6661-a2cf" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1fa3-df5a-6661-a2cf" name="Vraskû" book="Armies of The Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1201,7 +1227,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1254,7 +1280,11 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <infoLinks/>
                   <modifiers/>
                   <constraints>
+<<<<<<< HEAD
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="233c-b671-75c5-db6f" type="min"/>
+=======
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c00-37c0-5fe9-3675" type="min"/>
+>>>>>>> me/isengard-review
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -1951,7 +1981,11 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
               <infoLinks/>
               <modifiers/>
               <constraints>
+<<<<<<< HEAD
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77f-1d14-5560-869a" type="max"/>
+=======
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253e-b037-c286-5b7a" type="max"/>
+>>>>>>> me/isengard-review
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2290,20 +2324,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       <constraints/>
       <categoryLinks>
         <categoryLink id="6813-a07c-7148-8203-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="850e-a2ee-3eeb-1215" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="3173-ef8f-7774-0855" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3090,9 +3110,9 @@ Cavalry takes d6 on mount and rider.
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be2d-fda7-f080-8a69" name="Mauhur" book="Armies of Lord of the Rings" page="171" hidden="false" collective="false" type="model">
+    <selectionEntry id="be2d-fda7-f080-8a69" name="Mauhúr" book="Armies of Lord of the Rings" page="171" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="a72a-07d5-45ed-d56a" name="Mauhur" book="The Armies of the Lord of the rings" page="171" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="a72a-07d5-45ed-d56a" name="Mauhúr" book="The Armies of the Lord of the rings" page="171" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3218,6 +3238,8 @@ Cavalry takes d6 on mount and rider.
           <modifiers/>
           <constraints/>
         </categoryLink>
+=======
+>>>>>>> me/isengard-review
         <categoryLink id="d45c-1433-ff41-8caf" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
@@ -3841,7 +3863,13 @@ Cavalry takes d6 on mount and rider.
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="points" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531e-dae8-5bb4-0b08" type="max"/>
       </constraints>
