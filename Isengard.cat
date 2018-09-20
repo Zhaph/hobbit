@@ -1378,7 +1378,15 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="name" value="Uruk-hai Marauder">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="e07a-883e-1b26-d891" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b9f-2142-2521-08ad" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="0b4a-47fa-126c-2a07-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
