@@ -9,7 +9,7 @@
       <modifiers/>
       <description>
 Friendly Isengard Models do not start to take Courage test for being Broken until at least 66% of the force&apos;s models have been removed as casualties.
-Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Hai Scouts gain the Woodland Creature special rule.</description>
+Additionally, Lurtz, Uglúk, Mauhúr, Vraskû, Uruk-hai Scout Captains, and Uruk Hai Scouts gain the Woodland Creature special rule.</description>
     </rule>
   </rules>
   <infoLinks>
@@ -393,7 +393,7 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Should Ugluk&apos;s force be broken, Ugluk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Ugluk and remove it as a casualty. Furthermore, in a turn that Ugluk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
+          <description>Should Uglúk&apos;s force be broken, Uglúk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Uglúk and remove it as a casualty. Furthermore, in a turn that Uglúk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -512,7 +512,7 @@ Gríma is always controlled by his controlling player and moves and fights when 
 
 If deployed as part of the enemy&apos;s army (but not as part of his own army), no enemy model can shoot at or strike blows against Gríma. Nor can they shoot if Gríma is In The Way of the shot. Enemy models are allowed to Charge Gríma and fight, but strike no blows if they win. Note that Gríma can be targeted by magical powers.
 
-This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy model or if Grima scores a wound with his dagger (even if the Wound is avoided with Fate). Grima can decide not to strike blows if he wins a duel roll in order not to reveal his real allegiance. Once one of these conditions is met, the depth of Grima&apos;s evil is revealed and he becomes an enemy who can be shot and fought in the same way as any other enemy model.</description>
+This restriction ends if Saruman is slain, if Gríma voluntarily charges an enemy model or if Gríma scores a wound with his dagger (even if the Wound is avoided with Fate). Gríma can decide not to strike blows if he wins a duel roll in order not to reveal his real allegiance. Once one of these conditions is met, the depth of Gríma&apos;s evil is revealed and he becomes an enemy who can be shot and fought in the same way as any other enemy model.</description>
         </rule>
         <rule id="2d8d-6de1-558c-6177" name="Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false">
           <profiles/>
