@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="5" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="6" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -275,7 +275,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="822f-a1c2-068a-ad24" name="Shield" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="822f-a1c2-068a-ad24" name="Shield (Hero)" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1688,7 +1688,9 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec7-6de9-fbd9-68e9" type="max"/>
+        <constraint field="selections" scope="e07a-883e-1b26-d891" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="1ec7-6de9-fbd9-68e9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d3-7abf-713c-9fa9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0973-7ce2-0beb-4b26" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1728,7 +1730,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c88f-7fa4-f84d-3d62" name="Bow" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c88f-7fa4-f84d-3d62" name="Bow (Hero)" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2896,7 +2898,6 @@ Defence increased to 8.</description>
       <infoLinks/>
       <modifiers/>
       <description>
-
 Inflicts 3 Strength 9 hits when it Tramples.</description>
     </rule>
     <rule id="41b0-6939-75e8-1c72" name="Extra Attack" book="Middle-earth Strategy Battle Game Rules Manual" page="62" hidden="false">
@@ -3081,7 +3082,8 @@ Before moving the Ringbearer in the Move phase:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
+      <description>
+When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
     </rule>
     <rule id="5d35-45bd-6414-7351" name="Narya (Passive)" book="Armies of The Lord of the Rings" page="11" hidden="false">
       <profiles/>
@@ -3095,14 +3097,16 @@ Before moving the Ringbearer in the Move phase:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
+      <description>
+Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
     </rule>
     <rule id="ff15-bfa5-0fbe-8d69" name="Bash" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
+      <description>
+Model may choose to knock a single opponent Prone if they win the duel roll instead of making Strikes.
 Models roll a further d6 + Strength. Basher adds 1 if weapon is two-handed.
 If Basher&apos;s total is equal or greater the opponent is immediately knocked Prone.</description>
     </rule>
@@ -3120,11 +3124,12 @@ If they lose reduce their Defense by D3 when Strikes are made against them.</des
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Feint [Fight is equal or higher to opponent&amp;apos;s]
+      <description>
+Feint [Fight is equal or higher to opponent&amp;apos;s]
 Reduce fight by D3.
 If Feinting model wins the Duel roll they reroll any 1&apos;s to wound.
 
- Stab [Fight less than opponent&amp;apos;s]
+Stab [Fight less than opponent&amp;apos;s]
 May reroll 1&apos;s to wound if they win the duel roll.
 If they lose the duel roll they immediately suffer a Strength 2 hit after the fight is resolved.</description>
     </rule>
@@ -3133,7 +3138,8 @@ If they lose the duel roll they immediately suffer a Strength 2 hit after the fi
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
+      <description>
+Model may choose to Stun a single opponent if they win the duel roll instead of making Strikes.
 Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+ and 1 attack until the end of the following turn.</description>
     </rule>
     <rule id="70e8-37f0-5865-4c09" name="Whirl" book="Middle-earth Strategy Battle Game Rules Manual" page="87" hidden="false">
@@ -3141,7 +3147,8 @@ Roll a d6, on a 5+ (6+ if target is Monster) the target is reduced to Fight 1/6+
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to Whirl.
+      <description>
+Model may choose to Whirl.
 Reduce Fight to 1, after modifiers, for the duration of the duel.
 If they win the Fight they can make a single Strike against every enemy model engaged in the Fight.</description>
     </rule>
@@ -3150,7 +3157,8 @@ If they win the Fight they can make a single Strike against every enemy model en
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Start of the Move Phase a model with a war drum may sound an Advance.
+      <description>
+Start of the Move Phase a model with a war drum may sound an Advance.
 All models with the matching keywords within 12&quot; of the drummer are affected until the end of the turn.
 Infantry +3&quot; to their movement value.
 Cavalry or models with Fly +5&quot; to their movement value.
@@ -3169,7 +3177,8 @@ The first time this model takes a courage test as a result of your force being B
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Model with this special rule may:
+      <description>
+A Model with this special rule may:
 [Re-roll a single d6 when making a duel roll]
 and
 [Re-roll a single d6 when making a wound roll]</description>

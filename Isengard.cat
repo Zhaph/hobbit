@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="2" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -7,7 +7,8 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Friendly Isengard Models do not start to take Courage test for being Broken until at least 66% of the force&apos;s models have been removed as casualties.
+      <description>
+Friendly Isengard Models do not start to take Courage test for being Broken until at least 66% of the force&apos;s models have been removed as casualties.
 Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Hai Scouts gain the Woodland Creature special rule.</description>
     </rule>
   </rules>
@@ -42,7 +43,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Wizard"/>
           </characteristics>
         </profile>
         <profile id="3487-8376-c532-2c96" name="Immobilise" book="The Armies of the Lord of the Rings" page="167" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -102,21 +103,24 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per game, the controlling player can use the ability of the Palantir to automatically win a Priority roll - the use of this special ability must be declared before any dice are rolled for Priority.</description>
+          <description>
+Once per game, the controlling player can use the ability of the Palantir to automatically win a Priority roll - the use of this special ability must be declared before any dice are rolled for Priority.</description>
         </rule>
         <rule id="763e-c832-b5f2-d314" name="Voice of Curunir" book="The Armies of the Lord of the Rings" page="167" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Saruman&apos;s Stand Fast! rule is 12&quot; and can affect other Hero models.</description>
+          <description>
+The range of Saruman&apos;s Stand Fast! rule is 12&quot; and can affect other Hero models.</description>
         </rule>
         <rule id="56c9-2a96-2a92-6b3b" name="Lord of the Istari" book="The Armies of the Lord of the Rings" page="167" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Saruman the White can choose to re-roll one dice when making Casting or Resist tests.</description>
+          <description>
+Saruman the White can choose to re-roll one dice when making Casting or Resist tests.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -151,6 +155,12 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <modifiers/>
         </infoLink>
         <infoLink id="2465-659d-128c-bd3e" name="Flameburst" hidden="false" targetId="1a7e-e80c-72a1-8dfe" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="28ef-c7c2-1d7d-db89" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -200,6 +210,14 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a90d-0459-d891-b7e0" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="180.0"/>
@@ -213,7 +231,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
@@ -223,7 +241,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value=""/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -236,7 +254,32 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <description>Any warband led by Lurtz does not have to roll to determine when and where it arrives in Scenarios that require such a roll. Instead, Lurtz may choose the result.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="9a07-bd38-7f16-7ab7" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa7a-c282-cfce-e52b" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae38-e273-213a-79f9" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="acdd-72c6-6a58-236d" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d482-b712-28ed-896c" type="max"/>
@@ -260,12 +303,20 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="77a7-4fc8-5301-c276" name="Shield (Lurtz)" hidden="false" targetId="95cf-f63a-7ae0-e297" type="selectionEntry">
+        <entryLink id="77a7-4fc8-5301-c276" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be31-9042-b495-bc4c" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="3d26-8325-7f6b-7d48" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
@@ -301,20 +352,28 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="150c-2c1a-dc12-d743" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4ad-e00c-f84a-1109" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
+    <selectionEntry id="a4ad-e00c-f84a-1109" name="Uglúk" book="Armies of The Lord of the Rings" page="169" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0f90-5716-a045-308d" name="Ugluk" book="Armies of The Lord of the Rings" page="169" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0f90-5716-a045-308d" name="Uglúk" book="Armies of The Lord of the Rings" page="169" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -324,7 +383,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -337,7 +396,26 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <description>Should Ugluk&apos;s force be broken, Ugluk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Ugluk and remove it as a casualty. Furthermore, in a turn that Ugluk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6747-fd21-e280-8ea1" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="abf1-963a-9ea2-da92" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f25f-497e-ca21-3c17" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="187a-cb44-89cd-17d8" type="max"/>
@@ -383,20 +461,28 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f711-a1cf-5f95-8b91" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24ea-6830-d187-3d84" name="Grima Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="true" collective="false" type="model">
+    <selectionEntry id="24ea-6830-d187-3d84" name="Gríma Wormtongue" book="Armies of The Lord of the Rings" page="168" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e262-61c1-1031-d253" name="Grima Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="e262-61c1-1031-d253" name="Gríma Wormtongue" book="The Armies of the Lord of the Rings" page="168" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
@@ -406,7 +492,7 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -416,14 +502,15 @@ Additionally, Lurtz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, and Uruk Ha
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Grima can be deployed as part of an Isengard force or as part of an enemy&apos;s warband.
+          <description>
+Gríma can be deployed as part of an Isengard force or as part of an enemy&apos;s warband.
 
-Grima must be deployed in Saruman&apos;s warband if deployed with the Isengard force.
+Gríma must be deployed in Saruman&apos;s warband if deployed with the Isengard force.
 
-Alternatively, attach Grima to an enemy warband. When this warband is deployed or moves onto the battlefield you must immediately place Grima as if he was a member of that warband.
-Grima is always controlled by his controlling player and moves and fights when it is his controlling player&apos;s turn to do so as usual. 
+Alternatively, attach Gríma to an enemy warband. When this warband is deployed or moves onto the battlefield you must immediately place Gríma as if he was a member of that warband.
+Gríma is always controlled by his controlling player and moves and fights when it is his controlling player&apos;s turn to do so as usual. 
 
-If deployed as part of the enemy&apos;s army (but not as part of his own army), no enemy model can shoot at or strike blows against Grima. Nor can they shoot if Grima is In The Way of the shot. Enemy models are allowed to Charge Grima and fight, but strike no blows if they win. Note that Grima can be targeted by magical powers.
+If deployed as part of the enemy&apos;s army (but not as part of his own army), no enemy model can shoot at or strike blows against Gríma. Nor can they shoot if Gríma is In The Way of the shot. Enemy models are allowed to Charge Gríma and fight, but strike no blows if they win. Note that Gríma can be targeted by magical powers.
 
 This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy model or if Grima scores a wound with his dagger (even if the Wound is avoided with Fate). Grima can decide not to strike blows if he wins a duel roll in order not to reveal his real allegiance. Once one of these conditions is met, the depth of Grima&apos;s evil is revealed and he becomes an enemy who can be shot and fought in the same way as any other enemy model.</description>
         </rule>
@@ -432,15 +519,16 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If an enemy Hero model is within 6&quot;/14cm of Grima, 2 Might points must be expended to use Heroic Actions instead of 1.</description>
+          <description>
+If an enemy Hero model is within 6&quot;/14cm of Gríma, 2 Might points must be expended to use Heroic Actions instead of 1.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="72a0-dbb9-7eb7-dc29" value="0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c312-7898-3f69-3939" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c312-7898-3f69-3939" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -450,13 +538,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </constraints>
       <categoryLinks>
         <categoryLink id="de31-53bc-43de-8071" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c02e-0ded-0b32-c6ec" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -509,7 +590,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -519,11 +600,24 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
+          <description>
+The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="6fcd-93d2-076e-a0a5" name="Mighty Blow (Active)" hidden="false" targetId="0583-e3c4-79c5-3827" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1346-812b-4c40-76ed" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="19f3-c5c9-0635-1508" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -594,6 +688,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5768-9d64-893a-8f5e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="85.0"/>
@@ -625,7 +727,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
           </characteristics>
         </profile>
         <profile id="abb6-5bac-5bb2-3bde" name="Riding Dagger" book="Armies of the Lord of the Rings" page="170" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
@@ -639,7 +741,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d008-55f2-07db-0ec0" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db89-7905-64c9-03a2" type="max"/>
@@ -681,7 +790,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e546-ca88-8386-7d7f" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+        <entryLink id="e546-ca88-8386-7d7f" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -700,20 +809,28 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e4e6-1cc0-8d22-b507" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19d7-76d9-79a9-5902" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
+    <selectionEntry id="19d7-76d9-79a9-5902" name="Vraskû" book="Armies of The Lord of the Rings" page="170" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1fa3-df5a-6661-a2cf" name="Vrasku" book="Armies of The Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1fa3-df5a-6661-a2cf" name="Vraskû" book="Armies of The Lord of the Rings" page="170" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -723,13 +840,25 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="d478-d9cf-74f2-1440" name="Expert Shot (Active)" hidden="false" targetId="1796-7001-bd0a-699b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9772-8ff1-b4ef-6cc9" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a80-25f1-ade7-ddcf" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -792,6 +921,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1d17-6428-d877-3214" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="65.0"/>
@@ -826,7 +963,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
@@ -836,12 +973,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="ffb8-f2ef-896a-828d" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -879,7 +1023,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c539-4f4b-506e-ce1a" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+        <entryLink id="c539-4f4b-506e-ce1a" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -909,6 +1053,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="be16-2619-f7b5-bea1" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
@@ -930,7 +1082,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
@@ -940,7 +1092,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
         <profile id="18cf-5823-3aec-4034" name="Transfix" book="Armies of the Lord of the Rings" page="173" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -973,6 +1125,12 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
         </infoLink>
         <infoLink id="a251-69f2-e231-4bc6" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="58cd-bc0c-5cf6-5a6a" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1053,7 +1211,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -1063,12 +1221,19 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="987c-e333-6fc4-f0a0" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1089,7 +1254,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="0a2c-4819-497e-d299">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1138,7 +1303,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1155,6 +1320,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49df-7e79-24b2-9cb9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="887e-66a1-cfb9-f7bd" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f632-0719-1798-9690" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1191,7 +1364,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -1201,7 +1374,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1301,7 +1474,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c7c9-892b-3aff-f031" name="Bow (Hero)" hidden="false" targetId="3fb2-7e00-922e-d5fc" type="selectionEntry">
+        <entryLink id="c7c9-892b-3aff-f031" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1310,6 +1483,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <categoryLinks/>
         </entryLink>
         <entryLink id="cd2d-b8b2-41fd-db60" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0523-0ab5-8bc9-9e01" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1365,14 +1546,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1502,14 +1683,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1662,14 +1843,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1741,14 +1922,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="6/5+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="8"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Troll, Monster"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1917,14 +2098,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2058,7 +2239,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2172,7 +2353,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2327,7 +2508,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2343,24 +2524,10 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="850e-a2ee-3eeb-1215" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="3173-ef8f-7774-0855" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1437-971b-4734-edb6" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="1437-971b-4734-edb6" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="b51d-0ca3-b8b2-897e">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2469,14 +2636,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2486,14 +2653,16 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Will only scatter 3&quot; instead of 6&quot;</description>
+          <description>
+Will only scatter 3&quot; instead of 6&quot;</description>
         </rule>
         <rule id="1f2b-8df7-ff07-5482" name="Raise the Ladders!" book="The Armies of the Lord of the Rings" page="179" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Choose a point on the battlements in range and in line of sight of the machine and at least one crew.
+          <description>
+Choose a point on the battlements in range and in line of sight of the machine and at least one crew.
 Roll to hit. If the shot misses nothing happens
 If the shot hits one siege ladder within 6&quot; of the wall base below the target point is raised immediately.
 Ladder carries can drop the ladder immediately or ride it to the top and be placed as if they had climbed to the top that turn. 
@@ -2504,7 +2673,8 @@ Carriers that ride the ladder count as charging if there is a defender at the to
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Targets hit take a S9 hit.
+          <description>
+Targets hit take a S9 hit.
 If the target is S5 or less they are knocked Prone and moved back d6&quot; directly away from the ballista.
 Any model they pass over will also be knocked Prone and take a S6 hit.\
 If the target hits impassable terrain or a model S6 or higher then it is immediately stopped and knocked Prone.
@@ -2550,12 +2720,19 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
                 <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
                 <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
                 <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value=""/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="e204-0783-c20f-1710" name="Engineer Captain" hidden="false" targetId="2507-c351-8e85-f546" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4df-9378-1248-2846" type="max"/>
@@ -2594,7 +2771,14 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         <selectionEntry id="0a56-60e5-4877-8f38" name="Superior construction" book="The Fallen Realms" page="24" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="ba12-c6f3-2943-5dbf" name="Superior Construction" hidden="false" targetId="3679-eb54-bca1-3551" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcd8-5aea-5b9a-7e77" type="max"/>
@@ -2779,17 +2963,19 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If the charge is wounded roll a d6 per wound, a 6 it detonates.
-A demolition charge wounded by another charge will detonate on a 4+ per wound suffered.
-If reduced to 0 wounds without detonating the charge is removed from play.
-An enemy model that spends a turn in base to base and unengaged may disable the charge, remove it from play.</description>
+          <description>
+If the Charge is Wounded roll a d6 per Wound, on a 6 it detonates.
+A demolition charge Wounded by another Charge will detonate on a 4+ per Wound suffered.
+If reduced to 0 Wounds without detonating the charge is removed from play.
+An enemy model that spends a turn in base to base and unengaged may disable the Charge, remove it from play.</description>
         </rule>
         <rule id="1e83-d14e-04e3-2326" name="Desperate Detonations" book="Armies of the Lord of the Rings" page="178" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>An unengaged model in base to base and without a Brand may try to detonate the charge at the beginning of the Fight phase.
+          <description>
+An unengaged model in base to base and without a Brand may try to detonate the charge at the beginning of the Fight phase.
 Pass a courage test, roll a D6 for each model trying to detonate the charge. On a 6 the charge detonates, roll on the table.</description>
         </rule>
         <rule id="6e33-9967-d1ff-2534" name="Detonating the Charge" book="Armies of the Lord of the Rings" page="178" hidden="false">
@@ -2797,7 +2983,8 @@ Pass a courage test, roll a D6 for each model trying to detonate the charge. On 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Must be dropped.
+          <description>
+Must be dropped.
 Un-engaged model with Flaming Brand in base contact with the charge can detonate at start of Fight phase.
 Pass courage test and roll on Detonation Table.
 Strikes everything within 2&quot;.
@@ -2811,7 +2998,8 @@ Cavalry takes d6 on mount and rider.
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>[Heavy Object]
+          <description>
+[Heavy Object]
 [Can&apos;t be carried by Mounted Models]</description>
         </rule>
         <rule id="3189-9862-a682-6564" name="Detonation Table" book="Armies of the Lord of the Rings" page="178" hidden="false">
@@ -2819,7 +3007,8 @@ Cavalry takes d6 on mount and rider.
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>1: Dud, no detonation, remove from play.
+          <description>
+1: Dud, no detonation, remove from play.
 2-5: Instant Reaction, detonates normally.
 6: Titanic Explosion, deals 2d6 wounds instead of d6</description>
         </rule>
@@ -2845,14 +3034,14 @@ Cavalry takes d6 on mount and rider.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&apos;"/>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
                 <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
                 <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
                 <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
                 <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
                 <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
                 <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value=""/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2956,7 +3145,7 @@ Cavalry takes d6 on mount and rider.
                 <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
                 <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
                 <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3059,12 +3248,19 @@ Cavalry takes d6 on mount and rider.
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="5f83-4b9b-0fda-0571" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -3102,7 +3298,7 @@ Cavalry takes d6 on mount and rider.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4059-858c-7d1b-910a" name="Shield (Hero)" hidden="false" targetId="db74-7405-8f9b-a078" type="selectionEntry">
+        <entryLink id="4059-858c-7d1b-910a" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3132,14 +3328,22 @@ Cavalry takes d6 on mount and rider.
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="b015-b375-09c1-1527" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be2d-fda7-f080-8a69" name="Mauhur" book="Armies of Lord of the Rings" page="171" hidden="false" collective="false" type="model">
+    <selectionEntry id="be2d-fda7-f080-8a69" name="Mauhúr" book="Armies of Lord of the Rings" page="171" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="a72a-07d5-45ed-d56a" name="Mauhur" book="The Armies of the Lord of the rings" page="171" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="a72a-07d5-45ed-d56a" name="Mauhúr" book="The Armies of the Lord of the rings" page="171" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3155,12 +3359,25 @@ Cavalry takes d6 on mount and rider.
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c50b-d99e-46cb-1757" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="399f-a5d6-1c89-e62f" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb4-ff57-339f-3f43" type="max"/>
@@ -3226,6 +3443,14 @@ Cavalry takes d6 on mount and rider.
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="909c-dc2d-4107-7c53" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
@@ -3249,7 +3474,7 @@ Cavalry takes d6 on mount and rider.
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3358,13 +3583,21 @@ Cavalry takes d6 on mount and rider.
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="3f65-7c07-1606-a384" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1117-4c70-0503-a366" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6fc7-3857-45c3-81e2" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
@@ -3421,29 +3654,6 @@ Cavalry takes d6 on mount and rider.
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db74-7405-8f9b-a078" name="Shield (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4510-1d35-677f-f6f4" name="Shields, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d8-77a4-c6d1-5d4d" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -3485,7 +3695,16 @@ Cavalry takes d6 on mount and rider.
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6696-4d82-4f6d-8233" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -3545,7 +3764,16 @@ Cavalry takes d6 on mount and rider.
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6b2d-ce64-bff2-67c1" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -3610,12 +3838,20 @@ Cavalry takes d6 on mount and rider.
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ac-1d20-13d8-bccd" type="max"/>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="a031-ff15-6aee-4bf3" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c880-5064-c350-0a92" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
@@ -3765,59 +4001,6 @@ Cavalry takes d6 on mount and rider.
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95cf-f63a-7ae0-e297" name="Shield (Lurtz)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="df56-be64-2e09-7636" name="Shields, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531e-dae8-5bb4-0b08" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3fb2-7e00-922e-d5fc" name="Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="0d8a-7732-f74e-0473" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="33d4-0d72-cc85-f2d5" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="52cc-ab55-fcf7-c2e1" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eba-c1fa-74cf-c4e0" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9d32-8903-856f-7da8" name="Two-handed Axe (Hero)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -3895,13 +4078,21 @@ Cavalry takes d6 on mount and rider.
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="cb17-d220-ae02-7598" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca1-0fa0-2e3c-36f8" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="13d3-973b-8349-7271" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
@@ -3925,13 +4116,21 @@ Cavalry takes d6 on mount and rider.
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="6f61-2171-18f8-bd09" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548e-521b-3316-f4fd" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="afcb-80bd-e9d2-2b05" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
