@@ -1324,7 +1324,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
     </selectionEntry>
     <selectionEntry id="0b4a-47fa-126c-2a07" name="Uruk-hai Scout" book="Armies of The Lord of the Rings" page="174" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4940-6a20-4300-4031" name="Uruk-hai Scout" book="The Fallen Realms" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="4940-6a20-4300-4031" name="Uruk-hai Scout" book="Armies of The Lord of the Rings" page="174" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1348,6 +1348,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" field="name" value="Uruk-hai Marauder">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b9f-2142-2521-08ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="196b-a97b-5c5f-dee8" value="8&quot;">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b9f-2142-2521-08ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1375,7 +1389,32 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges an enemy
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="3b9f-2142-2521-08ad" name="Uruk-hai Marauder" book="Armies of The Lord of the Rings" page="174" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be2d-fda7-f080-8a69" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389a-6243-22b8-5dfe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a255-be88-f619-6113" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
@@ -3287,118 +3326,6 @@ Cavalry takes d6 on mount and rider.
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ad3a-d43c-4505-287d" name="Uruk-hai Marauder" book="Armies of The Lord of the Rings" page="174" hidden="true" collective="false" type="model">
-      <profiles>
-        <profile id="90e3-bbd0-41f6-cc9d" name="Uruk-hai Marauder" book="The Fallen Realms" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ad3a-d43c-4505-287d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1af8-e064-64da-bbc6" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="ad3a-d43c-4505-287d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ece-16c9-2895-00a3" type="equalTo"/>
-                    <condition field="selections" scope="ad3a-d43c-4505-287d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1af8-e064-64da-bbc6" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be2d-fda7-f080-8a69" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="c938-70d2-c997-4874" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="0ece-16c9-2895-00a3" name="Uruk-Hai Bow" hidden="false" targetId="d554-ed71-3472-cea1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1af8-e064-64da-bbc6" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="907c-fd68-4049-ac3a" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2eda-39ea-62f7-585b" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49e-383c-a112-9b82" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e337-2001-622d-de01" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="30cb-1679-1ed7-b937" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
