@@ -510,7 +510,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="6efe-42b2-0676-4472" value="0">
+                <modifier type="set" field="544c-19db-cb1a-f0be" value="0">
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a893-8e30-0689-e673" type="equalTo"/>
@@ -518,7 +518,9 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="544c-19db-cb1a-f0be" type="min"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -1376,6 +1378,14 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4c23-148c-a40d-7d87" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
@@ -1565,7 +1575,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5906-b73a-1e07-9a07" name="Bill the pony" book="Armies of The Lord of the Rings" page="14" hidden="true" collective="false" type="model">
+    <selectionEntry id="5906-b73a-1e07-9a07" name="Bill the pony" book="Armies of The Lord of the Rings" page="14" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6c4c-4d1c-fe0d-83a4" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1615,7 +1625,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="ed51-97d4-629f-15c2" value="1">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c975-2b1c-1553-58e6" type="equalTo"/>
@@ -1624,7 +1634,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed51-97d4-629f-15c2" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed51-97d4-629f-15c2" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-c20f-784a-0226" type="max"/>
       </constraints>
       <categoryLinks>
@@ -1668,7 +1678,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25c0-5479-17af-8894" name="Sméagol" book="Armies of The Lord of the Rings" page="15" hidden="true" collective="false" type="model">
+    <selectionEntry id="25c0-5479-17af-8894" name="Sméagol" book="Armies of The Lord of the Rings" page="15" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7b46-db11-1c75-af6a" name="Sméagol" book="Armies of The Lord of the Rings" page="15" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1712,7 +1722,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="50d5-dd0f-295c-5b3b" value="1">
           <repeats/>
           <conditions/>
           <conditionGroups>
@@ -1735,7 +1745,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d5-dd0f-295c-5b3b" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d5-dd0f-295c-5b3b" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91bb-6698-58c5-677a" type="max"/>
       </constraints>
       <categoryLinks>
