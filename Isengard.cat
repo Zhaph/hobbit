@@ -3681,7 +3681,7 @@ Cavalry takes d6 on mount and rider.
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="0417-086c-2d3d-ca92" name="Crossbow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
+        <infoLink id="0417-086c-2d3d-ca92" name="Cross Bow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3695,16 +3695,7 @@ Cavalry takes d6 on mount and rider.
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="6696-4d82-4f6d-8233" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -3764,16 +3755,7 @@ Cavalry takes d6 on mount and rider.
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="6b2d-ce64-bff2-67c1" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -4121,16 +4103,7 @@ Cavalry takes d6 on mount and rider.
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="afcb-80bd-e9d2-2b05" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
