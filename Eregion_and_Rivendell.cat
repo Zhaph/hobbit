@@ -930,7 +930,7 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -944,15 +944,89 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="066f-2cf6-8216-4b56" name="Unbending Resolve" book="Armies of the Lord of the Rings" page="75" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Glorfindel always counts as having had the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="7388-377d-b979-8005" name="New InfoLink" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="7388-377d-b979-8005" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="b944-e3b5-0e46-ec94" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5eae-0ce2-bdb0-ae4a" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1513-62b9-11e8-b9f0" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cd00-da3a-861e-ed9f" name="Lord of the West (Active)" hidden="false" targetId="706f-ab12-24d7-f6b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6be-8b71-3b56-97d9" name="Fortify Spirit" hidden="false" targetId="a860-6e7b-f3da-47da" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9231-a97a-2995-fe6d" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="59f9-b61e-d9c2-0327" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c592-431e-fd80-0b73" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2aa9-88d3-c6f9-2f35" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b541-e379-8d25-09cb" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d324-b43e-c065-f155" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1386-285f-1710-fdb1" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -966,6 +1040,13 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
       </constraints>
       <categoryLinks>
         <categoryLink id="5bb2-e0f4-9216-628d-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a306-8743-3bf8-01df" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1002,7 +1083,7 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="pts" costTypeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdd7-b462-b815-429e" name="High Elf Captain" book="The Free Peoples" page="21" hidden="false" collective="false" type="model">
@@ -1400,11 +1481,11 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2424-ce1c-9e86-091d" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2424-ce1c-9e86-091d" name="Armour of Gondolin" book="Armies of the Lord of the Rings" page="75" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="95f0-da7f-dfc8-1114" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+        <infoLink id="75a3-1a3c-26d7-7800" name="Armor of Gondolin" hidden="false" targetId="e722-4bd3-6c0a-2773" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1420,7 +1501,7 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7493-2553-4d96-21e3" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="true" collective="false" type="upgrade">
@@ -1532,6 +1613,16 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
+      </characteristics>
+    </profile>
+    <profile id="e722-4bd3-6c0a-2773" name="Armor of Gondolin" book="Armies of the Lord of the Rings" page="75" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Heavy Armor +2 Defence]
+Monsters may not target Glorfindel with Brutal Power Attacks."/>
       </characteristics>
     </profile>
   </sharedProfiles>
