@@ -16,15 +16,15 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="9cf5-1626-0b78-a27b" name="Arwen" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="9cf5-1626-0b78-a27b" name="Arwen Undómiel" book="Armies of the Lord of the Rings" page="76" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f1af-8ad8-61fb-d131" name="Arwen" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="f1af-8ad8-61fb-d131" name="Arwen Undómiel" book="Armies of the Lord of the Rings" page="76" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
@@ -32,12 +32,12 @@
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="4"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
-        <profile id="981f-d135-0309-0329" name="Nature&apos;s Wrath" book="The Free Peoples" page="19" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
+        <profile id="981f-d135-0309-0329" name="Wrath of the Bruinen" book="Armies of the Lord of the Rings" page="76" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -50,19 +50,55 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f50b-8d15-72b9-8e0b" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="f50b-8d15-72b9-8e0b" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d3be-4151-0230-369e" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="d3be-4151-0230-369e" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="136b-6421-0643-94bc" name="Nature&apos;s Wrath" hidden="false" targetId="1de3-52e2-16f0-f54d" type="profile">
+        <infoLink id="136b-6421-0643-94bc" name="Wrath of Bruinen" hidden="false" targetId="52f1-9e96-62a5-1e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bc51-fafa-c6b1-6c0a" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5432-ac2f-0c6c-1995" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fd30-8532-8a3e-e10b" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="519e-ae0d-470e-8afb" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c243-967d-207c-cf96" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2421-31e0-d73e-5fc5" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -82,6 +118,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="25f1-e15c-90dd-52ca" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -91,7 +134,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8690-2bcf-4f5b-b56e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4179-a7ed-2005-d4a9" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="9708-297b-5110-51b4" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
@@ -99,7 +145,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0259-ab42-b67e-f9da" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="518f-c305-0b13-e13e" name="Asfaloth" hidden="false" targetId="5b0f-1130-2d0d-0e54" type="selectionEntry">
@@ -107,12 +155,24 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd33-043c-052d-c7f7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b5ff-2a8a-bcc5-65a1" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff7-1863-4161-1216" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="55.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d46d-68a8-4316-01be" name="Cirdan" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
@@ -567,16 +627,16 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
@@ -590,6 +650,30 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <modifiers/>
         </infoLink>
         <infoLink id="5570-ec15-84d6-a153" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8126-e146-ed0a-a34b" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ed44-1986-810e-3204" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c2f7-aaa0-32fb-f2c6" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f187-5328-8c2c-2f1b" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -609,29 +693,72 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="59f7-5d32-6b10-f97b" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="3a23-11ab-ad11-d8ef" name="Noldorin Daggers" book="Armies of the Lord of the Rings" page="76" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="93a0-bea1-0515-816a" name=" Noldorin Daggers (Active)" book="Armies of the Lord of the Rings" page="76" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Elven-made daggers]
+May use as Throwing Weapons.
+May re-roll failed To Wound rolls when throwing or making Strikes with them."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b6fe-db9f-b0e1-5022" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b8c7-3271-6661-fc5e" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cb9-2c4e-95a1-56e2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1595-fa2a-25b3-3a8e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e4bf-1ee4-3d5b-3c97" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="e4bf-1ee4-3d5b-3c97" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="806f-9c28-c3e1-5b61" name="Noldorin Throwing Daggers" hidden="false" targetId="d161-d602-43fb-179a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff6-3018-5eda-85a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faba-8054-1e51-fc55" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3ef-4793-467d-d619" name="Gil-galad" book="Armies of the Lord of the Rings" page="73" hidden="false" collective="false" type="model">
@@ -1456,29 +1583,6 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d161-d602-43fb-179a" name="Noldorin Throwing Daggers" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7312-458b-eeb1-72b9" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="022c-efea-d507-e89e" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2424-ce1c-9e86-091d" name="Armour of Gondolin" book="Armies of the Lord of the Rings" page="75" hidden="false" collective="false" type="upgrade">
