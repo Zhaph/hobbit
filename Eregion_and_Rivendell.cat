@@ -1174,7 +1174,7 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
@@ -1222,7 +1222,10 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe14-1576-5064-99e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9259-ff78-9d9d-3fc8" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="cddd-155a-4350-1d35" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
@@ -1230,7 +1233,10 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d88-8aa9-0262-ea47" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59da-108c-6d57-9114" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
