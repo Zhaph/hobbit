@@ -287,18 +287,53 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c08b-746b-9ea8-76e2" name="Elladan" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="c08b-746b-9ea8-76e2" name="Elladan &amp; Elrohir" book="Armies of the Lord of the Rings" page="77" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f93b-f1c5-7972-bf13" name="Elladan" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="f93b-f1c5-7972-bf13" name="Elladan" book="Armies of the Lord of the Rings" page="77" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="11fe-fc21-5dca-047e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
+          </characteristics>
+        </profile>
+        <profile id="55ff-c28e-87e7-c48f" name="Elrohir" book="Armies of the Lord of the Rings" page="77" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="11fe-fc21-5dca-047e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
@@ -309,15 +344,52 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="1b00-141c-3334-e04d" name="Unbreakable Bond (Active)" book="Armies of the Lord of the Rings" page="77" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If one brother is killed the other immediately increases their Strength by 1 and decreases their Defence by 1.
+The surviving brother automatically passes all courage tests.
+And they must do everything they can to Charge the model that killed their brother as quickly as possible.
+Once that model is killed they must move as fast as possible to the closest enemy model for the rest of the game, charging if able.
+If the model that killed the brother is a Hero the first combat the brother is in with that model he must declare a Heroic Challenge targeting that hero and without spending Might. 
+This may be done even if the target Hero is lower tier.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="bbe9-3f68-59f2-eabd" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="bbe9-3f68-59f2-eabd" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2543-003d-51cf-3d76" name="Twin Elven Blade" hidden="false" targetId="7881-22d9-70b6-ec05" type="rule">
+        <infoLink id="2543-003d-51cf-3d76" name="Twin Elven Blades (Active)" hidden="false" targetId="74d3-4b4b-2a30-c8d4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cd9e-8b26-01f6-dd65" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd50-c37b-b91b-453c" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4687-e2d0-a1fb-fd81" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b67-18b3-e3c4-06c9" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -338,7 +410,32 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="a701-0c40-be82-b13d" name="Two Elven-made Swords" book="Armies of the Lord of the Rings" page="77" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07e6-0959-8ed1-2ffe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b25-02e4-204d-1f34" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="66d1-fe53-c4be-a3e9" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="8c42-1d0a-17e9-0d0d" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
@@ -346,36 +443,63 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0cc-f911-b52b-ff16" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ce-8b59-872c-79d3" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="c879-64fc-0d2c-d86e" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35cb-bd78-62fa-5afc" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="353c-a476-ef01-4368" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d152-4e4d-a320-fd3b" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="11fe-fc21-5dca-047e" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22bb-fea6-6391-115d" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c65c-88eb-ec7b-dd05" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
@@ -1700,6 +1824,16 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <infoLinks/>
       <modifiers/>
       <description>Asfaloth is a Horse with a move of 12&quot; and gives his rider Fleetfoot</description>
+    </rule>
+    <rule id="74d3-4b4b-2a30-c8d4" name="Twin Elven Blades (Active)" book="Armies of the Lord of the Rings" page="77" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When on foot, can Fight in three ways:
+	&apos;Two-Handed Weapon&apos;
+	Dual Weapons (+1 Attack)
+	Parry (&apos;Shielding&apos;)</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
