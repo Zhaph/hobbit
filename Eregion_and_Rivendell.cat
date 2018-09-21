@@ -270,12 +270,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9866-b192-cb45-1d02" name="Unbreakable bond" hidden="false" targetId="aa3a-c705-84e6-f4a0" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -560,19 +554,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="e728-3dcb-11f2-9030" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="e728-3dcb-11f2-9030" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="1ccf-221d-d6a6-3739" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a8aa-525e-3382-97d6" name="Foresight of the Eldar" hidden="false" targetId="5359-55bd-737e-c3bc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -804,7 +792,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="2e1e-9697-9739-0c90" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="2e1e-9697-9739-0c90" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -816,13 +804,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1e60-57aa-f5b4-b4cb" name="High King of the Elves" hidden="false" targetId="ad8a-0314-7a1b-1d00" type="rule">
+        <infoLink id="94f7-aa0d-4bd3-00a7" name="Lord of the West (Active)" hidden="false" targetId="706f-ab12-24d7-f6b4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="94f7-aa0d-4bd3-00a7" name="Gil-galad - King&apos;s Guards" hidden="false" targetId="db9c-932f-7efe-400f" type="rule">
+        <infoLink id="e944-03a2-8ace-b9d7" name="Blood and Glory (Active)" hidden="false" targetId="9fda-73c8-5115-f6e0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -923,19 +911,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a6d8-8f5c-2487-71c1" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="a6d8-8f5c-2487-71c1" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="d4fb-cb61-b576-32c9" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1c48-5205-d479-9620" name="Gildor Inglorion - Noldorin Exiles" hidden="false" targetId="8dfa-499f-5fdc-5cb6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1258,13 +1240,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="e368-cedb-cc3a-b273" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fbc8-726d-0eba-5d5b" name="Wild Channelling" hidden="false" targetId="04ed-49e2-8d33-333d" type="rule">
+        <infoLink id="e368-cedb-cc3a-b273" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1535,12 +1511,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="4edf-164a-b4cf-a10b" name="Twin Elven Blade" hidden="false" targetId="7881-22d9-70b6-ec05" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1ce8-1128-0403-e0fb" name="Unbreakable bond" hidden="false" targetId="aa3a-c705-84e6-f4a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2107,14 +2077,7 @@
     <selectionEntry id="8ec2-9414-2741-904c" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="be73-2d75-02b7-dd7d" name="Vilya" hidden="false" targetId="5805-7c45-f71b-ad22" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfca-0b3f-26e2-219f" type="max"/>
@@ -2131,7 +2094,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="4e2e-6567-43e1-8b55" name="Aeglos" hidden="false" targetId="14a9-44e8-2ed6-71dc" type="rule">
+        <infoLink id="4e2e-6567-43e1-8b55" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2154,7 +2117,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="7312-458b-eeb1-72b9" name="Noldorin Throwing Daggers" hidden="false" targetId="1db3-146f-2d81-183c" type="rule">
+        <infoLink id="7312-458b-eeb1-72b9" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2177,22 +2140,14 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="95f0-da7f-dfc8-1114" name="Armour of Gondolin" hidden="false" targetId="4a05-16ee-5626-1f90" type="profile">
+        <infoLink id="95f0-da7f-dfc8-1114" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef18-74da-4ff3-0806" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37bf-02d6-c8b2-b84e" type="max"/>
       </constraints>
@@ -2207,14 +2162,7 @@
     <selectionEntry id="7493-2553-4d96-21e3" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="0bd9-f660-da5f-3b6c" name="Gil-galad - King&apos;s Guards" hidden="false" targetId="db9c-932f-7efe-400f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
@@ -2238,14 +2186,7 @@
     <selectionEntry id="ca47-936e-1558-e15f" name="Noldorin Exiles" book="The Free Peoples " page="20" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="f427-a1b2-c0e2-9615" name="Gildor Inglorion - Noldorin Exiles" hidden="false" targetId="8dfa-499f-5fdc-5cb6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
