@@ -1809,9 +1809,9 @@ Noldorin Exiles have a Move of 8&quot;.</description>
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3bcd-2e6c-e116-1cdb" name="High Elf Warrior" book="The Free Peoples" page="21" hidden="false" collective="false" type="model">
+    <selectionEntry id="3bcd-2e6c-e116-1cdb" name="High Elf Warrior" book="Armies of the Lord of the Rings" page="80" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5e03-f992-a7e3-fafd" name="High Elf Warrior" book="The Free Peoples" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="5e03-f992-a7e3-fafd" name="High Elf Warrior" book="Armies of the Lord of the Rings" page="80" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1830,12 +1830,20 @@ Noldorin Exiles have a Move of 8&quot;.</description>
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af1f-5549-2b34-42c3" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7e4-71fa-9893-587f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
@@ -1845,13 +1853,7 @@ Noldorin Exiles have a Move of 8&quot;.</description>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="8712-d108-7817-abad" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="eb0c-b010-7972-3691" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="8712-d108-7817-abad" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1877,7 +1879,9 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8e7-4040-bb01-f397" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f281-eb7d-1440-e4d3" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
@@ -1885,7 +1889,9 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edae-4f3e-5971-4549" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="b7e4-71fa-9893-587f" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
@@ -1893,7 +1899,9 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e77-a8a9-63db-34df" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="9d90-db06-6cab-8851" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -1901,7 +1909,10 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8564-5b42-91fa-9548" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ca-ce1e-b3b4-bdab" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="c463-cccd-39b6-d6a9" name="King&apos;s Guard" hidden="false" targetId="7493-2553-4d96-21e3" type="selectionEntry">
@@ -1909,7 +1920,9 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5370-78cc-62a6-df11" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f6df-9b65-b8c1-a614" name="Elven-made hand-and-a-half Sword (Included)" hidden="true" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
@@ -1917,12 +1930,15 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9673-9682-3f3d-3265" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3494-47cb-19a3-8dea" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b8f-8f74-4a25-d3f4" name="Lindir of Rivendell" book="Armies of the Lord of the Rings" page="78" hidden="false" collective="false" type="model">
