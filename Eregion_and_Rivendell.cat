@@ -1653,21 +1653,13 @@ Noldorin Exiles have a Move of 8&quot;.</description>
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0c3-11e7-c5ba-111d" name="High Elf Stormcaller" book="The Free Peoples" page="20" hidden="false" collective="false" type="model">
+    <selectionEntry id="d0c3-11e7-c5ba-111d" name="High Elf Stormcaller" book="Armies of the Lord of the Rings" page="80" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d5d7-0a59-1d32-d23b" name="High Elf Stormcaller" book="The Free Peoples" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="d5d7-0a59-1d32-d23b" name="High Elf Stormcaller" book="Armies of the Lord of the Rings" page="80" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="d0c3-11e7-c5ba-111d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8855-4759-f91f-5cc2" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
@@ -1682,28 +1674,36 @@ Noldorin Exiles have a Move of 8&quot;.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
-        <profile id="ce62-9de9-9d98-9d3f" name="Call Winds" book="The Free Peoples" page="20" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
+        <profile id="ce62-9de9-9d98-9d3f" name="Call Winds" book="Armies of the Lord of the Rings" page="80" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="0702-484b-0b41-1847" name="Strengthen Will" book="The Free Peoples" page="20" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="0702-484b-0b41-1847" name="Strengthen Will" book="Armies of the Lord of the Rings" page="80" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="5876-b6ab-6ec8-859b" name="Powers of Nature (Active)" book="Armies of the Lord of the Rings" page="80" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When casting if the Stormcaller rolls a natural 6 on one or more dice the Will points spent in casting the Magical Power are returned to the Stormcaller&apos;s store of Will upon completion of the effects of the Magical Power.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="e368-cedb-cc3a-b273" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
@@ -1723,6 +1723,30 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="2420-e69c-c47d-e2c0" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8e6-35a8-d687-ee7f" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4b83-9172-81ee-0e43" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40e8-7abc-d37e-b2e8" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1730,6 +1754,13 @@ Noldorin Exiles have a Move of 8&quot;.</description>
       </constraints>
       <categoryLinks>
         <categoryLink id="d0c3-11e7-c5ba-111d-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7689-1f8a-d1b2-edd0" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1745,12 +1776,37 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5e-86a6-da78-3e36" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ef-a432-39d6-dba8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d26-ccc7-365b-ed29" name="Staff (Included)" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0de-bf11-e962-c797" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a3-5b03-0144-9db0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5148-be2c-bac3-da3a" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d79-76f5-8671-e627" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e725-104d-251e-dbd3" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="55.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bcd-2e6c-e116-1cdb" name="High Elf Warrior" book="The Free Peoples" page="21" hidden="false" collective="false" type="model">
