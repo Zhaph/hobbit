@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="1" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="2" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a481-60cc-b19d-d194" name="&apos;Tangado haid, leithio i philinn!&quot;" book="Armies of the Lord of the Rings" page="72" hidden="false">
@@ -496,7 +496,9 @@ This may be done even if the target Hero is lower tier.</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e3-7563-fc46-bd31" type="min"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -511,7 +513,13 @@ This may be done even if the target Hero is lower tier.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0cc-f911-b52b-ff16" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ce-8b59-872c-79d3" type="min"/>
@@ -1291,7 +1299,13 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d88-8aa9-0262-ea47" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59da-108c-6d57-9114" type="max"/>
@@ -1500,6 +1514,15 @@ Noldorin Exiles have a Move of 8&quot;.</description>
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abd4-8a75-74c2-505f" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5836-8116-1fcc-4f68" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd2f-122c-d9b6-346b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
@@ -1588,24 +1611,24 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7769-ffee-455a-c183" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6c-a6bc-838c-8c5d" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e310-ade3-7e45-c150" name="Lance (Included)" hidden="false" targetId="207a-b11d-6912-e98b" type="selectionEntry">
+        <entryLink id="e310-ade3-7e45-c150" name="Lance" hidden="false" targetId="44da-15bc-1b0f-6430" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1775,7 +1798,13 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5e-86a6-da78-3e36" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ef-a432-39d6-dba8" type="max"/>
@@ -1815,7 +1844,15 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7e4-71fa-9893-587f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
@@ -1944,13 +1981,12 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f6df-9b65-b8c1-a614" name="Elven-made hand-and-a-half Sword (Included)" hidden="true" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="f6df-9b65-b8c1-a614" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9673-9682-3f3d-3265" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3494-47cb-19a3-8dea" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -2152,7 +2188,6 @@ Noldorin Exiles have a move of 8&quot;.</description>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bcf-1ae5-5a0f-a380" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067d-9dbb-7161-944e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="d21f-f4fa-3fb8-8f96" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
@@ -2225,14 +2260,13 @@ Noldorin Exiles have a move of 8&quot;.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="37db-7cf2-a082-6b2c" name="Elven-made hand-and-a-half Sword (Included)" hidden="true" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="37db-7cf2-a082-6b2c" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab81-e380-f16e-746a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0397-c8b0-b470-454f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a270-068d-d665-03c8" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2240,7 +2274,13 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d05-c40e-9c81-0041" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be1f-4c45-d689-9792" type="min"/>
@@ -2314,7 +2354,22 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="0bb7-3ce5-50bd-fb6b" name="Banner" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="3889-fbed-e167-3cdb" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
@@ -2341,7 +2396,13 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="160c-6943-cec7-3197" type="max"/>
           </constraints>
@@ -2376,13 +2437,12 @@ Noldorin Exiles have a move of 8&quot;.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0a11-d501-8b12-a06a" name="Elven-made hand-and-a-half Sword (Included)" hidden="true" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="0a11-d501-8b12-a06a" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d343-8661-842e-8e88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8654-0b88-1dcc-8945" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -2532,6 +2592,35 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44da-15bc-1b0f-6430" name="Lance" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cd64-4424-9aaf-db4a" name="Lance" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9d90-1bb4-76b9-1159" name="Lance" hidden="false" targetId="f165-0dc6-90c0-f086" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f854-a7f8-99e3-89ec" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
