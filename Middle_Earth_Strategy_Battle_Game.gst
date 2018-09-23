@@ -950,43 +950,28 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="b026-51a9-9e73-425a" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="b026-51a9-9e73-425a" name="Mordor Troll" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/5+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="7"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Troll"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="7/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Troll"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="c1b3-3721-7af7-4a8a" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="38c3-53c8-0789-b969" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6971-3739-d4c7-7e2c" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1008,14 +993,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="01d5-5f83-1745-6643" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e1cb-3cb8-1fdf-ebbd" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+        <categoryLink id="0066-ee1f-fa2a-ac4c" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1024,17 +1002,67 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="0914-4993-5f79-16b2" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ecde-cfb6-aed1-3ab0" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="6f49-bc8c-ee44-ddc7">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f84-2da0-68cc-1af7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9007-de84-d9e5-8a48" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-        <entryLink id="fb05-05e8-a730-9a1e" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6f49-bc8c-ee44-ddc7" name="Hand-and-a-half Hammer" hidden="false" targetId="d495-e83d-7460-e870" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="92bd-d711-57f3-b394" name="Hand-and-a-half Club" hidden="false" targetId="fd5a-7644-cfaa-24cd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5bbf-7a08-6a2e-5635" name="Hand-and-a-half Sword" hidden="false" targetId="562a-e2b2-5f40-54d4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fb05-05e8-a730-9a1e" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1044,7 +1072,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="140.0"/>
+        <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8fc-143a-4e5b-8923" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="true" collective="false" type="upgrade">
@@ -2140,6 +2168,103 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="433a-e41c-af48-c5b8" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5958-2c6c-8d6e-f52b" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Troll"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="96fd-7dbf-210a-b721" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7857-c63a-91a9-6bdc" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e5ab-8a78-0ebf-ca2d" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d140-2aab-9ef3-8edb" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ce3-e4ab-2991-4e6e" name="Throw Stones (Troll)" hidden="false" targetId="3684-0687-03d8-0b2f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="eb03-8e0e-fc30-70a2" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c02f-8c9a-f7c1-6695" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8792-2eb5-e55d-3100" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f64d-627f-ac0b-fdf0" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4869,6 +4994,111 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a756-b13d-7946-6058" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd5a-7644-cfaa-24cd" name="Hand-and-a-half Club" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6167-de6e-a259-2642" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="381a-50bd-c3cc-d21b" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e435-127c-aad9-9a3b" name="Hand-and-a-half Club" hidden="false" targetId="f98b-eec6-6e5c-f67e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2beb-f36c-7d04-8f33" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d495-e83d-7460-e870" name="Hand-and-a-half Hammer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5cdd-7804-34a5-adb7" name="Bash" hidden="false" targetId="ff15-bfa5-0fbe-8d69" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5813-abd8-6361-3cdf" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c8d-3ed9-61af-7ef9" name="Hand-and-a-half Hammer" hidden="false" targetId="dae3-00e2-181f-9df6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed7f-80bc-107a-1546" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="562a-e2b2-5f40-54d4" name="Hand-and-a-half Sword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0a44-4805-2127-9cb0" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5fbc-7727-edc2-c2a1" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2f38-5a16-7567-0820" name="Hand-and-a-half Sword" hidden="false" targetId="0b20-25aa-a477-d3b9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c4e-904b-68f2-6669" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
