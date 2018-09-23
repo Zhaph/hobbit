@@ -237,7 +237,7 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="cfd5-7553-89d4-b95c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b570-ed49-0a1d-ee64" type="equalTo"/>
+                <condition field="selections" scope="cfd5-7553-89d4-b95c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b570-ed49-0a1d-ee64" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -272,7 +272,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="05bf-5e09-7408-ab9e" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
+        <categoryLink id="05bf-5e09-7408-ab9e" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -282,43 +282,32 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2fcf-01fb-ce15-403a" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="2fcf-01fb-ce15-403a" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="963f-0756-2343-7b39">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be38-f900-831e-6889" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd9-3049-9ef6-7055" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="963f-0756-2343-7b39" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="963f-0756-2343-7b39" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="e0c3-403d-544c-c4c4" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="8146-310b-947f-a720" name="Pick (Included)" hidden="false" targetId="5c9f-6fc6-e23b-828a" type="selectionEntry">
+            <entryLink id="8146-310b-947f-a720" name="Pick" hidden="false" targetId="162f-1413-e895-368f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="3a5b-96cc-1842-4bfa" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -3048,6 +3037,64 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d16d-62f0-7e97-7fc1" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e8-bfde-7a8b-2e6d" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="162f-1413-e895-368f" name="Pick" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f511-15e1-c9e6-f645" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2298-c271-444e-66fb" name="Pick" hidden="false" targetId="52fc-d9c1-eb7c-c860" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e982-c837-d84c-7b5f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf3b-7500-2abd-d1aa" name="Sword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0785-de5f-1cd2-9ee1" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4eb4-96f8-21a9-1dcb" name="Sword" hidden="false" targetId="86a4-eac9-c4d7-a714" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a756-b13d-7946-6058" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
