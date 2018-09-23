@@ -1287,7 +1287,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1581-b609-96cd-e362" name="Warg" hidden="false" targetId="4b0d-d905-b11b-ebd9" type="selectionEntry">
+        <entryLink id="1581-b609-96cd-e362" name="Warg (Hero)" hidden="false" targetId="a2d8-606b-27ee-6b9d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1295,7 +1295,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow (Hero)" hidden="false" targetId="f9aa-3a82-ef59-8710" type="selectionEntry">
+        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow (Hero)" hidden="false" targetId="bba9-ef6f-8c9a-2949" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1303,7 +1303,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2370,58 +2370,10 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="50f0-9816-f2f6-98c4" name="Throwing Spears" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="7ffb-2999-5c65-42ee" name="Throwing Spear" hidden="false" targetId="51fb-64c4-c26f-144a" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5136-caf6-89f9-1d58" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2902-1b56-22f0-de56" name="Warg" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0ac2-cfed-abf7-e212" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9bb-cfa4-a742-5f64" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c00-14d6-7708-83c1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3efc-dabb-dc4b-79f9" name="Orc Bow" hidden="false" targetId="14a8-0d31-bdac-eef9" type="selectionEntry">
+        <entryLink id="3efc-dabb-dc4b-79f9" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2429,7 +2381,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3b7c-1c3e-6666-6583" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="3b7c-1c3e-6666-6583" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2437,7 +2389,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="057b-c823-f4f9-80a0" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="057b-c823-f4f9-80a0" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2445,7 +2397,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fdfd-e5a3-c727-be4c" name="Sword" hidden="false" targetId="f3da-0ab7-1f8b-9efd" type="selectionEntry">
+        <entryLink id="fdfd-e5a3-c727-be4c" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2465,6 +2417,24 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c0-f129-bc8a-4e37" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0447-8fc9-b9f3-6b64" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ffad-89fe-223d-c22f" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47de-69cf-3118-a95d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="781e-afc0-c567-5b7e" name="Warg (Included)" hidden="false" targetId="1fdf-5cb9-6760-0c8d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2568,7 +2538,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4fc7-ccb5-f74c-66a9" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="4fc7-ccb5-f74c-66a9" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2592,7 +2562,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4ab4-032f-5608-4529" name="Spear" hidden="false" targetId="9876-d639-a1ae-fea7" type="selectionEntry">
+        <entryLink id="4ab4-032f-5608-4529" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
