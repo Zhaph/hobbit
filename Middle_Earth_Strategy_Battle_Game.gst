@@ -227,7 +227,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1798-3808-33c2-4b92" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -272,7 +272,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c223-be29-a79a-9ebf" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
+        <categoryLink id="c223-be29-a79a-9ebf" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -368,7 +368,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bc5-c2ca-b1ad-dbb7" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="5bc5-c2ca-b1ad-dbb7" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="850e-c25c-a405-ad86" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -510,7 +510,7 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d8f-0138-4743-1d2a" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="0d8f-0138-4743-1d2a" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="53bd-c96d-9068-000f" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -600,7 +600,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58f7-8b9e-e9e7-5526" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="58f7-8b9e-e9e7-5526" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4da1-9b65-368d-41d7" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -721,7 +721,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c9e-0fca-a2df-770b" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="4c9e-0fca-a2df-770b" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3d61-3523-a8f0-4e38" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -807,7 +807,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d07-841c-1375-709c" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="1d07-841c-1375-709c" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b178-a54c-b4a7-8136" name="Black Numenorean Marshall" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -948,7 +948,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="b026-51a9-9e73-425a" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1045,7 +1045,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8fc-143a-4e5b-8923" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="e8fc-143a-4e5b-8923" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="22ec-6e6e-fcbf-aa17" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1071,6 +1071,13 @@ On a 4+ they may call the Heroic action without expending Might.</description>
                 <repeat field="selections" scope="e8fc-143a-4e5b-8923" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd93-5e8d-1273-12d3" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="c687-7ea3-0136-2709" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e8fc-143a-4e5b-8923" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="faf2-a57d-0291-827b" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -1253,7 +1260,10 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f90f-0f0a-c58c-b205" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f50e-6e30-783d-24c1" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="90a7-314e-ba99-1b3a" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -1287,7 +1297,9 @@ The Witch-King can choose to re-roll one dice when making Cast or Resist tests."
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71f-7872-02f9-ecc3" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1314,7 +1326,9 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc9-ace9-f300-c640" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1372,17 +1386,56 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="c48f-0f6c-5013-fe84" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5b38-ed36-8244-4f46" name="Mount" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="823f-4911-8f2f-6b2d" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-        <entryLink id="2b6c-4026-f4a0-ee86" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7420-a9ef-25f4-3584" name="Armored Fell Beast" hidden="false" targetId="e65a-d156-596c-29ae" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b502-1afe-6979-5b6a" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b034-ed46-4c7a-8ac2" name="Fell Beast" hidden="false" targetId="8c43-a3b0-8213-f747" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9e30-5ce3-3ac3-418d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c48f-0f6c-5013-fe84" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1406,36 +1459,12 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="faf3-e9e4-c23d-f925" name="Armored Fell Beast" hidden="false" targetId="e65a-d156-596c-29ae" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7dfd-1a2f-3ce3-3090" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4147-c1f5-0261-adcb" name="Fell Beast" hidden="false" targetId="8c43-a3b0-8213-f747" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="259b-d0cb-8770-7689" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="259b-d0cb-8770-7689" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a534-fa5c-3559-8da7" name="Ring Wraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1607,6 +1636,12 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="392a-86b3-a04b-0057" name="One of Nine (Passive)" hidden="false" targetId="398d-6e11-da9c-0959" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1676,7 +1711,46 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="32ca-8102-7ae0-d554" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e2-43a8-cd4d-4643" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8ef3-0389-aa60-5e13" name="Armored Fell Beast" hidden="false" targetId="e65a-d156-596c-29ae" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8c91-85cd-913b-8808" name="Fell Beast" hidden="false" targetId="8c43-a3b0-8213-f747" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="85aa-cb2d-ca9b-f119" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f8ec-6339-958d-81bc" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
           <profiles/>
@@ -1687,30 +1761,6 @@ If mounted the strikes must use the riders Attacks and Strength."/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f9c0-208f-be4f-6eb9" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b31c-7704-8c79-5c21" name="Armored Fell Beast" hidden="false" targetId="e65a-d156-596c-29ae" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="de3d-f92a-d25f-323d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b783-2cd9-742c-66a7" name="Fell Beast" hidden="false" targetId="8c43-a3b0-8213-f747" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
