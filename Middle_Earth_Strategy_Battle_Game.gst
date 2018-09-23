@@ -227,7 +227,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="1798-3808-33c2-4b92" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -368,7 +368,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bc5-c2ca-b1ad-dbb7" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5bc5-c2ca-b1ad-dbb7" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="850e-c25c-a405-ad86" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -510,7 +510,7 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d8f-0138-4743-1d2a" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0d8f-0138-4743-1d2a" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="53bd-c96d-9068-000f" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -600,7 +600,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58f7-8b9e-e9e7-5526" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="58f7-8b9e-e9e7-5526" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="4da1-9b65-368d-41d7" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -721,7 +721,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c9e-0fca-a2df-770b" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4c9e-0fca-a2df-770b" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="3d61-3523-a8f0-4e38" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -781,7 +781,9 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -807,7 +809,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d07-841c-1375-709c" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1d07-841c-1375-709c" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="b178-a54c-b4a7-8136" name="Black Numenorean Marshall" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -948,7 +950,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f475-d724-3771-9bd9" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="b026-51a9-9e73-425a" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1045,7 +1047,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8fc-143a-4e5b-8923" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e8fc-143a-4e5b-8923" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="22ec-6e6e-fcbf-aa17" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1289,8 +1291,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Increase the Witch-Kings attacks to 3.
-The Witch-King can choose to re-roll one dice when making Cast or Resist tests."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Increase the Witch-Kings attacks to 3. The Witch-King can choose to re-roll one dice when making Cast or Resist tests."/>
               </characteristics>
             </profile>
           </profiles>
@@ -1316,10 +1317,7 @@ The Witch-King can choose to re-roll one dice when making Cast or Resist tests."
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Once per game this model&apos;s controller may use the Morgul Blade before rolling to Wound.
-They must direct all strikes against a single target. If the target suffers a wound they are slain regardless of how many they have left.
-Heroes may use fate to avoid being slain but a single unsaved wound will result in the target being slain.
-If mounted the strikes must use the riders Attacks and Strength."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Once per game this model&apos;s controller may use the Morgul Blade before rolling to Wound. They must direct all strikes against a single target. If the target suffers a wound they are slain regardless of how many they have left. Heroes may use fate to avoid being slain but a single unsaved wound will result in the target being slain. If mounted the strikes must use the riders Attacks and Strength."/>
               </characteristics>
             </profile>
           </profiles>
@@ -1464,7 +1462,7 @@ If mounted the strikes must use the riders Attacks and Strength."/>
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="259b-d0cb-8770-7689" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="259b-d0cb-8770-7689" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="a534-fa5c-3559-8da7" name="Ring Wraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
