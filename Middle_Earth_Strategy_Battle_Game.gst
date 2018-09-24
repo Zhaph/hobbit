@@ -2355,7 +2355,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
       </profiles>
