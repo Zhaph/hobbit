@@ -1485,6 +1485,14 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1b77-8d5a-6fab-8c32" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="70.0"/>
@@ -1492,7 +1500,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
     </selectionEntry>
     <selectionEntry id="259b-d0cb-8770-7689" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="true" collective="false" type="upgrade">
       <profiles>
-        <profile id="a534-fa5c-3559-8da7" name="Ring Wraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="a534-fa5c-3559-8da7" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1662,12 +1670,6 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="392a-86b3-a04b-0057" name="One of Nine (Passive)" hidden="false" targetId="398d-6e11-da9c-0959" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1787,6 +1789,14 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f9c0-208f-be4f-6eb9" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="453d-754a-da44-0e12" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2265,6 +2275,271 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1616-6e5c-dd0e-4e83" name="The Tainted" book="Armies of Middle Earth" page="125" hidden="true" collective="false" type="upgrade">
+      <profiles>
+        <profile id="219c-9684-910d-62fd" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
+          </characteristics>
+        </profile>
+        <profile id="6fae-daed-c5cf-d88c" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="8500-ef96-6f43-3e4d" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="912b-233f-dc6d-060b" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="bfc6-a6a3-2505-2b6c" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="2517-971e-1f31-24d7" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="ac26-c2a3-7b60-efee" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6adc-d725-ae02-139e" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Start of the Move phase before Heroic actions are declared.
+The Tainted may spend 1 Will.
+If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
+or take part in Heroic Actions.</description>
+        </rule>
+        <rule id="a734-a6fd-a7a9-46d5" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
+in base contact with The Tainted, Cavalry roll for both mount and rider.
+On a 6 they suffer a wound.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7452-795f-6f63-f41c" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5127-c449-2017-3542" name="Harbinger of Evil (Passive)" hidden="false" targetId="8052-396f-cad6-90a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dfd4-ce90-ccc5-70c8" name="Will of Evil (Passive)" hidden="false" targetId="d7eb-5ffd-c376-33d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="de3d-11f6-9781-1efd" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c52-9cd7-b7ef-7752" name="Drain Courage" hidden="false" targetId="22d5-e222-fa43-e053" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="97f4-a3fc-eed6-3101" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="833c-c57d-066c-c739" name="Sap Will" hidden="false" targetId="34da-dce7-eeab-1efc" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d689-9af5-8cbf-b26d" name="Instill Fear" hidden="false" targetId="ea0c-a986-3988-f5e9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d31e-3033-5c0b-caa9" name="Black Dart" hidden="false" targetId="57e6-ead8-bf89-fae0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="49e1-baaf-ddea-0e1b" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6595-0542-27fb-ce1b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c019-9391-59c9-322c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b08d-783a-c243-01ce" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c04d-e220-5450-22e2" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8761-1001-99a2-cdc2" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da5-c596-351b-a257" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f001-4099-a01d-5d2d" name="Armored Fell Beast" hidden="false" targetId="e65a-d156-596c-29ae" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1728-e381-2b07-60bb" name="Fell Beast" hidden="false" targetId="8c43-a3b0-8213-f747" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c6e5-f27c-26be-48c9" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6347-031f-175c-4c06" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7d6a-6c18-cdc6-d35f" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="20b9-55d3-19a7-7507" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="35c8-deb8-66f4-c065" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5107,6 +5382,29 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4157-47d2-6e0a-2043" name="One of Nine (Passive)" book="Armies of the Lord of the Rings" page="115" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="773d-78f0-b08f-0f8c" name="One of Nine (Passive)" hidden="false" targetId="398d-6e11-da9c-0959" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9248-48a7-16fe-ff6f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e462-3af3-54a1-b5f9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f2-bb62-f43e-8671" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
