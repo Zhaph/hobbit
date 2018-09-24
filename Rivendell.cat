@@ -170,6 +170,14 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e653-c7a0-ca1a-4a73" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
@@ -350,7 +358,16 @@ Círdan may spend a single point of Will each turn without reducing his own stor
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8fe5-8f5c-2566-c23a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
@@ -592,6 +609,14 @@ This may be done even if the target Hero is lower tier.</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8016-19eb-3e49-7906" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -841,6 +866,14 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="aeab-a4c2-a46b-5217" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
@@ -981,6 +1014,14 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff6-3018-5eda-85a6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faba-8054-1e51-fc55" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4d93-8a24-4590-e479" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1173,6 +1214,14 @@ Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2311-69c4-fc20-4d7b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
@@ -1334,6 +1383,14 @@ Noldorin Exiles have a Move of 8&quot;.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d88-8aa9-0262-ea47" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59da-108c-6d57-9114" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="052a-c062-cf93-9a47" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1510,6 +1567,14 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7852-d70b-fbed-231a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a0-345c-0c5f-544c" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e34-fac8-ea7a-8bf5" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1694,6 +1759,14 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b425-a949-69a7-ec9e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e85c-66ea-bc97-fd52" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="32a3-517e-939e-618d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2161,6 +2234,14 @@ If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8299-496c-f221-8442" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="39ac-7713-eaf2-57d7" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
