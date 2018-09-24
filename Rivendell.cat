@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="2" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="3" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a481-60cc-b19d-d194" name="&apos;Tangado haid, leithio i philinn!&quot;" book="Armies of the Lord of the Rings" page="72" hidden="false">
@@ -243,7 +243,8 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Círdan may spend a single point of Will each turn without reducing his own store of Will.</description>
+          <description>
+Círdan may spend a single point of Will each turn without reducing his own store of Will.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -417,7 +418,8 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If one brother is killed the other immediately increases their Strength by 1 and decreases their Defence by 1.
+          <description>
+If one brother is killed the other immediately increases their Strength by 1 and decreases their Defence by 1.
 The surviving brother automatically passes all courage tests.
 And they must do everything they can to Charge the model that killed their brother as quickly as possible.
 Once that model is killed they must move as fast as possible to the closest enemy model for the rest of the game, charging if able.
@@ -635,7 +637,8 @@ This may be done even if the target Hero is lower tier.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Before the game roll a d6.
+          <description>
+Before the game roll a d6.
 This is the number of Elrond&apos;s Foresight points.
 During the Priority Phase, after the dice are rolled, Elrond may spend Foresight points to alter the dice score 
 For each point spent he may change the dice score by +1 or -1. To a minimum of 1 and maximum of 6.</description>
@@ -1002,7 +1005,8 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
+          <description>
+Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1163,7 +1167,7 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="8&quot;/20cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="8&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
@@ -1193,7 +1197,8 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Gildor&apos;s Warband can include Wood Elf Warriors.
+          <description>
+Gildor&apos;s Warband can include Wood Elf Warriors.
 Wood Elves included this way must be upgraded for +1 point to Noldorin Exiles.
 Noldorin Exiles have a Move of 8&quot;.</description>
         </rule>
@@ -1353,7 +1358,8 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Glorfindel always counts as having had the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
+          <description>
+Glorfindel always counts as having had the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1684,7 +1690,7 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
@@ -1724,7 +1730,8 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When casting if the Stormcaller rolls a natural 6 on one or more dice the Will points spent in casting the Magical Power are returned to the Stormcaller&apos;s store of Will upon completion of the effects of the Magical Power.</description>
+          <description>
+When casting if the Stormcaller rolls a natural 6 on one or more dice the Will points spent in casting the Magical Power are returned to the Stormcaller&apos;s store of Will upon completion of the effects of the Magical Power.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2032,14 +2039,16 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All friendly Rivendell models within 6&quot; of Lindir gain the Resistant to Magic special rule.</description>
+          <description>
+All friendly Rivendell models within 6&quot; of Lindir gain the Resistant to Magic special rule.</description>
         </rule>
         <rule id="4bd6-1801-6e5e-caa8" name="Wise Council (Passive)" book="Armies of the Lord of the Rings" page="78" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of Will each turn without reducing his own store, even if has none remaining.</description>
+          <description>
+If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of Will each turn without reducing his own store, even if has none remaining.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2148,7 +2157,7 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
@@ -2165,7 +2174,8 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Wood Elf Warriors in a Warband with Gildor are upgraded to Noldorin Exiles at a cost of 1 point per model.
+          <description>
+Wood Elf Warriors in a Warband with Gildor are upgraded to Noldorin Exiles at a cost of 1 point per model.
 Noldorin Exiles have a move of 8&quot;.</description>
         </rule>
       </rules>
@@ -2455,20 +2465,27 @@ Noldorin Exiles have a move of 8&quot;.</description>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="3d2c-ee13-cd51-e129" name="Aeglos" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3d2c-ee13-cd51-e129" name="Aiglos" book="Armies of the Lord of the Rings" page="73" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="07a0-8741-a81e-36de" name="Aeglos" book="Armies of the Lord of the Rings" page="73" hidden="false">
+        <rule id="07a0-8741-a81e-36de" name="Aiglos" book="Armies of the Lord of the Rings" page="73" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Aiglos is an Elven-made spear.
+          <description>
+Aiglos is an Elven-made spear.
 Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="4e2e-6567-43e1-8b55" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="63ee-c234-b659-705e" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2631,14 +2648,16 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Asfaloth is a Horse with a move of 12&quot; and gives his rider Fleetfoot</description>
+      <description>
+Asfaloth is a Horse with a move of 12&quot; and gives his rider Fleetfoot</description>
     </rule>
     <rule id="74d3-4b4b-2a30-c8d4" name="Twin Elven Blades (Active)" book="Armies of the Lord of the Rings" page="77" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When on foot, can Fight in three ways:
+      <description>
+When on foot, can Fight in three ways:
 	&apos;Two-Handed Weapon&apos;
 	Dual Weapons (+1 Attack)
 	Parry (&apos;Shielding&apos;)</description>
