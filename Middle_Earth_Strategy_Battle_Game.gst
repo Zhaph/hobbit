@@ -3037,7 +3037,9 @@
               <modifiers>
                 <modifier type="set" field="e0c3-403d-544c-c4c4" value="0.0">
                   <repeats/>
-                  <conditions/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d59-b055-150e-5ad5" type="equalTo"/>
+                  </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
@@ -3051,7 +3053,9 @@
               <modifiers>
                 <modifier type="set" field="3a5b-96cc-1842-4bfa" value="0.0">
                   <repeats/>
-                  <conditions/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="634e-68c5-490f-6256" type="equalTo"/>
+                  </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
