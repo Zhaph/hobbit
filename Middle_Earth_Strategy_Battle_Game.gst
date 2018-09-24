@@ -3423,9 +3423,9 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="Dwimmerlaik" book="Armies of Middle Earth" page="126" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of Middle Earth" page="126" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="6f51-7baa-2adf-a45a" name="Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="6f51-7baa-2adf-a45a" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3438,13 +3438,13 @@
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="16"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="a03a-b3ab-8519-c366" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="a03a-b3ab-8519-c366" name="Black Dart" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3454,7 +3454,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="4af7-c5e2-bc63-27af" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="4af7-c5e2-bc63-27af" name="Drain Courage" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3464,7 +3464,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="7033-6cb8-413c-5d4e" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7033-6cb8-413c-5d4e" name="Sap Will" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3474,7 +3474,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="ecc3-72bb-191b-0897" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ecc3-72bb-191b-0897" name="Compel" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3484,7 +3484,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="caf7-27ec-70f8-a900" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="caf7-27ec-70f8-a900" name="Transfix" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3494,7 +3494,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="53c4-de93-698f-d782" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="53c4-de93-698f-d782" name="Instill Fear" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3506,24 +3506,16 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e32e-ee95-093f-1bc7" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="6a3d-d1b6-94fe-92ae" name="Sap Fortitude (Passive)" book="Armies of the Lord of the Rings" page="126" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="6a3d-d1b6-94fe-92ae" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+          <description>Every time a Hero within 6&quot; of the Dwimmerlaik spends a point of Might, Will, or Fate the Dwimmerlaik may spend 1 Will.
+If he does roll a d6, on a 4+ the enemy Hero must spend an additional point of the same type or the deed is cancelled and they lose the already spent point. 
+The Hero may wait to see the result of each point they spend before they spend the next. 
+The Dwimmerlaik has to spend 1 Will to affect each point the enemy Hero spends.
+The Dwimmerlaik may also wait to see the results of a roll before committing to spending more Will.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3688,9 +3680,9 @@ On a 6 they suffer a wound.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7599-2af4-cf52-38a2" name="Khamul the Easterling" book="Armies of Middle Earth" page="135" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7599-2af4-cf52-38a2" name="Khamûl the Easterling" book="Armies of Middle Earth" page="135" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="fc81-5c5d-29da-367b" name="Khamul the Easterling" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="fc81-5c5d-29da-367b" name="Khamûl the Easterling" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3704,52 +3696,22 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="12"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="ce41-9910-54bf-4637" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ce41-9910-54bf-4637" name="Black Dart" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="3de3-57c3-0b87-f0c2" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="c99e-023c-8e57-b54a" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
-          </characteristics>
-        </profile>
-        <profile id="fb5e-0ca0-1c4c-89f0" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
-          </characteristics>
-        </profile>
-        <profile id="6c33-4886-d972-fb3b" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="3de3-57c3-0b87-f0c2" name="Drain Courage" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3759,7 +3721,37 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="8079-b8e8-2904-2919" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="c99e-023c-8e57-b54a" name="Sap Will" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="fb5e-0ca0-1c4c-89f0" name="Compel" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="6c33-4886-d972-fb3b" name="Transfix" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="8079-b8e8-2904-2919" name="Instill Fear" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3771,24 +3763,16 @@ On a 6 they suffer a wound.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="17e5-5c56-fc70-b007" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="17e5-5c56-fc70-b007" name="Essence Leach (Active)" book="Armies of the Lord of the Rings" page="135" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="0299-f9f0-8408-c5a6" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+          <description>If Khamûl wounds an enemy with a Strike he regains 1 Will for each wound caused up to 12.
+If the wound is saved he doesn&apos;t gain the Will.
+
+Khamûl may spend 1 point of Will at the start of the Fight phase before Heroic Actions are declared to increase either his 
+Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mounted it only affects himself, not his mount.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3847,6 +3831,18 @@ On a 6 they suffer a wound.</description>
           <modifiers/>
         </infoLink>
         <infoLink id="dcdb-4f6a-b2dd-d296" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bcf0-aefa-2be5-c1ee" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7795-94a8-e5bc-577d" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5153,47 +5149,17 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="21a1-13a6-bb53-5dd2" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="21a1-13a6-bb53-5dd2" name="Black Dart" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="1cb0-b9b0-d2d7-81e5" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="ab93-49a4-e95e-70cf" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
-          </characteristics>
-        </profile>
-        <profile id="8f0b-962d-5630-8392" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
-          </characteristics>
-        </profile>
-        <profile id="7ed5-e0f7-12d3-fe4e" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1cb0-b9b0-d2d7-81e5" name="Drain Courage" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5203,7 +5169,37 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="962c-babb-0337-1ad8" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ab93-49a4-e95e-70cf" name="Sap Will" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="8f0b-962d-5630-8392" name="Compel" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="7ed5-e0f7-12d3-fe4e" name="Transfix" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="962c-babb-0337-1ad8" name="Instill Fear" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5215,24 +5211,14 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="503a-bdaf-584d-f37f" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="503a-bdaf-584d-f37f" name="Master of Poisons (Passive)" book="Armies of the Lord of the Rings" page="140" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="80bd-4fce-f29b-6b82" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+The Betrayer may spend 1 Will.
+Until the End phase of the turn, friendly models with the Poisoned Weapons special rule, within 6&quot; of the Betrayer may re-roll all failed To Wound rolls made with those weapons.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5291,6 +5277,12 @@ On a 6 they suffer a wound.</description>
           <modifiers/>
         </infoLink>
         <infoLink id="aecb-cbca-6d05-d4a5" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3361-3b8a-cb9e-d54e" name="Bane of Kings/Venom (Active)" hidden="false" targetId="c3be-4735-0cfb-bf08" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5356,14 +5348,6 @@ On a 6 they suffer a wound.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="8959-4e99-6771-c998" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5418,7 +5402,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="98cf-e5cf-02a4-92f1" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="98cf-e5cf-02a4-92f1" name="Black Dart" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5428,7 +5412,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bd8c-2e14-4c0b-e1a8" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bd8c-2e14-4c0b-e1a8" name="Drain Courage" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5438,7 +5422,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="b04b-690e-6fd5-2269" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b04b-690e-6fd5-2269" name="Sap Will" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5448,7 +5432,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bea1-9518-6f3b-bb28" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bea1-9518-6f3b-bb28" name="Compel" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5458,7 +5442,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="f87b-7af8-ea2e-0de8" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f87b-7af8-ea2e-0de8" name="Transfix" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5468,36 +5452,26 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="d91e-ff5d-2148-dcb9" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="d91e-ff5d-2148-dcb9" name="Instill Fear" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="0757-3ac3-548d-5013" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="0757-3ac3-548d-5013" name="Rule Through Fear (Passive)" book="Armies of the Lord of the Rings" page="136" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="6a97-0af9-120f-bbeb" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+          <description>Start of the Fight phase before Heroic actions are declared.
+The Dark Marshal may spend 1 Will.
+If he does all friendly Warrior&apos;s within 6&quot; count as being in range of a Banner until the End phase of the turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5678,52 +5652,22 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="12"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="d6f6-5876-c0ee-8764" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="d6f6-5876-c0ee-8764" name="Black Dart" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="5657-2c14-f92f-be13" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="5a7d-1a44-7059-0ae4" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
-          </characteristics>
-        </profile>
-        <profile id="fdbd-ee57-8948-0729" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
-          </characteristics>
-        </profile>
-        <profile id="9444-8fea-70c3-2db5" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5657-2c14-f92f-be13" name="Drain Courage" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5733,7 +5677,37 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="301a-be69-153c-a3a3" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5a7d-1a44-7059-0ae4" name="Sap Will" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="fdbd-ee57-8948-0729" name="Compel" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="9444-8fea-70c3-2db5" name="Transfix" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="301a-be69-153c-a3a3" name="Instill Fear" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5743,26 +5717,26 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
+        <profile id="edb1-1501-f5d8-abac" name="Armor of the Sundered Land (Passive)" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="The Knight of Umbar only lose a point of Will for having been in a fight if he loses a Fight during the Fight phase."/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
-        <rule id="3a6c-e21c-52e6-f70b" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="3a6c-e21c-52e6-f70b" name="Combat Mimicry (Active)" book="Armies of the Lord of the Rings" page="139" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="4caa-46ae-120b-910c" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+          <description>Start of any Fight phase before Heroic actions are declared.
+The Knight of Umbar may spend 1 Will.
+If he does he can elect to use the Fight, Strength, and/or Attacks of his opponent instead of his own.
+He doesn&apos;t need to adopt all these characteristics.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5886,27 +5860,11 @@ On a 6 they suffer a wound.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="f9ce-782b-23fc-bd76" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9a9d-2a0f-29a2-9d49" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="cba0-933d-fb47-0458" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5941,24 +5899,24 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="865b-e3fd-8cf1-77d6" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="865b-e3fd-8cf1-77d6" name="Black Dart" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="97c1-798a-b708-141c" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="97c1-798a-b708-141c" name="Drain Courage" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5968,7 +5926,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="de90-c04f-012f-bbf0" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="de90-c04f-012f-bbf0" name="Sap Will" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5978,7 +5936,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="3849-ea62-1180-a804" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="3849-ea62-1180-a804" name="Compel" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5988,7 +5946,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="6bfd-b3b6-ee6b-c7a1" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6bfd-b3b6-ee6b-c7a1" name="Transfix" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5998,7 +5956,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="591f-b1ae-4213-f682" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="591f-b1ae-4213-f682" name="Instill Fear" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6010,24 +5968,14 @@ On a 6 they suffer a wound.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="0a48-21d1-5e8a-e03d" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="0a48-21d1-5e8a-e03d" name="Pall of Darkness (Passive)" book="Armies of the Lord of the Rings" page="137" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
-        </rule>
-        <rule id="27dc-f73b-f44b-5c8e" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+The Shadow Lord may spend 1 Will.
+Until the End phase of that turn, shots against the Shadow Lord, or any model within 6&quot; of him will only ever hit on a 6.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6151,14 +6099,6 @@ On a 6 they suffer a wound.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="a28d-afc3-dad1-ca8b" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6213,7 +6153,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="98da-d582-5954-9c92" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="98da-d582-5954-9c92" name="Black Dart" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6223,7 +6163,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="ede7-4a1a-86fe-cef8" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ede7-4a1a-86fe-cef8" name="Drain Courage" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6233,7 +6173,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="675d-cfd9-35f4-ecde" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="675d-cfd9-35f4-ecde" name="Sap Will" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6243,7 +6183,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bccd-15e6-48d3-d362" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bccd-15e6-48d3-d362" name="Compel" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6253,7 +6193,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="a40c-1485-1c1c-5784" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="a40c-1485-1c1c-5784" name="Transfix" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6263,7 +6203,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="940e-affc-1724-817c" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="940e-affc-1724-817c" name="Instill Fear" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6473,22 +6413,22 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="18"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="8105-5ab7-8c47-d85e" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8105-5ab7-8c47-d85e" name="Black Dart" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="1746-8f63-2046-051c" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1746-8f63-2046-051c" name="Drain Courage" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6498,7 +6438,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="9d26-ca78-641d-9c1e" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="9d26-ca78-641d-9c1e" name="Sap Will" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6508,7 +6448,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="aaa7-6ffa-efb8-ef69" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="aaa7-6ffa-efb8-ef69" name="Compel" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6518,7 +6458,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="e3dd-a4f7-39c6-b824" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="e3dd-a4f7-39c6-b824" name="Transfix" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6528,7 +6468,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="543e-3e46-9210-edb3" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="543e-3e46-9210-edb3" name="Instill Fear" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6540,24 +6480,21 @@ On a 6 they suffer a wound.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="eec9-cb44-08a9-3131" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="0826-098b-e5af-d708" name="Arcana Leech (Passive)" book="Armies of the Lord of the Rings" page="138" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Start of the Move phase before Heroic actions are declared.
-The Tainted may spend 1 Will.
-If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
-or take part in Heroic Actions.</description>
+The Undying may spend 1 Will.
+Until the End phase of that turn the Undying regains 1 Will for each successfully cast Magical Power by another model within 6&quot;.</description>
         </rule>
-        <rule id="0826-098b-e5af-d708" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="f2f4-4f30-0397-f340" name="Eternal Willpower (Passive)" book="Armies of the Lord of the Rings" page="138" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Start of the Fight phase roll a d6 for each non-Spirit model (friend or foe)
-in base contact with The Tainted, Cavalry roll for both mount and rider.
-On a 6 they suffer a wound.</description>
+          <description>The Undying may spend Will points in the same manner as Fate points.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6681,19 +6618,11 @@ On a 6 they suffer a wound.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="cbe6-342c-51be-def0" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="34c3-fa80-2aa8-375d" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="34c3-fa80-2aa8-375d" name="Staff (Included)" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
