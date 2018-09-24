@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="2" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="3" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -2442,9 +2442,9 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6813-a07c-7148-8203" name="Orc Warrior" book="Armies of The Lord of the Rings" page="119" hidden="false" collective="false" type="model">
+    <selectionEntry id="6813-a07c-7148-8203" name="Orc Warrior (Local)" book="Armies of The Lord of the Rings" page="119" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="030b-14b0-9f2b-9697" name="Orc Warrior" book="The Fallen Realms" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="030b-14b0-9f2b-9697" name="Orc Warrior (Local)" book="The Fallen Realms" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3532,7 +3532,16 @@ Cavalry takes d6 on mount and rider.
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="d3bc-94cb-0bcd-e477" name="Orc Warrior" hidden="false" targetId="cfd5-7553-89d4-b95c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="14a8-0d31-bdac-eef9" name="Orc Bow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
       <profiles/>
