@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="4" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="5" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="09a5-8cc6-f2fe-194b" name="You have my Sword" book="Armies of The Lord of the Rings" page="8" hidden="false">
@@ -205,6 +205,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <modifiers/>
         </infoLink>
         <infoLink id="198c-2e3a-4bbe-1781" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d81-8b2a-38a6-c99f" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="23df-6765-d61c-f4db" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0a0-f201-35a5-8c00" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -422,6 +440,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="eee4-f0cb-8d84-530e" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="14cc-a089-adc2-4ba7" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f60c-9caa-854d-677c" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -510,7 +546,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="544c-19db-cb1a-f0be" value="0">
+                <modifier type="set" field="e0c3-403d-544c-c4c4" value="0">
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a893-8e30-0689-e673" type="equalTo"/>
@@ -518,9 +554,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="544c-19db-cb1a-f0be" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -623,6 +657,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <modifiers/>
         </infoLink>
         <infoLink id="e78e-4d45-2262-03c9" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="160b-40d6-581c-2228" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7cdf-bfb4-98f5-5396" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a029-b330-1e06-5b40" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -773,6 +825,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <modifiers/>
         </infoLink>
         <infoLink id="cec1-adf4-5d0d-a86a" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2940-014c-333c-3844" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a63-b49e-e7dd-7f0d" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4c15-5199-92b3-99d0" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -948,6 +1018,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="31c0-7d4a-9860-8a48" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e2a8-9896-68d8-893b" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b9d-c1c6-32b4-6821" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1073,7 +1161,15 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="8434-c776-cbbe-aa8d" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bc3-4d75-76bb-ac64" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -1153,6 +1249,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <modifiers/>
         </infoLink>
         <infoLink id="7df6-2adc-9a14-ad76" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="df06-756e-73d2-5d53" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7311-64f9-c08d-3446" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a04c-8d76-8bce-6e2d" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1313,6 +1427,24 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <modifiers/>
         </infoLink>
         <infoLink id="c395-dda5-fcc3-9ace" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5db0-f352-618d-8dac" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d28f-cfe0-e350-0153" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="858c-4555-b5b3-02a7" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
