@@ -2555,6 +2555,35 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="36d0-ff9b-4ed1-72ce" name="Throwing Daggers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3b85-1a42-165a-c5ea" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7371-c7ec-f19b-eb98" name="Throwing Daggers" hidden="false" targetId="5916-a09a-6057-331a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8d-aae4-e8c3-582c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">
@@ -4820,6 +4849,16 @@ and
       <infoLinks/>
       <modifiers/>
       <characteristics/>
+    </profile>
+    <profile id="5916-a09a-6057-331a" name="Throwing Daggers" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
+      </characteristics>
     </profile>
   </sharedProfiles>
 </gameSystem>
