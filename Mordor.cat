@@ -565,9 +565,9 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="329c-e28e-7a75-1a39" name="Grishnakh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="329c-e28e-7a75-1a39" name="Grishnákh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="44c1-73e2-060e-e0b9" name="Grishnakh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="44c1-73e2-060e-e0b9" name="Grishnákh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
