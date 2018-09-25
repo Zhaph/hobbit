@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="3" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="4" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a481-60cc-b19d-d194" name="&apos;Tangado haid, leithio i philinn!&quot;" book="Armies of the Lord of the Rings" page="72" hidden="false">
@@ -127,16 +127,54 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e3e3-f01f-4e8f-76ca" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ba43-7a60-d3df-f003" name="Mount Choice" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fde-9c4d-c1b6-2c55" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bc55-4940-72ea-ebaa" name="Asfaloth" hidden="false" targetId="5b0f-1130-2d0d-0e54" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="718a-545c-9be6-804f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7a15-e4af-8e98-b8f2" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e3e3-f01f-4e8f-76ca" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8690-2bcf-4f5b-b56e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4179-a7ed-2005-d4a9" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -147,26 +185,6 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0259-ab42-b67e-f9da" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="518f-c305-0b13-e13e" name="Asfaloth" hidden="false" targetId="5b0f-1130-2d0d-0e54" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd33-043c-052d-c7f7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b5ff-2a8a-bcc5-65a1" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff7-1863-4161-1216" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -528,21 +546,12 @@ This may be done even if the target Hero is lower tier.</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8c42-1d0a-17e9-0d0d" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+        <entryLink id="8c42-1d0a-17e9-0d0d" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0cc-f911-b52b-ff16" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ce-8b59-872c-79d3" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="c879-64fc-0d2c-d86e" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
@@ -555,13 +564,16 @@ This may be done even if the target Hero is lower tier.</description>
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="name" value="Elven Cloaks">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35cb-bd78-62fa-5afc" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="353c-a476-ef01-4368" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+        <entryLink id="353c-a476-ef01-4368" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -571,10 +583,13 @@ This may be done even if the target Hero is lower tier.</description>
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="name" value="Elf Bows">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d152-4e4d-a320-fd3b" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="11fe-fc21-5dca-047e" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
@@ -588,9 +603,7 @@ This may be done even if the target Hero is lower tier.</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22bb-fea6-6391-115d" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="efe3-2c8a-8492-3b9b" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -785,12 +798,19 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Elven-made hand-and-a-half sword.
+              <description>
+Elven-made hand-and-a-half sword.
 +1 to wound spirits when making stikes with Hadhafang</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="91d1-2a03-97d2-a8cc" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="5ab5-eaaf-ee3e-0b79" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="93a9-c1af-c391-63d0" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -844,16 +864,8 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc84-1d22-b2c0-2adc" type="max"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="3546-9c76-8603-a704" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -861,9 +873,7 @@ For each point spent he may change the dice score by +1 or -1. To a minimum of 1
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8010-c034-ad14-10c1" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="aeab-a4c2-a46b-5217" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
@@ -1167,7 +1177,7 @@ Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a52f-2516-49c7-5601" name="Aeglos" hidden="false" targetId="3d2c-ee13-cd51-e129" type="selectionEntry">
+        <entryLink id="a52f-2516-49c7-5601" name="Aiglos" hidden="false" targetId="3d2c-ee13-cd51-e129" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1175,21 +1185,12 @@ Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="16fb-a3fb-3a37-7628" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="16fb-a3fb-3a37-7628" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b99a-e826-94b0-f9e4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fcc-3ebb-53e2-4b80" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="d4fb-f7cb-993d-2ac4" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -1200,17 +1201,11 @@ Stand Fast! is 12&quot; and friendly Elf Heroes may use it.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b8da-1d22-eb3b-3578" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="b8da-1d22-eb3b-3578" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1357,13 +1352,18 @@ Noldorin Exiles have a Move of 8&quot;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9e5c-0db9-fa7d-872b" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+        <entryLink id="9e5c-0db9-fa7d-872b" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe14-1576-5064-99e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9259-ff78-9d9d-3fc8" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1381,7 +1381,6 @@ Noldorin Exiles have a Move of 8&quot;.</description>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d88-8aa9-0262-ea47" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59da-108c-6d57-9114" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1558,13 +1557,18 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9f17-a069-cb58-7287" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="9f17-a069-cb58-7287" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7852-d70b-fbed-231a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a0-345c-0c5f-544c" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1697,7 +1701,39 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="76fc-f342-4a5a-0754" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="76fc-f342-4a5a-0754" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e310-ade3-7e45-c150" name="Lance" hidden="false" targetId="44da-15bc-1b0f-6430" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd2f-122c-d9b6-346b" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="abd4-8a75-74c2-505f" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6464-809a-532c-de28" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1709,54 +1745,6 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7769-ffee-455a-c183" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6c-a6bc-838c-8c5d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e310-ade3-7e45-c150" name="Lance" hidden="false" targetId="44da-15bc-1b0f-6430" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="fd2f-122c-d9b6-346b" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="abd4-8a75-74c2-505f" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6464-809a-532c-de28" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b425-a949-69a7-ec9e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e85c-66ea-bc97-fd52" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1893,7 +1881,15 @@ When casting if the Stormcaller rolls a natural 6 on one or more dice the Will p
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8855-4759-f91f-5cc2" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+        <entryLink id="8855-4759-f91f-5cc2" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d26-ccc7-365b-ed29" name="Staff" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1905,29 +1901,22 @@ When casting if the Stormcaller rolls a natural 6 on one or more dice the Will p
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5e-86a6-da78-3e36" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ef-a432-39d6-dba8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0d26-ccc7-365b-ed29" name="Staff (Included)" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0de-bf11-e962-c797" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a3-5b03-0144-9db0" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5148-be2c-bac3-da3a" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+        <entryLink id="5148-be2c-bac3-da3a" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d79-76f5-8671-e627" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e725-104d-251e-dbd3" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1990,49 +1979,21 @@ When casting if the Stormcaller rolls a natural 6 on one or more dice the Will p
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6c8a-310d-0d85-8940" name="Banner" book="" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec75-1e30-520f-b007" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9342-baea-a751-a720" name="War Horn" book="" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d463-03a3-e0ac-4ecf" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="af1f-5549-2b34-42c3" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+        <entryLink id="af1f-5549-2b34-42c3" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8e7-4040-bb01-f397" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d1-4c9b-aaef-fbd8" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -2041,21 +2002,30 @@ When casting if the Stormcaller rolls a natural 6 on one or more dice the Will p
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edae-4f3e-5971-4549" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f648-6ab2-600f-a550" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b7e4-71fa-9893-587f" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="b7e4-71fa-9893-587f" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e77-a8a9-63db-34df" type="max"/>
-          </constraints>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="9d90-db06-6cab-8851" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -2063,31 +2033,55 @@ When casting if the Stormcaller rolls a natural 6 on one or more dice the Will p
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8564-5b42-91fa-9548" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ca-ce1e-b3b4-bdab" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c463-cccd-39b6-d6a9" name="Lance (Included)" hidden="false" targetId="207a-b11d-6912-e98b" type="selectionEntry">
+        <entryLink id="c463-cccd-39b6-d6a9" name="Lance" hidden="false" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5370-78cc-62a6-df11" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cae3-4174-c75c-b865" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f6df-9b65-b8c1-a614" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="f6df-9b65-b8c1-a614" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3494-47cb-19a3-8dea" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f08-a2a7-529c-6570" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3494-47cb-19a3-8dea" type="min"/>
-          </constraints>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1978-322d-8258-bd09" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2199,14 +2193,19 @@ If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="08d0-81d7-5de8-3a6b" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+        <entryLink id="08d0-81d7-5de8-3a6b" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba8-91de-d388-8735" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d5-a098-5043-6ba7" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2215,25 +2214,15 @@ If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e9-ad5f-ce8a-f476" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="eb4b-9fee-a2ae-41f5" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="10">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8299-496c-f221-8442" type="max"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="39ac-7713-eaf2-57d7" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
@@ -2249,7 +2238,7 @@ If Lindir is within 6&quot; of Elrond, then Elrond may expend a single point of 
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fedd-33b8-ca01-1ecc" name="Noldorin Exile" book="Armies of the Lord of the Rings" page="88" hidden="false" collective="false" type="model">
+    <selectionEntry id="fedd-33b8-ca01-1ecc" name="Noldorin Exile" book="Armies of the Lord of the Rings" page="79" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="a4c5-e9c5-cc6f-b9cb" name="Noldorin Exile" book="Armies of the Lord of the Rings" page="88/79" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -2308,43 +2297,10 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="dce9-7eb5-b9e4-6bb0" name="Banner" book="" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4386-01e1-ad60-10e3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="88b0-08c8-43c9-2596" name="Throwing Daggers" book="" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8110-a5de-3767-e0ed" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4997-7610-fcc7-d840" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+        <entryLink id="4997-7610-fcc7-d840" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2355,26 +2311,34 @@ Noldorin Exiles have a move of 8&quot;.</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8fc-748d-c71d-dcf6" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="0cac-587a-f8e3-0e04" name="Wood Elf Spear" hidden="false" targetId="b280-7e1b-2864-e129" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf8-2c28-1771-8113" type="max"/>
-          </constraints>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="37db-7cf2-a082-6b2c" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="37db-7cf2-a082-6b2c" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a270-068d-d665-03c8" type="min"/>
           </constraints>
@@ -2392,9 +2356,30 @@ Noldorin Exiles have a move of 8&quot;.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d05-c40e-9c81-0041" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be1f-4c45-d689-9792" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b95b-e1ba-de55-5e63" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f444-c772-362a-e8c8" name="Throwing Daggers" hidden="false" targetId="36d0-ff9b-4ed1-72ce" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2464,45 +2449,24 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0bb7-3ce5-50bd-fb6b" name="Banner" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3889-fbed-e167-3cdb" name="Elf Bow (Included)" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+        <entryLink id="3889-fbed-e167-3cdb" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1179-58a2-b730-8675" type="max"/>
-          </constraints>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="7cbb-0958-89ec-9ca0" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d62-667f-1275-5ab2" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="113d-add8-0f8d-c6aa" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2513,9 +2477,21 @@ Noldorin Exiles have a move of 8&quot;.</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="160c-6943-cec7-3197" type="max"/>
-          </constraints>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="113d-add8-0f8d-c6aa" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="7648-9fb3-0ab9-961b" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -2523,10 +2499,7 @@ Noldorin Exiles have a move of 8&quot;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cecf-f467-c72d-5ac0" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="462f-f6c8-a16f-3b6c" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="0c32-dd0f-a856-b483" name="King&apos;s Guard" hidden="true" targetId="7493-2553-4d96-21e3" type="selectionEntry">
@@ -2547,14 +2520,36 @@ Noldorin Exiles have a move of 8&quot;.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0a11-d501-8b12-a06a" name="Elven-made hand-and-a-half Sword (Included)" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+        <entryLink id="0a11-d501-8b12-a06a" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8654-0b88-1dcc-8945" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e2c0-a759-8731-56f9" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8654-0b88-1dcc-8945" type="min"/>
-          </constraints>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2b1b-3f2c-1c9c-0fed" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2586,6 +2581,12 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
           <modifiers/>
         </infoLink>
         <infoLink id="63ee-c234-b659-705e" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="76a8-d5eb-ed00-bc37" name="Aiglos" hidden="false" targetId="42f3-2b52-512a-145f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2702,6 +2703,7 @@ Gil-galad may add +1 to all of his wound rolls when making strikes with Aiglos.<
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8540-4e58-6315-43b3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4964-c5d2-9bf7-dd65" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -2788,6 +2790,13 @@ When on foot, can Fight in three ways:
       <characteristics>
         <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Heavy Armor +2 Defence] Monsters may not target Glorfindel with Brutal Power Attacks."/>
       </characteristics>
+    </profile>
+    <profile id="42f3-2b52-512a-145f" name="Aiglos" book="Armies of the Lord of the Rings" page="73" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
     </profile>
   </sharedProfiles>
 </catalogue>
