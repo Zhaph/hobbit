@@ -559,7 +559,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e888-4fff-b29a-b047" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="e888-4fff-b29a-b047" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -703,7 +703,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="dc65-7a56-5b2d-9d37" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="dc65-7a56-5b2d-9d37" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -910,7 +910,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="29b6-ef0f-dbc4-86d8" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="29b6-ef0f-dbc4-86d8" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1171,7 +1171,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="70a4-6cee-2b3e-434f" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="70a4-6cee-2b3e-434f" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1330,7 +1330,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bddc-a053-0edb-f312" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="bddc-a053-0edb-f312" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1485,7 +1485,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="aa3a-d713-3f4e-dda0" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="aa3a-d713-3f4e-dda0" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1591,7 +1591,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5b57-3a54-415e-fb2b" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="5b57-3a54-415e-fb2b" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1689,7 +1689,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a7e8-0134-993a-bb63" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="a7e8-0134-993a-bb63" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1918,35 +1918,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="d9fd-f905-b315-3c9d" name="Elven Cloak" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="47d5-a03d-a9a3-1c9e" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a716-05d5-ed2a-ba1c" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4d-0475-c082-f81d" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bcbe-c38e-2102-e806" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
