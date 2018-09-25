@@ -396,7 +396,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a9e2-9e28-bcf7-5fa8" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+        <infoLink id="a9e2-9e28-bcf7-5fa8" name="Heavy Armour" hidden="false" targetId="9d5c-f986-fd0b-5eb9" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
