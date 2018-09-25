@@ -7191,6 +7191,56 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="486a-c27c-fe8b-e413" name="Mordor War Catapult" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fa02-ea82-8b09-c41d" name="Mordor War Catapult" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strength" characteristicTypeId="3684-4bad-79f7-2a2c"/>
+            <characteristic name="Defence" characteristicTypeId="7017-e823-5773-12b4"/>
+            <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2"/>
+            <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="114e-b4ea-6a58-45ec" name="Mordor Siege Bow" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Strength" characteristicTypeId="3684-4bad-79f7-2a2c"/>
+            <characteristic name="Defence" characteristicTypeId="7017-e823-5773-12b4"/>
+            <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2"/>
+            <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">

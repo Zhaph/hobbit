@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9373-f83e-88a9-09f7" name="Mordor" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="af1a-3297-634f-16c0" name="Orc Tracker" hidden="false" targetId="fa50-db71-dea5-c70c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5d77-6566-0251-8462" name="Orc Taskmaster" hidden="false" targetId="ecbe-58d0-4882-8614" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0084-20b9-0b81-9e9b" name="Orc Warrior" hidden="false" targetId="a2b9-5de4-7e9f-fc10" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3da2-321d-0d05-fd04" name="Orc Shaman" hidden="false" targetId="aac6-9294-5f23-909d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6433-8df5-353b-0470" name="Warg Rider" hidden="false" targetId="3ab1-4e5f-9d5c-772d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="46ee-747e-b053-d8fd" name="Orc Captain" hidden="false" targetId="a9b4-d635-b391-8385" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="629b-4db1-49f9-b376" name="Orc Drummer" hidden="false" targetId="683f-49f2-0fee-2dfb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6bc8-6627-2b45-7af4" name="Black Numenorean" hidden="false" targetId="3ae4-9171-fbb2-3009" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="31c5-72ae-fb27-552d" name="Black Numenorean Marshall" hidden="false" targetId="0ddd-68aa-b66d-ee8f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="80b1-e916-27d5-0bdf" name="Khamûl the Easterling" hidden="false" targetId="7599-2af4-cf52-38a2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e185-ddb9-2046-1bff" name="Mordor Siege Bow" hidden="false" targetId="277e-2e06-91be-d386" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6506-1e2a-ee33-0fb8" name="Mordor Troll" hidden="false" targetId="f7c2-c236-cc7a-41da" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ecbd-502e-46a7-154c" name="Mordor Troll Chieftain" hidden="false" targetId="6887-9187-92d9-4a67" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4819-fb4c-5a39-be6b" name="Mordor War Catapult" hidden="false" targetId="486a-c27c-fe8b-e413" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7ba1-00b8-75d3-9b7e" name="Morgul Knight" hidden="false" targetId="ce6e-f505-e17f-e54d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="00eb-5c8c-b1cf-faf1" name="Ringwraith" hidden="false" targetId="621f-2852-693e-b000" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9057-47e0-6923-b3ae" name="The Betrayer" hidden="false" targetId="dea0-a30a-99cf-37f2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a5dc-9407-4bc9-5c80" name="The Dark Marshal" hidden="false" targetId="a720-2ad1-0ffa-060b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="083a-b025-8874-4db5" name="The Dwimmerlaik" hidden="false" targetId="fe6d-a3fd-b8f7-353f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="025a-81a0-98a6-ffad" name="The Knight of Umbar" hidden="false" targetId="b7fb-f85a-1d9d-69ed" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="19a0-89f5-a92c-d60c" name="The Shadow Lord" hidden="false" targetId="80d2-6c5c-ae8c-97d3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fd97-af8e-c68b-cc9d" name="The Tainted" hidden="false" targetId="a899-818e-d270-2ce1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5e21-0744-e2e5-3e40" name="The Undying" hidden="false" targetId="4420-7bc7-d848-5b25" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b15b-c811-5fe8-a89c" name="The Witch-King of Angmar" hidden="false" targetId="319b-3d6d-42ff-8de5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a9bf-ed9d-0d61-bdf2" name="The Witch-King of Angmar" hidden="false" targetId="319b-3d6d-42ff-8de5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
