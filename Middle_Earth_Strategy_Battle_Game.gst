@@ -237,9 +237,37 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="c6b1-9135-15e3-4645" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c071-e634-3220-08c1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="c6b1-9135-15e3-4645" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1061-1aac-497f-b099" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="c6b1-9135-15e3-4645" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="c6b1-9135-15e3-4645" value="1">
+              <repeats>
+                <repeat field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e07a-883e-1b26-d891" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b1-9135-15e3-4645" type="max"/>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b1-9135-15e3-4645" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="80c5-b61b-d209-b3a1-c892-016b-5298-f37d" name="Siege engine" hidden="false" targetId="c892-016b-5298-f37d" primary="false">
