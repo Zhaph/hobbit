@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="Armies of The Lord of the Rings" page="166-179" revision="4" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="Armies of The Lord of the Rings" page="166-179" revision="5" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -1374,159 +1374,6 @@ Whenever a Hero in base to base contact resolves a Strike against Sharku and fai
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1981-9102-6a36-509a" name="Orc Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="42e8-8a1f-2234-f978" name="Orc Captain" book="The Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b4f-8fa3-fbf1-53dc" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7728-4efe-f9e1-42ce" type="equalTo"/>
-                    <condition field="selections" scope="1981-9102-6a36-509a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b4f-8fa3-fbf1-53dc" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="987c-e333-6fc4-f0a0" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="1981-9102-6a36-509a-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0b30-361e-308c-4e0f" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cde6-fba3-787e-ddcb" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="0a2c-4819-497e-d299">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a437-fe76-8cfd-dd0b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3816-9c5f-fe7f-33bd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="0a2c-4819-497e-d299" name="Pick (Included)" hidden="false" targetId="162f-1413-e895-368f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="db95-0f8c-a5cd-76df" name="Sword (Included)" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1581-b609-96cd-e362" name="Warg (Hero)" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="fe38-f148-f9fc-4601" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49df-7e79-24b2-9cb9" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="887e-66a1-cfb9-f7bd" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f632-0719-1798-9690" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e99e-4ba0-3a65-6daa" name="Dunlending Chieftain" book="Armies of The Lord of the Rings" page="174" hidden="false" collective="false" type="model">
@@ -3882,7 +3729,38 @@ Cavalry takes d6 on mount and rider.
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="d3bc-94cb-0bcd-e477" name="Orc Warrior" hidden="false" targetId="cfd5-7553-89d4-b95c" type="selectionEntry">
+    <entryLink id="d3bc-94cb-0bcd-e477" name="Orc Warrior" hidden="false" targetId="a2b9-5de4-7e9f-fc10" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3cd1-4c13-4c7b-da83" name="Orc Captain" hidden="false" targetId="a9b4-d635-b391-8385" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="49f9-d32a-719f-4be4" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e3f-d275-d812-6288" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9af5-f420-b00a-4875" name="Warg Rider" hidden="false" targetId="3ab1-4e5f-9d5c-772d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
