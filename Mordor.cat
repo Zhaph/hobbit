@@ -128,7 +128,18 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ac9b-b4aa-d2e8-51ff" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="ac9b-b4aa-d2e8-51ff" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676d-306a-f245-691d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa2-a9d6-7dd0-ab96" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1a9e-5110-de84-a8af" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -136,15 +147,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1a9e-5110-de84-a8af" name="Warg (Hero)" hidden="false" targetId="a2d8-606b-27ee-6b9d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2b2c-50d5-7a8d-7a5e" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="2b2c-50d5-7a8d-7a5e" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -401,8 +404,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="This is a shield.
-In a turn in which Shagrat charges, he gains Knock to the Ground bonus exactly as if he were a Cavalry model."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="This is a shield. In a turn in which Shagrat charges, he gains Knock to the Ground bonus exactly as if he were a Cavalry model."/>
               </characteristics>
             </profile>
           </profiles>
@@ -437,7 +439,7 @@ In a turn in which Shagrat charges, he gains Knock to the Ground bonus exactly a
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7033-cbbc-db29-c1e7" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="4779-47a3-8f53-91c9" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -445,12 +447,15 @@ In a turn in which Shagrat charges, he gains Knock to the Ground bonus exactly a
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4779-47a3-8f53-91c9" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+        <entryLink id="183f-f343-5d32-7b6f" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea5-0267-15c8-8565" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186a-aae9-4437-e737" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -468,7 +473,7 @@ In a turn in which Shagrat charges, he gains Knock to the Ground bonus exactly a
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="8d42-7107-19dc-4d84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9868-e3c0-f237-452b" type="equalTo"/>
+                <condition field="selections" scope="8d42-7107-19dc-4d84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b6c-592e-84bc-c3f8" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -544,7 +549,7 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1b6c-592e-84bc-c3f8" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="1b6c-592e-84bc-c3f8" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -552,12 +557,15 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9868-e3c0-f237-452b" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="9868-e3c0-f237-452b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951c-1db9-7baa-ea11" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbec-27c3-c85a-7cb8" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -575,7 +583,7 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="329c-e28e-7a75-1a39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e618-a315-b6da-f69f" type="equalTo"/>
+                <condition field="selections" scope="329c-e28e-7a75-1a39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c92-4780-9418-62d7" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -642,7 +650,7 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7c92-4780-9418-62d7" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="7c92-4780-9418-62d7" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -650,12 +658,15 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e618-a315-b6da-f69f" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="a36b-192a-7352-c89a" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee6-4d3b-c9c3-6b16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd07-6292-8621-f019" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
