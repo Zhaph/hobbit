@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="7" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="8" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2384,7 +2384,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
+    <selectionEntry id="a2b9-5de4-7e9f-fc10" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="97de-40f0-d679-e177" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2394,7 +2394,7 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="cfd5-7553-89d4-b95c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7c2-b410-f2ee-c2db" type="equalTo"/>
+                <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7c2-b410-f2ee-c2db" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2404,8 +2404,8 @@
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="cfd5-7553-89d4-b95c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f458-15ef-8805-7905" type="equalTo"/>
-                    <condition field="selections" scope="cfd5-7553-89d4-b95c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7c2-b410-f2ee-c2db" type="equalTo"/>
+                    <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f458-15ef-8805-7905" type="equalTo"/>
+                    <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7c2-b410-f2ee-c2db" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2492,7 +2492,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2524,7 +2530,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2532,7 +2544,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2626,7 +2644,6 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8478-42fa-0232-7027" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894f-1468-16f7-01db" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02b7-a931-aee0-d420" type="max"/>
       </constraints>
       <categoryLinks>
@@ -2648,7 +2665,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fd5a-7644-cfaa-24cd" name="Hand-and-a-half Club" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2854,28 +2873,52 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9115-80d1-a016-0d92" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="9115-80d1-a016-0d92" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4056-8190-8060-375c" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8027-4331-d23c-4557" name="Lance (Included)" hidden="false" targetId="207a-b11d-6912-e98b" type="selectionEntry">
+        <entryLink id="8027-4331-d23c-4557" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d56b-6ddb-0da7-d025" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3982-88e2-34ab-aba0" name="Armoured Horse (Included)" hidden="false" targetId="5f6d-3f1e-00b8-e39c" type="selectionEntry">
+        <entryLink id="3982-88e2-34ab-aba0" name="Lance" hidden="false" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86de-ec37-1e1e-25ea" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2957,12 +3000,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="bb91-d5b2-bd37-5560" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="bb91-d5b2-bd37-5560" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f803-212a-6387-7624" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -3035,7 +3086,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7bed-fcc7-304f-d608" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="7bed-fcc7-304f-d608" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="e0ad-152c-06d5-dae2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3048,7 +3099,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="8ab7-d48c-a303-392b" name="Two-Handed Weapon (Hero)" hidden="false" targetId="c47b-a0c6-778b-8cf3" type="selectionEntry">
+            <entryLink id="8ab7-d48c-a303-392b" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3074,7 +3125,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="78ea-fd48-cd1a-adfe" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="78ea-fd48-cd1a-adfe" name="Lance" hidden="false" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3098,7 +3149,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="22dc-b1d1-47e0-3e3e" name="Lance (Hero)" hidden="false" targetId="6d3b-df94-048a-a753" type="selectionEntry">
+        <entryLink id="22dc-b1d1-47e0-3e3e" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3339,12 +3390,20 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="84d0-2392-756a-f426" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="84d0-2392-756a-f426" name="Two-Handed Sword" hidden="false" targetId="8b7f-42e1-e4ab-43a1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bc-616b-c03e-bb6e" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="1b17-9e29-77fb-a9ef" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -3608,12 +3667,20 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c74d-b12a-ea4d-baf2" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="c74d-b12a-ea4d-baf2" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc6-810b-0bd9-06b4" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="a1c4-f762-86a4-4f3c" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -3838,12 +3905,20 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="356c-edcc-b1e1-93ed" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="356c-edcc-b1e1-93ed" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07fa-e8b9-305e-4e12" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="e9c5-cb8c-5992-1934" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -3869,7 +3944,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="a9b4-d635-b391-8385" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3896-16f5-a644-b903" type="equalTo"/>
+                <condition field="selections" scope="a9b4-d635-b391-8385" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a0c-f95f-64b2-44b0" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3879,7 +3954,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="a9b4-d635-b391-8385" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3896-16f5-a644-b903" type="equalTo"/>
+                    <condition field="selections" scope="a9b4-d635-b391-8385" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0b1-3543-35ef-d4f3" type="equalTo"/>
                     <condition field="selections" scope="a9b4-d635-b391-8385" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a0c-f95f-64b2-44b0" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
@@ -3931,7 +4006,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b2c8-fe59-67da-5dc0" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="b2c8-fe59-67da-5dc0" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="65ac-4799-7334-ecdb">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3944,19 +4019,31 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="545a-142a-74a9-6c6c" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="4627-441c-8cd1-159e" name="Pick" hidden="false" targetId="162f-1413-e895-368f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="65ac-4799-7334-ecdb" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -3964,7 +4051,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6a0c-f95f-64b2-44b0" name="Orc Bow (Hero)" hidden="false" targetId="bba9-ef6f-8c9a-2949" type="selectionEntry">
+        <entryLink id="6a0c-f95f-64b2-44b0" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3972,7 +4059,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d0b1-3543-35ef-d4f3" name="Warg (Hero)" hidden="false" targetId="a2d8-606b-27ee-6b9d" type="selectionEntry">
+        <entryLink id="d0b1-3543-35ef-d4f3" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3988,7 +4075,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3896-16f5-a644-b903" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="3896-16f5-a644-b903" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4076,12 +4163,20 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="55c3-71f4-a9b0-38c1" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="55c3-71f4-a9b0-38c1" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a868-888f-9956-babd" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4173,15 +4268,23 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="49dc-2a0d-ca4a-f6d5" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="49dc-2a0d-ca4a-f6d5" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="146c-309e-79ac-d8c3" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="995d-4edf-a0a7-ddda" name="Warg (Hero)" hidden="false" targetId="a2d8-606b-27ee-6b9d" type="selectionEntry">
+        <entryLink id="995d-4edf-a0a7-ddda" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4197,12 +4300,20 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9fee-e341-8cf4-77c3" name="Spear (Included)" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="9fee-e341-8cf4-77c3" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d1-2f8a-1729-d491" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4279,20 +4390,36 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="eb97-5aa1-515b-e4e5" name="Whip (Included)" hidden="false" targetId="98ea-d1b6-a4e5-3c40" type="selectionEntry">
+        <entryLink id="eb97-5aa1-515b-e4e5" name="Whip" hidden="false" targetId="98ea-d1b6-a4e5-3c40" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e10-18f9-6b0c-d024" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="24a5-e8cc-455c-803e" name="Mace (Included)" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
+        <entryLink id="24a5-e8cc-455c-803e" name="Mace" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a7-654c-78e9-47af" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4335,169 +4462,50 @@ On a 4+ they may call the Heroic action without expending Might.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="faef-86f8-dc6e-4487" name="Orc Bow (Included)" hidden="false" targetId="e91c-89c4-9366-f277" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1122-2fcd-587a-ee02" name="Dagger (Included)" hidden="true" targetId="40c7-a106-90b1-788d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e2d9-307b-4684-1dff" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a2b9-5de4-7e9f-fc10" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="0dca-ecd5-9363-aae8" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <entryLink id="faef-86f8-dc6e-4487" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f832-eeb6-3999-e3ae" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+            <modifier type="set" field="points" value="7">
               <repeats/>
               <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f832-eeb6-3999-e3ae" type="equalTo"/>
-                    <condition field="selections" scope="a2b9-5de4-7e9f-fc10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e129-8f64-1da8-03bb" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditionGroups/>
             </modifier>
           </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="0adf-b80f-9755-dc3b" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="dd47-0526-ea5b-7997" name="Choose One" hidden="false" collective="false">
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="true" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde9-11af-8862-8c89" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b95a-37e8-969c-a7e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5cb-31e2-c869-cffd" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="2bdc-e7a5-2e73-171c" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="3698-c6c4-fed7-6272" name="Pick" hidden="false" targetId="162f-1413-e895-368f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e129-8f64-1da8-03bb" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="88dc-3a43-ceee-dcfb" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+        <entryLink id="e2d9-307b-4684-1dff" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f92b-7cfb-953c-6296" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f832-eeb6-3999-e3ae" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2378-569d-c0d5-b922" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9e6f-d5e7-4b2a-d90a" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f08-6a53-5c12-4acb" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4787,14 +4795,6 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b9d9-072e-8ea7-b414" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="5ce6-7fe2-fb7c-8271" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -4809,6 +4809,22 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ac1d-9ecc-c4e7-f18d" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e54-fe31-2ed8-6764" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5040,14 +5056,6 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bc42-7449-839b-6709" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d382-fd9a-0e9a-869b" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -5062,6 +5070,22 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="feaf-8a86-72a1-5ebb" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-07e0-95f7-e658" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5295,14 +5319,6 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="09a7-8c42-1328-9ae8" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="ad6a-a894-44a5-93dc" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -5317,6 +5333,22 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3fee-77f4-769a-e50e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="838e-fa7b-cba1-df0e" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5411,7 +5443,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="The Knight of Umbar only lose a point of Will for having been in a fight if he loses a Fight during the Fight phase."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="The Knight of Umbar only loses a point of Will for having been in a fight if he loses a Fight during the Fight phase."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5552,7 +5584,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9a9d-2a0f-29a2-9d49" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="3e61-dba0-e34d-65a5" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5560,12 +5592,20 @@ He doesn&apos;t need to adopt all these characteristics.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3e61-dba0-e34d-65a5" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
+        <entryLink id="f7fb-616c-8d3c-33f6" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa1-46ab-bad1-b0da" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5791,14 +5831,6 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0945-cd62-b7fd-fb99" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="3308-a949-7993-fba9" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -5813,6 +5845,22 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d373-5a7f-d26d-49e0" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67b-fb64-b87e-6baa" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -6056,14 +6104,6 @@ On a 6 they suffer a wound.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0f1f-4d4e-1ad9-6e86" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d8c2-c482-138b-0d38" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -6078,6 +6118,22 @@ On a 6 they suffer a wound.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="34b7-2f3c-ba58-0711" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd9-bf45-d332-86ce" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -6725,14 +6781,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c529-dda0-cbf3-3ca2" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="71fc-f3db-9a48-2e94" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -6755,6 +6803,22 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5fb-6a5a-602f-9fd0" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c82-f77b-1765-0f77" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -6818,14 +6882,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="7882-dc94-6387-5057" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="3c36-19b5-4998-522d" name="Armour (Included)" hidden="true" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -6834,12 +6890,20 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6380-9025-90ea-9e63" name="Warg (Included)" hidden="false" targetId="1fdf-5cb9-6760-0c8d" type="selectionEntry">
+        <entryLink id="6380-9025-90ea-9e63" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6695-3572-a005-9be2" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="e7bd-56ca-90f4-ef7a" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
@@ -6854,7 +6918,13 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -6862,7 +6932,13 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -6870,8 +6946,30 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d026-fc70-dd1f-2010" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ff-acf7-1d10-48b8" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -6902,7 +7000,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -6927,7 +7027,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
