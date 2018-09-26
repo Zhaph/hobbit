@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="4" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" book="Armies of The Lord of the Rings" page="8" revision="6" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="09a5-8cc6-f2fe-194b" name="You have my Sword" book="Armies of The Lord of the Rings" page="8" hidden="false">
@@ -210,6 +210,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="7d81-8b2a-38a6-c99f" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="23df-6765-d61c-f4db" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0a0-f201-35a5-8c00" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -234,7 +252,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9f83-2cc9-97c3-5aec" name="Mount" book="Armies of The Lord of the Rings" page="11" hidden="false" collective="false">
+        <selectionEntryGroup id="9f83-2cc9-97c3-5aec" name="Mount Choice" book="Armies of The Lord of the Rings" page="11" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -422,6 +440,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="eee4-f0cb-8d84-530e" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="14cc-a089-adc2-4ba7" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f60c-9caa-854d-677c" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -446,7 +482,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7266-1338-f081-b2a0" name="Sword" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" defaultSelectionEntryId="1f86-b5a4-d8e7-7b98">
+        <selectionEntryGroup id="7266-1338-f081-b2a0" name="Weapon Choice" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" defaultSelectionEntryId="1f86-b5a4-d8e7-7b98">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -505,29 +541,25 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="1f86-b5a4-d8e7-7b98" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="1f86-b5a4-d8e7-7b98" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="544c-19db-cb1a-f0be" value="0">
+                <modifier type="set" field="points" value="0.0">
                   <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a893-8e30-0689-e673" type="equalTo"/>
-                  </conditions>
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="544c-19db-cb1a-f0be" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e888-4fff-b29a-b047" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="e888-4fff-b29a-b047" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -551,7 +583,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="196f-e36f-0e20-60d6" name="Bow (Hero)" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+        <entryLink id="196f-e36f-0e20-60d6" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -628,6 +660,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="160b-40d6-581c-2228" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7cdf-bfb4-98f5-5396" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a029-b330-1e06-5b40" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -653,7 +703,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="dc65-7a56-5b2d-9d37" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="dc65-7a56-5b2d-9d37" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -677,7 +727,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4abf-e125-6052-6497" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="4abf-e125-6052-6497" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -693,11 +743,17 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6099-baad-4140-7705" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="6099-baad-4140-7705" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f49-c7ef-ec2e-c93c" type="min"/>
           </constraints>
@@ -778,6 +834,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="2940-014c-333c-3844" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a63-b49e-e7dd-7f0d" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4c15-5199-92b3-99d0" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -801,30 +875,6 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9a3b-41fb-fad3-c19f" name="Elf Bow" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="215a-f074-05a3-0389" name="Elf Bow" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9db-7451-2bac-5d7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf1d-5a88-b8be-3f20" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="61be-1c46-ef2e-04f5" name="Elven-made Daggers" book="Armies of The Lord of the Rings" page="13" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b69a-65cb-7b8a-7b35" name="Elven-made Daggers" book="Armies of The Lord of the Rings" page="13" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
@@ -860,7 +910,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="29b6-ef0f-dbc4-86d8" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="29b6-ef0f-dbc4-86d8" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -890,6 +940,22 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8b56-fad6-d7ad-fe2d" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb6e-ca05-d4bd-3bcc" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -943,6 +1009,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <modifiers/>
         </infoLink>
         <infoLink id="5016-3842-ce58-a6af" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="31c0-7d4a-9860-8a48" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e2a8-9896-68d8-893b" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b9d-c1c6-32b4-6821" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1020,7 +1104,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="897d-eb00-53c6-dd47" name="Dagger" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" defaultSelectionEntryId="818d-701a-9dca-5549">
+        <selectionEntryGroup id="897d-eb00-53c6-dd47" name="Weapon Choice" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" defaultSelectionEntryId="818d-701a-9dca-5549">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1069,11 +1153,17 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="818d-701a-9dca-5549" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+            <entryLink id="818d-701a-9dca-5549" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -1081,7 +1171,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="70a4-6cee-2b3e-434f" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="70a4-6cee-2b3e-434f" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1158,6 +1248,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="df06-756e-73d2-5d53" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7311-64f9-c08d-3446" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a04c-8d76-8bce-6e2d" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1222,7 +1330,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bddc-a053-0edb-f312" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="bddc-a053-0edb-f312" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1238,20 +1346,36 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="dbe7-575d-fdbf-39eb" name="Throwing axes (Included)" hidden="false" targetId="23da-96b5-6950-4b9a" type="selectionEntry">
+        <entryLink id="dbe7-575d-fdbf-39eb" name="Throwing Axes" hidden="false" targetId="23da-96b5-6950-4b9a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b36e-de1d-80c7-7dda" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ac34-be02-4c11-d64d" name="Two axes (Included)" hidden="false" targetId="0caa-e2e4-2dca-d47d" type="selectionEntry">
+        <entryLink id="ac34-be02-4c11-d64d" name="Two Axes" hidden="false" targetId="0caa-e2e4-2dca-d47d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25d4-c68f-2b69-3fb2" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="349c-896e-f19a-4497" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
@@ -1318,6 +1442,24 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="5db0-f352-618d-8dac" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d28f-cfe0-e350-0153" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="858c-4555-b5b3-02a7" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1343,7 +1485,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="aa3a-d713-3f4e-dda0" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="aa3a-d713-3f4e-dda0" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1359,11 +1501,17 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9992-444d-2237-55a1" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="9992-444d-2237-55a1" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd4-f1fd-1f8a-6e27" type="min"/>
           </constraints>
@@ -1443,7 +1591,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5b57-3a54-415e-fb2b" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="5b57-3a54-415e-fb2b" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1459,11 +1607,17 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="24da-7853-1048-9d6d" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="24da-7853-1048-9d6d" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba2-eeac-2a47-1f41" type="min"/>
           </constraints>
@@ -1535,7 +1689,7 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a7e8-0134-993a-bb63" name="Elven Cloak" hidden="false" targetId="d9fd-f905-b315-3c9d" type="selectionEntry">
+        <entryLink id="a7e8-0134-993a-bb63" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1551,11 +1705,17 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2111-8202-8aa8-fa3e" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="2111-8202-8aa8-fa3e" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-6ae0-d3d2-bdb1" type="min"/>
           </constraints>
@@ -1758,35 +1918,6 @@ If Frodo is engaged in Combat within 6&quot; of Sam, then Sam can call a Heroic 
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="d9fd-f905-b315-3c9d" name="Elven Cloak" book="Armies of The Lord of the Rings" page="12" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="47d5-a03d-a9a3-1c9e" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a716-05d5-ed2a-ba1c" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4d-0475-c082-f81d" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bcbe-c38e-2102-e806" name="Throw Stones (range 8&quot;, Strength 1)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
