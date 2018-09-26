@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="" revision="3" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="Armies of The Lord of the Rings" page="166-179" revision="4" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -166,6 +166,24 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="0598-361d-a556-6114" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fee8-3a98-da4b-23c9" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="243d-e4f2-9a1d-6273" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -191,7 +209,7 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9b2f-74b4-33a5-989d" name="Horse" hidden="false" targetId="a845-c33c-a3e4-a687" type="selectionEntry">
+        <entryLink id="9b2f-74b4-33a5-989d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -251,7 +269,8 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Any warband led by Lurtz does not have to roll to determine when and where it arrives in Scenarios that require such a roll. Instead, Lurtz may choose the result.</description>
+          <description>
+Any warband led by Lurtz does not have to roll to determine when and where it arrives in Scenarios that require such a roll. Instead, Lurtz may choose the result.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -274,6 +293,24 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
           <modifiers/>
         </infoLink>
         <infoLink id="acdd-72c6-6a58-236d" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a20d-67f3-2ce9-8fc0" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="76b9-e024-c610-50e7" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e191-5ec5-586d-dfed" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -303,7 +340,29 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="77a7-4fc8-5301-c276" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="77a7-4fc8-5301-c276" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3d26-8325-7f6b-7d48" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c07f-b1e4-cb43-3d15" name="Uruk-Hai Bow" hidden="false" targetId="fce2-8228-f8db-343f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -315,40 +374,23 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be31-9042-b495-bc4c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="3d26-8325-7f6b-7d48" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0107-b2bf-48be-bd67" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8d-d8e0-a880-16fe" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="c07f-b1e4-cb43-3d15" name="Uruk-Hai Bow (Included)" hidden="false" targetId="fce2-8228-f8db-343f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2136-bdb4-1006-a8e5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ffc-a9d8-88a8-e074" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1b83-3d9d-3310-186e" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="1b83-3d9d-3310-186e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="386f-1c72-03d9-1bd3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33da-2155-78b4-7e80" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -388,12 +430,13 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
         </profile>
       </profiles>
       <rules>
-        <rule id="83fe-b049-e290-7d5c" name="Head Taker" book="Armies of The Lord of the Rings" page="169" hidden="false">
+        <rule id="83fe-b049-e290-7d5c" name="Head Taker (Active)" book="Armies of The Lord of the Rings" page="169" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Should Uglúk&apos;s force be broken, Uglúk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Uglúk and remove it as a casualty. Furthermore, in a turn that Uglúk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
+          <description>
+Should Uglúk&apos;s force be broken, Uglúk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2&quot; of Uglúk and remove it as a casualty. Furthermore, in a turn that Uglúk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12&quot; and affects both Warrior and Hero models.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -410,6 +453,24 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
           <modifiers/>
         </infoLink>
         <infoLink id="f25f-497e-ca21-3c17" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c69-82e3-d1b3-68e7" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4828-ae94-265b-5b2c" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="12d2-93d6-1a31-7481" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -439,7 +500,7 @@ Saruman the White can choose to re-roll one dice when making Casting or Resist t
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e144-d217-235a-1607" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="e144-d217-235a-1607" name="Sword (Included)" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -548,7 +609,7 @@ If an enemy Hero model is within 6&quot;/14cm of Gríma, 2 Might points must be 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="ea92-b0df-0f29-e002" name="Horse" hidden="false" targetId="a845-c33c-a3e4-a687" type="selectionEntry">
+        <entryLink id="ea92-b0df-0f29-e002" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -556,14 +617,19 @@ If an enemy Hero model is within 6&quot;/14cm of Gríma, 2 Might points must be 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="09ee-cedf-be8e-2300" name="Dagger (Included)" hidden="false" targetId="3482-dd91-9d15-1f47" type="selectionEntry">
+        <entryLink id="09ee-cedf-be8e-2300" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29bc-3215-58da-b1a2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a29-338f-6265-417f" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -623,6 +689,24 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6770-c9b5-f57d-700c" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d721-e98d-3856-1726" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ce1-4d58-941b-3f92" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -647,29 +731,39 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="936f-59b3-dcf0-4072" name="Two-Handed Axe (Included)" hidden="false" targetId="4b1d-3b13-d14e-6f8c" type="selectionEntry">
+        <entryLink id="936f-59b3-dcf0-4072" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd40-2b2c-2b24-2d0c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1689-efe2-f149-633c" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d32b-f0de-280f-b8d9" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="d32b-f0de-280f-b8d9" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6573-a352-ec54-e817" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f8-558c-8713-f66b" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4d23-f765-ed1a-c1de" name="Horse" hidden="false" targetId="a845-c33c-a3e4-a687" type="selectionEntry">
+        <entryLink id="4d23-f765-ed1a-c1de" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -730,19 +824,28 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
           </characteristics>
         </profile>
-        <profile id="abb6-5bac-5bb2-3bde" name="Riding Dagger" book="Armies of the Lord of the Rings" page="170" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Dagger] Whenever a Hero in base to base contact resolves a Strike against Sharku and fails to Wound, immediately resolve one Strength 4 Strike against that model."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="d008-55f2-07db-0ec0" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bf4c-1360-e806-f3c3" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b6dd-ec0b-c447-d354" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dbfb-6a35-6472-bd88" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -770,14 +873,38 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0dd0-aaca-3040-c698" name="Warg" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
+        <selectionEntry id="1526-6773-3587-3c7e" name="Riding Dagger" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9410-43ad-e68b-682a" name="Riding Dagger" book="Armies of the Lord of the Rings" page="170" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="54a4-f196-1c40-cded" name="Riding Dagger (Active)" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+Whenever a Hero in base to base contact resolves a Strike against Sharku and fails to Wound, immediately resolve one Strength 4 Strike against that model.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="415c-1518-7aab-dd03" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed9-dfb9-5b71-9221" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67d-ba3c-ef73-e825" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d625-975a-7e75-6a3e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b38-dcf8-ab07-7781" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -790,7 +917,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e546-ca88-8386-7d7f" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="e546-ca88-8386-7d7f" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -810,6 +937,14 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <categoryLinks/>
         </entryLink>
         <entryLink id="e4e6-1cc0-8d22-b507" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="330b-f918-ab11-19d5" name="Warg" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -864,6 +999,12 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="63f2-6b30-12e4-11b6" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -888,14 +1029,19 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a489-1d31-3a71-79d2" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="a489-1d31-3a71-79d2" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c8-3c2b-70d5-429c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc77-caad-06e7-fd62" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -910,13 +1056,18 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5f40-e097-a969-0bad" name="Crossbow (Included)" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
+        <entryLink id="5f40-e097-a969-0bad" name="Crossbow" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f00-242a-3f1d-c34e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3afd-df91-0ef4-0eae" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -985,6 +1136,24 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6cb3-84d8-6a05-9b69" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e458-a32f-6037-0013" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="45f5-b2c1-2f7d-1928" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1007,7 +1176,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="7452-748b-8517-65c0" name="Crossbow (Hero)" hidden="false" targetId="53cc-99a1-f6d0-0a6b" type="selectionEntry">
+        <entryLink id="7452-748b-8517-65c0" name="Crossbow" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1015,7 +1184,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7f9f-3fd3-abe8-f3a9" name="Two-handed weapon (Hero)" hidden="false" targetId="9295-5fd4-b935-599d" type="selectionEntry">
+        <entryLink id="7f9f-3fd3-abe8-f3a9" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1023,7 +1192,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c539-4f4b-506e-ce1a" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="c539-4f4b-506e-ce1a" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1036,20 +1205,22 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3e-e8d1-c146-261f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d0-4e51-5060-39bc" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b599-fd91-eb33-9dc9" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="b599-fd91-eb33-9dc9" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dca-6ee3-4386-2592" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f0-1fa0-7b8d-aad3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dca-6ee3-4386-2592" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1136,6 +1307,24 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="15eb-3ec5-134d-94a5" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d904-bd16-453f-cc7d" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8336-6d98-55e1-aaa1" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1158,7 +1347,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3445-5e06-e440-e8fc" name="Armour (Hero)" hidden="false" targetId="f107-114d-724c-1c72" type="selectionEntry">
+        <entryLink id="3445-5e06-e440-e8fc" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1166,14 +1355,19 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e1f2-789b-279a-00c0" name="Spear (Included)" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="e1f2-789b-279a-00c0" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34f-67e6-eefa-bb25" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8f-b64f-03ff-bac1" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1267,7 +1461,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0a2c-4819-497e-d299" name="Pick (Included)" hidden="false" targetId="5c9f-6fc6-e23b-828a" type="selectionEntry">
+            <entryLink id="0a2c-4819-497e-d299" name="Pick (Included)" hidden="false" targetId="162f-1413-e895-368f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1275,7 +1469,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="db95-0f8c-a5cd-76df" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="db95-0f8c-a5cd-76df" name="Sword (Included)" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1287,7 +1481,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1581-b609-96cd-e362" name="Warg (Hero)" hidden="false" targetId="a2d8-606b-27ee-6b9d" type="selectionEntry">
+        <entryLink id="1581-b609-96cd-e362" name="Warg (Hero)" hidden="false" targetId="e4d5-4762-532c-ba21" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1295,7 +1489,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow (Hero)" hidden="false" targetId="bba9-ef6f-8c9a-2949" type="selectionEntry">
+        <entryLink id="7728-4efe-f9e1-42ce" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1303,7 +1497,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="5b4f-8fa3-fbf1-53dc" name="Shield (Hero)" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1379,7 +1573,32 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="af11-97fd-90c1-0c5f" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3507-e375-74bf-1831" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ffd-159e-bb4d-f5b1" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="336a-09cc-c63c-cc2b" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1400,7 +1619,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="ab80-c574-6552-d2e8">
+        <selectionEntryGroup id="7c40-fef8-d7be-15b7" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="a68b-1b7a-640a-b3c8">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1421,23 +1640,35 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="0493-4ee7-f9e8-77b9" name="Axe (Included)" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+                <entryLink id="0493-4ee7-f9e8-77b9" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="233c-b671-75c5-db6f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b92-1d58-b422-b334" type="min"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="8a44-b3df-0a26-2c5c" name="Shield (Included)" hidden="false" targetId="1d2e-6c6b-2ffd-4e98" type="selectionEntry">
+                <entryLink id="8a44-b3df-0a26-2c5c" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28d-926f-7984-289c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8196-90e0-620b-f79e" type="min"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -1449,27 +1680,36 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a68b-1b7a-640a-b3c8" name="Two-Handed Axe (Included)" hidden="false" targetId="4b1d-3b13-d14e-6f8c" type="selectionEntry">
+            <entryLink id="a68b-1b7a-640a-b3c8" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ae-ea53-90b5-8da8" type="max"/>
-              </constraints>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e8f4-0496-445c-8165" name="Dagger (Included)" hidden="false" targetId="3482-dd91-9d15-1f47" type="selectionEntry">
+        <entryLink id="e8f4-0496-445c-8165" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67d3-b2bc-202f-3b49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85b2-d9ca-e3fe-bd5e" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1524,7 +1764,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a255-be88-f619-6113" type="equalTo"/>
-                    <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d554-ed71-3472-cea1" type="equalTo"/>
+                    <condition field="selections" scope="0b4a-47fa-126c-2a07" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc9f-2cd7-bebc-b65f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1606,15 +1846,21 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="a255-be88-f619-6113" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="a255-be88-f619-6113" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a0aa-a8d2-dc1e-ea63" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="a0aa-a8d2-dc1e-ea63" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1630,22 +1876,33 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a5d4-f09d-1ad1-8f70" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="a5d4-f09d-1ad1-8f70" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf9-c4cc-dc7b-4e35" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8704-4e90-7582-a327" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5382-3c0b-2ad8-3f10" name="Uruk-Hai Bow" hidden="false" targetId="d554-ed71-3472-cea1" type="selectionEntry">
+        <entryLink id="dc9f-2cd7-bebc-b65f" name="Uruk-Hai Bow" hidden="false" targetId="fce2-8228-f8db-343f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1655,8 +1912,10 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="74f9-750c-0566-7ab5" name="Uruk-hai Warrior" book="Armies of The Lord of the Rings" page="175" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="ac3d-c4e2-c0d2-f83d" name="Uruk-hai Warrior" book="The Fallen Realms" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7afe-7fde-eef8-e1cc" name="Uruk-hai Warrior" hidden="false" targetId="d46e-2b60-174a-9d1a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1682,20 +1941,8 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1710,19 +1957,31 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="02a7-5e38-5620-67c3" name="New EntryLink" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="02a7-5e38-5620-67c3" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f3a6-d149-3187-1496" name="Crossbow" hidden="false" targetId="753b-d26d-4097-dd7b" type="selectionEntry">
+        <entryLink id="f3a6-d149-3187-1496" name="Crossbow" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1730,11 +1989,17 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5009-6706-2852-17b7" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="5009-6706-2852-17b7" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1747,19 +2012,21 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e15b-5590-3df2-d2c1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c4-cb0e-41c4-5e03" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8980-45e8-8ab5-c30a" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="8980-45e8-8ab5-c30a" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1186-d8e9-ecd8-c929" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86e0-0ac8-f952-ce7c" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -1767,72 +2034,6 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d541-2516-f9e2-446c" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5254-5d30-3787-c6b3" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="08a4-268c-fdb4-eae2" name="Impervious to Bow-fire" book="Armies of The Lord of the Rings" page="176" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model is Defence 6 when an enemy model makes a shooting attack against them.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="1829-53b0-dee0-2038" name="Oblivious to Pain" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="d541-2516-f9e2-446c-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="694f-3f14-54ce-730f" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a7-eb8e-e297-53d9" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e82f-640c-d5a6-12bf" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="097e-aa77-89f2-8c1e" name="Feral Uruk-hai " book="Armies of The Lord of the Rings" page="176" hidden="false" collective="false" type="model">
@@ -1935,7 +2136,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="9fdd-4f65-67bc-903b" name="Terror" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
+        <infoLink id="9fdd-4f65-67bc-903b" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1967,7 +2168,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c242-c2d6-0afb-d1e0" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="c242-c2d6-0afb-d1e0" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="ffa3-5939-9649-55cd">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2010,7 +2211,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="ffa3-5939-9649-55cd" name="Shield (Included)" hidden="false" targetId="1d2e-6c6b-2ffd-4e98" type="selectionEntry">
+            <entryLink id="ffa3-5939-9649-55cd" name="Shield (Included)" hidden="false" targetId="d0c2-4808-c3a3-63ac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2020,7 +2221,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ffd8-bdeb-f88f-a80c" name="Choose One" hidden="false" collective="false">
+        <selectionEntryGroup id="ffd8-bdeb-f88f-a80c" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="a51d-0865-3e1c-e380">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2033,19 +2234,31 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a51d-0865-3e1c-e380" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="a51d-0865-3e1c-e380" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5c7a-1408-e42b-b797" name="Spear (Included)" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+            <entryLink id="5c7a-1408-e42b-b797" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -2145,21 +2358,33 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="2a85-a0bb-1bc2-e558" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+                <entryLink id="2a85-a0bb-1bc2-e558" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5840-c37b-cab2-8a17" type="min"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="fe80-ff13-4b62-6c70" name="Bow (Included)" hidden="false" targetId="1999-b3ed-de33-17b2" type="selectionEntry">
+                <entryLink id="fe80-ff13-4b62-6c70" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e6-28b5-398a-548f" type="min"/>
                   </constraints>
@@ -2173,29 +2398,39 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="ca9d-9eae-4dff-7f3c" name="Axe (Included)" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+            <entryLink id="ca9d-9eae-4dff-7f3c" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77f-1d14-5560-869a" type="max"/>
-              </constraints>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3b3a-9f7a-0791-818d" name="Shield" hidden="false" targetId="1840-8e69-a979-b24d" type="selectionEntry">
+        <entryLink id="3b3a-9f7a-0791-818d" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6458-1150-6b4f-98bc" name="Banner" hidden="false" targetId="c720-f789-b6ed-42dc" type="selectionEntry">
+        <entryLink id="6458-1150-6b4f-98bc" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2207,7 +2442,13 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2250,7 +2491,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="append" field="name" value="Rohan">
+            <modifier type="append" field="name" value="(Rohan)">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2284,19 +2525,31 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="5fbf-104c-7bfc-115a" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="5fbf-104c-7bfc-115a" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ae77-f0cf-148f-6bd0" name="Axe (Included)" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+            <entryLink id="ae77-f0cf-148f-6bd0" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -2304,11 +2557,17 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="86f5-8c33-087a-a64f" name="Two-handed Axe" hidden="false" targetId="49bb-ab2e-8455-df74" type="selectionEntry">
+        <entryLink id="86f5-8c33-087a-a64f" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2317,132 +2576,7 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1cc2-6a28-3499-e4b0" name="Warg Rider" book="Armies of The Lord of the Rings" page="120" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="cd68-a385-5c37-5a7c" name="Warg Rider" book="The Fallen Realms" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b7c-1c3e-6666-6583" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b7c-1c3e-6666-6583" type="equalTo"/>
-                    <condition field="selections" scope="1cc2-6a28-3499-e4b0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3efc-dabb-dc4b-79f9" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="1cc2-6a28-3499-e4b0-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3efc-dabb-dc4b-79f9" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="3b7c-1c3e-6666-6583" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="057b-c823-f4f9-80a0" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="fdfd-e5a3-c727-be4c" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a7e-2b37-64dd-250f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1db-9797-06f2-2693" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="04e8-4553-8a77-0243" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c0-f129-bc8a-4e37" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0447-8fc9-b9f3-6b64" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="ffad-89fe-223d-c22f" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47de-69cf-3118-a95d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="781e-afc0-c567-5b7e" name="Warg (Included)" hidden="false" targetId="1fdf-5cb9-6760-0c8d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="11.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e965-5c8e-fcac-349f" name="Isengard Assault Ballista" book="Armies of The Lord of the Rings" page="179" hidden="false" collective="false" type="model">
+    <selectionEntry id="e965-5c8e-fcac-349f" name="Isengard Assault Ballista" book="Armies of The Lord of the Rings" page="179" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="9d6b-a0fb-b7c8-3888" name="Isengard Assault Ballista" book="The Armies of the Lord of the Rings" page="179" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
@@ -2454,22 +2588,6 @@ The range of Thrydan&apos;s Stand Fast! is 12&apos;.</description>
             <characteristic name="Defence" characteristicTypeId="7017-e823-5773-12b4" value="10"/>
             <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2" value="4"/>
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f"/>
-          </characteristics>
-        </profile>
-        <profile id="9e31-a5b0-cf96-1571" name="Crew" book="The Armies of the Lord of the Rings" page="179" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2520,7 +2638,7 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ece7-831b-aa14-3400" name="Uruk-hai Engineer Captain" book="The Armies of the Lord of the Rings" page="179" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ece7-831b-aa14-3400" name="Uruk-hai Engineer Captain" book="The Armies of the Lord of the Rings" page="179" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="9e8d-3aab-d965-0555" name="Uruk-Hai Engineer Captain" hidden="true" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
               <profiles/>
@@ -2531,6 +2649,26 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ece7-831b-aa14-3400" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ece7-831b-aa14-3400" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abbc-2836-86f5-55d1" type="equalTo"/>
+                        <condition field="selections" scope="ece7-831b-aa14-3400" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9cd-dd41-1d64-c5f8" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ece7-831b-aa14-3400" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abbc-2836-86f5-55d1" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -2558,16 +2696,55 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="cfec-596e-488c-2b22" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="766c-db95-0360-5b47" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="070d-a2c8-6e6f-13fc" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="388f-f505-d7ef-cf80" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4df-9378-1248-2846" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="714f-6ac3-a099-ce5d" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="8eac-c556-e792-3d17" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="c040-c8f8-2c59-5131" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="c040-c8f8-2c59-5131" name="Sword (Included)" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2587,6 +2764,30 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e97f-119d-91fe-b1ce" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3c1-99cf-fc9e-7152" type="min"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2a6c-01c0-d77a-357d" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="abbc-2836-86f5-55d1" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f9cd-dd41-1d64-c5f8" name="Crossbow" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -2620,7 +2821,46 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         <selectionEntry id="e5c6-35e3-c904-e7b7" name="Uruk-Hai Crew (Pike)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="ac10-3b3a-5318-fd41" name="Uruk-hai Crew" hidden="false" targetId="ff90-fed7-e97e-8cbe" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(Pike)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e5c6-35e3-c904-e7b7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba47-40e3-7a14-d00d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="82c6-bb01-bda8-14c5" name="Uruk-hai Siege Veteran" hidden="false" targetId="a90c-99a4-a7f0-0089" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e5c6-35e3-c904-e7b7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba47-40e3-7a14-d00d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="name" value="(Pike)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22c-bc90-d4ab-34f2" type="max"/>
@@ -2634,10 +2874,15 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22e-56c1-b929-c562" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4739-f2e0-97a8-ee5b" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2652,6 +2897,32 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="ba47-40e3-7a14-d00d" name="Siege Veteran" hidden="false" targetId="90e7-d1f4-c94f-88c0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="858b-2dd1-f28c-1ccc" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ece7-831b-aa14-3400" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858b-2dd1-f28c-1ccc" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="46dd-6d8b-a241-39ba" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -2660,7 +2931,46 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         <selectionEntry id="9b11-0c41-50c1-a746" name="Uruk-Hai Crew (Sword)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="ce3b-9e9f-0d16-0305" name="Uruk-hai Crew" hidden="false" targetId="ff90-fed7-e97e-8cbe" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(Sword)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="9b11-0c41-50c1-a746" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c655-61c9-8a61-78e1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="a2f2-8bc6-b9e1-24fb" name="Uruk-hai Siege Veteran" hidden="false" targetId="a90c-99a4-a7f0-0089" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="9b11-0c41-50c1-a746" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c655-61c9-8a61-78e1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="name" value="(Sword)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e73-7781-7e4e-a36a" type="max"/>
@@ -2670,14 +2980,19 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a816-0b0d-1de8-2abe" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="a816-0b0d-1de8-2abe" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66df-ad50-f404-fb2f" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff95-1867-d998-e18d" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2692,6 +3007,32 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="c655-61c9-8a61-78e1" name="Siege Veteran" hidden="false" targetId="90e7-d1f4-c94f-88c0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="1e59-ed44-9c9d-d3b0" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ece7-831b-aa14-3400" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e59-ed44-9c9d-d3b0" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="30fd-f15a-7a59-13a6" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -2700,7 +3041,46 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         <selectionEntry id="0722-4447-0148-7d10" name="Uruk-Hai Crew (Dagger)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="04fe-63cd-2e48-82df" name="Uruk-hai Crew" hidden="false" targetId="ff90-fed7-e97e-8cbe" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(Dagger)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0722-4447-0148-7d10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5e2-9ddc-2471-a3a6" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="7a78-799d-c914-c470" name="Uruk-hai Siege Veteran" hidden="false" targetId="a90c-99a4-a7f0-0089" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0722-4447-0148-7d10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5e2-9ddc-2471-a3a6" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="name" value="(Dagger)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f4-c898-ed00-518a" type="min"/>
@@ -2710,14 +3090,19 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="87d4-771b-761a-e50f" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+            <entryLink id="87d4-771b-761a-e50f" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7067-77ad-0530-4934" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b96-0246-731b-9596" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2732,6 +3117,32 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="d5e2-9ddc-2471-a3a6" name="Siege Veteran" hidden="false" targetId="90e7-d1f4-c94f-88c0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="4bd8-ca8e-7558-3a96" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e965-5c8e-fcac-349f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ece7-831b-aa14-3400" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd8-ca8e-7558-3a96" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="101c-4d47-a3a3-9713" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -2740,14 +3151,21 @@ Then both the target and the Obstacle or model (if it has a defence value) will 
         <selectionEntry id="1987-b68e-ab9b-64f0" name="Uruk-Hai Crew Extra" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7f46-43af-4a0a-5a6a" name="Uruk-Hai Crew" hidden="false" targetId="ff90-fed7-e97e-8cbe" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="91da-5e89-e45b-7fab" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="91da-5e89-e45b-7fab" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2853,26 +3271,16 @@ Cavalry takes d6 on mount and rider.
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3db9-fd09-728a-30d7" name="Uruk-Hai Warrior" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9dcf-34cf-06ea-8902" name="Uruk-hai Warrior" book="Armies of The Lord of the Rings" page="175" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fa15-4b10-b118-ef1b" name="Uruk-hai Warrior" hidden="false" targetId="d46e-2b60-174a-9d1a" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fcb-9ef8-b909-7734" type="min"/>
@@ -2882,14 +3290,19 @@ Cavalry takes d6 on mount and rider.
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="2153-a1e1-4e1e-48c5" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+            <entryLink id="2153-a1e1-4e1e-48c5" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49e-6dbd-9a38-446a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c842-e98a-5d31-6e09" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2908,10 +3321,7 @@ Cavalry takes d6 on mount and rider.
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3828-3200-da94-bc16" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a00f-ba7b-51ee-46e1" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -2957,35 +3367,16 @@ Cavalry takes d6 on mount and rider.
           </costs>
         </selectionEntry>
         <selectionEntry id="48de-5c44-8aec-4b79" name="Uruk-hai Berserker" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="6359-928b-8929-130d" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="790e-3a31-b4a0-71dc" name="Impervious to Bow-fire" book="Armies of The Lord of the Rings" page="176" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This model is Defence 6 when an enemy model makes a shooting attack against them.</description>
-            </rule>
-          </rules>
+          <profiles/>
+          <rules/>
           <infoLinks>
-            <infoLink id="e062-4106-8485-95ec" name="Oblivious to Pain" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
+            <infoLink id="e062-4106-8485-95ec" name="Oblivious to Pain (Passive)" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8fa3-4193-caa9-be33" name="Uruk-hai Berserker" hidden="false" targetId="0350-bc65-c66b-c123" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3007,19 +3398,23 @@ Cavalry takes d6 on mount and rider.
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3960-e652-0dcd-9c65" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8394-a34f-3643-e0bc" type="min"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c7db-a678-94fe-ff1e" name="Flaming Brand" hidden="false" targetId="482e-fbe4-dd3e-f2f9" type="selectionEntry">
+            <entryLink id="9ec7-f115-4952-4e44" name="Flaming Brand" hidden="false" targetId="482e-fbe4-dd3e-f2f9" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d77e-39f5-d5d5-fed2" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03bb-d68c-2167-6805" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="487d-e358-2995-c523" type="min"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -3086,6 +3481,24 @@ Cavalry takes d6 on mount and rider.
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="bbb6-99a4-b9ea-e5d2" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cc06-4c1d-07f5-03e1" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="59bf-4bab-dcc4-4fa2" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3108,7 +3521,7 @@ Cavalry takes d6 on mount and rider.
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8e75-7d8e-184f-964f" name="Uruk-Hai Bow (Hero)" hidden="false" targetId="8035-e9b3-493f-cc5e" type="selectionEntry">
+        <entryLink id="8e75-7d8e-184f-964f" name="Uruk-Hai Bow" hidden="false" targetId="fce2-8228-f8db-343f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3116,7 +3529,7 @@ Cavalry takes d6 on mount and rider.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3848-da07-fe68-5f36" name="Two-handed weapon (Hero)" hidden="false" targetId="9295-5fd4-b935-599d" type="selectionEntry">
+        <entryLink id="3848-da07-fe68-5f36" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3124,7 +3537,7 @@ Cavalry takes d6 on mount and rider.
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4059-858c-7d1b-910a" name="Shield" hidden="false" targetId="822f-a1c2-068a-ad24" type="selectionEntry">
+        <entryLink id="4059-858c-7d1b-910a" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3143,14 +3556,19 @@ Cavalry takes d6 on mount and rider.
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5f78-8fec-a291-06bf" name="Sword (Included)" hidden="false" targetId="d27b-bdd6-02e4-6ba6" type="selectionEntry">
+        <entryLink id="5f78-8fec-a291-06bf" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1367-980f-73dd-7e25" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1180-7069-af92-5895" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -3198,6 +3616,24 @@ Cavalry takes d6 on mount and rider.
           <modifiers/>
         </infoLink>
         <infoLink id="399f-a5d6-1c89-e62f" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1049-8f45-2769-a629" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9352-1d27-7843-5810" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8e97-0ebd-021e-5f59" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3371,13 +3807,18 @@ Cavalry takes d6 on mount and rider.
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6957-3345-08b2-c370" name="Dagger (Included)" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="6957-3345-08b2-c370" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c45-75c3-bad6-1b5c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941c-80f7-fcb4-0508" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -3385,6 +3826,58 @@ Cavalry takes d6 on mount and rider.
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb94-6c09-578c-2bc1" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e053-f050-9a69-95c1" name="Oblivious to Pain (Passive)" hidden="false" targetId="d6f5-b677-b27e-5cc9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b042-5f04-8ca4-40ac" name="Impervious to Bow-fire (Passive)" hidden="false" targetId="beba-f6b3-2a8a-2102" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fded-e1c1-ea94-ac79" name="Uruk-hai Berserker" hidden="false" targetId="0350-bc65-c66b-c123" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="00bf-45d5-37d9-4ab0" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a5f3-b55e-d4ac-bc1c" name="Berserker Blade" hidden="false" targetId="7814-0f35-8dab-07ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a901-8cb7-214d-afef" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3399,654 +3892,6 @@ Cavalry takes d6 on mount and rider.
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="14a8-0d31-bdac-eef9" name="Orc Bow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="cba6-4ef5-9fc5-6dac" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fdae-b0c9-7475-12eb" name="Orc Bow" hidden="false" targetId="2c9f-4686-0c96-3d17" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1117-4c70-0503-a366" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="6fc7-3857-45c3-81e2" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1840-8e69-a979-b24d" name="Shield" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="fd00-cbf0-bc65-96e5" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="bf06-7e83-8894-41d2" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e87-87ea-c0dd-dff6" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a845-c33c-a3e4-a687" name="Horse" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="602c-4db1-35a3-33fe" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65aa-06b3-7f92-3788" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8554-ef63-adbb-24dd" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="183c-847c-df79-fd2a" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="53cc-99a1-f6d0-0a6b" name="Crossbow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="0417-086c-2d3d-ca92" name="Cross Bow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf4-46a1-b7c8-c639" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2b15-0e1c-a651-9bfb" name="Heavy Armour" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2107-d31f-4370-c04f" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f63-394b-dfff-5c53" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051d-162e-7907-8ac3" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f9aa-3a82-ef59-8710" name="Orc Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="705a-5c73-229f-9659" name="Orc Bow" hidden="false" targetId="2c9f-4686-0c96-3d17" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3334-668c-b980-902a" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5327-ff9d-e68a-61d1" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9295-5fd4-b935-599d" name="Two-handed weapon (Hero)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="0ff9-e5bb-1aaf-f339" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc6-3e76-fd56-1bc7" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c720-f789-b6ed-42dc" name="Banner" book="Rules Manual" page="89" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="49f8-88c8-66da-0c04" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc5-0043-4644-5f39" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="753b-d26d-4097-dd7b" name="Crossbow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3a97-3e9e-c288-736c" name="Crossbow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ac-1d20-13d8-bccd" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="c880-5064-c350-0a92" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="857b-e86e-e068-0177" name="Pikes" hidden="false" targetId="c9f2-20e8-9d4e-27a6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="95c8-948c-7c0a-d140" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e351-61ee-f119-cdaa" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0a09-6316-781c-379d" name="Warg (Hero)" book="Rules Manual" page="61" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="e8d5-13da-944b-5769" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec9-5af0-e5b1-25fc" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8f63-394b-dfff-5c53" name="Armour" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a6f0-dd6b-5102-9884" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b15-0e1c-a651-9bfb" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f3-4c45-3758-6038" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4701-5e25-c80b-c38c" name="Heavy Armour (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="b104-1506-7376-cc6a" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f107-114d-724c-1c72" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26c6-5bdc-9d05-7695" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f107-114d-724c-1c72" name="Armour (Hero)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9701-1be8-affe-05d9" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4701-5e25-c80b-c38c" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf8-d7a2-9f36-97de" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9d32-8903-856f-7da8" name="Two-handed Axe (Hero)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="6053-9184-ae42-51e0" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3f77-9ab6-7fe6-2c5b" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec5-dbe2-8d0d-5b7b" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="49bb-ab2e-8455-df74" name="Two-handed Axe" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3585-18c3-5526-0e5e" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4c09-4c9d-eab1-c44d" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a5-db7e-bf1c-873e" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d554-ed71-3472-cea1" name="Uruk-Hai Bow" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="89ff-3533-c2e0-fad1" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="698b-c506-858d-74d4" name="Uruk-hai bow" hidden="false" targetId="f445-6e33-8080-83b6" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca1-0fa0-2e3c-36f8" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="13d3-973b-8349-7271" name="Bow Limit" hidden="false" targetId="611a-4d46-e165-1186" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8035-e9b3-493f-cc5e" name="Uruk-Hai Bow (Hero)" book="Rules Manual" page="88" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7deb-2413-7d87-1576" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fa13-69db-b200-6d44" name="Uruk-hai bow" hidden="false" targetId="f445-6e33-8080-83b6" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548e-521b-3316-f4fd" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f3da-0ab7-1f8b-9efd" name="Sword" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a87d-b0ab-0355-7c95" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82aa-1221-5a48-ed39" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6496-3398-5abf-5e52" name="Axe" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="887b-f3b3-1db0-773e" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b8e0-aa3b-b41e-bf03" name="Axe" hidden="false" targetId="20f1-1625-da6a-0152" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be6-ae43-8388-6569" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3482-dd91-9d15-1f47" name="Dagger (Included)" book="Rules Manual" page="83" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4b48-c408-9be5-1fe0" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="06af-578f-0b65-e2a0" name="Dagger" hidden="false" targetId="233f-8b24-df80-0147" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9877-eeab-5a0a-847c" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9876-d639-a1ae-fea7" name="Spear" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="e55c-8239-b9d1-7359" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cf-7c29-39e3-7a28" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="482e-fbe4-dd3e-f2f9" name="Flaming Brand" book="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
@@ -4061,7 +3906,9 @@ If killed brand is extinguished</description>
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2051-05e4-babd-e111" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -4085,35 +3932,8 @@ If killed brand is extinguished</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1d2e-6c6b-2ffd-4e98" name="Shield (Included)" book="Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="cb11-dfb9-b928-e669" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a39b-9071-fdc9-8119" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3501-461a-a3b7-d9c6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4702-c52e-fcf0-c25b" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -4126,22 +3946,92 @@ If killed brand is extinguished</description>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="bbd5-1efb-458e-c4ba" name="Terror" book="Rulebook" hidden="false">
+    <rule id="d6f5-b677-b27e-5cc9" name="Oblivious to Pain (Passive)" book="Armies of The Lord of the Rings" page="176" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>See main rules manual for details</description>
-    </rule>
-    <rule id="d6f5-b677-b27e-5cc9" name="Oblivious to Pain" book="Armies of The Lord of the Rings" page="176" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When this model suffers a wound roll a D6.
+      <description>
+When this model suffers a wound roll a D6.
 On a 6 the wound is ignored exactly as if a point of Fate had been spent.
 Not cumulative with other special rules that give the same effect.</description>
     </rule>
+    <rule id="beba-f6b3-2a8a-2102" name="Impervious to Bow-fire (Passive)" book="Armies of The Lord of the Rings" page="176" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+This model is Defence 6 when an enemy model makes a shooting attack against them.</description>
+    </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="0350-bc65-c66b-c123" name="Uruk-hai Berserker" book="Armies of The Lord of the Rings" page="176" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+      </characteristics>
+    </profile>
+    <profile id="d46e-2b60-174a-9d1a" name="Uruk-hai Warrior" book="Armies of The Lord of the Rings" page="175" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
+      </characteristics>
+    </profile>
+    <profile id="ff90-fed7-e97e-8cbe" name="Uruk-hai Crew" book="The Armies of the Lord of the Rings" page="179" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Uruk-hai"/>
+      </characteristics>
+    </profile>
+    <profile id="a90c-99a4-a7f0-0089" name="Uruk-hai Siege Veteran" book="The Armies of the Lord of the Rings" page="179" hidden="true" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+        <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+        <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+        <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+        <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+        <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+        <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Uruk-hai"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
