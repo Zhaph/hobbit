@@ -960,7 +960,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f488-62cf-6b43-4fca" name="Elf Bow" hidden="false" collective="false" type="upgrade">
@@ -2384,7 +2384,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="97de-40f0-d679-e177" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2583,6 +2583,72 @@
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9534-1c09-ef7f-57da" name="Pike" hidden="false" targetId="c9f2-20e8-9d4e-27a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5b2c-1c5c-ca8a-0092" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7240-94f7-2616-a4e8" name="Pike" hidden="false" targetId="85fe-3303-338a-e82c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d7d-ee8f-ae80-d568" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90e7-d1f4-c94f-88c0" name="Siege Veteran" book="Middle-earth Strategy Battle Game Rules Manual" page="113" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8478-42fa-0232-7027" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894f-1468-16f7-01db" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02b7-a931-aee0-d420" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67ef-f2c0-e81b-7c5e" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7596-7b1c-ac65-c028" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -3582,7 +3648,8 @@ If Basher&apos;s total is equal or greater the opponent is immediately knocked P
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Model may choose to use piercing strike before the duel roll.
+      <description>
+Model may choose to use piercing strike before the duel roll.
 If they win add 1 to the strength when they Strike.
 If they lose reduce their Defense by D3 when Strikes are made against them.</description>
     </rule>
@@ -3592,11 +3659,11 @@ If they lose reduce their Defense by D3 when Strikes are made against them.</des
       <infoLinks/>
       <modifiers/>
       <description>
-Feint [Fight is equal or higher to opponent&amp;apos;s]
+Feint [Fight is equal or higher to opponent&apos;s]
 Reduce fight by D3.
 If Feinting model wins the Duel roll they reroll any 1&apos;s to wound.
 
-Stab [Fight less than opponent&amp;apos;s]
+Stab [Fight less than opponent&apos;s]
 May reroll 1&apos;s to wound if they win the duel roll.
 If they lose the duel roll they immediately suffer a Strength 2 hit after the fight is resolved.</description>
     </rule>
@@ -4859,6 +4926,13 @@ and
         <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
+    </profile>
+    <profile id="85fe-3303-338a-e82c" name="Pike" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
     </profile>
   </sharedProfiles>
 </gameSystem>
