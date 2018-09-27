@@ -1030,14 +1030,14 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4768-6b1a-96a9-8efe" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="4768-6b1a-96a9-8efe" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="60a4-d17e-8c81-84d4" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+        <categoryLink id="3e9b-948e-5afc-2d55" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
