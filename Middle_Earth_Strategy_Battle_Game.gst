@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="7" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="8" battleScribeVersion="2.01" authorName="Ben Duguid, Christian Sørup Jensen, Matthew Hastings" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1639,35 +1639,6 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2af8-ceb0-4dae-8db4" name="Spear" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9c58-e321-b791-a0d8" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9121-1f36-44dd-b774" name="Spear" hidden="false" targetId="8bf1-de73-029d-15e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af31-194e-19ea-12fc" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="690d-986d-e5a2-0264" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -2591,11 +2562,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8673-1620-4a75-1e26" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+        <entryLink id="8673-1620-4a75-1e26" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2712,6 +2689,453 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8db6-5d2f-df6b-954e" name="Gandalf the Grey" book="Armies of The Lord of the Rings" page="11" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e88d-9819-6cff-de35" name="Blinding Light" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="9e8b-9cd8-9333-3c06" name="Terrifying Aura" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="63ef-349a-e0aa-7191" name="Immobilise" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="5089-dd65-94d2-692d" name="Command" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="d7ac-38c0-ad8e-d34a" name="Strengthen Will" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="cff0-69ba-e87e-73dd" name="Sorcerous Blast" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="aa2b-88e1-7533-987a" name="Gandalf the Grey" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Wizard"/>
+          </characteristics>
+        </profile>
+        <profile id="d733-2699-45be-b322" name="Protection of the Valar" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="28ea-91eb-32a9-18ae" name="Collapse Rocks" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="06bd-97b6-9a2c-fa47" name="Blinding Light" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="916d-e5ea-1d39-c80b" name="Terrifying Aura" hidden="false" targetId="e28f-a134-2570-a2ed" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7449-d94b-b4ed-5261" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ca90-f7ae-dc86-c90e" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e2fe-e6be-80e8-b707" name="Strengthen Will" hidden="false" targetId="e0f1-9d42-617f-9c8d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8d7c-ef2c-d3d1-d0a2" name="Sorcerous Blast" hidden="false" targetId="47b2-79ba-c8e0-0861" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f93-c57b-709b-86ff" name="Protection of the Valar" hidden="false" targetId="899e-2ec4-88d4-b3d1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e78d-a16f-83fe-3083" name="Collapse Rocks" hidden="false" targetId="73bf-0375-5baf-edb4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb6c-8a7d-02b2-c216" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c766-bb38-84a3-4011" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="198c-2e3a-4bbe-1781" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d81-8b2a-38a6-c99f" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="23df-6765-d61c-f4db" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0a0-f201-35a5-8c00" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-cd36-6d83-4fc2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc84-c8dd-0bf3-a19a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8db6-5d2f-df6b-954e-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9f83-2cc9-97c3-5aec" name="Mount Choice" book="Armies of The Lord of the Rings" page="11" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6574-444a-e781-24ac" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="e227-a4fe-acae-32de" name="Gandalf&apos;s Cart" book="Armies of The Lord of the Rings" page="11" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6308-6ca4-4b52-9113" name="Gandalf&apos;s Cart" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+                    <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+                    <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                    <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+                    <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+                    <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+                    <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+                    <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7c65-0a60-26a3-f2db" name="Gandalf&apos;s Cart" hidden="false" targetId="0645-9ffe-7ddf-5cfe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca1d-9291-7b2f-03a0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="717e-3f1b-bf5d-a989" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="44d8-e32b-72ba-035c" name="Glamdring" hidden="false" targetId="942f-4c2e-1a38-a6db" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0a4f-b733-9f56-68c9" name="Narya" hidden="false" targetId="4886-f5fc-466a-0c98" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c48e-694a-89fe-61af" name="Staff of Power* (Included)" hidden="false" targetId="7cab-312e-12a6-dcab" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ee8f-01a6-cb21-b901" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="746a-ed02-e5ab-4680" name="Mithril Coat" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c895-e945-e3fd-c035" name="Mithril Coat" hidden="false" targetId="1745-c3d1-e3b9-20aa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a5-2b8f-7615-b191" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69b6-c096-3d37-fce0" name="Pony" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="77a4-7b83-bd13-d2c6" name="Pony" hidden="false" targetId="ae78-94b5-cb0a-147b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fac-ab8d-b96d-a200" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bc3-4d75-76bb-ac64" name="Sting" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7c78-82fc-cf65-6de4" name="Sting" book="Armies of The Lord of the Rings" page="9" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="73fe-860e-fd52-b0aa" name="Sting (Active)" hidden="false" targetId="c6ce-0295-3475-0d11" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="42fa-b61e-69e8-0dc7" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcbe-c38e-2102-e806" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a3da-5ad5-c31a-da1f" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f7f-35b9-6b64-b28c" name="Throw Stones (Hobbit)" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="e53d-636e-67e5-2b88" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc5-ea81-fef1-d468" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe70-2e3a-d8e7-5505" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64e0-24c7-371d-ef50" name="Hammer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2d21-5d22-65fc-37d8" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d227-1f1b-4e9f-bfda" name="Hammer" hidden="false" targetId="abcf-91a7-3171-e81b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2abc-b76c-1df8-eb0e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3787,6 +4211,33 @@ and
       <infoLinks/>
       <modifiers/>
       <description>Maximum of 9 Ringwraith models in your Force.</description>
+    </rule>
+    <rule id="0645-9ffe-7ddf-5cfe" name="Gandalf&apos;s Cart" book="Armies of The Lord of the Rings" page="11" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+At the start of every friendly Shoot phase, select 1 enemy model within 6&quot; of the cart and roll 1D6:
+	4+ Inflicts 1 Strength 2 hit on chosen enemy model.
+[Cavalry]</description>
+    </rule>
+    <rule id="1745-c3d1-e3b9-20aa" name="Mithril Coat (Passive)" book="Armies of The Lord of the Rings" page="9" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++3 Defence</description>
+    </rule>
+    <rule id="c6ce-0295-3475-0d11" name="Sting (Active)" book="The Free Peoples" page="45" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 to Strength
+[Elven-made]</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4992,6 +5443,13 @@ and
       </characteristics>
     </profile>
     <profile id="85fe-3303-338a-e82c" name="Pike" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="5336-fe99-7d87-2c07" name="Hammer" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
