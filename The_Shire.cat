@@ -1540,7 +1540,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58b4-1e0f-7d79-edf5" name="Shirriff" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="58b4-1e0f-7d79-edf5" name="Hobbit Shirriff" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="a6b4-b9cf-e751-9dfa" name="Shirriff" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1548,7 +1548,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;/10cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
@@ -1561,13 +1561,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3c6d-1a1d-2743-a392" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5442-5c30-bf34-9310" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="3c6d-1a1d-2743-a392" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1587,9 +1581,34 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8f14-3be4-23d4-ed28" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af5a-2103-be3d-c815" name="Hand-and-a-half Club" hidden="false" targetId="5727-cdcc-ae59-dbf6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6c-dd35-84c5-9582" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fcf-f86a-3350-1cb5" name="Fang" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="model">
