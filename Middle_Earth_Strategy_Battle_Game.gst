@@ -1726,7 +1726,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69fa-2dd6-76e4-1748" name="The Leader" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="69fa-2dd6-76e4-1748" name="The Leader" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2862,7 +2862,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce6e-f505-e17f-e54d" name="Morgul Knight" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ce6e-f505-e17f-e54d" name="Morgul Knight" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8aee-4dcb-fce0-dc16" name="Morgul Knight" book="Armies of the Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2989,7 +2989,7 @@
         <cost name="pts" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ae4-9171-fbb2-3009" name="Black Numenorean" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3ae4-9171-fbb2-3009" name="Black Numenorean" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2d82-139b-702b-c89d" name="Black Numenorean" book="Armies of the Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -3084,7 +3084,7 @@
         <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ddd-68aa-b66d-ee8f" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0ddd-68aa-b66d-ee8f" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b4f3-b10a-e9f1-6cc6" name="Black Numenorean Marshall" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -3225,7 +3225,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of Middle Earth" page="126" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of Middle Earth" page="126" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6f51-7baa-2adf-a45a" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -3490,7 +3490,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7599-2af4-cf52-38a2" name="Khamûl the Easterling" book="Armies of Middle Earth" page="135" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7599-2af4-cf52-38a2" name="Khamûl the Easterling" book="Armies of Middle Earth" page="135" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fc81-5c5d-29da-367b" name="Khamûl the Easterling" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -3767,7 +3767,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7c2-c236-cc7a-41da" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f7c2-c236-cc7a-41da" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="391f-6165-925e-737a" name="Mordor Troll" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -3892,7 +3892,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6887-9187-92d9-4a67" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6887-9187-92d9-4a67" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2724-4284-c571-c570" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -3997,7 +3997,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fc54-219c-b119-9223" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4151,7 +4151,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1e43-8e8c-881d-45fb" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4247,7 +4247,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b65b-211a-94fe-6a3d" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4384,7 +4384,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4239-2926-d235-dae3" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4490,7 +4490,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="15bd-418a-9178-a2a6" name="Orc Tracker" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -4576,7 +4576,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2d60-f961-81e4-ad13" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4895,7 +4895,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of Middle Earth" page="140" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of Middle Earth" page="140" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="376c-fcfc-d3e3-10ae" name="The Betrayer" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5156,7 +5156,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of Middle Earth" page="136" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of Middle Earth" page="136" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3ebd-4c01-964a-1c13" name="The Dark Marshal" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5419,7 +5419,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of Middle Earth" page="139" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of Middle Earth" page="139" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="cef9-7ac4-1d93-562d" name="The Knight of Umbar" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5676,7 +5676,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of Middle Earth" page="137" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of Middle Earth" page="137" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d24b-8a29-6fa0-1531" name="The Shadow Lord" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5931,7 +5931,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of Middle Earth" page="125" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of Middle Earth" page="125" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3957-decc-0fc5-25d8" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6204,7 +6204,7 @@ On a 6 they suffer a wound.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of Middle Earth" page="138" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of Middle Earth" page="138" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c546-b244-8a7f-9127" name="The Undying" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6458,7 +6458,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d786-fee8-e70c-6da4" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6889,7 +6889,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="af77-c158-96e6-424a" name="Warg Rider" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -7040,7 +7040,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="486a-c27c-fe8b-e413" name="Mordor War Catapult" book="Armies of the Lord of the Rings" page="123" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="486a-c27c-fe8b-e413" name="Mordor War Catapult" book="Armies of the Lord of the Rings" page="123" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="fa02-ea82-8b09-c41d" name="Mordor War Catapult" book="Armies of the Lord of the Rings" page="123" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
@@ -7136,7 +7136,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d066-4c42-7970-04db" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="f6cf-b237-94b3-a907" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+            <categoryLink id="f6cf-b237-94b3-a907" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7228,7 +7228,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdaf-1972-5495-314c" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="f75a-b019-2782-09f9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+            <categoryLink id="f75a-b019-2782-09f9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7266,7 +7266,9 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2c65-d203-c078-b66b" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -7314,7 +7316,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a567-4e21-8076-ba38" type="min"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="f0eb-276d-c074-1465" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+            <categoryLink id="f0eb-276d-c074-1465" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7334,7 +7336,9 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c89c-bb50-40b4-6336" name="Severed Heads" book="" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7429,7 +7433,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb44-c8ae-5889-f0e3" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="8127-7fec-1922-80f5" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+                <categoryLink id="8127-7fec-1922-80f5" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7549,14 +7553,14 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0857-691f-df1b-f454" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="15cb-2fb6-0198-1d0d" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+                <categoryLink id="d26e-19bb-014d-c8f9" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="d26e-19bb-014d-c8f9" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+                <categoryLink id="8e65-6cf4-db5d-be9c" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7594,7 +7598,9 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -7606,7 +7612,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" page="122" hidden="false" collective="false" type="model">
+    <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" page="122" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="114e-b4ea-6a58-45ec" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
@@ -7683,7 +7689,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae8-7c6e-c02b-3eba" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="9e3e-0e99-fb0e-a339" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+            <categoryLink id="9e3e-0e99-fb0e-a339" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7721,7 +7727,9 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6d9f-c816-3992-e250" name="Additional Crew" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
           <profiles>
@@ -7758,7 +7766,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ce-a9a0-53a4-b317" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="c3cb-a675-e340-63c9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+            <categoryLink id="c3cb-a675-e340-63c9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7893,7 +7901,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b75a-5338-811b-7e5d" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="5c03-d8b5-378c-126b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+                <categoryLink id="5c03-d8b5-378c-126b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8013,14 +8021,14 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2434-e4ff-c9d1-67a4" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="797d-a123-de15-b0e6" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+                <categoryLink id="2b40-4b36-e90b-3424" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="2b40-4b36-e90b-3424" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+                <categoryLink id="90ab-54f8-74d5-f3d9" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8058,7 +8066,9 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
