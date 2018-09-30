@@ -483,14 +483,28 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93f1-6d48-5091-11ed" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="93f1-6d48-5091-11ed" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="b1b9-bac4-e21e-3b21" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="14fc-161c-8693-e5df" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="name" value="Tookish Hunter">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="3d78-8110-7697-953f" value="3/3+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="page" value="19">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
@@ -499,32 +513,8 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;/10cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/3+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Hobbit"/>
-          </characteristics>
-        </profile>
-        <profile id="14fc-161c-8693-e5df" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="41" hidden="true" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;/10cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
@@ -536,20 +526,29 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="af06-ad2a-b949-c612" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="472f-04d6-442c-aeb0" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="af06-ad2a-b949-c612" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="name" value="Tookish Hunter">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="page" value="19">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="93f1-6d48-5091-11ed-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
@@ -561,54 +560,7 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8402-9369-7c0d-6a9d" name="Bow" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="315e-fc44-86ac-7a5c" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2f-eefa-0c9f-d215" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="224a-5405-807c-0276" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="dddb-584a-dcb1-01db" name="War Horn" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="28c5-04f4-766f-5270" name="New InfoLink" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adda-3b4d-4899-7772" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9b21-e084-7ee5-addf" name="Tookish Hunters" book="Armies of The Lord of the Rings" page="39" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="9b21-e084-7ee5-addf" name="Tookish Hunters" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -616,14 +568,7 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="224d-1c96-a3a1-4067" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="224d-1c96-a3a1-4067" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70aa-b4f1-c72e-7ff0" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -641,9 +586,58 @@ May re-roll any failed To Wound rolls when making strikes against Monster or Her
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8da2-d31b-1afa-5584" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d5a-25f3-b322-4323" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aa6b-210b-ea12-92a3" name="Short Bow" hidden="false" targetId="6a58-6a19-d88d-f91b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b8-bb26-c8a9-b58c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d10c-049c-9a30-8e7f" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="064f-3c51-1bee-554f" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10ab-d7e3-8a19-d64e" name="Meriadoc, Captain of the Shire" book="Armies of The Lord of the Rings" page="18" hidden="false" collective="false" type="model">
@@ -835,7 +829,7 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
     </selectionEntry>
     <selectionEntry id="0232-59f5-a30b-289e" name="Hobbit Militia" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e920-9f4a-6311-8174" name="Hobbit Militia" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="e920-9f4a-6311-8174" name="Hobbit Militia" book="Armies of The Lord of the Rings" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -848,6 +842,13 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="dec8-2675-ef6e-49c0" value="3">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0232-59f5-a30b-289e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d9c-b23e-2ee8-7d93" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="page" value="18">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="0232-59f5-a30b-289e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d9c-b23e-2ee8-7d93" type="equalTo"/>
@@ -896,7 +897,7 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9d9c-b23e-2ee8-7d93" name="Battlin&apos; Brandybucks" book="Armies of The Lord of the Rings" page="40" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="9d9c-b23e-2ee8-7d93" name="Battlin&apos; Brandybucks" book="Armies of The Lord of the Rings" page="18" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -989,25 +990,33 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="73f5-d885-2555-4641" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70aa-b4f1-c72e-7ff0" name="Paladin Took" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="model">
+    <selectionEntry id="70aa-b4f1-c72e-7ff0" name="Paladin Took" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="ea4e-d317-8c01-093a" name="Paladin Took" book="Armies of The Lord of the Rings" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="ea4e-d317-8c01-093a" name="Paladin Took" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;/10cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
@@ -1017,22 +1026,17 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
         </profile>
       </profiles>
       <rules>
-        <rule id="562c-8216-067d-1948" name="To me, Shire-folk!" book="Armies of The Lord of the Rings" page="40" hidden="false">
+        <rule id="562c-8216-067d-1948" name="To me, Shire-folk! (Active)" book="Armies of The Lord of the Rings" page="19" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Only Hobbits may benefit from Paladin&apos;s Stand Fast! rule. However, the range of Paladin&apos;s Stand Fast! is 12&quot;/28cm instead of 6&quot;/14cm</description>
+          <description>
+Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! is 12&quot; instead of 6&quot;.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="f49b-55e7-793d-6678" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3b85-3c0e-3f72-847f" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="f49b-55e7-793d-6678" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1056,6 +1060,12 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="cea9-e3d3-56ea-f63c" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1070,10 +1080,57 @@ While Merry carries the Horn of the Riddermark, all Hobbits gain +1 Courage. If 
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6b08-eae2-bf9b-963b" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="5c91-c75c-c3cc-425d" name="Walking Cane (Club)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad3e-52d7-32ed-e0d8" name="Walking Cane (Club)" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bc38-bd9d-7fe8-b7e2" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5388-459a-7a88-6dce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e0-5aa7-b4b1-fa92" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6472-ff75-37ed-6f78" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
