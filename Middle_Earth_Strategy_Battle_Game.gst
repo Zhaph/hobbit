@@ -3113,7 +3113,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="2d21-5d22-65fc-37d8" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+        <infoLink id="2d21-5d22-65fc-37d8" name="Bash" hidden="false" targetId="ff15-bfa5-0fbe-8d69" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
