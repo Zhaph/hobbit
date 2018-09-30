@@ -1089,7 +1089,7 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5c91-c75c-c3cc-425d" name="Walking Cane (Club)" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5c91-c75c-c3cc-425d" name="Walking Cane (Club)" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="ad3e-52d7-32ed-e0d8" name="Walking Cane (Club)" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
               <profiles/>
@@ -1264,19 +1264,19 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0272-257d-1cbc-7dba" name="Farmer Maggot" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="0272-257d-1cbc-7dba" name="Farmer Maggot" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1774-532d-92c2-d9fc" name="Farmer Maggot" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1774-532d-92c2-d9fc" name="Farmer Maggot" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;/10cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/3+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
@@ -1285,72 +1285,10 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
           </characteristics>
         </profile>
-        <profile id="22c9-65aa-ecc3-7676" name="Grip" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/20cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dog"/>
-          </characteristics>
-        </profile>
-        <profile id="0992-7f39-c4f5-5808" name="Fang" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/20cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dog"/>
-          </characteristics>
-        </profile>
-        <profile id="c3d2-c8f3-953f-bb54" name="Wolf" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/20cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dog"/>
-          </characteristics>
-        </profile>
       </profiles>
-      <rules>
-        <rule id="b262-08f3-1a06-e374" name="Maggot&apos;s Dogs" book="Armies of The Lord of the Rings" page="41" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Maggot&apos;s dogs always use his Courage while he is still alive and on the battlefield.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="d006-961f-943c-2fb0" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5f8d-085c-b9c1-f59e" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="d006-961f-943c-2fb0" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1363,7 +1301,14 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebf-7c9a-2c6a-9157" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0272-257d-1cbc-7dba-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+        <categoryLink id="a86d-032b-86bb-a4cc" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ff69-4a99-4573-1652" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1372,28 +1317,48 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5d65-4c16-a656-7001" name="Two-handed weapon" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="44e9-6894-1bf6-5c66" name="Two-handed Scythe (Pick)" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="380d-5c76-e6ac-0d4e" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3e71-8103-bbe5-299f" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3e-fdb9-3b47-c56c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9a-47c1-a3bc-0212" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f864-6ec1-1cb7-be7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a615-06ab-7983-4363" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d51f-eac1-c8a2-1e21" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="50.0"/>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58b4-1e0f-7d79-edf5" name="Shirriff" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
@@ -1448,6 +1413,180 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4fcf-f86a-3350-1cb5" name="Fang" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9d33-b4bf-bf91-9c76" name="Farmer Maggot&apos;s Dog" hidden="false" targetId="2573-bc76-c6d9-085d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Fang">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="86f9-bfce-57c8-b314" name="Maggot&apos;s Dogs" hidden="false" targetId="ff88-70de-aca0-b1d8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="bdfa-b7bb-bb51-80ec" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdfa-b7bb-bb51-80ec" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc3-fe69-fd5f-aaaa" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9c-beb3-73fe-9454" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="62aa-7e9e-a315-b186" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d678-c81e-8310-2d55" name="Grip" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7107-8782-48ce-e918" name="Farmer Maggot&apos;s Dog" hidden="false" targetId="2573-bc76-c6d9-085d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Grip">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4216-d8e9-a9be-4e7b" name="Maggot&apos;s Dogs" hidden="false" targetId="ff88-70de-aca0-b1d8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="c46e-9fcb-3aaa-9c67" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46e-9fcb-3aaa-9c67" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d6b-777b-270d-6819" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c7f-1304-acf4-54df" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4c13-040c-92a0-c7d9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ba0c-45fd-f8db-df9a" name="Wolf" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="611b-3d70-9591-220a" name="Farmer Maggot&apos;s Dog" hidden="false" targetId="2573-bc76-c6d9-085d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Wolf">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6df2-18e5-4830-e1cf" name="Maggot&apos;s Dogs" hidden="false" targetId="ff88-70de-aca0-b1d8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="aaec-7864-b59c-a329" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaec-7864-b59c-a329" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b96-9b35-07ce-0dc7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0694-c64c-6e53-b8e2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f139-30eb-b46c-482b" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="b0ea-8424-995b-a121" name="Gandalf the Grey" book="Armies of The Lord of the Rings" page="11" hidden="false" targetId="8db6-5d2f-df6b-954e" type="selectionEntry">
@@ -1476,6 +1615,32 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
+  <sharedRules>
+    <rule id="ff88-70de-aca0-b1d8" name="Maggot&apos;s Dogs" book="Armies of The Lord of the Rings" page="19" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Maggot&apos;s dogs always use his Courage while he is still alive and on the battlefield.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="2573-bc76-c6d9-085d" name="Farmer Maggot&apos;s Dog" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dog"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
