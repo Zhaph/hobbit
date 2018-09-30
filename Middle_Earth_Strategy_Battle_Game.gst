@@ -1610,7 +1610,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9552-39df-00a5-c1ac" name="Spear" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2af8-ceb0-4dae-8db4" name="Spear" book="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2562,7 +2562,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8673-1620-4a75-1e26" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="8673-1620-4a75-1e26" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3012,6 +3012,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a5-2b8f-7615-b191" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a32-6cca-9dee-eac5" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -3070,7 +3071,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35b3-bd2d-08b1-28b9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e8-cdbf-0df3-4024" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3136,6 +3140,131 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b814-0914-4b8c-5db8" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="06b1-9898-550e-f1e6" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="70dd-ae39-8a1d-4757" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a80-8d83-93d1-ccb5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c2b-f1d5-dee0-2917" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e2d-5c2b-01c5-626b" name="Bilbo Baggins" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bc09-b3fd-8c8b-b842" name="Bilbo Baggins" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="2"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cbfa-ade7-6c73-caba" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcc6-4c34-8692-3321" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa5f-2a4d-0423-bc52" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bce7-436d-bd6f-11e2" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="451c-6a14-2381-186d" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2669-b07d-d0ef-4f5b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20d-a800-a61c-f05b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="70fe-8ce4-b8d3-1eaa" name="Sting" hidden="false" targetId="6bc3-4d75-76bb-ac64" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4b03-6582-b0af-d01c" name="Mithril Coat" hidden="false" targetId="746a-ed02-e5ab-4680" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c11f-ba62-98d5-f367" name="The One Ring" hidden="false" targetId="b814-0914-4b8c-5db8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c5ea-39a5-faf3-f676" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -740,32 +740,7 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b814-0914-4b8c-5db8" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="06b1-9898-550e-f1e6" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="70dd-ae39-8a1d-4757" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c1-1462-d351-e740" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a80-8d83-93d1-ccb5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="897d-eb00-53c6-dd47" name="Weapon Choice" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" defaultSelectionEntryId="818d-701a-9dca-5549">
           <profiles/>
@@ -828,6 +803,24 @@ While Frodo lives, all other models from The Fellowship army list gain Fearless.
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd19-40e3-0411-61b5" name="Mithril Coat" hidden="false" targetId="746a-ed02-e5ab-4680" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="afc4-66a9-9005-9a56" name="The One Ring" hidden="false" targetId="b814-0914-4b8c-5db8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271b-aca7-296c-edce" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
