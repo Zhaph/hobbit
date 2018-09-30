@@ -7158,15 +7158,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05b-eeb1-b478-80c3" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdaf-1972-5495-314c" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f75a-b019-2782-09f9" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -7246,15 +7238,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9c-54ad-e884-a60c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a567-4e21-8076-ba38" type="min"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="f0eb-276d-c074-1465" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -7363,22 +7347,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb44-c8ae-5889-f0e3" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="8127-7fec-1922-80f5" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="a3c3-7366-db72-ea1c" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
                 <selectionEntryGroup id="ea80-89e8-a886-d475" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="e89c-113d-6eff-517e">
@@ -7483,22 +7452,7 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0857-691f-df1b-f454" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="d26e-19bb-014d-c8f9" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="8e65-6cf4-db5d-be9c" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -7627,15 +7581,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e7-0cff-50ce-7544" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae8-7c6e-c02b-3eba" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="9e3e-0e99-fb0e-a339" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -7762,22 +7708,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b75a-5338-811b-7e5d" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="5c03-d8b5-378c-126b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="6cf6-fe1c-1bc9-ad6e" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
                 <selectionEntryGroup id="62fe-eb79-1941-86d4" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="31cf-d6af-961a-2e57">
@@ -7882,22 +7813,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2434-e4ff-c9d1-67a4" type="max"/>
               </constraints>
-              <categoryLinks>
-                <categoryLink id="2b40-4b36-e90b-3424" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="90ab-54f8-74d5-f3d9" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
