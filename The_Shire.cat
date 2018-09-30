@@ -1135,15 +1135,15 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0dd9-babc-9363-985d" name="Lobelia Sack-ville-Baggins" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="model">
+    <selectionEntry id="0dd9-babc-9363-985d" name="Lobelia Sackville-Baggins" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8c34-8acb-fb79-be84" name="Lobelia Sack-ville-Baggins" book="Armies of The Lord of the Rings" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="8c34-8acb-fb79-be84" name="Lobelia Sackville-Baggins" book="Armies of The Lord of the Rings" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;/10cm"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="1"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="2"/>
@@ -1158,29 +1158,17 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         </profile>
       </profiles>
       <rules>
-        <rule id="c882-d8b3-e098-2e7b" name="Furious Tirade" book="Armies of The Lord of the Rings" page="40" hidden="false">
+        <rule id="c882-d8b3-e098-2e7b" name="Furious Tirade (Active)" book="Armies of The Lord of the Rings" page="20" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>No warrior (Good or Evil) can use a Hero&apos;s Stand Fast! rule if Lobelia is within 6&quot;/14cm. warriors cannot benefit from Lobelia&apos;s Stand Fast! rule</description>
-        </rule>
-        <rule id="7369-2e8e-0802-ae56" name="The Umbrells ia not Mightier than the Sword" book="Armies of The Lord of the Rings" page="40" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If Lobelia wins a combat, she will not strike blows (in actual fact, she will gamel batter her opponent, but with no effect).</description>
+          <description>
+No warrior (Good or Evil) can use a Hero&apos;s Stand Fast! rule if Lobelia is within 6&quot;.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0f21-dd06-72ca-99fa" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="35af-1547-226b-4828" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="0f21-dd06-72ca-99fa" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1193,7 +1181,14 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daae-e7af-21c7-22a0" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0dd9-babc-9363-985d-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+        <categoryLink id="73d0-287f-5850-861a" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="516b-bddb-712b-01f0" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1201,15 +1196,77 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="c93a-b67c-4ec8-0105" name="Umbrella" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="118d-0f58-4a45-4487" name="Umbrella" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="284e-0229-f5e7-4023" name="The Umbrella is not Mightier than the Sword (Passive)" book="Armies of The Lord of the Rings" page="20" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+If Lobelia wins a combat, she will not strike blows (in fact, she most likely give her opponent a good, but ultimately painless, battering with her umbrella).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b350-890b-cb39-8a71" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1675-4e9d-7c11-ed5a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="da0c-e9db-f1b9-7896" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f0b-ea3b-a95a-f999" name="Fredegar Bolger" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="model">
-      <profiles/>
+    <selectionEntry id="8f0b-ea3b-a95a-f999" name="Fredegar Bolger" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ade6-6c14-de43-56b2" name="Fredegar Bolger" book="Armies of The Lord of the Rings" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="4583-a35c-16bb-526c" name="New InfoLink" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
@@ -1218,7 +1275,7 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ec66-8d01-336a-2cee" name="New InfoLink" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="610f-eed7-1a7c-fdca" name="Unarmed" hidden="false" targetId="15f3-052f-f55b-9bb3" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1231,7 +1288,14 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb3-e2a4-bbff-097a" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="8f0b-ea3b-a95a-f999-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+        <categoryLink id="5d97-a125-2fbe-4e4a" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d337-08a4-6482-cd03" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1239,29 +1303,20 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7582-1759-b0ee-b487" name="Fredegar Bolger is unarmed" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b2e9-41c2-a2e1-f4f0" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc3-347e-c33d-b40d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a5-9294-3a4f-2b39" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0272-257d-1cbc-7dba" name="Farmer Maggot" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
