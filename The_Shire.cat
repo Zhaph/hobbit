@@ -29,6 +29,33 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b705-874f-7c65-94f9" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be5c-a3f8-37e2-fce0" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="224d-1c96-a3a1-4067" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10ab-d7e3-8a19-d64e" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fe6-8b88-d564-4859" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd9-babc-9363-985d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f0b-ea3b-a95a-f999" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0ea-8424-995b-a121" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c93c-9bd4-d101-a48a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <description>
 Hobbit models gain Woodland Creature</description>
@@ -55,6 +82,33 @@ Hobbit models gain Woodland Creature</description>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fe6-8b88-d564-4859" type="equalTo"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="224d-1c96-a3a1-4067" type="equalTo"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be5c-a3f8-37e2-fce0" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b705-874f-7c65-94f9" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be5c-a3f8-37e2-fce0" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="224d-1c96-a3a1-4067" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10ab-d7e3-8a19-d64e" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fe6-8b88-d564-4859" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0272-257d-1cbc-7dba" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd9-babc-9363-985d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f0b-ea3b-a95a-f999" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0ea-8424-995b-a121" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c93c-9bd4-d101-a48a" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1538,7 +1592,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
         <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fcf-f86a-3350-1cb5" name="Fang" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="4fcf-f86a-3350-1cb5" name="Fang" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1598,7 +1652,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d678-c81e-8310-2d55" name="Grip" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="d678-c81e-8310-2d55" name="Grip" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1658,7 +1712,7 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba0c-45fd-f8db-df9a" name="Wolf" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="ba0c-45fd-f8db-df9a" name="Wolf" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1716,6 +1770,91 @@ If Lobelia wins a combat, she will not strike blows (in fact, she most likely gi
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b705-874f-7c65-94f9" name="Bandobras Took" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="76b6-5a9a-5f4f-b6b8" name="Bandobras Took" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a2-6332-8b13-2870" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b452-122c-c026-cb16" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0375-31c4-811d-c96e" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8aed-a353-0816-c684" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="56e2-43cd-c837-1d39" name="Club" hidden="false" targetId="aad1-2dbe-bc27-7bdc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9902-4023-3888-97c3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bac4-9ee9-4dfd-282d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9948-075c-c65d-d359" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
