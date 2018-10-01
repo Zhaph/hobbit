@@ -7909,9 +7909,9 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
+    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7932,7 +7932,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         </profile>
       </profiles>
       <rules>
-        <rule id="6e9c-c7ee-221f-41b5" name="Lone Hunter (Passive)" book="Armies of the Lord of the Rings" hidden="false">
+        <rule id="6e9c-c7ee-221f-41b5" name="Lone Hunter (Passive)" book="Armies of the Lord of the Rings" page="116" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7940,7 +7940,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
           <description>
 Shelob may never be taken as part of another model&apos;s Warband.</description>
         </rule>
-        <rule id="2062-23ac-3ae8-241c" name="Caught in a Web (Brutal Power Attack)" book="Armies of the Lord of the Rings" hidden="false">
+        <rule id="2062-23ac-3ae8-241c" name="Caught in a Web (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="116" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7950,12 +7950,6 @@ Instead of Striking as normal Shelob may instead choose to direct one Strike at 
 This model may not be a Monster.
 The chosen model suffers one Strength 7 hit. 
 If the model is wounded, and the wound not prevented by Fate, the model is treated as being under the effect of the Paralyse Magical Power. </description>
-        </rule>
-        <rule id="7a44-b909-f676-81d5" name="Venom (Place holder)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
         </rule>
       </rules>
       <infoLinks>
@@ -7989,6 +7983,12 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="d9cd-5bfc-4b16-055c" name="Bane of Kings/Venom (Active)" hidden="false" targetId="c3be-4735-0cfb-bf08" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -8012,7 +8012,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ce5-c57f-4f67-d29c" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2ce5-c57f-4f67-d29c" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b8af-40bd-8c88-e73f" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
               <profiles/>
@@ -8040,6 +8040,146 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74c7-ae88-d892-e03b" name="Cave Troll" book="Armies of the Lord of the Rings" page="131" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7bb0-6cf2-7500-da28" name="Cave  Troll" book="Armies of the Lord of the Rings" page="131" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="6/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Troll"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="654f-6484-f5c5-b173" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3729-cb7e-f63e-935b" name="Throw Stones (Active)" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e945-5f8e-af39-b5cf" name="Throw Stones (Troll)" hidden="false" targetId="3684-0687-03d8-0b2f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="011d-3408-b4c4-eac5" name="Burly (Passive)" hidden="false" targetId="be60-39e9-b5bc-4bf7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="57db-7582-489e-b997" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="943a-30dc-29e2-4da1" name="Troll Chain" book="Armies of the Lord of the Rings" page="131" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a606-008f-d5fd-0604" name="Troll Chain" book="Armies of the Lord of the Rings" page="131" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Throwing Weapon with range 3&quot; and Strength 5."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c7e7-05af-5b82-b2d7" name="Throwing Weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a32d-7674-a387-6c8d" name="Choose One" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c5-b89e-af4e-4807" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0228-9688-f311-bddb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c0c2-b48a-5437-fe01" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e757-db4f-e6ac-0046" name="Hand-and-a-half Hammer" hidden="false" targetId="d495-e83d-7460-e870" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
