@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8cb0-9e46-5c5e-3de3" name="Barad-dur" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8cb0-9e46-5c5e-3de3" name="Barad-dur" book="Armies of the Lord of the Rings" page="112" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e6a6-708c-8e40-3ecf" name="&quot;Our Enemy is Ready, His full Strength is gathered&quot;" book="Armies of the Lord of the Rings" page="134" hidden="false">
@@ -33,7 +33,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="0084-20b9-0b81-9e9b" name="Orc Warrior" hidden="false" targetId="a2b9-5de4-7e9f-fc10" type="selectionEntry">
+    <entryLink id="0084-20b9-0b81-9e9b" name="Orc Warrior" hidden="false" targetId="cfd5-7553-89d4-b95c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>

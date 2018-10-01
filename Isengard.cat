@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" book="Armies of The Lord of the Rings" page="166-179" revision="5" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" book="Armies of The Lord of the Rings" page="166" revision="5" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8541-e07b-dcb8-30ce" name="You do not know Pain, you do not know Fear!" book="Armies of the Lord of the Rings" page="166" hidden="false">
@@ -1355,7 +1355,7 @@ Whenever a Hero in base to base contact resolves a Strike against Sharku and fai
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e1f2-789b-279a-00c0" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="e1f2-789b-279a-00c0" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2095,7 +2095,7 @@ Whenever a Hero in base to base contact resolves a Strike against Sharku and fai
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5c7a-1408-e42b-b797" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+            <entryLink id="5c7a-1408-e42b-b797" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3729,7 +3729,7 @@ Cavalry takes d6 on mount and rider.
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="d3bc-94cb-0bcd-e477" name="Orc Warrior" hidden="false" targetId="a2b9-5de4-7e9f-fc10" type="selectionEntry">
+    <entryLink id="d3bc-94cb-0bcd-e477" name="Orc Warrior" hidden="false" targetId="cfd5-7553-89d4-b95c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>

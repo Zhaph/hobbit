@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9373-f83e-88a9-09f7" name="Mordor" revision="1" battleScribeVersion="2.01" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9373-f83e-88a9-09f7" name="Mordor" book="Armies of the Lord of the Rings" page="134" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e6a6-708c-8e40-3ecf" name="&quot;Our Enemy is Ready, His full Strength is gathered&quot;" book="Armies of the Lord of the Rings" page="134" hidden="false">
@@ -16,7 +16,7 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="f46d-2605-d88d-a7f4" name="Gothmog, Lieutenant of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f46d-2605-d88d-a7f4" name="Gothmog, Lieutenant of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7c52-a550-94e1-2611" name="Gothmog, Lieutenant of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -132,9 +132,14 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676d-306a-f245-691d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa2-a9d6-7dd0-ab96" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -160,7 +165,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6799-0eaa-8bec-d0a4" name="The Mouth of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6799-0eaa-8bec-d0a4" name="The Mouth of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="73c7-ca61-d2ac-0c7f" name="The Mouth of Sauron" book="Armies of the Lord of the Rings" page="141" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -283,25 +288,27 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="00f7-0a5d-2d81-bace" name="Hand-and-a-half Sword (Included)" hidden="false" targetId="3513-9b6b-96f4-e28b" type="selectionEntry">
+        <entryLink id="00f7-0a5d-2d81-bace" name="Hand-and-a-half Sword" hidden="false" targetId="3513-9b6b-96f4-e28b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f494-9a3a-53b7-9362" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="a47e-e911-811e-b4fe" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="15">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -310,7 +317,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffe3-2a3a-2ba3-a187" name="Shagrat, Captain of Cirith Ungol" book="Armies of the Lord of the Rings" page="142" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ffe3-2a3a-2ba3-a187" name="Shagrat, Captain of Cirith Ungol" book="Armies of the Lord of the Rings" page="142" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0575-539b-2369-7bb0" name="Shagrat, Captain of Cirith Ungol" book="Armies of the Lord of the Rings" page="142" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -451,10 +458,15 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="name" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea5-0267-15c8-8565" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186a-aae9-4437-e737" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -463,7 +475,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d42-7107-19dc-4d84" name="Gorbag, Orc Captain" book="Armies of the Lord of the Rings" page="142" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8d42-7107-19dc-4d84" name="Gorbag, Orc Captain" book="Armies of the Lord of the Rings" page="142" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fed2-93cb-2e0e-fc6d" name="Gorbag, Orc Captain" book="Armies of the Lord of the Rings" page="142" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -561,10 +573,15 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951c-1db9-7baa-ea11" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbec-27c3-c85a-7cb8" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -573,7 +590,7 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="329c-e28e-7a75-1a39" name="Grishnákh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="329c-e28e-7a75-1a39" name="Grishnákh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="44c1-73e2-060e-e0b9" name="Grishnákh, Orc Captain" book="Armies of the Lord of the Rings" page="143" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -662,10 +679,15 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee6-4d3b-c9c3-6b16" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd07-6292-8621-f019" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -674,7 +696,7 @@ If Gorbag is outnumbered during a Fight, then he gains a bonus of +1 to both his
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="335b-6499-fc03-2f82" name="Kardûsh the Firecaller" book="Armies of Middle Earth" page="143" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="335b-6499-fc03-2f82" name="Kardûsh the Firecaller" book="Armies of Middle Earth" page="143" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="95de-0ad4-73ce-57b2" name="Kardûsh the Firecaller" book="Armies of the Lord of the Rings" page="143" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -784,12 +806,20 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="64a1-c531-a6ff-2901" name="Spear (Included)" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="64a1-c531-a6ff-2901" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a70a-4227-f1d2-c356" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -797,7 +827,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9bb-3c28-1b3b-21cf" name="Morannon Orc Captain" book="Armies of the Lord of the Rings" page="144" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b9bb-3c28-1b3b-21cf" name="Morannon Orc Captain" book="Armies of the Lord of the Rings" page="144" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d644-105a-9f8f-35bc" name="Morannon Orc Captain" book="Armies of the Lord of the Rings" page="144" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -861,16 +891,6 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb8d-4cc5-e922-5271" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f81f-349b-5c71-01fc" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
           <modifiers>
             <modifier type="set" field="points" value="0.0">
               <repeats/>
@@ -879,8 +899,16 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9515-8514-9bec-6680" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb8d-4cc5-e922-5271" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f81f-349b-5c71-01fc" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="4c59-5d1b-bf75-ec99" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -896,7 +924,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ab4-6ad6-d617-5b7c" name="Captain of the Black Guard" book="Armies of the Lord of the Rings" page="144" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0ab4-6ad6-d617-5b7c" name="Captain of the Black Guard" book="Armies of the Lord of the Rings" page="144" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b957-031d-8d64-e32f" name="Captain of the Black Guard" book="Armies of the Lord of the Rings" page="144" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -966,20 +994,12 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5e90-7430-ca86-40fb" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="5e90-7430-ca86-40fb" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4c-8066-7233-cae0" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="a094-4f26-c507-e557" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -1003,7 +1023,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fab7-6df2-4b2d-6a89" name="Black Guard Drummer" book="Armies of the Lord of the Rings" page="145" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fab7-6df2-4b2d-6a89" name="Black Guard Drummer" book="Armies of the Lord of the Rings" page="145" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="baa7-b33f-5b35-a0a3" name="Black Guard Drummer" book="Armies of the Lord of the Rings" page="145" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1066,7 +1086,9 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1081,20 +1103,12 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="152d-fe03-732a-a695" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="152d-fe03-732a-a695" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe08-350a-12d2-a516" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1102,7 +1116,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03b7-8278-27a1-e94a" name="Mordor Uruk-hai Captain" book="Armies of the Lord of the Rings" page="145" hidden="false" collective="false" type="unit">
+    <selectionEntry id="03b7-8278-27a1-e94a" name="Mordor Uruk-hai Captain" book="Armies of the Lord of the Rings" page="145" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4e29-b567-2f09-e6a5" name="Mordor Uruk-hai Captain" book="Armies of the Lord of the Rings" page="145" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1158,7 +1172,13 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b1-853d-4669-f7ac" type="min"/>
           </constraints>
@@ -1207,7 +1227,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de1a-2be3-1a15-0e06" name="Morannon Orc" book="Armies of the Lord of the Rings" page="147" hidden="false" collective="false" type="unit">
+    <selectionEntry id="de1a-2be3-1a15-0e06" name="Morannon Orc" book="Armies of the Lord of the Rings" page="147" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1727-5b0f-fb55-7100" name="Morannon Orc" book="Armies of the Lord of the Rings" page="147" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1239,29 +1259,22 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="67e5-35b8-d6f3-8c29" name="Choose One:" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3496-0c9e-1669-e392" name="Weapon Choice" hidden="false" collective="false" defaultSelectionEntryId="9d85-ec06-bdf6-86c7">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cef5-04a0-d2e4-8a0d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35d-961a-cc3b-9795" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b78-1cc0-67b4-717a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7f4-e51e-fca1-de66" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="af4f-0396-3241-863e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="c1b8-b1bf-f125-9efa" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+            <entryLink id="38e4-4371-d874-29eb" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1275,7 +1288,21 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fb1c-66ed-dd47-9287" name="Mace" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
+            <entryLink id="d2c4-f94d-57ff-937a" name="Mace" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9d85-ec06-bdf6-86c7" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1290,25 +1317,15 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0680-d8df-0fa5-08ed" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+        <entryLink id="0680-d8df-0fa5-08ed" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629c-4f8a-e7b8-57e2" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="7541-1338-e566-99bf" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -1325,7 +1342,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4513-f648-3110-28e6" name="Spear" hidden="false" targetId="9552-39df-00a5-c1ac" type="selectionEntry">
+        <entryLink id="4513-f648-3110-28e6" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1352,7 +1369,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c92-5c42-5af8-2d38" name="Morgul Stalker" book="Armies of the Lord of the Rings" page="147" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1c92-5c42-5af8-2d38" name="Morgul Stalker" book="Armies of the Lord of the Rings" page="147" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="af35-29b6-abe2-a932" name="Morgul Stalker" book="Armies of the Lord of the Rings" page="147" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1406,8 +1423,16 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9239-dcea-c981-5822" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1415,7 +1440,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d1a-9791-1906-269a" name="Black Guard of Barad-dúr" book="Armies of the Lord of the Rings" page="148" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2d1a-9791-1906-269a" name="Black Guard of Barad-dúr" book="Armies of the Lord of the Rings" page="148" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8806-bd6d-3f6a-a1ae" name="Black Guard of Barad-dúr" book="Armies of the Lord of the Rings" page="148" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1497,7 +1522,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
         <cost name="pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a3a5-5c1b-fdba-fb64" name="Mordor Uruk-hai" book="Armies of the Lord of the Rings" page="148" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a3a5-5c1b-fdba-fb64" name="Mordor Uruk-hai" book="Armies of the Lord of the Rings" page="148" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="921e-5912-fd6a-90ed" name="Mordor Uruk-hai" book="Armies of the Lord of the Rings" page="148" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1566,7 +1591,13 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44a3-93c0-8935-ffa6" type="min"/>
           </constraints>
@@ -1623,7 +1654,7 @@ At the start of any Priority phase before any dice are rolled, Kardûsh&apos;s c
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="0084-20b9-0b81-9e9b" name="Orc Warrior" hidden="false" targetId="a2b9-5de4-7e9f-fc10" type="selectionEntry">
+    <entryLink id="0084-20b9-0b81-9e9b" name="Orc Warrior" hidden="false" targetId="cfd5-7553-89d4-b95c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
