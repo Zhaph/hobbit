@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fa15-2996-94ec-81f4" name="The Rangers" book="Armies of The Lord of the Rings" page="24" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.co.uk" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="5fba-d91c-9b29-12a1" name="They&apos;re dangerous folk, wandering the wilds" book="Armies of The Lord of the Rings" page="24" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+All models gain Woodland Creature.
+Rangers of the North and Dúnedain increase Attacks to 2 when Infantry, and benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider.</description>
+    </rule>
+  </rules>
+  <infoLinks>
+    <infoLink id="81b0-a50a-9e64-6318" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="ace6-62b5-59e5-5def" name="Aragorn - Strider" hidden="false" targetId="daab-bb28-4311-fe81" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7917-0208-f5ce-953f" name="Dúnedain" hidden="false" targetId="e51b-0c78-a418-cf49" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2034-bbde-9281-5c18" name="New CategoryLink" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
