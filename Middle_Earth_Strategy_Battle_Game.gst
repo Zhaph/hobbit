@@ -6685,13 +6685,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="0c37-6e81-ab66-0167" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ab3-92e4-a115-d3bf" name="Crown of Morgul (Passive)" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
