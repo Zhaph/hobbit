@@ -7909,6 +7909,139 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="10&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/6+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spider"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6e9c-c7ee-221f-41b5" name="Lone Hunter (Passive)" book="Armies of the Lord of the Rings" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Shelob may never be taken as part of another model&apos;s Warband.</description>
+        </rule>
+        <rule id="2062-23ac-3ae8-241c" name="Caught in a Web (Brutal Power Attack)" book="Armies of the Lord of the Rings" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Instead of Striking as normal Shelob may instead choose to direct one Strike at one model involved in the Fight.
+This model may not be a Monster.
+The chosen model suffers one Strength 7 hit. 
+If the model is wounded, and the wound not prevented by Fate, the model is treated as being under the effect of the Paralyse Magical Power. </description>
+        </rule>
+        <rule id="7a44-b909-f676-81d5" name="Venom (Place holder)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b647-698c-e943-26e9" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b78-cca2-67f0-5210" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b98d-6eed-1d7c-6f3e" name="Survival Instinct (Active)" hidden="false" targetId="c076-88a5-8890-8a2d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="34f2-337f-2bff-92fa" name="Swift Movement (Active)" hidden="false" targetId="3c62-f754-9fde-75f5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3129-8230-5784-f0df" name="Paralyse" hidden="false" targetId="8ae4-8b3f-6268-956b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27f-0ebc-8e9f-f402" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c364-5bf9-f9b5-74bf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8e44-66a3-5fca-5f78" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f58a-cc9a-ce29-ee84" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ce5-c57f-4f67-d29c" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b8af-40bd-8c88-e73f" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d62-15bf-0599-b242" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ae-0abe-01b8-0388" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount (Horse)" hidden="false" collective="false">
