@@ -195,6 +195,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="bc53-ae31-0120-1faa" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88c9-e24d-9402-92a3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
@@ -9085,6 +9092,293 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88c9-e24d-9402-92a3" name="Sauron" book="Armies of Middle Earth" page="113" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0762-fda8-abcb-b191" name="Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="9/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="8"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="10"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="**"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
+          </characteristics>
+        </profile>
+        <profile id="6945-3fb9-2c84-62ea" name="Drain Courage" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="18&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="d7f3-5ccf-038b-c0d1" name="Sap Will" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="18&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="cf73-ae14-a2bf-05d6" name="Chill Soul" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="18&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="e596-154d-3dd2-9276" name="Instill Fear" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="b7a8-58f8-ed33-565d" name="Compel" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="18&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="6afe-0b61-6667-2810" name="Transfix" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="18&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d082-90d8-6d3b-7932" name="The Dark Lord (Passive)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Sauron is in your force, he must be the Leader.</description>
+        </rule>
+        <rule id="867f-36a2-d887-4ef8" name="*The Lord of the Rings (Passive)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Sauron can spend a single point of Will each turn without reducing his own store.</description>
+        </rule>
+        <rule id="3912-b183-e2fb-4575" name="Unstoppable (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Instead of striking as normal, Sauron can instead make one Strength 8 hit on every model involved in the same Fight, including spear and pike supports.</description>
+        </rule>
+        <rule id="0681-6bd3-454b-62e4" name="The Flames of Evil (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Sauron makes a single Strike against a single Infantry or Cavalry model Engaged in the Fight.
+If the model is a cavalry model then only the rider is affected.
+If the model survives, even if they did not suffer a wound, then the target is also Set Ablaze.
+(Remember they take a Strength 9 hit from being Set Ablaze as well)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="abce-2dbb-f831-9f1c" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="77e8-00c9-c82d-00f8" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="137c-c799-c85c-94d7" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7270-8777-7f2e-5f49" name="Ancient Evil (Passive)" hidden="false" targetId="2c05-83bf-3fc2-7429" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb7f-3335-d18f-c5da" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6e42-2938-aa4f-1eec" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c8ad-5420-58b2-dc45" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ebe-cb9c-bf5a-1a0e" name="Set Ablaze (Passive)" hidden="false" targetId="a1ff-a0c9-5972-0846" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a27c-09b9-a450-80f6" name="Chill Soul" hidden="false" targetId="9a6d-1caf-4086-7fed" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1179-f353-0db2-06c5" name="Instill Fear" hidden="false" targetId="ea0c-a986-3988-f5e9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="38d6-af3c-f9d6-edfc" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab1d-2dd9-4723-705a" name="Sap Will" hidden="false" targetId="34da-dce7-eeab-1efc" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d9db-5cfa-b86b-b8ac" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5db-d37a-1b23-9146" name="Drain Courage" hidden="false" targetId="22d5-e222-fa43-e053" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0714-264d-a5cb-45ea" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4513-7f90-5205-db4f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9c58-520c-313c-3b89" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e5c3-b410-d023-d0b6" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="754c-1a2d-00fd-e407" name="**The One Ring" book="Armies of the Lord of the Rings" page="113" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="19fa-90e2-a71a-6596" name="**The One Ring" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Sauron does not follow the normal rules of The One Ring.
+Instead, whilst he bears The One Rings, whenever Sauron loses his last wound roll a d6.
+On a 2+, the power of the Ring sustains him and he has a single Wound restored.
+During the Fight phase Sauron will make this roll for each Wound suffered that would cause him to be removed as a casualty. Sauron may use might to influence this roll."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc08-6fec-4102-1cff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac19-bf0a-ecb5-2854" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4fc8-d8f6-a740-1fba" name="Mace" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3250-7bf7-20ba-9935" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e1fc-2ed5-2c43-5667" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="400.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
