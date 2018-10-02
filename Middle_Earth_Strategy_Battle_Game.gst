@@ -9094,9 +9094,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88c9-e24d-9402-92a3" name="Sauron" book="Armies of Middle Earth" page="113" hidden="false" collective="false" type="model">
+    <selectionEntry id="88c9-e24d-9402-92a3" name="The Dark Lord Sauron" book="Armies of Middle Earth" page="113" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0762-fda8-abcb-b191" name="Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0762-fda8-abcb-b191" name="The Dark Lord Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9328,11 +9328,7 @@ If the model survives, even if they did not suffer a wound, then the target is a
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Sauron does not follow the normal rules of The One Ring.
-Instead, whilst he bears The One Rings, whenever Sauron loses his last wound roll a d6.
-On a 2+, the power of the Ring sustains him and he has a single Wound restored.
-During the Fight phase Sauron will make this roll for each Wound suffered that would cause him to be removed as a casualty. Sauron may use might to influence this roll."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Sauron does not follow the normal rules of The One Ring. Instead, whilst he bears The One Rings, whenever Sauron loses his last wound roll a d6. On a 2+, the power of the Ring sustains him and he has a single Wound restored. During the Fight phase Sauron will make this roll for each Wound suffered that would cause him to be removed as a casualty. Sauron may use might to influence this roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -9347,7 +9343,9 @@ During the Fight phase Sauron will make this roll for each Wound suffered that w
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
