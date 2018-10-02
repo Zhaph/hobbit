@@ -332,7 +332,7 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
         <cost name="pts" costTypeId="points" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a499-d035-ae67-7dd9" name="Isildur" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="a499-d035-ae67-7dd9" name="Isildur" book="Armies of The Lord of the Rings" page="30" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7dc8-524f-61af-d452" name="Isildur" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -350,20 +350,57 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="b405-c530-9c47-76fd" name="Blood of Númenor (Passive)" hidden="false" targetId="b3d0-3b5a-5e58-6006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b57c-7f76-8f0b-347f" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9449-0b0c-3514-4c9b" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b72c-3484-07d0-ee32" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0234-c75a-e7c4-f483" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b267-edea-ce7a-aaf8" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -377,26 +414,15 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9d95-e6c8-1870-ed8b" name="Very heavy armour" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="9e6d-3752-6d1a-7dcb" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6cc-9018-f4fe-53d7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d95e-e6b4-2aa9-bbc5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="5872-6700-5ee5-91a5" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -423,9 +449,33 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6cc9-5ff0-b5e1-2350" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c503-1401-27b6-60c4" name="Hand-and-a-half Sword" hidden="false" targetId="3513-9b6b-96f4-e28b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f2f-29cd-8276-bce9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a14a-c063-1917-cc0b" name="Warrior of Númenor" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
@@ -551,6 +601,15 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="b3d0-3b5a-5e58-6006" name="Blood of Númenor (Passive)" book="Armies of The Lord of the Rings" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Model gains Resistant to Magic whilst they are within 6&quot; of Elendil, Isildur or Anárion.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>
