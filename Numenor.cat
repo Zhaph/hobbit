@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Armies of The Lord of the Rings" page="28" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="a173-c879-f441-8e51" name="One by one the Free Lands of Middle-earth fell to the Power of the Ring. But there were some who resisted" book="Armies of The Lord of the Rings" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Friendly Númenor models increase their Courage value by 1.</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
