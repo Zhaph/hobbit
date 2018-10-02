@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="978f-587a-14eb-8cc5" name="Captain of Númenor" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="978f-587a-14eb-8cc5" name="Captain of Númenor" book="Armies of The Lord of the Rings" page="30" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="07aa-587c-f1b9-d85f" name="Captain of Númenor" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="07aa-587c-f1b9-d85f" name="Captain of Númenor" book="Armies of The Lord of the Rings" page="30" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -59,11 +59,49 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="f4e1-6cbe-cb7a-ec21" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f2d-8d22-8102-f20b" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="726d-f9c2-47b9-149b" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94cb-c8d5-cb22-d6b8" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0cba-a8ca-a8e2-b3eb" name="Blood of Númenor (Passive)" hidden="false" targetId="b3d0-3b5a-5e58-6006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="978f-587a-14eb-8cc5-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="63e5-7888-c995-a6e4" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -126,6 +164,22 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a623-e719-9c29-dd7b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071e-1fd3-4eb1-67a8" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
