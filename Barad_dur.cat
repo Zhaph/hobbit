@@ -2,12 +2,16 @@
 <catalogue id="8cb0-9e46-5c5e-3de3" name="Barad-dur" book="Armies of the Lord of the Rings" page="112" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
-    <rule id="e6a6-708c-8e40-3ecf" name="&quot;Our Enemy is Ready, His full Strength is gathered&quot;" book="Armies of the Lord of the Rings" page="134" hidden="false">
+    <rule id="34d9-4904-917e-be5b" name="&quot;The power of the Ring could not be undone&quot;" book="Armies of the Lord of the Rings" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While you have more models on the board than your opponent, friendly Mordor Warrior models gain +1 Courage and may re-roll 1s To Wound when making Strikes.</description>
+      <description>
+Sauron&apos;s warband size increases to 24.
+If all models are from the Barad-dur army list then the force will never be broken as long as Sauron has 3 or more wounds remaining.
+If Sauron has 2 or less Wounds the army will break as normal.
+If Sauron is slain then the army is immediately counted as broken.</description>
     </rule>
   </rules>
   <infoLinks/>
@@ -166,7 +170,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="c2d1-0fa7-9e1d-b4f6" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+        <categoryLink id="9427-5555-976c-3e44" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -174,6 +178,22 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="4196-4a6b-58b9-7482" name="Sauron" hidden="false" targetId="88c9-e24d-9402-92a3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="26cc-5833-926b-0bdc" name="Shelob" hidden="false" targetId="db1b-53b1-b9ef-3407" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
