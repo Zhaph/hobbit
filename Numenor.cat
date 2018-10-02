@@ -18,7 +18,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="978f-587a-14eb-8cc5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a41-4645-076e-28ee" type="equalTo"/>
+                <condition field="selections" scope="978f-587a-14eb-8cc5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f094-98fd-b8f1-07c6" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -110,35 +110,53 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a289-5a18-b3fe-1bdd" name="Armour Choice" hidden="false" collective="false" defaultSelectionEntryId="0e20-1ae9-6e92-e39c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c191-ee12-e62f-5c75" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5daf-6206-f8af-fb5e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f094-98fd-b8f1-07c6" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0e20-1ae9-6e92-e39c" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4e-518c-014b-a958" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7a09-50e2-1c58-ff89" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6a14-64a4-203d-6d5f" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9a41-4645-076e-28ee" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -388,7 +406,7 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
     </selectionEntry>
     <selectionEntry id="a499-d035-ae67-7dd9" name="Isildur" book="Armies of The Lord of the Rings" page="30" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="7dc8-524f-61af-d452" name="Isildur" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="7dc8-524f-61af-d452" name="Isildur" book="Armies of The Lord of the Rings" page="30" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -532,9 +550,9 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a14a-c063-1917-cc0b" name="Warrior of Númenor" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="a14a-c063-1917-cc0b" name="Warrior of Númenor" book="Armies of The Lord of the Rings" page="31" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1527-750c-4bb8-16c8" name="Warrior of Númenor" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="1527-750c-4bb8-16c8" name="Warrior of Númenor" book="Armies of The Lord of the Rings" page="31" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -563,7 +581,7 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
@@ -573,7 +591,14 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="a0f6-1dc0-5a8d-806b" name="Blood of Númenor (Passive)" hidden="false" targetId="b3d0-3b5a-5e58-6006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -646,9 +671,25 @@ Elendil can call a Heroic Combat in the Fight phase without expending Might.</de
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="568d-a115-225e-6985" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca0-88c1-c505-d03d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
